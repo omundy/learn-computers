@@ -12,6 +12,26 @@ Select an activity to perform with your group. Share results in class
 
 
 
+<table>
+<tr>
+<td>
+<a href="topics-keyboard-shortcuts.md">
+<img style="width:240px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
+
+Keyboard shortcuts</a>
+</td>
+<td>
+<a href="topics-files-folders.md">
+<img style="width:240px; height:auto;" src="assets/img/banner-files-folders.png">
+
+Files, folders, naming</a>
+</td>
+</tr>
+</table>
+
+
+
+
 <a href="topics-keyboard-shortcuts.md">
 <img style="width:240px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
 
