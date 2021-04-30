@@ -26,28 +26,18 @@ Keyboard shortcuts</a>
 
 Files, folders, naming</a>
 </td>
+<td>
+<a href="topics-screenshots.md">
+<img style="width:240px; height:auto;" src="assets/img/banner-files-folders.png">
+
+How to make a screenshot</a>
+</td>
 </tr>
 </table>
 
 
 
 
-<a href="topics-keyboard-shortcuts.md">
-<img style="width:240px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
-
-Keyboard shortcuts</a>
-
-
-<a href="topics-files-folders.md">
-<img style="width:240px; height:auto;" src="assets/img/banner-files-folders.png">
-
-Files, folders, naming</a>
-
-
-<a href="topics-screenshots.md">
-<img style="width:240px; height:auto;" src="assets/img/banner-files-folders.png">
-
-How to make a screenshot</a>
 
 
 
