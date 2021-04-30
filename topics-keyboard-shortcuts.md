@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:500px; height:auto;" src="assets/img/keyboard-shortcuts.png">
+<img style="width:500px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
 
 # Keyboard shortcuts
 

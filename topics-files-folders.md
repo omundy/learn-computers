@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:500px; height:auto;" src="assets/img/files-folders.png">
+<img style="width:500px; height:auto;" src="assets/img/banner-files-folders.png">
 
 # Files, folders, and naming conventions
 
@@ -10,7 +10,7 @@
 
 ## Class activity `10 min`
 
-Review the following sections and perform the activity at the end.
+Review the following sections and perform the activities.
 
 
 
@@ -34,6 +34,9 @@ If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](htt
 1. Find examples of each on your own computers  
 1. Open them in a plain text editor to verify
 1. What clues can you see in the binary formats to tell you about the filetype?
+
+
+
 
 
 
@@ -101,6 +104,24 @@ One thing to be aware of, is that everything on the internet is case-sensitive. 
 
 
 
+It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
+But, name your files with forethought and organization in mind.
+
+
+
+
+
+
+<img style="" src="assets/img/files-naming-bad.png"> <img style="" src="assets/img/files-naming-better.png">
+
+<small>Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
+
+
+
+<img style="" src="assets/img/files-folder-naming.png"> <img style="" src="assets/img/files-folder-naming-psd.png">
+
+
+
 
 
 1. Share your current file naming convention in your group.
@@ -116,6 +137,10 @@ One thing to be aware of, is that everything on the internet is case-sensitive. 
 1. Find examples:
 	- Can you find examples on your computer of good and bad uses of file naming conventions? Screenshot them and share. It's OK, we've all been there. 🤗
 1. Record the data and your answers to the following:
+
+
+
+
 
 
 
