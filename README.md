@@ -16,25 +16,36 @@ Select an activity to perform with your group. Share results in class
 <tr>
 <td>
 <a href="topics-keyboard-shortcuts.md">
-<img style="width:240px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
+<img style="width:260px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
 
 Keyboard shortcuts</a>
 </td>
 <td>
 <a href="topics-files-folders.md">
-<img style="width:240px; height:auto;" src="assets/img/banner-files-folders.png">
+<img style="width:260px; height:auto;" src="assets/img/banner-files-folders.png">
 
 Files, folders, naming</a>
 </td>
 <td>
-<a href="topics-screenshots.md">
-<img style="width:240px; height:auto;" src="assets/img/banner-files-folders.png">
+<a href="topics-images.md">
+<img style="width:260px; height:auto;" src="assets/img/banner-images.png">
 
-How to make a screenshot</a>
+Images, formats, resolution</a>
 </td>
 </tr>
 </table>
 
+
+
+
+Power users
+
+
+Mac
+- Spotlight
+- Terminal
+- Force quit
+- Finder organization 
 
 
 
@@ -58,19 +69,3 @@ Select an activity to perform with your group. Share results in class
 - apis
 
 1. Networks
-
-
-
-
-
-## How to make a screenshot
-
-
-
-
-Screenshot type | [Mac](https://support.apple.com/en-us/HT201361) | [Windows](https://www.cnet.com/how-to/7-ways-you-can-take-screenshots-in-windows-10) [[1](https://www.howtogeek.com/226280/how-to-take-screenshots-in-windows-10/)]
---- | --- | ---
-Capture entire screen | Shift + Cmd + 3 | Windows + PrtScn key
-Drag to select a portion of screen | Shift + Cmd + 4 | Windows + Shift + S
-Capture a single window | Shift + Cmd + 4 + Space bar | Alt + PrtScn
-Cancel screenshot | Esc (Escape) | Esc (Escape)

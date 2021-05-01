@@ -93,12 +93,36 @@ All operating systems (OS) hide certain types of configuration and system files 
 
 ## File naming conventions
 
-Do you ever have trouble finding files?
+Do you ever have trouble finding or identifying files? While operating systems are constantly changing how they organize their files, often obscuring the users' access to files with abstractions, if you name your files with a bit of forethought you'll find you can identify them much faster.
+
+
+### Best Naming Practices
+
+Tips for how to choose the text you use to name your files, folders, even code...
+
+- **Use descriptive names**: Perhaps the most important tip. Do yourself a favor and name files, folders, code, etc., as if a complete stranger (you!) will see it in the future. Don't use `untitled`, `stuff`, `new` in your names.
+- **Avoid abbreviations**: How will "future you" remember that `design-1-rtrbith.png` is the design variation where you *"removed the red box in the header"*? This would work better `design-1-red-header-removed.png`
+- **Append version numbers and/or dates**: When iterating, don't append the relative term, `new`, to your files. Use an actual version number like `design-v6.psd` or the date `paper-draft2-20210501.psd` so that you know exactly what the file is *AND* your OS will organize the files appropriately.
 
 
 
+### Everything is case-sensitive on the internet
 
-One thing to be aware of, is that everything on the internet is case-sensitive. When you name web pages, images and other files, and folders you need to pay attention to naming conventions or your web pages won’t work!
+When you name ***any*** file or folder that could potentially be viewed in a web browser (e.g. web pages, PDFs, images, javascript, css, folders, and many others) it is essential to:
+
+<img style="" src="assets/img/files-naming-conventions.png">
+
+- Do not use spaces in your filenames: Replace with hyphens, underscores, or camelCase.
+- Use a naming convention, so you don't have to think when you type your code. Look for an established convention
+
+&nbsp; | Convention | Example | Notes
+camelCase | Javascript, CSS
+ThisIsPascalCase
+Snake Case
+
+
+
+naming conventions or your web pages won’t work!
 **Best practice**: Only use lowercase names with no spaces.
 
 
@@ -114,7 +138,7 @@ But, name your files with forethought and organization in mind.
 
 <img style="" src="assets/img/files-naming-bad.png"> <img style="" src="assets/img/files-naming-better.png">
 
-<small>Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
+<small>Left: 😢 no convention in use, names are not descriptive;<br> Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
 
 
 
@@ -123,25 +147,15 @@ But, name your files with forethought and organization in mind.
 
 
 
-
-1. Share your current file naming convention in your group.
-1. How would you name or organize each of these files:
+1. Discussion:
+	- Share your current file naming convention in your group. What currently is working for you and what is not?
+	- Can you find examples on your computer of good and bad uses of file naming conventions? Screenshot them and share. It's OK, we've all been there. 🤗
+1. How would you name and organize each of these files:
  	1. Draft 3 of your Microsoft Word document containing your essay "World War II's Influence on Modern Art in the 1950's"
 	1. A PDF of the above document that you plan to share on a website.
 	1. A document containing research you collected while writing the document.
-
-
-
-
-1. Discussion:
-1. Find examples:
-	- Can you find examples on your computer of good and bad uses of file naming conventions? Screenshot them and share. It's OK, we've all been there. 🤗
-1. Record the data and your answers to the following:
-
-
-
-
-
+1. Summarize:
+	- What have you learned?
 
 
 
