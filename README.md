@@ -45,7 +45,7 @@ Mac
 - Spotlight
 - Terminal
 - Force quit
-- Finder organization 
+- Finder organization
 
 
 
@@ -57,11 +57,20 @@ Mac
 
 Select an activity to perform with your group. Share results in class
 
-1. Computational thinking
-- https://csunplugged.org/en/topics/sorting-networks/
-- https://edu.google.com/resources/programs/exploring-computational-thinking/
-- https://www.digitaltechnologieshub.edu.au/search#/site-search?pageNumber=1&keyword=GoogleCT
-- https://www.gettingsmart.com/2018/03/early-learning-strategies-for-developing-computational-thinking-skills/
+
+<table>
+<tr>
+<td>
+<a href="topics-computational-thinking.md">
+<img style="width:260px; height:auto;" src="assets/img/banner-computational-thinking.png">
+
+Computational thinking</a>
+</td>
+
+</tr>
+</table>
+
+
 
 1. Data proficiency
 - json, xml, etc.
