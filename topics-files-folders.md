@@ -158,6 +158,10 @@ But, name your files with forethought and organization in mind.
 	- What have you learned?
 
 
+https://www.reddit.com/r/gamedev/comments/3a1k33/top_10_unity_best_practices_naming_conventions/
+https://devopedia.org/naming-conventions
+
+
 
 
 ## References
