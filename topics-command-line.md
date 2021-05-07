@@ -27,7 +27,7 @@ Students who complete the following will be able to:
 
 ### Introduction
 
-The command line is a text interface for your computer. You type commands, which it passes on to the computer’s operating system to run. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer on Windows or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI might not.
+The command line is a text interface for your computer. You type commands, which it passes on to the computer’s operating system to run. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI (Graphical User Interface) might not.
 
 
 ### Terms
@@ -47,12 +47,16 @@ The command line is a text interface for your computer. You type commands, which
 
 
 
-![whoami](assets/img/command-line-whoami.png)
+
 
 
 ### Running Commands
 
-When you open your command line application, you'll be greeted by the command prompt, signified by the `$`. This is where you type commands and press enter to make the shell read your input and determine which command to execute. For example, run the `whoami` command to "output" or "return" your username:
+When you open your command line application, you'll be greeted by the command prompt, signified by the `$`. This is where you type commands and press enter to make the shell read your input and determine which command to execute.
+
+![whoami](assets/img/command-line-whoami.png)
+
+For example, run the `whoami` command to "output" or "return" your username:
 
 ```bash
 whoami
@@ -81,7 +85,7 @@ whoami && pwd && echo Hello world!
 
 ### Navigating the filesystem
 
-Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands to see what they do:
+Let's learn how to move around. Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands and try to guess what they stand for:
 
 ```bash
 pwd
@@ -89,7 +93,7 @@ ls
 ls -la
 ```
 
-If you guessed "put working directory" and "list" you were correct!
+If you guessed "print working directory" and "list" you were correct!
 
 The `ls` command lists the contents of the directory that you are currently in (your present "working directory"). The `-la` component of the `ls` command are known as 'flags', which modify the command you run. In this case the `l` displays the contents of the directory in a list, showing file sizes and last edit date. The `a` displays all files, including those beginning with a `.`, which are hidden configuration files for software.
 
@@ -110,7 +114,7 @@ cd ~/
 
 ### Creating and editing files
 
-Let's make a new directory in our home directory. Before you do the following, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.
+Let's make a new folder in our home directory to create some test files. Before you do the following, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.
 
 ```bash
 cd ~/ # confirm you are home
@@ -119,7 +123,7 @@ cd test # change to the directory
 pwd # confirm you are in <username>/test
 ```
 
-Great! Now let's create a new file and edit it. On Windows, if you use Git Bash the default editor will be Vim. Check [this cheatsheet](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm) for help. The following will open a new file called hello.txt in the Vim text editor:
+Great! Now let's create a new file and edit it. On Windows, if you use Git Bash the default editor will be [Vim](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm). On Mac you can also use [Nano](https://linuxize.com/post/how-to-use-nano-text-editor/). The following will open a new file called hello.txt in the Vim text editor:
 
 ```bash
 vim hello.txt
@@ -146,14 +150,14 @@ cat hello.txt
 
 ### Creating and editing files
 
-Excellent! Now, the final section, we'll create and run a Python script with Vim:
+Excellent! Now, in our final section, we'll create and run a Python script with Vim:
 
 ```bash
 pwd # confirm you are still in <username>/test
 vim hello.py # create a plain text file with the .py extension
 ```
 
-In the Vim editor, press `i` to enter insert mode, and add the following code to the file:
+In the Vim editor, press `i` to enter insert mode, and paste or type the following code in the file:
 
 ```python
 string1 = "I"
@@ -169,7 +173,10 @@ Press `ESC` and then `:wq` to save and quit the editor. Run your file with:
 python script.py
 ```
 
-Congratulations! 🎉 &nbsp; Similar to using built-in commands, you've created a file that runs its own script.
+Congratulations! 🎉 &nbsp; Similar to using built-in commands, you've created a file that runs its own script!
+
+
+
 
 ### Discussion
 
