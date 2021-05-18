@@ -5,13 +5,24 @@
 
 # Files, folders, and naming conventions
 
+Learn about all the files on your computer!
+
+### Learning Objectives
+
+Students who complete the following will be able to:
+
+- Describe the difference between text and binary-encoded files
+- List some common file extensions and why they exist
+- Explain what hidden files are and how to find them
+- Demonstrate best practices for naming files and folders
 
 
 
-## Class activity `10 min`
 
-Review the following sections and perform the activities.
 
+## Part 1 – Introduction
+
+Review the following sections and perform the activities with your group. `5 min`
 
 
 ### About file formats
@@ -40,7 +51,7 @@ If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](htt
 
 
 
-### File extensions
+## Part 2 - File extensions
 
 A file extension is the suffix at the end of a computer file that tells you what type of file it is.
 
@@ -67,7 +78,7 @@ Extension | Filetype | File encoding
 
 
 
-### Hidden files
+## Part 3 - Hidden files
 
 All operating systems (OS) hide certain types of configuration and system files by default. While most basic users never know these exist, when you are writing code you'll inevitably need to access or change these files. Files are hidden one of two ways:
 
@@ -91,9 +102,14 @@ All operating systems (OS) hide certain types of configuration and system files 
 
 
 
-## File naming conventions
+## Part 4 - File naming conventions
 
-Do you ever have trouble finding or identifying files? While operating systems are constantly changing how they organize their files, often obscuring the users' access to files with abstractions, if you name your files with a bit of forethought you'll find you can identify them much faster.
+Do you ever have trouble finding or identifying files?
+
+- Share your current file naming convention in your group. What currently is working for you and what is not?
+- Can you find examples on your computer of good and bad uses of file naming conventions? Screenshot them and share. It's OK, we've all been there. 🤗
+
+While operating systems are constantly changing how they organize their files, often obscuring the users' access to files with abstractions, if you name your files with a bit of forethought you'll find you can identify them much faster.
 
 
 ### Best Naming Practices
@@ -116,9 +132,10 @@ When you name ***any*** file or folder that could potentially be viewed in a web
 - Use a naming convention, so you don't have to think when you type your code. Look for an established convention
 
 &nbsp; | Convention | Example | Notes
-camelCase | Javascript, CSS
-ThisIsPascalCase
-Snake Case
+--- | --- | --- | ---
+camelCase | Javascript, CSS |  |
+PascalCase |  |  |
+Snake Case |  |  |
 
 
 
@@ -130,6 +147,14 @@ naming conventions or your web pages won’t work!
 
 It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
 But, name your files with forethought and organization in mind.
+
+
+
+How would you name and organize each of these files:
+
+1. Draft 3 of your Microsoft Word document containing your essay "World War II's Influence on Modern Art in the 1950's"
+1. A PDF of the above document that you plan to share on a website.
+1. A document containing research you collected while writing the document.
 
 
 
@@ -147,19 +172,9 @@ But, name your files with forethought and organization in mind.
 
 
 
-1. Discussion:
-	- Share your current file naming convention in your group. What currently is working for you and what is not?
-	- Can you find examples on your computer of good and bad uses of file naming conventions? Screenshot them and share. It's OK, we've all been there. 🤗
-1. How would you name and organize each of these files:
- 	1. Draft 3 of your Microsoft Word document containing your essay "World War II's Influence on Modern Art in the 1950's"
-	1. A PDF of the above document that you plan to share on a website.
-	1. A document containing research you collected while writing the document.
-1. Summarize:
-	- What have you learned?
 
 
-https://www.reddit.com/r/gamedev/comments/3a1k33/top_10_unity_best_practices_naming_conventions/
-https://devopedia.org/naming-conventions
+
 
 
 
@@ -169,3 +184,5 @@ https://devopedia.org/naming-conventions
 - [What is the difference between binary and text files?](https://fileinfo.com/help/binary_vs_text_files)
 - [Binary files](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node58.html)
 - [What Is A File Extension?](https://www.howtogeek.com/356448/what-is-a-file-extension/)
+- [Top 10 Unity best practices: Naming Conventions](https://www.reddit.com/r/gamedev/comments/3a1k33/top_10_unity_best_practices_naming_conventions/)
+- [Devopedia: Naming Conventions](https://devopedia.org/naming-conventions)
