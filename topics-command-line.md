@@ -123,7 +123,13 @@ cd test # change to the directory
 pwd # confirm you are in <username>/test
 ```
 
-Great! Now let's create a new file and edit it. On Windows, if you use Git Bash the default editor will be [Vim](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm). On Mac you can also use [Nano](https://linuxize.com/post/how-to-use-nano-text-editor/). The following will open a new file called hello.txt in the Vim text editor:
+Great! Now let's create a new file and edit it. This command will create a new file named "hello.txt":
+
+```bash
+touch hello.txt
+```
+
+On Windows, if you use Git Bash the default editor will be [Vim](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm). On Mac you can also use [Nano](https://linuxize.com/post/how-to-use-nano-text-editor/). The following will open (or if it doesn't yet exist, create and open) a file called hello.txt in the Vim text editor:
 
 ```bash
 vim hello.txt
@@ -154,6 +160,7 @@ Excellent! Now, in our final section, we'll create and run a Python script with 
 
 ```bash
 pwd # confirm you are still in <username>/test
+clear # "clears" the terminal (you can still scroll up to see previous commands)
 vim hello.py # create a plain text file with the .py extension
 ```
 
@@ -182,13 +189,23 @@ Congratulations! 🎉 &nbsp; Similar to using built-in commands, you've created 
 
 Discuss the following with your group and share with the class:
 
-1. Revisit the learning objectives. How do you feel you did? Do you have any questions?
+1. Revisit the learning objectives for this section. How do you feel you did? Do you have any questions?
 1. Which items can you connect to concepts you already know about computers? e.g. 🏠 📂 👤 🧠 🐍
 1. What do you think the next steps might be?
 
 
 
 
+
+
+
+## Continue learning
+
+Additional commands and prompts to continue learning the command line:
+
+- Make a change to text that python prints and run your script again. **Tip**: Use the up `↑` and down `↓` arrows on the keyboard to cycle through previous commands.
+- Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing `tab`. If a file or directory that starts with that name exists the shell will fill it in for you.
+- Complete the [command line lesson on Codecademy](https://www.codecademy.com/learn/learn-the-command-line).
 
 
 
@@ -199,4 +216,4 @@ Discuss the following with your group and share with the class:
 - Ubuntu [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
 - [16 Terminal commands every user should know](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
 - Codecademy [List of Command Line Commands](https://www.codecademy.com/articles/command-line-commands)
-- [Raspberry Pi > Terminal](https://www.raspberrypi.org/documentation/usage/terminal/)
+- Raspberry Pi [Terminal](https://www.raspberrypi.org/documentation/usage/terminal/)
