@@ -5,27 +5,63 @@
 
 # Keyboard shortcuts
 
+Speed up your workflow with keyboard shortcuts!
+
+### Learning Objectives
+
+Students who complete the following will be able to:
+
+- Demonstrate basic computer keyboard commands like copy, paste, save  
+- Perform more advanced commands like switching programs and finding text on a web page or text doc
+- Explain how keyboard commands can increase computing efficiency
+- Combine multiple keyboard commands to establish faster programming workflows  
 
 
-## Class activity `10 min`
 
-Do you use your non-mouse hand to enter commands on your computer keyboard? Have you ever wondered if you might improve your efficiency if you did? Perform the following with your group and share with the class.
 
-1. Discussion:
-	- Do you currently use keyboard shortcuts?
-	- Which of the below shortcuts are new to you?
-1. Measure efficiency:
-	- Create 3-5 tests to measure the efficiency of using keyboard shortcuts over the equivalent actions—and series of actions—using only a cursor.
-	- Measure and record:
-		- The difference in time between using shortcuts for single as well as a series of actions.
-		- The number of clicks for each action or series
-		- Include the time it takes to move your hand from the keyboard to the mouse and back.
-	 	- Include the time it takes to move your mouse on the screen for each. – e.g. from the file you are working on, ***aaaaaall*** the way up to the top left to File > Save, back down to the space where you were working on the screen.
- 	- Consider multiple commands and contexts. – e.g. what if you create a new plain text `.txt` file on your computer, open the file in chrome. Then, edit, save, and reload the file in Chrome (see web development context below). Try it multiple times.
-	- For each, estimate the time you would save in an 8 hour day.
-1. Record the data and your answers to the following:
- 	- Did you find it faster to use shortcuts? Which ones and how much?
- 	- Considering how often you perform these actions, what could you do with the time saved per week, month, or year?
+
+## Part 1 – Introduction
+
+In your group, discuss the following. `5 min`
+
+- What tips do you know for making your computer use efficient?
+- Do you currently use your non-mouse hand to enter commands on your computer keyboard?
+- Which of the basic shortcuts (those with 🍏 [below](#commands)) are new to you?
+- Why do you think some have this 🔥emoji?
+
+
+## Part 2 – Practice commands
+
+Practice all the [commands](#commands) below, including those in the [workflows](#workflows) section. `5 min`
+
+
+
+
+## Part 3 – Measure efficiency
+
+Have you ever wondered if you might improve your computing efficiency if you used keyboard commands? `10 min`
+
+Create several tests to measure the efficiency of using keyboard shortcuts over the equivalent actions, or series of actions (workflows), using only a cursor. Consider multiple commands and contexts (like the web development workflow below). For each:
+
+- Record the difference in time between using shortcuts for single as well as a series of actions.
+- Record the number of clicks for each action or series
+- Record the time it takes to move your hand from the keyboard to the mouse and back.
+- Record the time it takes to move your mouse around the screen. – e.g. from your file, ***aaaaaall*** the way up to the top left to File > Save, back down to the space where you were working on the screen.
+- Estimate the time you would save in 1 hour, 8 hours, 1 week, or 1 semester.
+
+
+### Discussion
+
+After you record your data and make it presentable, share it and your answers to the following with the class
+
+- Did you find it faster to use shortcuts? Which ones and how much?
+- Considering how often you perform these actions, what are some things you could do with that extra time?
+- Share your results with the class.
+
+
+
+
+
 
 
 
@@ -34,46 +70,56 @@ Do you use your non-mouse hand to enter commands on your computer keyboard? Have
 
 #### Text editing
 
-Command | Mac | Windows
---- | --- | ---
-Undo / Redo | Cmd + Z / Cmd + Y | Ctl + Z / Ctl + Y
-Find | Cmd + F | Ctl + F
-Copy | Cmd + C | Ctl + C
-Paste | Cmd + V | Ctl + V
-Cut | Cmd + X | Ctl + X
-Select all | Cmd + A | Ctl + A
-Move cursor left / right | Left arrow / Right arrow | Left arrow / Right arrow
+Command | Mac | Windows | 🤔
+--- | --- | --- | ---
+Cut | Cmd + X | Ctl + X | 🍏
+Copy | Cmd + C | Ctl + C | 🍏
+Paste | Cmd + V | Ctl + V | 🍏
+Undo | Cmd + Z | Ctl + Z | 🍏
+Redo | Cmd + Y | Ctl + Y |
+Find | Cmd + F | Ctl + F | 🔥
+Select all | Cmd + A | Ctl + A | 🔥
+Move cursor by letter or line | ← → ↑ ↓ | ← → ↑ ↓ | 🔥
+Move cursor by word | Option + ← or → | Option + ← or → | 🔥
+Select letters | Shift + ← or → | Shift + ← or → | 🔥
+Select lines | Shift + ↑ or ↓ | Shift + ↑ or ↓ | 🔥
+Select words | Shift + Option + ← or → | Shift + Option + ← or → | 🔥
+
 
 #### Document and application management
 
-Command | Mac | Windows
---- | --- | ---
-Open a file | Cmd + O | Ctl + O
-Open a new document | Cmd + N | Ctl + N
-Quit current app | Cmd + Q | Ctl + Q
+Command | Mac | Windows | 🤔
+--- | --- | --- | ---
+Save the current file | Cmd + S | Ctl + S | 🍏
+Open a document | Cmd + O | Ctl + O
+Create a new document | Cmd + N | Ctl + N
 Close current window | Cmd + W | Ctl + W
-Save the current file | Cmd + S | Ctl + S
-Switch programs | Cmd + Tab | Windows + Tab
+Quit current app | Cmd + Q | Ctl + Q
+Switch programs | Cmd + Tab | Windows + Tab | 🔥
 
 #### Web Browsing
 
-Command | Mac | Windows
---- | --- | ---
-Open a new window | Cmd + N | Ctl + N
-Open a new tab | Cmd + T | Ctl + T
+Command | Mac | Windows | 🤔
+--- | --- | --- | ---
+Open a new window | Cmd + N | Ctl + N | 🍏
+Open a new tab | Cmd + T | Ctl + T | 🍏
 Reopen closed tab | Shift + Cmd + T | Shift + Ctl + T
-Reload the page | Cmd + R | Ctl + R
-Reload page and clear cache | Shift + Cmd + R | Shift + Ctl + R
-Find on a web page | Cmd + F | Ctl + F
+Find on a web page | Cmd + F | Ctl + F | 🔥
+Reload the page | Cmd + R | Ctl + R | 🔥
+Reload page and clear cache | Shift + Cmd + R | Shift + Ctl + R | 🔥
 
 
 
-## Commands for specific contexts
+## Workflows
 
 
 ### Web development - Edit/Refresh Loop
 
-Building web pages requires you to do a lot of repetitive tasks. It’s a good idea to learn proficiency and develop efficient workflows early on. Mastering the "edit/save/refresh loop" can speed up your work immensely. You never have to move your hands to the mouse!
+Building web pages requires you to do a lot of repetitive tasks. It’s a good idea to learn proficiency and develop efficient workflows early on.
+
+<img style="" src="assets/img/workflow-web.png">
+
+Mastering the "edit/save/refresh loop" can speed up your work immensely. If you can do these you'll never have to move your hands to the mouse!
 
 Command | Mac | Windows
 --- | --- | ---
@@ -89,7 +135,6 @@ Repeat | ↪ | ↪
 
 
 
-<img style="" src="assets/img/workflow-web.png">
 
 
 ## References
