@@ -40,7 +40,8 @@ If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](htt
 
 <small>A `.png` file opened in TextEdit</small>
 
-#### Activity - Examine filetypes in plain text
+
+### Examine filetypes in plain text
 
 1. Find examples of each on your own computers  
 1. Open them in a plain text editor to verify
@@ -85,7 +86,10 @@ All operating systems (OS) hide certain types of configuration and system files 
 1. [Mac](https://www.macworld.co.uk/how-to/show-hidden-files-mac-3520878/) and [Windows](https://www.lifewire.com/what-is-a-hidden-file-2625898) both enable system file and folder hiding via their specific preferences.
 1. Unix-based computers (Linux and MacOS) hide configuration files using a preceding `.` period *before* the filename.
 
-#### Activity - View hidden configuration files on a Mac
+
+### View hidden configuration files on a Mac
+
+Follow these instructions to view hidden files on a Mac:
 
 1. Open the Terminal application.
 1. Type `pwd` to confirm you are in your home directory. You should see your Desktop and other files.
@@ -129,26 +133,26 @@ When you name ***any*** file or folder that could potentially be viewed in a web
 <img style="" src="assets/img/files-naming-conventions.png">
 
 - Do not use spaces in your filenames: Replace with hyphens, underscores, or camelCase.
-- Use a naming convention, so you don't have to think when you type your code. Look for an established convention
+- Use a [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)), so you don't have to think when you type your code. Look for an established convention
+- **Best practice**: Only use lowercase names with no spaces.
 
-&nbsp; | Convention | Example | Notes
+
+### Popular naming conventions
+
+A table showing common file naming conventions for files, folders, variables, etc. to remove spaces or symbols between words.
+
+Convention | Where common | Examples | Notes
 --- | --- | --- | ---
-camelCase | Javascript, CSS |  |
-PascalCase |  |  |
-Snake Case |  |  |
-
-
-
-naming conventions or your web pages won’t work!
-**Best practice**: Only use lowercase names with no spaces.
+Pascalcase | C# | `UserAccount` | Words are delimited by capital letters
+Camelcase | Javascript, CSS | `userAccount` | Words are delimited by capital letters, except the initial word
+Snakecase | [Python](https://medium.com/@dasagrivamanu/python-naming-conventions-the-10-points-you-should-know-149a9aa9f8c7), [R](https://style.tidyverse.org/) | `user_account` | Words are delimited by an underscore
+Kebabcase |  | `user-account` | Words are delimited by hyphens
+Screamingcase |  | `USER_ACCOUNT` | Words are all caps, and or delimited by an underscore
 
 
 
 
-It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
-But, name your files with forethought and organization in mind.
-
-
+### Discussion
 
 How would you name and organize each of these files:
 
@@ -163,9 +167,8 @@ How would you name and organize each of these files:
 
 <img style="" src="assets/img/files-naming-bad.png"> <img style="" src="assets/img/files-naming-better.png">
 
-<small>Left: 😢 no convention in use, names are not descriptive;<br> Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
-
-
+<small>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
+But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
 
 <img style="" src="assets/img/files-folder-naming.png"> <img style="" src="assets/img/files-folder-naming-psd.png">
 
