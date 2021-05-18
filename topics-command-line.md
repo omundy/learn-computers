@@ -7,14 +7,6 @@
 
 Now matter what you call it, using the command line is essential to computing proficiency.
 
-
-
-
-## Part 1 – Introduction `15 min`
-
-Review the following sections and perform the activities.
-
-
 ### Learning Objectives
 
 Students who complete the following will be able to:
@@ -25,7 +17,15 @@ Students who complete the following will be able to:
 - Edit and run a Python script using the command line
 
 
-### Introduction
+
+
+
+## Part 1 – Introduction
+
+Review the following sections and perform the activities with your group. `5 min`
+
+
+### About the command line
 
 The command line is a text interface for your computer. You type commands, which it passes on to the computer’s operating system to run. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI (Graphical User Interface) might not.
 
@@ -38,16 +38,11 @@ The command line is a text interface for your computer. You type commands, which
 - Shell programming => [Programming and running scripts](https://www.tutorialspoint.com/unix/shell_scripting.htm) (e.g. `.sh`) using a shell
 
 
-
 ### Installation
 
 - Mac - The Terminal application is already installed
 - Windows - Install [Git Bash](https://gitforwindows.org/)
 - Linux - [LXTerminal](https://www.raspberrypi.org/documentation/usage/terminal/) is already installed
-
-
-
-
 
 
 ### Running Commands
@@ -83,9 +78,9 @@ whoami && pwd && echo Hello world!
 
 
 
-### Navigating the filesystem
+## Part 2 – Navigating the filesystem
 
-Let's learn how to move around. Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands and try to guess what they stand for:
+Let's learn how to move around. Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands and try to guess what they do. `5 min`
 
 ```bash
 pwd
@@ -112,7 +107,8 @@ cd ~/
 
 
 
-### Creating and editing files
+
+## Part 3 – Creating and editing files
 
 Let's make a new folder in our home directory to create some test files. Before you do the following, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.
 
@@ -153,10 +149,9 @@ cat hello.txt
 
 
 
+## Part 4 – Running programs on the CLI
 
-### Creating and editing files
-
-Excellent! Now, in our final section, we'll create and run a Python script with Vim:
+Excellent! Now, in our final section, we'll create and run a Python script with Vim. `5 min`
 
 ```bash
 pwd # confirm you are still in <username>/test
@@ -185,14 +180,17 @@ Congratulations! 🎉 &nbsp; Similar to using built-in commands, you've created 
 
 
 
-### Discussion
+### Part 5 - Discussion and Demonstration
 
-Discuss the following with your group and share with the class:
+Discuss the following with your group and share a short demo on the above with the class. `5 min`
 
-1. Revisit the learning objectives for this section. How do you feel you did? Do you have any questions?
+1. What are example commands that show
+ 	- the basics
+	- how to navigate the filesystem
+	- how to create files
+	- how to run a program
 1. Which items can you connect to concepts you already know about computers? e.g. 🏠 📂 👤 🧠 🐍
-1. What do you think the next steps might be?
-
+1. Revisit the learning objectives for this section. Do you feel like you accomplished the goals of this lesson? What questions do you have?
 
 
 
