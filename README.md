@@ -8,24 +8,31 @@ Basic, intermediate, and advanced topics for using computers.
 
 ## Basic Competencies
 
-Select an activity to perform with your group. Share results in class
+- Option 1: Select an activity to perform with your group. Share results in class
+- Option 2 "[Jigsaw](https://docs.google.com/presentation/d/1kjNu-sMk__nOF4QUc13fbDBLROJasCLiIJGoa54E5-A/edit#slide=id.gd9b53d7cfd_0_51)" method: Everyone selects one to learn, then team up to teach others
 
 
-<table>
+
+
+<table border=0>
 
 <tr>
 <td>
 <a href="topics-keyboard-shortcuts.md">
 <img style="width:260px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
 
-Keyboard shortcuts</a>
+Keyboard shortcuts, Workflows</a>
 </td>
+
+
 <td>
 <a href="topics-files-folders.md">
 <img style="width:260px; height:auto;" src="assets/img/banner-files-folders.png">
 
-Files, folders, naming</a>
+Files, folders, naming conventions</a>
 </td>
+
+
 <td>
 <a href="topics-images.md">
 <img style="width:260px; height:auto;" src="assets/img/banner-images.png">
@@ -34,6 +41,9 @@ Images, formats, resolution</a>
 </td>
 </tr>
 
+
+
+
 <tr>
 <td>
 <a href="topics-command-line.md">
@@ -41,7 +51,16 @@ Images, formats, resolution</a>
 
 Command line, shell, bash</a>
 </td>
+
+
+<td>
+<a href="topics-data.md">
+<img style="width:260px; height:auto;" src="assets/img/banner-data.png">
+
+What is data?</a>
+</td>
 </tr>
+
 
 </table>
 
@@ -59,7 +78,7 @@ Command line, shell, bash</a>
 Mac
 - Spotlight
 - Terminal
-- Force quit
+- Force quit https://support.apple.com/en-us/HT201276
 - Finder organization
 
 
@@ -134,4 +153,4 @@ In the meantime, so you can keep working, save a copy of the results (just go to
 
 ### Networks
 
-- SSH, traceroute, ping 
+- SSH, traceroute, ping
