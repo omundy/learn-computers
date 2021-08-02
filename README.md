@@ -1,10 +1,14 @@
 # Learn Computing
 
-Basic, intermediate, and advanced topics for using computers.
+Basic, intermediate, and advanced computing active learning lesson plans.
 
 - Select an activity to perform with your group. Be prepared to share results in class.
 - Each module can be done on your own or with others.
 - Complete each section before moving on.
+- <small>🍏</small> = complete
+
+
+
 
 
 ## Basic – Part 1

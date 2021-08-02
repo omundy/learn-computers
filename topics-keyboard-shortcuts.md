@@ -16,6 +16,7 @@ Speed up your computing with keyboard shortcuts!
 1. [Keyboard commands](#keyboard-commands)
 1. [Workflows](#workflows)
 1. [Keep practicing](#keep-practicing)
+1. [Assessment](#assessment)
 1. [References](#references)
 
 ### Learning Objectives
@@ -59,9 +60,9 @@ Like Taylor, we want to know how we might improve our efficiency at the keyboard
 1. Perform each with and without keystrokes.
 1. Move at the speed you would normally move.
 1. For each action or series, record the number of clicks and the total time:
-	- to move your mouse hand from the keyboard to type and back
-	- to move your mouse on the screen. (e.g. from your file, ***aaaaaall*** the way up to the top left, to choose File > Save, then back down to the space where you were working on the screen)
-	- to find the thing you need to click with the mouse
+	1. to find the thing you need to click with the mouse
+	1. to move your mouse hand from the keyboard to type and back
+	1. to move your mouse on the screen. (e.g. from your file, ***aaaaaall*** the way up to the top left, to choose File > Save, then back down to the space where you were working on the screen)
 
 Here are some to get you started. Try to create 3 more, (use the web dev workflow if you are comfortable).
 
@@ -141,6 +142,7 @@ Here are some to get you started. Try to create 3 more, (use the web dev workflo
 
 
 
+
 ## Discussion
 
 After you record your data, prepare to share it and your answers to the following with the class
@@ -149,6 +151,9 @@ After you record your data, prepare to share it and your answers to the followin
 1. Estimate the time difference between each in 1 hour, 1 day, 1 week, or a whole semester of computer work.
 1. Considering how often you perform these actions, what would you do with that extra time?
 1. Share your results with the class.
+
+
+
 
 
 
@@ -262,9 +267,6 @@ Repeat | ↪ | ↪
 
 
 
-
-
-
 ## Keep practicing
 
 - [50 Keyboard Shortcuts That Work Across All Web Browsers](https://www.groovypost.com/tips/50-universal-web-browser-hotkeys/)
@@ -272,7 +274,18 @@ Repeat | ↪ | ↪
 - [19 Advanced Excel Shortcuts](https://www.excelcampus.com/keyboard-shortcuts/advanced-excel-shortcuts/)
 - [Keyboard shortcuts in Photoshop](https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html) and others [in context](assets/img/keyboard-shortcuts-photoshop.png)
 - [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html) and others [in context](assets/img/keyboard-shortcuts-ae.png)
+- [Youtube Keyboard Shortcuts](https://support.google.com/youtube/answer/7631406?hl=en)
 
+
+
+
+
+## Assessment
+
+Ready to test your skills? See if you can do the following WITHOUT TOUCHING YOUR MOUSE:
+
+1. Create, edit, save, and email a new text document from scratch to your professor.
+1. Find a Youtube video showing Stage 17 of the 2021 Tour de France and skip to the moment when Tadej Pogačar [rides away](https://youtu.be/g24EHF7-9lU?t=1614) to claim the win.
 
 
 

@@ -13,6 +13,7 @@ Description of topic
 1. [Introduction](#introduction) <small>`5 min`</small>
 1. [Discussion](#discussion) <small>`5 min`</small>
 1. [Keep practicing](#keep-practicing)
+1. [Assessment](#assessment)
 1. [References](#references)
 
 ## Learning Objectives
@@ -45,6 +46,12 @@ In your group, discuss the following.
 - Q1
 - Q2
 - Q3
+
+## Assessment
+
+Ready to test your skills? See if you can
+
+1.
 
 ## Keep practicing
 

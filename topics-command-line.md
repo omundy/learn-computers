@@ -16,6 +16,9 @@ No matter what you call it, using the command line is essential to computing pro
 1. [Creating and editing files](#creating-and-editing-files) <small>`5 min`</small>
 1. [Running programs](#running-programs) <small>`5 min`</small>
 1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Keep practicing](#keep-practicing)
+1. [Assessment](#assessment)
+1. [References](#references)
 
 ### Learning objectives
 
@@ -239,16 +242,23 @@ Discuss the following with your group and share a short demo on the above with t
 
 
 
-
-
-## More practice
+## Keep practicing
 
 Additional commands and prompts to continue learning the command line:
 
 - Change the text your python file prints and run the script again. **Tip**: Use the up `↑` and down `↓` arrows on the keyboard to cycle through previous commands.
 - Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing `tab`. If a file or directory that starts with that name exists the shell will fill it in for you.
-- Complete the [command line lesson on Codecademy](https://www.codecademy.com/learn/learn-the-command-line).
+- [16 Terminal commands every user should know](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
 
+
+
+
+## Assessment
+
+Ready to test your skills? See if you can
+
+1. Complete the [command line lesson on Codecademy](https://www.codecademy.com/learn/learn-the-command-line).
+1. [Write a simple bash script](https://www.linux.com/training-tutorials/writing-simple-bash-script/)
 
 
 
@@ -256,6 +266,5 @@ Additional commands and prompts to continue learning the command line:
 ## References
 
 - Ubuntu [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
-- [16 Terminal commands every user should know](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
 - Codecademy [List of Command Line Commands](https://www.codecademy.com/articles/command-line-commands)
 - Raspberry Pi [Terminal](https://www.raspberrypi.org/documentation/usage/terminal/)
