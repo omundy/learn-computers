@@ -1,14 +1,33 @@
 
 [<](README.md)
 
-<img style="width:500px; height:auto;" src="assets/img/banner-computational-thinking.png">
+<img style="width:300px; height:auto;" src="assets/img/banner-computational-thinking.png">
 
 # Computational Thinking
 
+Description of topic
+
+### Contents
+
+1. [Learning Objectives](#learning-objectives)
+1. [Introduction](#introduction) <small>`5 min`</small>
+1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Keep practicing](#keep-practicing)
+1. [References](#references)
+
+## Learning Objectives
+
+Students who complete the following will be able to:
+
+- Describe ...
+- List ...
+- Explain ...
+- Demonstrate ...
 
 
 
-## Class activity `10 min`
+
+## Introduction
 
 Review the following sections and perform the activities.
 
@@ -21,6 +40,18 @@ Review the following sections and perform the activities.
 - https://www.digitaltechnologieshub.edu.au/search#/site-search?pageNumber=1&keyword=GoogleCT
 - https://www.gettingsmart.com/2018/03/early-learning-strategies-for-developing-computational-thinking-skills/
 - https://www.google.com/search?q=computational-thinking&safe=off&rlz=1C5CHFA_enUS903US909&sxsrf=ALeKk02K0Ksznja200f7HCS29B35WmiJ_g:1619879844197&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiwmsTV2qjwAhXDKs0KHdJFC7sQ_AUoAXoECAEQAw&biw=1920&bih=1066#imgrc=nXOw92GlPSFwAM
+
+
+## Discussion
+
+In your group, discuss the following.
+
+- Q1
+- Q2
+- Q3
+
+## Keep practicing
+
 
 
 ## References

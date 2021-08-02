@@ -1,11 +1,22 @@
 
 [<](README.md)
 
-<img style="width:500px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
+<img style="width:300px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
 
 # Keyboard shortcuts & Workflows
 
 Speed up your computing with keyboard shortcuts!
+
+### Contents
+
+1. [Learning Objectives](#learning-objectives)
+1. [Introduction](#introduction) <small>`5-10 min`</small>
+1. [Create an efficiency test](#create-an-efficiency-test) <small>`10 min`</small>
+1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Keyboard commands](#keyboard-commands)
+1. [Workflows](#workflows)
+1. [Keep practicing](#keep-practicing)
+1. [References](#references)
 
 ### Learning Objectives
 
@@ -20,25 +31,28 @@ Students who complete the following will be able to:
 
 
 
-## Part 1 – Introduction
+## Introduction
 
-In your group, discuss the following. `7 min`
+In your group, discuss the following.
 
 - What tips do you know for making your computer use efficient?
 - Do you currently use your non-mouse hand to enter commands on your computer keyboard?
 
-Now, practice all the [commands](#commands) below, including the series of commands in the [workflows](#workflows) section.
+Now, practice all the [keyboard commands](#keyboard-commands) below, including the series of commands in the [text editing workflow](#workflows).
 
 - Which of the basic 🍏  or advanced 🔥 shortcuts are new to you?
 - Did you find it awkward to use the shortcuts at first?
 
 
+![avid shortcuts](assets/img/keyboard-shortcuts-avid.png)
+<small>Keyboard shortcuts work so well many industries print their own templates (Avid Media Composer set above) to help recall them.</small>
 
-## Part 2 – Create an efficiency test `10 min`
 
-In the 1910's, Frederick Taylor recorded the [workflows of laborers](https://www.shutterstock.com/video/clip-19628218-frederick-taylors-pig-iron-carrying-experiment-tests) and used the data to increase productivity. Through his [scientific management](https://en.wikipedia.org/wiki/Scientific_management) analysis, he learned that efficiency actually *increased* if workers took more breaks and thus time to recover.
+## Create an efficiency test
 
-Similarly, we want to know how we might improve our computing efficiency using the keyboard. And perhaps more importantly, what could we do with the saved time?! Follow these instructions to create empirical tests that measure the efficiency of using (and not using) keyboard shortcuts over the equivalent actions, or series of actions.
+In the 1910's, Frederick Taylor recorded the [workflows of laborers](https://www.shutterstock.com/video/clip-19628218-frederick-taylors-pig-iron-carrying-experiment-tests) and used the data to increase productivity. Through his [scientific management](https://en.wikipedia.org/wiki/Scientific_management) analysis, he learned that efficiency actually *increased* if workers took more breaks because it gave them time to recover from the work.
+
+Like Taylor, we want to know how we might improve our efficiency at the keyboard. And perhaps more importantly, what could we do with the saved time?! Follow these instructions to measure the efficiency of using (and not using) keyboard shortcuts over the equivalent actions, or series of actions.
 
 1. Consider multiple commands and contexts (like the [text editing workflow](#workflows)).
 1. More than one person in your group should take the test(s).
@@ -127,13 +141,13 @@ Here are some to get you started. Try to create 3 more, (use the web dev workflo
 
 
 
-### Discussion
+## Discussion
 
-After you record your data and make it presentable, share it and your answers to the following with the class
+After you record your data, prepare to share it and your answers to the following with the class
 
-1. Did you find it faster to use shortcuts? Which ones and how much?
+1. Did you find it faster to use shortcuts? Which shortcuts saved the most time?
 1. Estimate the time difference between each in 1 hour, 1 day, 1 week, or a whole semester of computer work.
-1. Considering how often you perform these actions, what are some things you could do with that extra time?
+1. Considering how often you perform these actions, what would you do with that extra time?
 1. Share your results with the class.
 
 
@@ -143,7 +157,7 @@ After you record your data and make it presentable, share it and your answers to
 
 
 
-## Commands
+## Keyboard commands
 
 
 #### Text editing
@@ -249,6 +263,15 @@ Repeat | ↪ | ↪
 
 
 
+
+
+## Keep practicing
+
+- [50 Keyboard Shortcuts That Work Across All Web Browsers](https://www.groovypost.com/tips/50-universal-web-browser-hotkeys/)
+- [A big list of Windows and Microsoft shortcuts](assets/img/keyboard-shortcuts.gif)
+- [19 Advanced Excel Shortcuts](https://www.excelcampus.com/keyboard-shortcuts/advanced-excel-shortcuts/)
+- [Keyboard shortcuts in Photoshop](https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html) and others [in context](assets/img/keyboard-shortcuts-photoshop.png)
+- [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html) and others [in context](assets/img/keyboard-shortcuts-ae.png)
 
 
 

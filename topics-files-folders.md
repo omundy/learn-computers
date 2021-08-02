@@ -1,17 +1,28 @@
 
 [<](README.md)
 
-<img style="width:500px; height:auto;" src="assets/img/banner-files-folders.png">
+<img style="width:300px; height:auto;" src="assets/img/banner-files-folders.png">
 
 # Files, folders, and naming conventions
 
 Learn about all the files on your computer!
 
+### Contents
+
+1. [Learning Objectives](#learning-objectives)
+1. [Introduction](#introduction) <small>`5 min`</small>
+1. [File extensions](#file-extensions) <small>`5 min`</small>
+1. [Hidden files](#hidden-files) <small>`5 min`</small>
+1. [File naming conventions](#file-naming-conventions) <small>`5 min`</small>
+1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Keep practicing](#keep-practicing)
+1. [References](#references)
+
 ### Learning Objectives
 
 Students who complete the following will be able to:
 
-- Describe the difference between text and binary-encoded files
+- Describe basic computing concepts files, folders, programs, and permissions
 - List some common file extensions and why they exist
 - Explain what hidden files are and how to find them
 - Demonstrate best practices for naming files and folders
@@ -20,39 +31,68 @@ Students who complete the following will be able to:
 
 
 
-## Part 1 – Introduction
+## Introduction
 
-Review the following sections and perform the activities with your group. `5 min`
-
-
-### About file formats
-
-All computer files encode data in one of two different formats—binary or text.
-
-1. **Binary** encoded files are stored as bits (binary 1s and 0s) and can may include multiple types of data in the same file (e.g video and audio). They are more efficient to store and access but can easily become corrupted. Some examples `.jpg`, `.pdf`, and `.mp4`.
-1. **Text** encoded files are also stored as bits, but they represent actual characters. You can open text files in many types of editors. Examples include `.txt`, `.html`, and `.cs`.
-
-File encoding [is not the same as](https://kunststube.net/encoding/) character encoding.
-
-If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.
-
-<img style="" src="assets/img/files-binary.png">
-
-<small>A `.png` file opened in TextEdit</small>
+Review the following sections and perform the activities with your group.
 
 
-### Examine filetypes in plain text
+### Files vs. Folders vs. Software
 
-1. Find examples of each on your own computers  
-1. Open them in a plain text editor to verify
-1. What clues can you see in the binary formats to tell you about the filetype?
+<img style="width:600px; height:auto;" src="assets/img/files-folders-software.png">
+
+<small>A file, folder, and program</small>
+
+- **Files** are how computers organize and store data about objects.
+- **Folders**, also commonly called "directories", are containers used to organize one or more files.
+- **Software**, a.k.a. "programs" or "applications", are files that contain *instructions for a computer to run*. If a file has special permissions a computer can attempt to *execute* its instructions.
+- **Force quit** is what you can do if an application stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
 
 
 
+### Users and Permissions
+
+<img style="width:450px; height:auto;" src="assets/img/files-folders-software-ls.png"> <img style="width:370px; height:auto;" src="assets/img/files-permissions.png">
+<small>Permissions viewed in Terminal and using "Get Info"</small>
+
+- **Users** - A user is a virtual identity that determines what someone can do on a computer.
+- **Permissions** - Every file, folder, and application on a computer has a set of permissions that determine whether the current user is allowed to `read` (view or open) and/or `write` (edit, save, or delete) a file.
+- **Root directory** - The "base" directory on a computer that contains all other directories.
+- **Home directory** - Every user has a home directory. On a Mac, this is located at `/Users/<username>`
+
+
+### Hands-on
+
+Perform the following in your group
 
 
 
-## Part 2 - File extensions
+
+
+- Finder organization
+- Show details
+1. Show additional information about your
+
+
+1. Open the Terminal application
+1. Find the username of the current logged-in user - In terminal type: `whoami` and press enter
+1. Find a file on your Desktop. What permissions does your user have?
+
+
+
+
+
+
+On a Mac you can see these permissions using the terminal (`ls -la`) or with Command + i (Get info).
+
+
+
+
+
+
+
+
+
+## File extensions
 
 A file extension is the suffix at the end of a computer file that tells you what type of file it is.
 
@@ -79,7 +119,7 @@ Extension | Filetype | File encoding
 
 
 
-## Part 3 - Hidden files
+## Hidden files
 
 All operating systems (OS) hide certain types of configuration and system files by default. While most basic users never know these exist, when you are writing code you'll inevitably need to access or change these files. Files are hidden one of two ways:
 
@@ -106,7 +146,7 @@ Follow these instructions to view hidden files on a Mac:
 
 
 
-## Part 4 - File naming conventions
+## File naming conventions
 
 Do you ever have trouble finding or identifying files?
 
@@ -152,7 +192,10 @@ Screamingcase |  | `USER_ACCOUNT` | Words are all caps, and or delimited by an u
 
 
 
-### Discussion
+
+
+
+## Discussion
 
 How would you name and organize each of these files:
 
@@ -170,13 +213,13 @@ How would you name and organize each of these files:
 <small>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
 But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
 
-<img style="" src="assets/img/files-folder-naming.png"> <img style="" src="assets/img/files-folder-naming-psd.png">
+<img style="" src="assets/img/files-folder-naming.png"> <img style="" src="assets/img/files-folder-naming-layers.png">
 
 
 
 
 
-
+## Keep practicing
 
 
 

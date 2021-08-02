@@ -1,13 +1,23 @@
 
 [<](README.md)
 
-<img style="width:500px; height:auto;" src="assets/img/banner-command-line.png">
+<img style="width:300px; height:auto;" src="assets/img/banner-command-line.png">
 
 # Command Line, Terminal, Bash
 
-Now matter what you call it, using the command line is essential to computing proficiency.
+No matter what you call it, using the command line is essential to computing proficiency.
 
-### Learning Objectives
+### Contents
+
+1. [Learning objectives](#learning-objectives)
+1. [Crash Course](#crash-course) <small>`5 min`</small>
+1. [Introduction](#introduction) <small>`5 min`</small>
+1. [Navigating the filesystem](#navigating-the-filesystem) <small>`5 min`</small>
+1. [Creating and editing files](#creating-and-editing-files) <small>`5 min`</small>
+1. [Running programs](#running-programs) <small>`5 min`</small>
+1. [Discussion](#discussion) <small>`5 min`</small>
+
+### Learning objectives
 
 Students who complete the following will be able to:
 
@@ -19,20 +29,55 @@ Students who complete the following will be able to:
 
 
 
+## Crash course
 
-## Part 1 – Introduction
+The command line allows you to control your computer via a text interface. Following is a quick introduction:
 
-Review the following sections and perform the activities with your group. `5 min`
+1. [Open the Terminal application](topics-basics.md#find-a-file-or-program).
+1. Note the **prompt** after the `$` `%` or `#` symbol. This is where you will type commands.
+1. Type each of the following commands at the prompt, pressing return each time.
+1. If you make a mistake press backspace or `Control + C` to cancel.
+
+
+Step | Command | Description
+---: | --- | ---
+1 | `whoami` | Display [the username of current user](https://en.wikipedia.org/wiki/Whoami)
+2 | `pwd` | Display the full path of your current folder, or [working directory](https://en.wikipedia.org/wiki/Pwd)
+3 | `ls` | [List the files](https://en.wikipedia.org/wiki/Ls) in your current directory
+4 | `touch hello.txt` | [Create a new file](https://en.wikipedia.org/wiki/Touch_(command)) called hello.txt
+5 | `ls` | List files to confirm the new file was created
+6 | `echo "hello world" > hello.txt` | Write some text in the new file
+7 | `cat hello.txt` | View contents of new file (as in "con[cat](https://en.wikipedia.org/wiki/Cat_(Unix)enate"))
+8 | `ping -c 5 davidson.edu` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
+
+Congratulations! 🎉 You've completed some basic commands on a CLI.
+
+<a href="assets/img/command-line-crash-course.png"><img style="width:400px; height:auto;" src="assets/img/command-line-crash-course.png"></a> <a href="assets/img/command-line-ping.png"><img style="width:400px; height:auto;" src="assets/img/command-line-ping.png"></a>
+<small>Click above to enlarge example output from the crash course.</small>
+
+
+
+
+
+
+
+
+
+
+## Introduction
+
+Review the following sections and perform the activities with your group.
 
 
 ### About the command line
 
-The command line is a text interface for your computer. You type commands, which it passes on to the computer’s operating system to run. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI (Graphical User Interface) might not.
+The command line is a text interface for your computer. You type commands, and the computer operating system (OS) will run them when you press enter. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI (Graphical User Interface) might not.
 
 
 ### Terms
 
-- CLI => Command Line Interface
+- OS => Operating System
+- CLI => [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface)
 - Shell => The application where you use the command line
 - Bash ("Bourne Again Shell") => A type of shell
 - Shell programming => [Programming and running scripts](https://www.tutorialspoint.com/unix/shell_scripting.htm) (e.g. `.sh`) using a shell
@@ -41,13 +86,13 @@ The command line is a text interface for your computer. You type commands, which
 ### Installation
 
 - Mac - The Terminal application is already installed
-- Windows - Install [Git Bash](https://gitforwindows.org/)
+- Windows - Install [Git Bash](https://gitforwindows.org/) or use [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 - Linux - [LXTerminal](https://www.raspberrypi.org/documentation/usage/terminal/) is already installed
 
 
-### Running Commands
+### Running commands
 
-When you open your command line application, you'll be greeted by the command prompt, signified by the `$`. This is where you type commands and press enter to make the shell read your input and determine which command to execute.
+When you [open your command line application](topics-basics.md#find-a-file-or-program), you'll be greeted by the command prompt, signified by the `$`. This is where you type commands and press enter to make the shell read your input and determine which command to execute.
 
 ![whoami](assets/img/command-line-whoami.png)
 
@@ -78,9 +123,9 @@ whoami && pwd && echo Hello world!
 
 
 
-## Part 2 – Navigating the filesystem
+## Navigating the filesystem
 
-Let's learn how to move around. Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands and try to guess what they do. `5 min`
+Let's learn how to move around. Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands and try to guess what they do.
 
 ```bash
 pwd
@@ -99,7 +144,7 @@ cd /
 ls -la
 ```
 
-Using `cd /` changes our current working directory to the root of the computer, where you'll mainly find a lot program files. You can return to your home directory (usually where you start when you open a new shell) with the following (a tilda `~` + `/`):
+Using `cd /` changes our current working directory to the [root of the computer](topics-files-folders.md#users-and-permissions), where you'll mainly find a lot program files. You can return to your home directory (usually where you start when you open a new shell) with the following (a tilda `~` + `/`):
 
 ```bash
 cd ~/
@@ -108,7 +153,7 @@ cd ~/
 
 
 
-## Part 3 – Creating and editing files
+## Creating and editing files
 
 Let's make a new folder in our home directory to create some test files. Before you do the following, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.
 
@@ -149,9 +194,9 @@ cat hello.txt
 
 
 
-## Part 4 – Running programs on the CLI
+## Running programs
 
-Excellent! Now, in our final section, we'll create and run a Python script with Vim. `5 min`
+Excellent! Now, in our final section, we'll create and run a Python script with Vim.
 
 ```bash
 pwd # confirm you are still in <username>/test
@@ -180,28 +225,27 @@ Congratulations! 🎉 &nbsp; Similar to using built-in commands, you've created 
 
 
 
-### Part 5 - Discussion and Demonstration
+## Discussion
 
-Discuss the following with your group and share a short demo on the above with the class. `5 min`
+Discuss the following with your group and share a short demo on the above with the class.
 
-1. What are example commands that show
- 	- the basics
+1. Demonstrate example commands that show
 	- how to navigate the filesystem
 	- how to create files
 	- how to run a program
 1. Which items can you connect to concepts you already know about computers? e.g. 🏠 📂 👤 🧠 🐍
-1. Revisit the learning objectives for this section. Do you feel like you accomplished the goals of this lesson? What questions do you have?
+1. Revisit the learning objectives for this section. Did you accomplish the goals in this lesson? What questions do you have?
 
 
 
 
 
 
-## Continue learning
+## More practice
 
 Additional commands and prompts to continue learning the command line:
 
-- Make a change to text that python prints and run your script again. **Tip**: Use the up `↑` and down `↓` arrows on the keyboard to cycle through previous commands.
+- Change the text your python file prints and run the script again. **Tip**: Use the up `↑` and down `↓` arrows on the keyboard to cycle through previous commands.
 - Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing `tab`. If a file or directory that starts with that name exists the shell will fill it in for you.
 - Complete the [command line lesson on Codecademy](https://www.codecademy.com/learn/learn-the-command-line).
 
