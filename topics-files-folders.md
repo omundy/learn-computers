@@ -40,8 +40,9 @@ Review the following sections and perform the activities with your group.
 
 ### Files, folders, & programs
 
-![files](assets/img/files-folders-software.png)
-<small>A file, folder, and program</small>
+![files](assets/img/files-folders-software.png)<br>
+<sub>A file, folder, and program</sub>
+
 
 - **Files** are how computers organize and store data about discrete objects.
 - **Folders** (a.k.a. "directories") [are also files](https://www.tutorialspoint.com/unix/unix-directories.htm) and are used to organize other files and folders.
@@ -54,8 +55,8 @@ Review the following sections and perform the activities with your group.
 
 ### Users and Permissions
 
-<img style="width:450px; height:auto;" src="assets/img/files-folders-software-ls.png"> <img style="width:370px; height:auto;" src="assets/img/files-permissions.png">
-<small>Permissions for the above file, folder, and program in 1) Terminal and 2) using "Get Info"</small>
+<img style="width:450px; height:auto;" src="assets/img/files-folders-software-ls.png"> <img style="width:370px; height:auto;" src="assets/img/files-permissions.png"><br>
+<sub>Permissions for the above file, folder, and program in 1) Terminal and 2) using "Get Info"</sub>
 
 - **Users** - A user is a virtual identity that determines what someone can do on a computer.
 - **Permissions** - control which users and user groups can perform actions on every file, folder, and program
@@ -227,10 +228,9 @@ How would you name and organize each of these files:
 
 
 
-<img style="" src="assets/img/files-naming-bad.png"> <img style="" src="assets/img/files-naming-better.png">
-
-<small>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
-But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</small>
+<img style="" src="assets/img/files-naming-bad.png"> <img style="" src="assets/img/files-naming-better.png"><br>
+<sub>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
+But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</sub>
 
 <img style="" src="assets/img/files-folder-naming.png"> <img style="" src="assets/img/files-folder-naming-layers.png">
 
