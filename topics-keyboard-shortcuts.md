@@ -34,6 +34,8 @@ Students who complete the following will be able to:
 
 ## Introduction
 
+Before continuing, complete the [command line crash course](topics-command-line.md#crash-course)
+
 In your group, discuss the following.
 
 - What tips do you know for making your computer use efficient?

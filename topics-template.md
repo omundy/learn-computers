@@ -31,6 +31,8 @@ Students who complete the following will be able to:
 
 ## Introduction
 
+Before continuing, complete the [command line crash course](topics-command-line.md#crash-course)
+
 
 
 

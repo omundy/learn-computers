@@ -10,6 +10,7 @@ Learn about digital images formats and best practices
 ### Contents
 
 1. [Learning Objectives](#learning-objectives)
+1. [Introduction](#introduction) <small>`5 min`</small>
 1. [Image formats](#image-formats) <small>`5 min`</small>
 1. [How to make a screenshot](#how-to-make-a-screenshot) <small>`5 min`</small>
 1. [Discussion](#discussion) <small>`5 min`</small>
@@ -25,6 +26,11 @@ Students who complete the following will be able to:
 - Explain what
 - Demonstrate
 
+
+
+## Introduction
+
+Before continuing, complete the [command line crash course](topics-command-line.md#crash-course)
 
 
 

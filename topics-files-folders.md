@@ -23,8 +23,8 @@ Learn about all the files on your computer!
 Students who complete the following will be able to:
 
 - Describe basic computing concepts files, folders, programs, and permissions
-- List some common file extensions and why they exist
-- Explain what hidden files are and how to find them
+- List common file extensions and their purpose
+- Explain what hidden files do and how to find them
 - Demonstrate best practices for naming files and folders
 
 
@@ -33,29 +33,48 @@ Students who complete the following will be able to:
 
 ## Introduction
 
+Before continuing, complete the [command line crash course](topics-command-line.md#crash-course).
+
 Review the following sections and perform the activities with your group.
 
 
-### Files vs. Folders vs. Software
+### Files, folders, & programs
 
-<img style="width:600px; height:auto;" src="assets/img/files-folders-software.png">
-
+![files](assets/img/files-folders-software.png)
 <small>A file, folder, and program</small>
 
-- **Files** are how computers organize and store data about objects.
-- **Folders**, also commonly called "directories", are containers used to organize one or more files.
-- **Software**, a.k.a. "programs" or "applications", are files that contain *instructions for a computer to run*. If a file has special permissions a computer can attempt to *execute* its instructions.
-- **Force quit** is what you can do if an application stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
+- **Files** are how computers organize and store data about discrete objects.
+- **Folders** (a.k.a. "directories") [are also files](https://www.tutorialspoint.com/unix/unix-directories.htm) and are used to organize other files and folders.
+- **Programs** (a.k.a. "applications" or "software") are *also*(!) files ([often packaged with other files](https://whatis.techtarget.com/definition/software-package)) that
+	- contain instructions for a computer to run.
+	- have special permissions that tell the operating system (OS) it is safe to **execute** the instructions within.
+- **Force quit** is what you can do if a program stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
 
 
 
 ### Users and Permissions
 
 <img style="width:450px; height:auto;" src="assets/img/files-folders-software-ls.png"> <img style="width:370px; height:auto;" src="assets/img/files-permissions.png">
-<small>Permissions viewed in Terminal and using "Get Info"</small>
+<small>Permissions for the above file, folder, and program in 1) Terminal and 2) using "Get Info"</small>
 
 - **Users** - A user is a virtual identity that determines what someone can do on a computer.
-- **Permissions** - Every file, folder, and application on a computer has a set of permissions that determine whether the current user is allowed to `read` (view or open) and/or `write` (edit, save, or delete) a file.
+- **Permissions** - control which users and user groups can perform actions on every file, folder, and program
+	- `[r]ead` - permission to view or open a files
+	- `[w]rite` - to modify, save, or delete a file
+	- `e[x]ecute` - to run the file (reserved for programs)
+
+
+
+
+
+
+	- control the actions a user can perform on every file, folder, and program.
+	- the actions that can be performed:
+	- who is the **owner**, **group** (the owner belongs to), and world ("other") permissions
+
+
+The permissions are broken into groups of threes, and each position in the group denotes a specific permission, in this order: read (r), write (w), execute (x) −
+
 - **Root directory** - The "base" directory on a computer that contains all other directories.
 - **Home directory** - Every user has a home directory. On a Mac, this is located at `/Users/<username>`
 
@@ -64,7 +83,7 @@ Review the following sections and perform the activities with your group.
 
 Perform the following in your group
 
-
+1. View and compare the permissions for a file, folder, and program on your computer. What do you notice about the differences?
 
 
 
