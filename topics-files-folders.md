@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:300px; height:auto;" src="assets/img/banner-files-folders.png">
+<img width="300" src="assets/img/banner-files-folders.png">
 
 # Files, folders, and naming conventions
 
@@ -10,11 +10,11 @@ Learn about all the files on your computer!
 ### Contents
 
 1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) <small>`5 min`</small>
-1. [File extensions](#file-extensions) <small>`5 min`</small>
-1. [Hidden files](#hidden-files) <small>`5 min`</small>
-1. [File naming conventions](#file-naming-conventions) <small>`5 min`</small>
-1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Introduction](#introduction) `5 min`
+1. [File extensions](#file-extensions) `5 min`
+1. [Hidden files](#hidden-files) `5 min`
+1. [File naming conventions](#file-naming-conventions) `5 min`
+1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
@@ -22,10 +22,10 @@ Learn about all the files on your computer!
 
 Students who complete the following will be able to:
 
-- Describe basic computing concepts files, folders, programs, and permissions
+- Describe basic computing concepts like files, folders, programs, users, and permissions
 - List common file extensions and their purpose
 - Explain what hidden files do and how to find them
-- Demonstrate best practices for naming files and folders
+- Demonstrate best practices for naming and organizing files and folders
 
 
 
@@ -33,16 +33,14 @@ Students who complete the following will be able to:
 
 ## Introduction
 
-Before continuing, complete the [command line crash course](topics-command-line.md#crash-course).
+Complete the [command line crash course](topics-command-line.md#crash-course) and then review and perform the activities with your group.
 
-Review the following sections and perform the activities with your group.
 
+
+
+![files](assets/img/files-folders-software.png)
 
 ### Files, folders, & programs
-
-![files](assets/img/files-folders-software.png)<br>
-<sub>A file, folder, and program</sub>
-
 
 - **Files** are how computers organize and store data about discrete objects.
 - **Folders** (a.k.a. "directories") [are also files](https://www.tutorialspoint.com/unix/unix-directories.htm) and are used to organize other files and folders.
@@ -52,39 +50,57 @@ Review the following sections and perform the activities with your group.
 - **Force quit** is what you can do if a program stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
 
 
-
 ### Users and Permissions
 
-<img style="width:450px; height:auto;" src="assets/img/files-folders-software-ls.png"> <img style="width:370px; height:auto;" src="assets/img/files-permissions.png"><br>
-<sub>Permissions for the above file, folder, and program in 1) Terminal and 2) using "Get Info"</sub>
-
 - **Users** - A user is a virtual identity that determines what someone can do on a computer.
-- **Permissions** - control which users and user groups can perform actions on every file, folder, and program
+- **Permissions** - control which users and user groups can perform which actions on every file, folder, and program
 	- `[r]ead` - permission to view or open a files
 	- `[w]rite` - to modify, save, or delete a file
 	- `e[x]ecute` - to run the file (reserved for programs)
 
 
+![file organization](assets/img/files-hierarchy.png)
+
+### Important directories
+
+- **Hierarchical file system** - How computers organize files inside folders, which are organized inside other folders, and so on, all the way down to the...
+- **Root directory** - The "base" or `/` directory on a computer that contains all other directories.
+- **Home directory** - Every user is the owner of a home directory for their files.
+	- Mac: `/Users/<username>` or `~/`
+	- Windows: `C:\Users\<username>\`
+	- Linux: `/home/<username>` or `~/`
 
 
-
-
-	- control the actions a user can perform on every file, folder, and program.
-	- the actions that can be performed:
-	- who is the **owner**, **group** (the owner belongs to), and world ("other") permissions
-
-
-The permissions are broken into groups of threes, and each position in the group denotes a specific permission, in this order: read (r), write (w), execute (x) −
-
-- **Root directory** - The "base" directory on a computer that contains all other directories.
-- **Home directory** - Every user has a home directory. On a Mac, this is located at `/Users/<username>`
 
 
 ### Hands-on
 
 Perform the following in your group
 
+
+
+
+
+
+1. In the above image, make your path bar and file info tell you
+
+
+
 1. View and compare the permissions for a file, folder, and program on your computer. What do you notice about the differences?
+
+
+
+![permission classes](assets/img/files-permission-classes.png)
+
+
+<img width="450" src="assets/img/files-folders-software-ls.png"> <img width="370" src="assets/img/files-permissions.png"><br>
+<sub>Permissions for the above file, folder, and program in 1) Terminal and 2) using "Get Info"</sub>
+
+
+	- who is the **owner**, **group** (the owner belongs to), and world ("other") permissions
+
+
+The permissions are broken into groups of threes, and each position in the group denotes a specific permission, in this order: read (r), write (w), execute (x) −
 
 
 
@@ -158,7 +174,7 @@ Follow these instructions to view hidden files on a Mac:
 1. Note the `.Trash` directory. To see the contents type `ls -la .Trash`.
 1. Note the `.DS_Store` file [which stores information](https://en.wikipedia.org/wiki/.DS_Store) about icon positions in the Finder. To see the (binary) contents type `cat .DS_Store`.
 
-<img style="" src="assets/img/files-hidden.png">
+<img src="assets/img/files-hidden.png">
 
 
 
@@ -190,7 +206,7 @@ Tips for how to choose the text you use to name your files, folders, even code..
 
 When you name ***any*** file or folder that could potentially be viewed in a web browser (e.g. web pages, PDFs, images, javascript, css, folders, and many others) it is essential to:
 
-<img style="" src="assets/img/files-naming-conventions.png">
+<img src="assets/img/files-naming-conventions.png">
 
 - Do not use spaces in your filenames: Replace with hyphens, underscores, or camelCase.
 - Use a [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)), so you don't have to think when you type your code. Look for an established convention
@@ -228,11 +244,11 @@ How would you name and organize each of these files:
 
 
 
-<img style="" src="assets/img/files-naming-bad.png"> <img style="" src="assets/img/files-naming-better.png"><br>
+<img src="assets/img/files-naming-bad.png"> <img src="assets/img/files-naming-better.png"><br>
 <sub>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
 But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</sub>
 
-<img style="" src="assets/img/files-folder-naming.png"> <img style="" src="assets/img/files-folder-naming-layers.png">
+<img src="assets/img/files-folder-naming.png"> <img src="assets/img/files-folder-naming-layers.png">
 
 
 

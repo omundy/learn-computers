@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:300px; height:auto;" src="assets/img/banner-web-development.png">
+<img width="300" src="assets/img/banner-web-development.png">
 
 # Web Development
 
@@ -10,8 +10,8 @@ Learn to setup your web development environment!
 ### Contents
 
 1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) <small>`5 min`</small>
-1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Introduction](#introduction) `5 min`
+1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 

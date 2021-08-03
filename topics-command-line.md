@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:300px; height:auto;" src="assets/img/banner-command-line.png">
+<img width="300" src="assets/img/banner-command-line.png">
 
 # Command Line, Terminal, Bash
 
@@ -10,12 +10,12 @@ No matter what you call it, using the command line is essential to computing pro
 ### Contents
 
 1. [Learning objectives](#learning-objectives)
-1. [Crash Course](#crash-course) <small>`5 min`</small>
-1. [Introduction](#introduction) <small>`5 min`</small>
-1. [Navigating the filesystem](#navigating-the-filesystem) <small>`5 min`</small>
-1. [Creating and editing files](#creating-and-editing-files) <small>`5 min`</small>
-1. [Running programs](#running-programs) <small>`5 min`</small>
-1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Crash Course](#crash-course) `5 min`
+1. [Introduction](#introduction) `5 min`
+1. [Navigating the filesystem](#navigating-the-filesystem) `5 min`
+1. [Creating and editing files](#creating-and-editing-files) `5 min`
+1. [Running programs](#running-programs) `5 min`
+1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [Assessment](#assessment)
 1. [References](#references)

@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:300px; height:auto;" src="assets/img/banner-keyboard-shortcuts.png">
+<img width="300" src="assets/img/banner-keyboard-shortcuts.png">
 
 # Keyboard shortcuts & Workflows
 
@@ -10,9 +10,9 @@ Speed up your computing with keyboard shortcuts!
 ### Contents
 
 1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) <small>`5-10 min`</small>
-1. [Create an efficiency test](#create-an-efficiency-test) <small>`10 min`</small>
-1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Introduction](#introduction) `5-10 min`
+1. [Create an efficiency test](#create-an-efficiency-test) `10 min`
+1. [Discussion](#discussion) `5 min`
 1. [Keyboard commands](#keyboard-commands)
 1. [Workflows](#workflows)
 1. [Keep practicing](#keep-practicing)
@@ -47,8 +47,8 @@ Now, practice all the [keyboard commands](#keyboard-commands) below, including t
 - Did you find it awkward to use the shortcuts at first?
 
 
-![avid shortcuts](assets/img/keyboard-shortcuts-avid.png)
-<small>Keyboard shortcuts work so well many industries print their own templates (Avid Media Composer set above) to help recall them.</small>
+![avid shortcuts](assets/img/keyboard-shortcuts-avid.png)<br>
+<sub>Many industries use templates, like this Avid Media Composer helper, to help recall keyboard shortcuts.</sub>
 
 
 ## Create an efficiency test

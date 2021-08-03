@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img style="width:300px; height:auto;" src="assets/img/banner-data.png">
+<img width="300" src="assets/img/banner-data.png">
 
 # What is Data?
 
@@ -10,8 +10,8 @@ Learn how computers store data, common data types, and how to use them
 ### Contents
 
 1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) <small>`5 min`</small>
-1. [Discussion](#discussion) <small>`5 min`</small>
+1. [Introduction](#introduction) `5 min`
+1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
@@ -50,7 +50,7 @@ In your group, discuss the following.
 
 All files on computers are stored as 1's and 0's. Images, text files, music, software, everything—They are all 0's and 1's. The only difference is that they are interpreted differently depending upon what program can open them.
 
-<img style="" src="assets/img/cat-binary.png">
+<img src="assets/img/cat-binary.png">
 
 The above [image](assets/img/cat.png) viewed by an application that can read image data, and (right) the binary representation of the file's data. Try it yourself on the [command line](topics-command-line.md):
 
@@ -82,9 +82,8 @@ File encoding [is not the same as](https://kunststube.net/encoding/) character e
 
 If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.
 
-<img style="" src="assets/img/files-binary.png">
-
-<small>A `.png` file opened in TextEdit</small>
+<img src="assets/img/files-binary.png"><br>
+<sub>A `.png` file opened in TextEdit</sub>
 
 
 ### Examine filetypes in plain text
