@@ -55,7 +55,7 @@ Step | Command | Description
 
 Congratulations! 🎉 You've completed some basic commands on a CLI.
 
-<a href="assets/img/command-line-crash-course.png"><img width="400" src="assets/img/command-line-crash-course.png"></a> <a href="assets/img/command-line-ping.png"><img width="400" src="assets/img/command-line-ping.png"></a>
+<a href="assets/img/command-line-crash-course.png"><img width="400" src="assets/img/command-line-crash-course.png"></a> <a href="assets/img/command-line-ping.png"><img width="400" src="assets/img/command-line-ping.png"></a><br>
 <sub>Click to view example output from the steps.</sub>
 
 
