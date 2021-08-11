@@ -42,17 +42,17 @@ Complete the [command line crash course](topics-command-line.md#crash-course) an
 
 ### Files, folders, & programs
 
-- **Files** are how computers organize and store data about discrete objects.
-- **Folders** (a.k.a. "directories") [are also files](https://www.tutorialspoint.com/unix/unix-directories.htm) and are used to organize other files and folders.
-- **Programs** (a.k.a. "applications" or "software") are *also*(!) files ([often packaged with other files](https://whatis.techtarget.com/definition/software-package)) that
+- **Files** - how computers organize and store data about discrete objects.
+- **Folders** (a.k.a. "directories") - ([also files](https://www.tutorialspoint.com/unix/unix-directories.htm)) used to organize other files and folders.
+- **Programs** (a.k.a. "applications" or "software") - *also*(!) files ([often packaged with other files](https://whatis.techtarget.com/definition/software-package)) that
 	- contain instructions for a computer to run.
 	- have special permissions that tell the operating system (OS) it is safe to **execute** the instructions within.
-- **Force quit** is what you can do if a program stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
+- **Force quit** - what you can do if a program stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
 
 
 ### Users and Permissions
 
-- **Users** - A user is a virtual identity that determines what someone can do on a computer.
+- **Users** - a virtual identity that determines what someone can do on a computer.
 - **Permissions** - control which users and user groups can perform which actions on every file, folder, and program
 	- `[r]ead` - permission to view or open a files
 	- `[w]rite` - to modify, save, or delete a file
@@ -63,9 +63,9 @@ Complete the [command line crash course](topics-command-line.md#crash-course) an
 
 ### Important directories
 
-- **Hierarchical file system** - How computers organize files inside folders, which are organized inside other folders, and so on, all the way down to the...
-- **Root directory** - The "base" or `/` directory on a computer that contains all other directories.
-- **Home directory** - Every user is the owner of a home directory for their files.
+- **Hierarchical file system** - how computers organize files inside folders, which are organized inside other folders, and so on, all the way down to the...
+- **Root directory** - the "base" or `/` directory on a computer that contains all other directories.
+- **Home directory** - every user is the owner of a home directory for their files.
 	- Mac: `/Users/<username>` or `~/`
 	- Windows: `C:\Users\<username>\`
 	- Linux: `/home/<username>` or `~/`
@@ -77,12 +77,20 @@ Complete the [command line crash course](topics-command-line.md#crash-course) an
 
 Perform the following in your group
 
-
-
-
-
-
-1. In the above image, make your path bar and file info tell you
+1. Discuss the screenshot above (with the photo from [Elf](https://www.imdb.com/title/tt0319343/)). Consider:
+	- Who is currently logged-in?
+	- What is the name of the root directory on this filesystem?
+	- When was the file last edited?
+	- Where is the user's home directory?
+	
+	- What is the full path to the image that is shown?
+	- How much space is available on this computer?
+	- If you are in the
+1. The answers to the above questions are possible thanks to options selected in Mac OS. Doing the following will increase your ability to use a computer:
+	- Show the home
+	- Show the path
+	- Show info
+	- Show data on files
 
 
 

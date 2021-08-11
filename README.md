@@ -1,25 +1,29 @@
+
 # Learn Computing
 
-Basic, intermediate, and advanced computing active learning lesson plans.
+Basic, intermediate, and advanced computing lesson plans.
 
-- Select an activity to perform with your group. Be prepared to share results in class.
-- Each module can be done on your own or with others.
-- Complete each section before moving on.
-- <sup>🍏</sup> = complete
+## Process
+
+1. Select an activity (new to you) and find your group.
+1. Follow the instructions in the activity, thinking about how you will teach it to the rest of the class.
+1. After you finish, prepare to share what you have learned.
+1. Each module takes about 30 minutes, and you will have 3 minutes to present.
 
 
 
 
 
-## Basic – Part 1
+## Section 1
 
+Essential knowledge for working with computers.
 
 <table>
 <tr>
 
 <td>
 <a href="topics-keyboard-shortcuts.md">
-<img width="245" src="assets/img/banner-keyboard-shortcuts.png">
+<img width="" src="assets/img/banner-keyboard-shortcuts.png">
 
 Keyboard shortcuts, Workflows</a> <sup>🍏</sup>
 </td>
@@ -27,11 +31,15 @@ Keyboard shortcuts, Workflows</a> <sup>🍏</sup>
 
 <td>
 <a href="topics-files-folders.md">
-<img width="245" src="assets/img/banner-files-folders.png">
+<img width="" src="assets/img/banner-files-folders.png">
 
-Files, folders, naming conventions</a>
+Users, permissions, the filesystem</a>
 </td>
 
+</tr>
+</table>
+<table>
+<tr>
 
 <td>
 <a href="topics-command-line.md">
@@ -40,14 +48,24 @@ Files, folders, naming conventions</a>
 Command line, shell, bash</a> <sup>🍏</sup>
 </td>
 
+
+<td>
+<a href="topics-files-folders.md">
+<img width="245" src="assets/img/banner-files-folders.png">
+
+Naming conventions</a>
+</td>
+
+
 </tr>
 </table>
 
 
 
 
+## Section 2
 
-## Basic – Part 2
+Working with media, data, and setting up a development environment.
 
 <table>
 <tr>
@@ -57,7 +75,7 @@ Command line, shell, bash</a> <sup>🍏</sup>
 <a href="topics-images.md">
 <img width="245" src="assets/img/banner-images.png">
 
-Images, formats, resolution</a>
+Images and video</a>
 </td>
 
 
@@ -77,6 +95,14 @@ Web Development</a>
 </td>
 
 
+<td>
+<a href="topics-version-control.md">
+<img width="245" src="assets/img/banner-web-development.png">
+
+Version Control</a>
+</td>
+
+
 </tr>
 </table>
 
@@ -97,21 +123,7 @@ Web Development</a>
 
 
 
-
-
-### Version Control
-
-- Github
-
-
-
-
-
-
-
-
-
-## Intermediate
+## Section 3
 
 
 
@@ -137,6 +149,13 @@ Networks</a>
 
 </table>
 
+
+
+
+
+
+
+<sup>🍏 = complete</sup>
 
 
 

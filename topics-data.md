@@ -69,6 +69,13 @@ Storing and retrieving data locally on a computer has always been faster than tr
 
 
 
+#### Hands on
+
+1. How many bytes? https://mothereff.in/byte-counter
+
+
+
+
 
 
 ### About file formats

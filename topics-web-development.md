@@ -7,22 +7,9 @@
 
 Learn to setup your web development environment!
 
-### Contents
 
-1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
-1. [Discussion](#discussion) `5 min`
-1. [Keep practicing](#keep-practicing)
-1. [References](#references)
 
-## Learning Objectives
 
-Students who complete the following will be able to:
-
-- Describe ...
-- List ...
-- Explain ...
-- Demonstrate ...
 
 
 
@@ -30,6 +17,22 @@ Students who complete the following will be able to:
 ## Introduction
 
 Before continuing, complete the [command line crash course](topics-command-line.md#crash-course)
+
+
+
+### Web Browsers
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
