@@ -3,7 +3,7 @@
 
 <img width="300" src="assets/img/banner-command-line.png">
 
-# Command Line, Terminal, Bash
+# Command Line, Shell, Terminal, Bash
 
 No matter what you call it, using the command line is essential to computing proficiency.
 
@@ -34,9 +34,10 @@ Students who complete the following will be able to:
 
 ## Crash course
 
-The command line allows you to control your computer via a text interface. Following is a quick introduction:
+The command line allows you to control your computer via a text interface. Depending on the context, it might also be referred to as a shell, terminal, or console. The following is a quick introduction:
 
-1. [Open the Terminal application](topics-basics.md#find-a-file-or-program).
+1. Confirm you have a [shell installed](#installation)
+1. [Open](topics-basics.md#find-a-file-or-program) the Terminal application.
 1. Note the **prompt** after the `$` `%` or `#` symbol. This is where you will type commands.
 1. Type each of the following commands at the prompt, pressing return each time.
 1. If you make a mistake press backspace or `Control + C` to cancel.
@@ -53,7 +54,7 @@ Step | Command | Description
 7 | `cat hello.txt` | View contents of new file (as in "con[cat](https://en.wikipedia.org/wiki/Cat_(Unix)enate"))
 8 | `ping -c 5 davidson.edu` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
 
-Congratulations! 🎉 You've completed some basic commands on a CLI.
+Congratulations! 🎉 You've completed basic commands in a shell.
 
 <a href="assets/img/command-line-crash-course.png" target="_blank"><img width="400" src="assets/img/command-line-crash-course.png"></a> <a href="assets/img/command-line-ping.png" target="_blank"><img width="400" src="assets/img/command-line-ping.png"></a><br>
 <sub>Click above to view example output from the steps.</sub>
@@ -78,6 +79,7 @@ The command line is a text interface for your computer. You type commands, and t
 - CLI => [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface)
 - Shell => The application where you use the command line
 - Bash ("Bourne Again Shell") => A type of shell
+- Zsh ("Z Shell") =>  The new default shell used in macOS Catalina and later
 - Shell programming => [Programming and running scripts](https://www.tutorialspoint.com/unix/shell_scripting.htm) (e.g. `.sh`) using a shell
 
 
@@ -231,7 +233,7 @@ Discuss the following with your group and share a short demo on the above with t
 	- how to navigate the filesystem
 	- how to create files
 	- how to run a program
-1. Which items can you connect to concepts you already know about computers? e.g. 🏠 📂 👤 🧠 🐍
+1. Of the commands you used, which reminded you of concepts you already know about computers?
 1. Revisit the learning objectives for this section. Did you accomplish the goals in this lesson? What questions do you have?
 
 
@@ -254,7 +256,7 @@ Ready to test your skills? See if you can
 
 1. Complete the [command line lesson on Codecademy](https://www.codecademy.com/learn/learn-the-command-line).
 1. [Write a simple bash script](https://www.linux.com/training-tutorials/writing-simple-bash-script/)
-
+1. [Take a quiz](https://www.proprofs.com/quiz-school/story.php?title=linux-command-line-quiz-485)
 
 
 

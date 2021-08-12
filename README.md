@@ -1,12 +1,13 @@
 
 # Learn Computing
 
-Basic, intermediate, and advanced computing lesson plans.
+Basic, intermediate, and advanced computing lesson modules
 
 ## Process
 
-1. Select an activity (new to you) and find your group.
-1. Follow the instructions in the activity, thinking about how you will teach it to the rest of the class.
+1. Select an activity (that is new to you) and find your group.
+1. Follow the instructions in the activity.
+1. Make notes while you engage with the material, in order to [teach](https://en.wikipedia.org/wiki/Jigsaw_(teaching_technique)) the concepts to the rest of the class.
 1. After you finish, prepare to share what you have learned.
 1. Each module takes about 30 minutes, and you will have 3 minutes to present.
 
@@ -43,7 +44,7 @@ Users, permissions, the filesystem</a>
 
 <td>
 <a href="topics-command-line.md">
-<img width="245" src="assets/img/banner-command-line.png">
+<img width="" src="assets/img/banner-command-line.png">
 
 Command line, shell, bash</a> <sup>🍏</sup>
 </td>
@@ -51,7 +52,7 @@ Command line, shell, bash</a> <sup>🍏</sup>
 
 <td>
 <a href="topics-files-folders.md">
-<img width="245" src="assets/img/banner-files-folders.png">
+<img width="" src="assets/img/banner-files-folders.png">
 
 Naming conventions</a>
 </td>
@@ -73,7 +74,7 @@ Working with media, data, and setting up a development environment.
 
 <td>
 <a href="topics-images.md">
-<img width="245" src="assets/img/banner-images.png">
+<img width="" src="assets/img/banner-images.png">
 
 Images and video</a>
 </td>
@@ -81,25 +82,31 @@ Images and video</a>
 
 <td>
 <a href="topics-data.md">
-<img width="245" src="assets/img/banner-data.png">
+<img width="" src="assets/img/banner-data.png">
 
 What is data?</a>
 </td>
 
 
+</tr>
+</table>
+<table>
+<tr>
+
+
 <td>
 <a href="topics-web-development.md">
-<img width="245" src="assets/img/banner-web-development.png">
+<img width="" src="assets/img/banner-web-development.png">
 
-Web Development</a>
+Web Development Environment</a> <sup>🍏</sup>
 </td>
 
 
 <td>
 <a href="topics-version-control.md">
-<img width="245" src="assets/img/banner-web-development.png">
+<img width="" src="assets/img/banner-version-control.png">
 
-Version Control</a>
+Version Control</a> <sup>🍏</sup>
 </td>
 
 
@@ -122,17 +129,17 @@ Version Control</a>
 
 
 
-
+<!-- 
 ## Section 3
 
 
 
 <table>
-
 <tr>
+
 <td>
 <a href="topics-computational-thinking.md">
-<img width="245" src="assets/img/banner-computational-thinking.png">
+<img width="" src="assets/img/banner-computational-thinking.png">
 
 Computational thinking</a>
 </td>
@@ -140,14 +147,13 @@ Computational thinking</a>
 
 <td>
 <a href="topics-networks.md">
-<img width="245" src="assets/img/banner-networks.png">
+<img width="" src="assets/img/banner-networks.png">
 
 Networks</a>
 </td>
 
 </tr>
-
-</table>
+</table> -->
 
 
 
