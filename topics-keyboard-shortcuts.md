@@ -246,13 +246,13 @@ Save the file | Cmd + S | Ctl + S
 Repeat | ↪ | ↪
 
 
-### Web development - Edit/Refresh Loop
+### Web development Edit-Save-Refresh-Loop
 
 Building web pages requires you to do a lot of repetitive tasks. It’s a good idea to learn proficiency and develop efficient workflows early on.
 
 <img style="" src="assets/img/workflow-web.png">
 
-Mastering the "edit/save/refresh loop" can speed up your work immensely. If you can do these you'll never have to move your hands to the mouse!
+Mastering the "Edit-Save-Refresh-Loop" can speed up your work immensely. If you can do these you'll never have to move your hands to the mouse!
 
 Command | Mac | Windows
 --- | --- | ---

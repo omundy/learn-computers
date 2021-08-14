@@ -5,11 +5,11 @@ Basic, intermediate, and advanced computing lesson modules
 
 ## Process
 
-1. Select an activity (that is new to you) and find your group.
+1. Select an activity (that is new to you, from the top) and find your group.
 1. Follow the instructions in the activity.
 1. Make notes while you engage with the material, in order to [teach](https://en.wikipedia.org/wiki/Jigsaw_(teaching_technique)) the concepts to the rest of the class.
 1. After you finish, prepare to share what you have learned.
-1. Each module takes about 30 minutes, and you will have 3 minutes to present.
+1. Each module takes about 25–30 minutes, and you will have 3–5 minutes to present.
 
 
 
@@ -129,7 +129,7 @@ Version Control</a> <sup>🍏</sup>
 
 
 
-<!-- 
+<!--
 ## Section 3
 
 
