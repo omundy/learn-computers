@@ -10,7 +10,6 @@ No matter what you call it, using the command line is essential to computing pro
 ### Contents
 
 1. [Learning objectives](#learning-objectives)
-1. [Crash Course](#crash-course) `5 min`
 1. [Introduction](#introduction) `5 min`
 1. [Navigating the filesystem](#navigating-the-filesystem) `5 min`
 1. [Creating and editing files](#creating-and-editing-files) `5 min`
@@ -26,38 +25,11 @@ Students who complete the following will be able to:
 
 - Explain what the command line is and what it can do
 - Open a command line program on their computer and execute basic commands
-- Navigate and create files on their computer using the command line
+- Navigate, create, and edit files on their computer using the command line
 - Edit and run a Python script using the command line
+- Use a web reference to look up shell commands
 
 
-
-
-## Crash course
-
-The command line allows you to control your computer via a text interface. Depending on the context, it might also be referred to as a shell, terminal, or console. The following is a quick introduction:
-
-1. Confirm you have a [shell installed](#installation)
-1. [Open](topics-basics.md#find-a-file-or-program) the Terminal application.
-1. Note the **prompt** after the `$` `%` or `#` symbol. This is where you will type commands.
-1. Type each of the following commands at the prompt, pressing return each time.
-1. If you make a mistake press backspace or `Control + C` to cancel.
-
-
-Step | Command | Description
----: | --- | ---
-1 | `whoami` | Display [the username of current user](https://en.wikipedia.org/wiki/Whoami)
-2 | `pwd` | Display the full path of your current folder, or [working directory](https://en.wikipedia.org/wiki/Pwd)
-3 | `ls` | [List the files](https://en.wikipedia.org/wiki/Ls) in your current directory
-4 | `touch hello.txt` | [Create a new file](https://en.wikipedia.org/wiki/Touch_(command)) called hello.txt
-5 | `ls` | List files to confirm the new file was created
-6 | `echo "hello world" > hello.txt` | Write some text in the new file
-7 | `cat hello.txt` | View contents of new file (as in "con[cat](https://en.wikipedia.org/wiki/Cat_(Unix)enate"))
-8 | `ping -c 5 davidson.edu` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
-
-Congratulations! 🎉 You've completed basic commands in a shell.
-
-<a href="assets/img/command-line-crash-course.png" target="_blank"><img width="400" src="assets/img/command-line-crash-course.png"></a> <a href="assets/img/command-line-ping.png" target="_blank"><img width="400" src="assets/img/command-line-ping.png"></a><br>
-<sub>Click above to view example output from the steps.</sub>
 
 
 
@@ -265,3 +237,4 @@ Ready to test your skills? See if you can
 - Ubuntu [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
 - Codecademy [List of Command Line Commands](https://www.codecademy.com/articles/command-line-commands)
 - Raspberry Pi [Terminal](https://www.raspberrypi.org/documentation/usage/terminal/)
+- [Bash navigation](https://learn.co/lessons/bash-navigation-osx)

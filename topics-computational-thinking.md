@@ -29,7 +29,7 @@ Students who complete the following will be able to:
 
 ## Introduction
 
-Before continuing, complete the [command line crash course](topics-command-line.md#crash-course)
+Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
 
 Review the following sections and perform the activities.
 

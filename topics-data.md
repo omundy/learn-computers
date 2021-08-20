@@ -34,7 +34,7 @@ Students who complete this lesson will be able to:
 
 ## Introduction
 
-Before continuing, complete the [command line crash course](topics-command-line.md#crash-course)
+Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
 
 In your group, discuss the following.
 

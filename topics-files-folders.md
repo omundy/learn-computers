@@ -33,7 +33,7 @@ Students who complete the following will be able to:
 
 ## Introduction
 
-Complete the [command line crash course](topics-command-line.md#crash-course) and then review and perform the activities with your group.
+Complete the [command line crash course](topics-command-line-crash-course.md) and then review and perform the activities with your group.
 
 
 
@@ -82,7 +82,7 @@ Perform the following in your group
 	- What is the name of the root directory on this filesystem?
 	- When was the file last edited?
 	- Where is the user's home directory?
-	
+
 	- What is the full path to the image that is shown?
 	- How much space is available on this computer?
 	- If you are in the
