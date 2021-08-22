@@ -3,7 +3,7 @@
 
 Basic, intermediate, and advanced computing lesson modules
 
-## Process
+## Instructions
 
 1. Select an activity (that is new to you, from the top) and find your group.
 1. Follow the instructions in the activity.
@@ -22,25 +22,6 @@ Essential knowledge for working with computers.
 <table>
 <tr>
 
-<td>
-<a href="topics-keyboard-shortcuts.md">
-<img width="" src="assets/img/banner-keyboard-shortcuts.png">
-
-Keyboard shortcuts, Workflows</a> <sup>🍏</sup>
-</td>
-
-
-<td>
-<a href="topics-files-folders.md">
-<img width="" src="assets/img/banner-files-folders.png">
-
-Users, permissions, the filesystem</a>
-</td>
-
-</tr>
-</table>
-<table>
-<tr>
 
 <td>
 <a href="topics-command-line.md">
@@ -54,14 +35,42 @@ Command line, shell, bash</a> <sup>🍏</sup>
 <a href="topics-files-folders.md">
 <img width="" src="assets/img/banner-files-folders.png">
 
-Naming conventions</a>
+Users, permissions, the filesystem</a>
 </td>
+
+
+</tr>
+</table>
+<table>
+<tr>
+
+
+<td>
+<a href="topics-keyboard-shortcuts.md">
+<img width="" src="assets/img/banner-keyboard-shortcuts.png">
+
+Keyboard shortcuts, Workflows</a> <sup>🍏</sup>
+</td>
+
+
 
 
 </tr>
 </table>
 
 
+
+
+
+
+
+
+<!-- <td>
+<a href="topics-files-folders.md">
+<img width="" src="assets/img/banner-files-folders.png">
+
+Naming conventions</a>
+</td> -->
 
 
 ## Section 2

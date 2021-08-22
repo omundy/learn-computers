@@ -3,7 +3,7 @@
 
 <img width="300" src="assets/img/banner-files-folders.png">
 
-# Files, folders, and naming conventions
+# The filesystem
 
 Learn about all the files on your computer!
 
@@ -13,7 +13,6 @@ Learn about all the files on your computer!
 1. [Introduction](#introduction) `5 min`
 1. [File extensions](#file-extensions) `5 min`
 1. [Hidden files](#hidden-files) `5 min`
-1. [File naming conventions](#file-naming-conventions) `5 min`
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
@@ -25,10 +24,7 @@ Students who complete the following will be able to:
 - Describe basic computing concepts like files, folders, programs, users, and permissions
 - List common file extensions and their purpose
 - Explain what hidden files do and how to find them
-- Demonstrate best practices for naming and organizing files and folders
-
-
-
+- Demonstrate best practices for filesystem organization
 
 
 ## Introduction
@@ -38,77 +34,111 @@ Complete the [command line crash course](topics-command-line-crash-course.md) an
 
 
 
+
+
+
+
+
+
 ![files](assets/img/files-folders-software.png)
 
-### Files, folders, & programs
+## Files, folders, & programs
 
-- **Files** - how computers organize and store data about discrete objects.
-- **Folders** (a.k.a. "directories") - ([also files](https://www.tutorialspoint.com/unix/unix-directories.htm)) used to organize other files and folders.
-- **Programs** (a.k.a. "applications" or "software") - *also*(!) files ([often packaged with other files](https://whatis.techtarget.com/definition/software-package)) that
-	- contain instructions for a computer to run.
-	- have special permissions that tell the operating system (OS) it is safe to **execute** the instructions within.
+- **Files** are how computers organize and store data about discrete objects.
+- **Folders** (a.k.a. "directories") are ([also files](https://www.tutorialspoint.com/unix/unix-directories.htm)) used to organize other files and folders.
+- **Programs** (a.k.a. "applications" or "software") are (*also* files, [often packaged with other files](https://whatis.techtarget.com/definition/software-package)) that contain instructions for a computer to run. Programs need special permissions so the operating system (OS) knows it is safe to **execute** the instructions within.
 - **Force quit** - what you can do if a program stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
 
 
-### Users and Permissions
+## Users and Permissions
 
-- **Users** - a virtual identity that determines what someone can do on a computer.
-- **Permissions** - control which users and user groups can perform which actions on every file, folder, and program
-	- `[r]ead` - permission to view or open a files
-	- `[w]rite` - to modify, save, or delete a file
-	- `e[x]ecute` - to run the file (reserved for programs)
+- A **User** is a virtual identity that determines what someone can do on a computer.
+- Every file, folder, and program has a set of **Permissions** which control which users and user groups can
+	- `[r]ead` to view or open a file
+	- `[w]rite` to modify, save, or delete a file
+	- `e[x]ecute` to run the file
+
+
+
+## File Organization
+
+All modern computers use **hierarchical filesystems** to organize files. The directory that contains all other directories in a filesystem is called the **root**. The root directory contains many special files that your operating system (OS) uses for its work.
+
+The location or "address" of a file in a filesystem is the **path**. For example, to make it easier for users to find their documents, the OS gives each their own **home directory** inside the `Users` directory at the following paths:
+
+- Mac: `/Users/<username>`
+- Windows: `C:\Users\<username>\`
+- Linux: `/home/<username>`
+- Shorthand on Mac or Linux: `~/`
+
+As you can see, the root path on Mac/Linux is just `/`, and Windows is `C:`.
+
+
+
+
+
+
+
+### Hands on
+
+View permissions for a file on MacOS using following methods:
+
+1. In the GUI: Select the file and press Command + i, or right click and select Get Info.
+
+<img width="550" src="assets/img/files-permissions-gui.png">
+
+
+2. Using the terminal
+	1. In the Finder, select the containing folder of the file and press Command + C
+	1. In Terminal, type `cd ` and then press Command + V to paste the full path of the folder
+	1. Type `ls -la` to list the
+
+
+<img width="550" src="assets/img/files-permissions-ls.png">
+
+
+3. Compare the permissions for a file, folder, and program on your computer. What is different?
+
+
+
+
+
+
+
+- who is the **owner**, **group** (the owner belongs to), and world ("other") permissions
+
+
+The permissions are broken into groups of threes, and each position in the group denotes a specific permission, in this order: read (r), write (w), execute (x) −
+
+
+
+<img width="550" src="assets/img/files-permission-classes.png">
+
+
+
+
 
 
 ![file organization](assets/img/files-hierarchy.png)
-
-### Important directories
-
-- **Hierarchical file system** - how computers organize files inside folders, which are organized inside other folders, and so on, all the way down to the...
-- **Root directory** - the "base" or `/` directory on a computer that contains all other directories.
-- **Home directory** - every user is the owner of a home directory for their files.
-	- Mac: `/Users/<username>` or `~/`
-	- Windows: `C:\Users\<username>\`
-	- Linux: `/home/<username>` or `~/`
-
-
-
 
 ### Hands-on
 
 Perform the following in your group
 
-1. Discuss the screenshot above (with the photo from [Elf](https://www.imdb.com/title/tt0319343/)). Consider:
-	- Who is currently logged-in?
-	- What is the name of the root directory on this filesystem?
-	- When was the file last edited?
-	- Where is the user's home directory?
-
-	- What is the full path to the image that is shown?
-	- How much space is available on this computer?
-	- If you are in the
-1. The answers to the above questions are possible thanks to options selected in Mac OS. Doing the following will increase your ability to use a computer:
-	- Show the home
-	- Show the path
-	- Show info
-	- Show data on files
+1. Answer these prompts about the above screenshot (with the photo from [Elf](https://www.imdb.com/title/tt0319343/)):
+	1. Who is currently logged-in?
+	1. What is the name of the root directory on this filesystem?
+	1. When was the file last edited?
+	1. Where is the user's home directory?
+	1. What is the full path to the image that is shown?
+	1. How much space is available on this computer?
+1. The answers to the above questions are possible thanks to options selected in Mac OS. Do the following on your computer (MacOS)
+	1. Show the home directory: Find your home folder and drag it to the Sidebar to make a bookmark.
+	1. In Finder, choose View and enable the following options:
+		- Show Path Bar
+		- Show Status Bar
 
 
-
-1. View and compare the permissions for a file, folder, and program on your computer. What do you notice about the differences?
-
-
-
-![permission classes](assets/img/files-permission-classes.png)
-
-
-<img width="450" src="assets/img/files-folders-software-ls.png"> <img width="370" src="assets/img/files-permissions.png"><br>
-<sub>Permissions for the above file, folder, and program in 1) Terminal and 2) using "Get Info"</sub>
-
-
-	- who is the **owner**, **group** (the owner belongs to), and world ("other") permissions
-
-
-The permissions are broken into groups of threes, and each position in the group denotes a specific permission, in this order: read (r), write (w), execute (x) −
 
 
 
@@ -120,13 +150,6 @@ The permissions are broken into groups of threes, and each position in the group
 1. Open the Terminal application
 1. Find the username of the current logged-in user - In terminal type: `whoami` and press enter
 1. Find a file on your Desktop. What permissions does your user have?
-
-
-
-
-
-
-On a Mac you can see these permissions using the terminal (`ls -la`) or with Command + i (Get info).
 
 
 
@@ -190,78 +213,6 @@ Follow these instructions to view hidden files on a Mac:
 
 
 
-## File naming conventions
-
-Do you ever have trouble finding or identifying files?
-
-- Share your current file naming convention in your group. What currently is working for you and what is not?
-- Can you find examples on your computer of good and bad uses of file naming conventions? Screenshot them and share. It's OK, we've all been there. 🤗
-
-While operating systems are constantly changing how they organize their files, often obscuring the users' access to files with abstractions, if you name your files with a bit of forethought you'll find you can identify them much faster.
-
-
-### Best Naming Practices
-
-Tips for how to choose the text you use to name your files, folders, even code...
-
-- **Use descriptive names**: Perhaps the most important tip. Do yourself a favor and name files, folders, code, etc., as if a complete stranger (you!) will see it in the future. Don't use `untitled`, `stuff`, `new` in your names.
-- **Avoid abbreviations**: How will "future you" remember that `design-1-rtrbith.png` is the design variation where you *"removed the red box in the header"*? This would work better `design-1-red-header-removed.png`
-- **Append version numbers and/or dates**: When iterating, don't append the relative term, `new`, to your files. Use an actual version number like `design-v6.psd` or the date `paper-draft2-20210501.psd` so that you know exactly what the file is *AND* your OS will organize the files appropriately.
-
-
-
-### Everything is case-sensitive on the internet
-
-When you name ***any*** file or folder that could potentially be viewed in a web browser (e.g. web pages, PDFs, images, javascript, css, folders, and many others) it is essential to:
-
-<img src="assets/img/files-naming-conventions.png">
-
-- Do not use spaces in your filenames: Replace with hyphens, underscores, or camelCase.
-- Use a [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)), so you don't have to think when you type your code. Look for an established convention
-- **Best practice**: Only use lowercase names with no spaces.
-
-
-### Popular naming conventions
-
-A table showing common file naming conventions for files, folders, variables, etc. to remove spaces or symbols between words.
-
-Convention | Where common | Examples | Notes
---- | --- | --- | ---
-Pascalcase | C# | `UserAccount` | Words are delimited by capital letters
-Camelcase | Javascript, CSS | `userAccount` | Words are delimited by capital letters, except the initial word
-Snakecase | [Python](https://medium.com/@dasagrivamanu/python-naming-conventions-the-10-points-you-should-know-149a9aa9f8c7), [R](https://style.tidyverse.org/) | `user_account` | Words are delimited by an underscore
-Kebabcase |  | `user-account` | Words are delimited by hyphens
-Screamingcase |  | `USER_ACCOUNT` | Words are all caps, and or delimited by an underscore
-
-
-
-
-
-
-
-## Discussion
-
-How would you name and organize each of these files:
-
-1. Draft 3 of your Microsoft Word document containing your essay "World War II's Influence on Modern Art in the 1950's"
-1. A PDF of the above document that you plan to share on a website.
-1. A document containing research you collected while writing the document.
-
-
-
-
-
-
-<img src="assets/img/files-naming-bad.png"> <img src="assets/img/files-naming-better.png"><br>
-<sub>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
-But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</sub>
-
-<img src="assets/img/files-folder-naming.png"> <img src="assets/img/files-folder-naming-layers.png">
-
-
-
-
-
 ## Keep practicing
 
 
@@ -273,5 +224,3 @@ But, name your files with forethought and organization in mind. Left: 😢 no co
 - [What is the difference between binary and text files?](https://fileinfo.com/help/binary_vs_text_files)
 - [Binary files](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node58.html)
 - [What Is A File Extension?](https://www.howtogeek.com/356448/what-is-a-file-extension/)
-- [Top 10 Unity best practices: Naming Conventions](https://www.reddit.com/r/gamedev/comments/3a1k33/top_10_unity_best_practices_naming_conventions/)
-- [Devopedia: Naming Conventions](https://devopedia.org/naming-conventions)
