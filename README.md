@@ -38,11 +38,11 @@ Command line, shell, bash</a> <sup>🍏</sup>
 Users, permissions, the filesystem</a>
 </td>
 
-
+<!--
 </tr>
 </table>
 <table>
-<tr>
+<tr> -->
 
 
 <td>
@@ -112,7 +112,7 @@ Web Development Environment</a> <sup>🍏</sup>
 
 
 <td>
-<a href="topics-version-control.md">
+<a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">
 <img width="" src="assets/img/banner-version-control.png">
 
 Version Control</a> <sup>🍏</sup>
