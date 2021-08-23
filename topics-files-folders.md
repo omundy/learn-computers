@@ -10,11 +10,12 @@ Learn about all the files on your computer!
 ### Contents
 
 1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
+1. [Introduction](#introduction)
+1. [About the filesystem](#about-the-filesystem) `7 min`
+1. [Discussion](#discussion) `5 min`
 1. [File extensions](#file-extensions) `5 min`
 1. [Hidden files](#hidden-files) `5 min`
-1. [Discussion](#discussion) `5 min`
-1. [Keep practicing](#keep-practicing)
+<!-- 1. [Keep practicing](#keep-practicing) -->
 1. [References](#references)
 
 ### Learning Objectives
@@ -27,7 +28,7 @@ Students who complete the following will be able to:
 - Demonstrate best practices for filesystem organization
 
 
-## Introduction
+## About the filesystem
 
 Complete the [command line crash course](topics-command-line-crash-course.md) and then review and perform the activities with your group.
 
@@ -42,7 +43,7 @@ Complete the [command line crash course](topics-command-line-crash-course.md) an
 
 ![files](assets/img/files-folders-software.png)
 
-## Files, folders, & programs
+### Files, folders, & programs
 
 - **Files** are how computers organize and store data about discrete objects.
 - **Folders** (a.k.a. "directories") are ([also files](https://www.tutorialspoint.com/unix/unix-directories.htm)) used to organize other files and folders.
@@ -50,17 +51,26 @@ Complete the [command line crash course](topics-command-line-crash-course.md) an
 - **Force quit** - what you can do if a program stops responding or becomes frozen on [Mac](https://support.apple.com/en-us/HT201276) and [Windows](https://en.wikipedia.org/wiki/Control-Alt-Delete).
 
 
-## Users and Permissions
+### Users and Permissions
+
+
+<img width="500" src="assets/img/files-permissions-gui.png">
 
 - A **User** is a virtual identity that determines what someone can do on a computer.
-- Every file, folder, and program has a set of **Permissions** which control which users and user groups can
+- Every file, folder, and program has a set of **Permissions** which control which users are permitted to:
 	- `[r]ead` to view or open a file
 	- `[w]rite` to modify, save, or delete a file
 	- `e[x]ecute` to run the file
 
 
+<img width="600" src="assets/img/files-permission-classes.png">
 
-## File Organization
+Permissions sets define access for three groups: users, user groups, and everyone else ("world"), and each position in the group denotes a specific permission, in this order: `[r]ead`, `[w]rite`, `e[x]ecute`.
+
+
+
+
+### File Organization
 
 All modern computers use **hierarchical filesystems** to organize files. The directory that contains all other directories in a filesystem is called the **root**. The root directory contains many special files that your operating system (OS) uses for its work.
 
@@ -79,40 +89,38 @@ As you can see, the root path on Mac/Linux is just `/`, and Windows is `C:`.
 
 
 
-### Hands on
-
-View permissions for a file on MacOS using following methods:
-
-1. In the GUI: Select the file and press Command + i, or right click and select Get Info.
-
-<img width="550" src="assets/img/files-permissions-gui.png">
+## Discussion
 
 
+### Who are you?
+
+1. Open the Terminal (MacOS) application
+1. Find the username of the current logged-in user - In terminal type: `whoami` and press enter
+1. Move into the Desktop with `cd Desktop` and list files with permissions `ls -l`
+1. What permissions does your user have?
+
+
+### View permissions for any file
+
+1. In the (MacOS) GUI: Select the file and press Command + i, or right click and select Get Info.
 2. Using the terminal
 	1. In the Finder, select the containing folder of the file and press Command + C
 	1. In Terminal, type `cd ` and then press Command + V to paste the full path of the folder
-	1. Type `ls -la` to list the
+	1. Type `ls -l` to list the
 
 
 <img width="550" src="assets/img/files-permissions-ls.png">
 
 
-3. Compare the permissions for a file, folder, and program on your computer. What is different?
+### Compare permissions
+
+- For a file, folder, and program on your computer.
+- For each of the above
+	- Who is the **owner** and **group** (that the owner belongs to)
+	- What are the owner, group, and world permitted to do?
 
 
 
-
-
-
-
-- who is the **owner**, **group** (the owner belongs to), and world ("other") permissions
-
-
-The permissions are broken into groups of threes, and each position in the group denotes a specific permission, in this order: read (r), write (w), execute (x) −
-
-
-
-<img width="550" src="assets/img/files-permission-classes.png">
 
 
 
@@ -121,35 +129,31 @@ The permissions are broken into groups of threes, and each position in the group
 
 ![file organization](assets/img/files-hierarchy.png)
 
-### Hands-on
+### File organization
 
-Perform the following in your group
+Answer these prompts about the above screenshot (with the photo from [Elf](https://www.imdb.com/title/tt0319343/)):
 
-1. Answer these prompts about the above screenshot (with the photo from [Elf](https://www.imdb.com/title/tt0319343/)):
-	1. Who is currently logged-in?
-	1. What is the name of the root directory on this filesystem?
-	1. When was the file last edited?
-	1. Where is the user's home directory?
-	1. What is the full path to the image that is shown?
-	1. How much space is available on this computer?
-1. The answers to the above questions are possible thanks to options selected in Mac OS. Do the following on your computer (MacOS)
-	1. Show the home directory: Find your home folder and drag it to the Sidebar to make a bookmark.
-	1. In Finder, choose View and enable the following options:
-		- Show Path Bar
-		- Show Status Bar
+1. Who is currently logged-in?
+1. What is the name of the root directory on this filesystem?
+1. When was the file last edited?
+1. Where is the user's home directory?
+1. What is the full path to the image that is shown?
+1. How much space is available on this computer?
 
 
+The answers to the above questions are possible thanks to options selected in Mac OS. Do the following on your (MacOS) computer so that you have this same access
+
+1. In Finder, choose View and enable the following options:
+	- Show Path Bar
+	- Show Status Bar
+1. Now you can see your home directory!! Find your home folder and drag it to the Sidebar to make a bookmark.
+1. Explore other options in your MacOS Finder or Windows Explorer to see more data about your filesystem, files, etc.
 
 
 
-- Finder organization
-- Show details
-1. Show additional information about your
 
 
-1. Open the Terminal application
-1. Find the username of the current logged-in user - In terminal type: `whoami` and press enter
-1. Find a file on your Desktop. What permissions does your user have?
+
 
 
 
@@ -209,11 +213,6 @@ Follow these instructions to view hidden files on a Mac:
 
 
 
-
-
-
-
-## Keep practicing
 
 
 
