@@ -27,7 +27,7 @@ Essential knowledge for working with computers.
 <a href="topics-command-line.md">
 <img width="" src="assets/img/banner-command-line.png">
 
-Command line, shell, bash</a> <sup>🍏</sup>
+Command line, shell, bash</a>
 </td>
 
 
@@ -38,20 +38,27 @@ Command line, shell, bash</a> <sup>🍏</sup>
 Users, permissions, the filesystem</a>
 </td>
 
-<!--
+
 </tr>
 </table>
 <table>
-<tr> -->
+<tr>
 
 
 <td>
 <a href="topics-keyboard-shortcuts.md">
 <img width="" src="assets/img/banner-keyboard-shortcuts.png">
 
-Keyboard shortcuts, Workflows</a> <sup>🍏</sup>
+Keyboard shortcuts, Workflows</a>
 </td>
 
+
+<td>
+<a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">
+<img width="" src="assets/img/banner-version-control.png">
+
+Version Control</a>
+</td>
 
 
 
@@ -65,18 +72,36 @@ Keyboard shortcuts, Workflows</a> <sup>🍏</sup>
 
 
 
-<!-- <td>
-<a href="topics-files-folders.md">
-<img width="" src="assets/img/banner-files-folders.png">
-
-Naming conventions</a>
-</td> -->
-
 
 ## Section 2
 
 Working with media, data, and setting up a development environment.
 
+<table>
+<tr>
+
+
+<td>
+<a href="topics-web-development.md">
+<img width="" src="assets/img/banner-web-development.png">
+
+Web Development Environment</a>
+</td>
+
+
+
+
+
+<td>
+<a href="topics-networks.md">
+<img width="" src="assets/img/banner-networks.png">
+
+Networks</a>
+</td>
+
+
+</tr>
+</table>
 <table>
 <tr>
 
@@ -94,28 +119,6 @@ Images and video</a>
 <img width="" src="assets/img/banner-data.png">
 
 What is data?</a>
-</td>
-
-
-</tr>
-</table>
-<table>
-<tr>
-
-
-<td>
-<a href="topics-web-development.md">
-<img width="" src="assets/img/banner-web-development.png">
-
-Web Development Environment</a> <sup>🍏</sup>
-</td>
-
-
-<td>
-<a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">
-<img width="" src="assets/img/banner-version-control.png">
-
-Version Control</a> <sup>🍏</sup>
 </td>
 
 
@@ -154,12 +157,7 @@ Computational thinking</a>
 </td>
 
 
-<td>
-<a href="topics-networks.md">
-<img width="" src="assets/img/banner-networks.png">
 
-Networks</a>
-</td>
 
 </tr>
 </table> -->
@@ -170,7 +168,7 @@ Networks</a>
 
 
 
-<sup>🍏 = complete</sup>
+<sup>📌 = in-progress</sup>
 
 
 
