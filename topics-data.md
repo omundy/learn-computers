@@ -30,6 +30,17 @@ Students who complete this lesson will be able to:
 
 
 
+### notes
+- List data types, recall examples of each
+- Explain what a collection (data points, arrays, objects) is and give examples
+- Compare binary vs. textual data (look on computer for examples)
+- Use appropriate data formats to create representations of objects, things, in the world
+	- CSV, JSON, etc.
+- Binary vs. text data
+
+
+
+
 
 
 ## Introduction
