@@ -3,7 +3,7 @@
 
 <img width="300" src="assets/img/banner-files-folders.png">
 
-# The filesystem
+# The Filesystem
 
 Learn about all the files on your computer!
 
@@ -15,7 +15,6 @@ Learn about all the files on your computer!
 1. [Discussion](#discussion) `5 min`
 1. [File extensions](#file-extensions) `5 min`
 1. [Hidden files](#hidden-files) `5 min`
-<!-- 1. [Keep practicing](#keep-practicing) -->
 1. [References](#references)
 
 ### Learning Objectives

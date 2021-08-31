@@ -115,10 +115,10 @@ Images and video</a>
 
 
 <td>
-<a href="topics-data.md">
-<img width="" src="assets/img/banner-data.png">
+<a href="topics-data-basics.md">
+<img width="" src="assets/img/banner-data-basics.png">
 
-What is data?</a>
+Introduction to data</a>
 </td>
 
 
@@ -141,7 +141,7 @@ What is data?</a>
 
 
 
-<!--
+
 ## Section 3
 
 
@@ -149,18 +149,29 @@ What is data?</a>
 <table>
 <tr>
 
+
+
 <td>
+<a href="topics-data-cleaning.md">
+<img width="" src="assets/img/banner-data-cleaning.png">
+
+Data cleaning</a>
+</td>
+
+
+
+<!-- <td>
 <a href="topics-computational-thinking.md">
 <img width="" src="assets/img/banner-computational-thinking.png">
 
 Computational thinking</a>
 </td>
-
+ -->
 
 
 
 </tr>
-</table> -->
+</table>
 
 
 
