@@ -5,17 +5,21 @@
 
 # Computational Thinking
 
-Description of topic
+Logic, data flow, etc.
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
 1. [Introduction](#introduction) `5 min`
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
-## Learning Objectives
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
@@ -24,14 +28,21 @@ Students who complete the following will be able to:
 - Explain ...
 - Demonstrate ...
 
+</details>
+
+<details>
+<summary>Preparation</summary>
+
+Complete the following to prepare for this module
+
+- [Command Line Crash Course](topics-command-line-crash-course.md)
+
+</details>
 
 
 
-## Introduction
 
-Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
 
-Review the following sections and perform the activities.
 
 
 
@@ -51,7 +62,7 @@ Review the following sections and perform the activities.
 - State, state control, build state machine
 - Iteration, structure, flow chart to describe
 - logic / flow structure, flow chart to describe
-- algorithms - create your own to represent some thing that exists in the world. 
+- algorithms - create your own to represent some thing that exists in the world.
 
 
 ## Discussion

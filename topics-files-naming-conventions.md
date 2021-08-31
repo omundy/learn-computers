@@ -9,32 +9,36 @@ Learn about all the files on your computer!
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
+1. [Introduction](#introduction)
 1. [File naming conventions](#file-naming-conventions) `5 min`
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
-### Learning Objectives
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
-- Describe
-- List
-- Explain
-- Demonstrate best practices for naming and organizing files and folders
+- Describe ...
+- List ...
+- Explain ...
+-Demonstrate best practices for naming and organizing files and folders
 
+</details>
 
+<details>
+<summary>Preparation</summary>
 
+Complete the following to prepare for this module
 
+- [Command Line Crash Course](topics-command-line-crash-course.md)
 
-
-## Introduction
-
-Complete the [command line crash course](topics-command-line-crash-course.md) and then review and perform the activities with your group.
-
-
+</details>
 
 
 

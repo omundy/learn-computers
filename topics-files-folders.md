@@ -9,7 +9,6 @@ Learn about all the files on your computer!
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
 1. [Introduction](#introduction)
 1. [About the filesystem](#about-the-filesystem) `7 min`
 1. [Discussion](#discussion) `5 min`
@@ -17,7 +16,12 @@ Learn about all the files on your computer!
 1. [Hidden files](#hidden-files) `5 min`
 1. [References](#references)
 
-### Learning Objectives
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
@@ -26,19 +30,22 @@ Students who complete the following will be able to:
 - Explain what hidden files do and how to find them
 - Demonstrate best practices for filesystem organization
 
+</details>
+
+<details>
+<summary>Preparation</summary>
+
+Complete the following to prepare for this module
+
+- [Command Line Crash Course](topics-command-line-crash-course.md)
+
+</details>
+
+
+
+
 
 ## About the filesystem
-
-Complete the [command line crash course](topics-command-line-crash-course.md) and then review and perform the activities with your group.
-
-
-
-
-
-
-
-
-
 
 ![files](assets/img/files-folders-software.png)
 

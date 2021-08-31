@@ -8,7 +8,12 @@
 A short primer for using the command line
 
 
-### Learning objectives
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
@@ -16,15 +21,16 @@ Students who complete the following will be able to:
 - Open a command line program on their computer and execute basic commands
 - Use a web reference to look up shell commands
 
+</details>
 
 
 
-## Introduction
+## About the command line
 
 The command line allows you to control your computer via a text interface. Depending on the context, it might also be referred to as a shell, terminal, or console. The following is a quick introduction.
 
-
 <img src="assets/img/command-line-hello-world.gif">
+
 
 
 ## Installation
@@ -52,10 +58,17 @@ Step | Command | Description
 6 | `echo "hello world" > hello.txt` | Write some text in the new file
 7 | `cat hello.txt` | View contents of new file (as in "con[cat](https://en.wikipedia.org/wiki/Cat_(Unix)enate"))
 8 | `ping -c 5 davidson.edu` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
-9 | ? | [Find](https://www.codecademy.com/articles/command-line-commands) the command to list files with their modified date.
-10 | ? | [Find](https://learn.co/lessons/bash-navigation-osx) the command to open the current folder in your Finder / Windows.
+9 |   | [Find](https://www.codecademy.com/articles/command-line-commands) the command to list files with their modified date.
+10 |   | [Find](https://learn.co/lessons/bash-navigation-osx) the command to open the current folder in your Finder / Windows.
 
 Congratulations! 🎉 You've completed basic commands in a shell.
 
-<a href="assets/img/command-line-crash-course.png" target="_blank"><img width="400" src="assets/img/command-line-crash-course.png"></a> <a href="assets/img/command-line-ping.png" target="_blank"><img width="400" src="assets/img/command-line-ping.png"></a><br>
-<sub>Click above to view example output from the steps.</sub>
+
+
+<details>
+<summary>Click to view example output from the steps.</summary>
+
+![crash course](assets/img/command-line-crash-course.png)
+![ping](assets/img/command-line-ping.png)
+
+</details>

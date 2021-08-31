@@ -9,7 +9,6 @@ Speed up your computing with keyboard shortcuts!
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
 1. [Introduction](#introduction) `5-10 min`
 1. [Create an efficiency test](#create-an-efficiency-test) `10 min`
 1. [Discussion](#discussion) `5 min`
@@ -19,7 +18,13 @@ Speed up your computing with keyboard shortcuts!
 1. [Assessment](#assessment)
 1. [References](#references)
 
-### Learning Objectives
+
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
@@ -28,13 +33,17 @@ Students who complete the following will be able to:
 - Explain how keyboard commands can increase computing efficiency
 - Combine multiple keyboard commands to establish faster computing workflows  
 
+</details>
 
+<details>
+<summary>Preparation</summary>
 
+Complete the following to prepare for this module
 
+- [Command Line Crash Course](topics-command-line-crash-course.md)
 
-## Introduction
+</details>
 
-Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
 
 In your group, discuss the following.
 

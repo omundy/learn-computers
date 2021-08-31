@@ -1,27 +1,32 @@
 
 [<](README.md)
 
-<img width="300" src="assets/img/banner-data.png">
+<img width="300" src="assets/img/banner-data-basics.png">
 
-# What is Data?
+# Data Basics
 
 Learn how computers store data, common data types, and how to use them
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
-
+1. [Introduction](#introduction)
+1. [Bits and Bytes](#bits-and-bytes) `5 min`
 1. [File encoding](#file-encoding) `5 min`
-1. [Common Data Types](#common-data-types)  `5 min`
-
+1. [Common Data Types](#common-data-types) `5 min`
+1. [Data Collections](#data-collections) `5 min`
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
-## Learning Objectives
 
-Students who complete this lesson will be able to:
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
+
+Students who complete the following will be able to:
 
 - Recall how computers store and use binary data
 - Organize data storage amounts by their respective sizes
@@ -30,25 +35,16 @@ Students who complete this lesson will be able to:
 - Compare text vs. binary-encoded files
 - Use appropriate formats to create data representations of real world examples
 
+</details>
 
-## Introduction
+<details>
+<summary>Preparation</summary>
 
-Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
+Complete the following to prepare for this module
 
+- [Command Line Crash Course](topics-command-line-crash-course.md)
 
-
-
-
-### notes
-
-
-
-- Use appropriate data formats to create representations of objects, things, in the world
-	- CSV, JSON, etc.
-
-
-- Next steps
-	- data cleaning
+</details>
 
 
 
@@ -57,7 +53,8 @@ Before continuing, complete the [command line crash course](topics-command-line-
 
 
 
-### Bits and Bytes
+
+## Bits and Bytes
 
 Computers don't actually store text (letters and numbers) or pictures. The only thing a computer can store are bits.
 
@@ -210,6 +207,10 @@ e.g. A time series is a collection of observations made sequentially in time.
 
 
 
+
+
+
+
 ## Hierarchical Types
 
 - json, xml, etc.
@@ -221,6 +222,19 @@ e.g. A time series is a collection of observations made sequentially in time.
 
 ## Discussion
 
+
+- Use appropriate data formats to create representations of objects, things, in the world
+- CSV, JSON, etc.
+
+
+
+
+
+
+
+## Keep Learning
+
+- [Data Cleaning](topics-data-cleaning.md)
 
 
 

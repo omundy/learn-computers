@@ -9,29 +9,37 @@ Learn about digital images formats and best practices
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
+1. [Introduction](#introduction)
 1. [Image formats](#image-formats) `5 min`
 1. [How to make a screenshot](#how-to-make-a-screenshot) `5 min`
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
-### Learning Objectives
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
 - Describe types of digital images that computers can display and process
 - List some common image types and their characteristics
-- Explain what
-- Demonstrate
+- Explain ...
+- Demonstrate ...
 
+</details>
 
+<details>
+<summary>Preparation</summary>
 
-## Introduction
+Complete the following to prepare for this module
 
-Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
+- [Command Line Crash Course](topics-command-line-crash-course.md)
 
+</details>
 
 
 

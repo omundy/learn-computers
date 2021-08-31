@@ -9,15 +9,41 @@ A list of essential, everyday computer tasks
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
+1. [Introduction](#introduction)
 1. [How To...](#how-to)
 1. [References](#references)
 
-## Learning Objectives
+
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
 - Describe and demonstrate essential, everyday tasks to use computers
+- List ...
+- Explain ...
+- Demonstrate ...
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

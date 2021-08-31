@@ -9,8 +9,8 @@ No matter what you call it, using the command line is essential to computing pro
 
 ### Contents
 
-1. [Learning objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
+1. [Introduction](#introduction)
+1. [About the command line](#about-the-command-line) `5 min`
 1. [Navigating the filesystem](#navigating-the-filesystem) `5 min`
 1. [Creating and editing files](#creating-and-editing-files) `5 min`
 1. [Running programs](#running-programs) `5 min`
@@ -19,28 +19,34 @@ No matter what you call it, using the command line is essential to computing pro
 1. [Assessment](#assessment)
 1. [References](#references)
 
-### Learning objectives
+
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
-- Explain what the command line is and what it can do
+- Explain what the command line is and common uses
 - Open a command line program on their computer and execute basic commands
 - Navigate, create, and edit files on their computer using the command line
 - Edit and run a Python script using the command line
 - Use a web reference to look up shell commands
 
+</details>
 
 
 
 
 
 
-## Introduction
-
-Review the following sections and perform the activities with your group.
 
 
-### About the command line
+
+
+## About the command line
 
 The command line is a text interface for your computer. You type commands, and the computer operating system (OS) will run them when you press enter. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI (Graphical User Interface) might not.
 
@@ -202,9 +208,9 @@ Congratulations! 🎉 &nbsp; Similar to using built-in commands, you've created 
 Discuss the following with your group and share a short demo on the above with the class.
 
 1. Demonstrate example commands that show
-	- how to navigate the filesystem
-	- how to create files
-	- how to run a program
+	1. how to navigate the filesystem
+	1. how to create files
+	1. how to run a program
 1. Of the commands you used, which reminded you of concepts you already know about computers?
 1. Revisit the learning objectives for this section. Did you accomplish the goals in this lesson? What questions do you have?
 
@@ -218,7 +224,7 @@ Additional commands and prompts to continue learning the command line:
 - Change the text your python file prints and run the script again. **Tip**: Use the up `↑` and down `↓` arrows on the keyboard to cycle through previous commands.
 - Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing `tab`. If a file or directory that starts with that name exists the shell will fill it in for you.
 - [16 Terminal commands every user should know](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
-
+- [3 command line games for learning Bash the fun way](https://opensource.com/article/19/10/learn-bash-command-line-games)
 
 
 

@@ -9,14 +9,18 @@ Description of topic
 
 ### Contents
 
-1. [Learning Objectives](#learning-objectives)
-1. [Introduction](#introduction) `5 min`
+1. [Introduction](#introduction)
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [Assessment](#assessment)
 1. [References](#references)
 
-## Learning Objectives
+## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+<details>
+<summary>Learning Objectives</summary>
 
 Students who complete the following will be able to:
 
@@ -25,15 +29,16 @@ Students who complete the following will be able to:
 - Explain ...
 - Demonstrate ...
 
+</details>
 
+<details>
+<summary>Preparation</summary>
 
+Complete the following to prepare for this module
 
+- [Command Line Crash Course](topics-command-line-crash-course.md)
 
-## Introduction
-
-Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
-
-
+</details>
 
 
 
