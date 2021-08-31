@@ -11,6 +11,10 @@ Learn how computers store data, common data types, and how to use them
 
 1. [Learning Objectives](#learning-objectives)
 1. [Introduction](#introduction) `5 min`
+
+1. [File encoding](#file-encoding) `5 min`
+1. [Common Data Types](#common-data-types)  `5 min`
+
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
@@ -27,31 +31,69 @@ Students who complete this lesson will be able to:
 - Use appropriate formats to create data representations of real world examples
 
 
-
-
-
-### notes
-- List data types, recall examples of each
-- Explain what a collection (data points, arrays, objects) is and give examples
-- Compare binary vs. textual data (look on computer for examples)
-- Use appropriate data formats to create representations of objects, things, in the world
-	- CSV, JSON, etc.
-- Binary vs. text data
-
-
-
-
-
-
 ## Introduction
 
 Before continuing, complete the [command line crash course](topics-command-line-crash-course.md)
 
-In your group, discuss the following.
 
-- Q1
-- Q2
-- Q3
+
+
+
+### notes
+
+
+
+- Use appropriate data formats to create representations of objects, things, in the world
+	- CSV, JSON, etc.
+
+
+- Next steps
+	- data cleaning
+
+
+
+
+
+
+
+
+### Bits and Bytes
+
+Computers don't actually store text (letters and numbers) or pictures. The only thing a computer can store are bits.
+
+A bit is considered to be the smallest unit of data and can have only two different values: `1` or `0`. You could also think of this **binary** relationship as `true` | `false` or `yes` | `no`. Since computers use electricity to store data, a bit is actually a blip of electricity that is either **on** `1` or **off** `0`.
+
+Since computers are storing only 1s and 0s, the binary sequences must be converted to text using an encoding scheme.
+
+
+
+01100010 01101001 01110100 01110011
+b        i        t        s
+
+
+
+n this encoding, 01100010 stands for the letter "b", 01101001 for the letter "i", 01110100 stands for "t" and 01110011 for "s". A certain sequence of bits stands for a letter and a letter stands for a certain sequence of bits. If you can keep this in your head for 26 letters or are really fast with looking stuff up in a table, you could read bits like a book.
+
+The above encoding scheme happens to be ASCII. A string of 1s and 0s is broken down into parts of eight bit each (a byte for short). The ASCII encoding specifies a table translating bytes into human readable letters. Here's a short excerpt of that table:
+
+
+
+
+👉 **Try it out**
+
+Enter the following text examples into this [BitCounter](https://lingojam.com/BitCounter) and [ByteCounter](https://lingojam.com/ByteCounter). *Try to guess the outcomes first!*
+
+1. How many bits? How many bytes? `a`
+1. How many bits? How many bytes? `abc`
+1. How many bits? How many bytes? `hello world!`
+1. How many bits? How many bytes? `😂`
+
+
+
+
+http://www.unit-conversion.info/texttools/convert-text-to-binary/
+
+
 
 
 
@@ -63,38 +105,37 @@ All files on computers are stored as 1's and 0's. Images, text files, music, sof
 
 <img src="assets/img/cat-binary.png">
 
-The above [image](assets/img/cat.png) viewed by an application that can read image data, and (right) the binary representation of the file's data. Try it yourself on the [command line](topics-command-line.md):
+The above shows a photo of a [cat](assets/img/cat.png) (on the left) displayed by an application that can read and render the image data as pixels on a screen, and (right) the binary representation of the file's data.
+
+👉 **Try it out** on the command line with [hexdump](https://en.wikipedia.org/wiki/Hex_dump). Save the cat image to your computer and run this command:
 
 ```bash
 hexdump -C /path/to/your/cat.png
-
 ```
 
 
 
-### Bits, Bytes, Kilobytes, [...]
-
-A bit is considered to be the smallest unit of data measurement. A bit can be either 0 or 1. Computers interpret our intentions and process information by the respective representation of those "instructions" as bits.
-
-Storing and retrieving data locally on a computer has always been faster than transmitting it over a network.
-
-
-
-#### Hands on
-
-1. How many bytes? https://mothereff.in/byte-counter
 
 
 
 
 
-
-### About file formats
+## File encoding
 
 All computer files encode data in one of two different formats—binary or text.
 
-1. **Binary** encoded files are stored as bits (binary 1s and 0s) and can may include multiple types of data in the same file (e.g video and audio). They are more efficient to store and access but can easily become corrupted. Some examples `.jpg`, `.pdf`, and `.mp4`.
-1. **Text** encoded files are also stored as bits, but they represent actual characters. You can open text files in many types of editors. Examples include `.txt`, `.html`, and `.cs`.
+### Binary-encoded files
+
+- Stored as bits (binary 1s and 0s) and may include multiple types of data in the same file (e.g video and audio).
+- More efficient to store and access but can easily become corrupted.
+- Examples `.jpg`, `.pdf`, and `.mp4`.
+
+
+### Text-encoded files
+
+- Also stored as bits, but represented by actual text characters.
+- You can open text files in many types of editors.
+- Examples `.txt`, `.html`, and `.cs`.
 
 File encoding [is not the same as](https://kunststube.net/encoding/) character encoding.
 
@@ -154,6 +195,8 @@ Discuss the following:
 
 ## Data Collections
 
+- Explain what a collection (data points, arrays, objects) is and give examples
+
 - Arrays
 - Objects
 - Serialized vs. Unserialized data
@@ -178,17 +221,10 @@ e.g. A time series is a collection of observations made sequentially in time.
 
 ## Discussion
 
-In your group, discuss the following.
-
-- Q1
-- Q2
-- Q3
-
-## Keep practicing
-
 
 
 
 ## References
 
+- [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](https://kunststube.net/encoding/)
 - [When bandwidth and storage size matters: Bits vs. bytes](https://www.redhat.com/sysadmin/bits-vs-bytes)
