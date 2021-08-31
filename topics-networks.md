@@ -112,21 +112,6 @@ whois owenmundy.com
 
 
 
-### dig
-
-> Just give me the nameservers
-
-`dig` (Domain Information Groper) is used in DNS lookup to query the nameservers, or troubleshoot related DNS issues. It returns info on the A record by default.
-
-```bash
-dig davidson.edu
-```
-
-If you want all records including MX (email) and NS (nameservers):
-
-```bash
-dig google.com ANY
-```
 
 
 
@@ -164,6 +149,13 @@ The `traceroute` command is also useful for network troubleshooting. It provides
 traceroute google.com
 ```
 
+By default, traceroute uses [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) ports which are blocked by some firewalls. If your traceroute "hangs", try it with the [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) port
+
+```bash
+traceroute -I google.com
+
+```
+
 
 
 
@@ -191,11 +183,11 @@ curl -o index.html https://davidson.edu
 
 Secure SHell is perhaps the most invaluable tool for accessing data on other computers on the network. SSH uses [public-key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) to secure data. When you "SSH" into a remote computer you can execute all commands just as you do on your local machine. Common scenarios where you would use SSH:
 
-1. To edit a file on your web server: Use SSH to connect, then run nano to edit and save the file.
-1. To edit contents of a database on a server: SSH into the remote, then use MySQL to edit the database.
-1. To pull changes to a Git repository on your web server. SSH into the remote, then `git pull`.
+1. To edit files on a web server
+1. To edit contents of a database on a server
+1. To pull changes to a Git repository on your web server
 
-Use SSH like this. The first time you connect you will be prompted to trust the secure key on the remote host and then [enter your password](#about-passwords).
+If you know your username and password, and are allowed to connect via SSH to your host you can do it like this. The first time you connect you will be prompted to trust the secure key on the remote host and [enter your password](#about-passwords).
 
 ```bash
 ssh  <username>@<servername>
@@ -244,6 +236,21 @@ sftp> put hello.jpg
 
 
 
+### dig
+
+> Just give me the nameservers
+
+`dig` (Domain Information Groper) is used in DNS lookup to query the nameservers, or troubleshoot related DNS issues. It returns info on the A record by default.
+
+```bash
+dig davidson.edu
+```
+
+If you want all records including MX (email) and NS (nameservers):
+
+```bash
+dig google.com ANY
+```
 
 
 
