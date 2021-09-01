@@ -185,7 +185,7 @@ Sometimes you may need to use something more powerful to clean your data. This e
 
 👉 **Try it out**
 
-Take [these stock symbols](ftp://ftp.nasdaqtrader.com/symboldirectory/nasdaqtraded.txt)
+Take [these stock symbols](datasets/nasdaqtraded-20210831.txt)
 
 1. Select all, copy, and paste them into a new document in Atom.
 1. Searching for all the pipes `|` shows some of what we do and don't want.
