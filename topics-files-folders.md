@@ -109,10 +109,10 @@ As you can see, the root path on Mac/Linux is just `/`, and Windows is `C:`.
 ### View permissions for any file
 
 1. In the (MacOS) GUI: Select the file and press Command + i, or right click and select Get Info.
-2. Using the terminal
+1. Using the terminal
 	1. In the Finder, select the containing folder of the file and press Command + C
 	1. In Terminal, type `cd ` and then press Command + V to paste the full path of the folder
-	1. Type `ls -l` to list the
+	1. Type `ls -la` to list the files with their permissions
 
 
 <img width="550" src="assets/img/files-permissions-ls.png">
@@ -121,9 +121,9 @@ As you can see, the root path on Mac/Linux is just `/`, and Windows is `C:`.
 ### Compare permissions
 
 - For a file, folder, and program on your computer.
-- For each of the above
+- For each of the above,
 	- Who is the **owner** and **group** (that the owner belongs to)
-	- What are the owner, group, and world permitted to do?
+	- What are the owner, group, and world permitted to do? Copy/paste the permissions set (e.g. `rwxrw-rw-`) into [this "permissions calculator" tool](https://chmod-calculator.com/) to confirm your answer.
 
 
 
