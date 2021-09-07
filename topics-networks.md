@@ -46,6 +46,15 @@ Complete the following to prepare for this module
 
 
 
+
+<a href="assets/img/networks/network-centralized.png"><img src="assets/img/networks/network-centralized.png" height="430"></a> <a href="assets/img/networks/network-decentralized.png"><img src="assets/img/networks/network-decentralized.png" height="430"></a> <a href="assets/img/networks/network-distributed.png"><img src="assets/img/networks/network-distributed.png" height="430"></a>
+
+<sup>A centralized, decentralized, and distributed network</sup>
+
+
+
+
+
 ## IP Addresses
 
 An [Internet Protocol (IP) address](https://en.wikipedia.org/wiki/IP_address) is a numerical label used to identify and connect devices to the Internet. Assigned by your Internet Service Provider (ISP), it is required before your device can send data through the network.
@@ -332,11 +341,8 @@ Windows users should install from the [Wireshark](https://www.wireshark.org/) we
 
 
 
-
-
-![wireshark](assets/img/network-wireshark.png)
-
-
+<a href="assets/img/networks/network-wireshark.png"><img src="assets/img/networks/network-wireshark.png"></a>
+<sup>Wireshark showing incoming/outgoing data packets</sup>
 
 
 
