@@ -68,7 +68,7 @@ Tips for how to choose the text you use to name your files, folders, even code..
 
 When you name ***any*** file or folder that could potentially be viewed in a web browser (e.g. web pages, PDFs, images, javascript, css, folders, and many others) it is essential to:
 
-<img src="assets/img/files-naming-conventions.png">
+<img src="assets/img/files-naming/files-naming-conventions.png">
 
 - Do not use spaces in your filenames: Replace with hyphens, underscores, or camelCase.
 - Use a [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)), so you don't have to think when you type your code. Look for an established convention
@@ -106,11 +106,11 @@ How would you name and organize each of these files:
 
 
 
-<img src="assets/img/files-naming-bad.png"> <img src="assets/img/files-naming-better.png"><br>
+<img src="assets/img/files-naming/files-naming-bad.png"> <img src="assets/img/files-naming/files-naming-better.png"><br>
 <sub>It is always a good practice to iterate, whether you are working on a concept, a design, or a paper.
 But, name your files with forethought and organization in mind. Left: 😢 no convention in use, names are not descriptive; Right: 🙌 names follow similar convention, include descriptions, iterations, and versions</sub>
 
-<img src="assets/img/files-folder-naming.png"> <img src="assets/img/files-folder-naming-layers.png">
+<img src="assets/img/files-naming/files-folder-naming.png"> <img src="assets/img/files-naming/files-folder-naming-layers.png">
 
 
 

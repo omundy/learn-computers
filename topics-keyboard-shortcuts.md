@@ -56,7 +56,7 @@ Now, practice all the [keyboard commands](#keyboard-commands) below, including t
 - Did you find it awkward to use the shortcuts at first?
 
 
-![avid shortcuts](assets/img/keyboard-shortcuts-avid.png)<br>
+![avid shortcuts](assets/img/keyboard-shortcuts/keyboard-shortcuts-avid.png)<br>
 <sub>Many industries use templates, like this Avid Media Composer helper, to help recall keyboard shortcuts.</sub>
 
 
@@ -239,7 +239,7 @@ Make current window fill top half of the screen* | Ctl + Option + ↑ | ? | 🔥
 
 Level up your text editing skills.
 
-<img style="" src="assets/img/workflow-text-editing.png">
+<img style="" src="assets/img/keyboard-shortcuts/workflow-text-editing.png">
 
 Command | Mac | Windows
 --- | --- | ---
@@ -259,7 +259,7 @@ Repeat | ↪ | ↪
 
 Building web pages requires you to do a lot of repetitive tasks. It’s a good idea to learn proficiency and develop efficient workflows early on.
 
-<img style="" src="assets/img/workflow-web.png">
+<img style="" src="assets/img/keyboard-shortcuts/workflow-web.png">
 
 Mastering the "Edit-Save-Refresh-Loop" can speed up your work immensely. If you can do these you'll never have to move your hands to the mouse!
 
@@ -281,10 +281,10 @@ Repeat | ↪ | ↪
 ## Keep practicing
 
 - [50 Keyboard Shortcuts That Work Across All Web Browsers](https://www.groovypost.com/tips/50-universal-web-browser-hotkeys/)
-- [A big list of Windows and Microsoft shortcuts](assets/img/keyboard-shortcuts.gif)
+- [A big list of Windows and Microsoft shortcuts](assets/img/keyboard-shortcuts/keyboard-shortcuts.gif)
 - [19 Advanced Excel Shortcuts](https://www.excelcampus.com/keyboard-shortcuts/advanced-excel-shortcuts/)
-- [Keyboard shortcuts in Photoshop](https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html) and others [in context](assets/img/keyboard-shortcuts-photoshop.png)
-- [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html) and others [in context](assets/img/keyboard-shortcuts-ae.png)
+- [Keyboard shortcuts in Photoshop](https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html) and others [in context](assets/img/keyboard-shortcuts/keyboard-shortcuts-photoshop.png)
+- [Keyboard shortcuts in After Effects](https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html) and others [in context](assets/img/keyboard-shortcuts/keyboard-shortcuts-ae.png)
 - [Youtube Keyboard Shortcuts](https://support.google.com/youtube/answer/7631406?hl=en)
 
 

@@ -47,7 +47,7 @@ Complete the following to prepare for this module
 
 ## About the filesystem
 
-![files](assets/img/files-folders-software.png)
+![files](assets/img/files/files-folders-software.png)
 
 ### Files, folders, & programs
 
@@ -60,7 +60,7 @@ Complete the following to prepare for this module
 ### Users and Permissions
 
 
-<img width="500" src="assets/img/files-permissions-gui.png">
+<img width="500" src="assets/img/files/files-permissions-gui.png">
 
 - A **User** is a virtual identity that determines what someone can do on a computer.
 - Every file, folder, and program has a set of **Permissions** which control which users are permitted to:
@@ -69,7 +69,7 @@ Complete the following to prepare for this module
 	- `e[x]ecute` to run the file
 
 
-<img width="600" src="assets/img/files-permission-classes.png">
+<img width="600" src="assets/img/files/files-permission-classes.png">
 
 Permissions sets define access for three groups: users, user groups, and everyone else ("world"), and each position in the group denotes a specific permission, in this order: `[r]ead`, `[w]rite`, `e[x]ecute`.
 
@@ -115,7 +115,7 @@ As you can see, the root path on Mac/Linux is just `/`, and Windows is `C:`.
 	1. Type `ls -la` to list the files with their permissions
 
 
-<img width="550" src="assets/img/files-permissions-ls.png">
+<img width="550" src="assets/img/files/files-permissions-ls.png">
 
 
 ### Compare permissions
@@ -133,7 +133,7 @@ As you can see, the root path on Mac/Linux is just `/`, and Windows is `C:`.
 
 
 
-![file organization](assets/img/files-hierarchy.png)
+![file organization](assets/img/files/files-hierarchy.png)
 
 ### File organization
 
@@ -215,7 +215,7 @@ Follow these instructions to view hidden files on a Mac:
 1. Note the `.Trash` directory. To see the contents type `ls -la .Trash`.
 1. Note the `.DS_Store` file [which stores information](https://en.wikipedia.org/wiki/.DS_Store) about icon positions in the Finder. To see the (binary) contents type `cat .DS_Store`.
 
-<img src="assets/img/files-hidden.png">
+<img src="assets/img/files/files-hidden.png">
 
 
 
