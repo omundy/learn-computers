@@ -152,6 +152,15 @@ Introduction to data</a>
 
 
 <td>
+<a href="topics-data-types.md">
+<img width="" src="assets/img/banner-data-types.png">
+
+Data types</a>
+</td>
+
+
+
+<td>
 <a href="topics-data-cleaning.md">
 <img width="" src="assets/img/banner-data-cleaning.png">
 
