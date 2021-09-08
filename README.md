@@ -155,7 +155,7 @@ Introduction to data</a>
 <a href="topics-data-types.md">
 <img width="" src="assets/img/banner-data-types.png">
 
-Data types</a>
+Data types</a><sup>📌 </sup>
 </td>
 
 
@@ -190,6 +190,13 @@ Computational thinking</a><sup>📌 </sup>
 
 <sup>📌 = in-progress</sup>
 
+
+
+
+
+## Credit
+
+Owen Mundy [Learn Computing](https://github.com/omundy/learn-computing) 2021.
 
 
 ## License
