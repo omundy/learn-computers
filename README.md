@@ -110,7 +110,7 @@ Networks</a>
 <a href="topics-images.md">
 <img width="" src="assets/img/banner-images.png">
 
-Images and video</a>
+Images and video</a><sup>📌 </sup>
 </td>
 
 
@@ -173,7 +173,7 @@ Data cleaning</a>
 <a href="topics-computational-thinking.md">
 <img width="" src="assets/img/banner-computational-thinking.png">
 
-Computational thinking</a>
+Computational thinking</a><sup>📌 </sup>
 </td>
  -->
 
