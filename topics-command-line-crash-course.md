@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-command-line.png">
+<img width="375" src="assets/img/banner/banner-command-line.png">
 
 # Command Line Crash Course
 
@@ -29,7 +29,7 @@ Students who complete the following will be able to:
 
 The command line allows you to control your computer via a text interface. Depending on the context, it might also be referred to as a shell, terminal, or console. The following is a quick introduction.
 
-<img src="assets/img/command-line-hello-world.gif">
+<img src="assets/img/command-line/command-line-hello-world.gif">
 
 
 
@@ -68,7 +68,7 @@ Congratulations! 🎉 You've completed basic commands in a shell.
 <details>
 <summary>Click to view example output from the steps.</summary>
 
-![crash course](assets/img/command-line-crash-course.png)
-![ping](assets/img/command-line-ping.png)
+![crash course](assets/img/command-line/command-line-crash-course.png)
+![ping](assets/img/command-line/command-line-ping.png)
 
 </details>

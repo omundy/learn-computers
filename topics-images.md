@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-images.png">
+<img width="375" src="assets/img/banner/banner-images.png">
 
 # Images: Formats, Resolutions
 

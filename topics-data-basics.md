@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-data-basics.png">
+<img width="375" src="assets/img/banner/banner-data-basics.png">
 
 # Data Basics
 

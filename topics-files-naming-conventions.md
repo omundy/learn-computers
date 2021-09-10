@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-files-naming-conventions.png">
+<img width="375" src="assets/img/banner/banner-files-naming-conventions.png">
 
 # File organization and naming conventions
 

@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-computational-thinking.png">
+<img width="375" src="assets/img/banner/banner-computational-thinking.png">
 
 # Computational Thinking
 

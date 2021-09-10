@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-command-line.png">
+<img width="375" src="assets/img/banner/banner-command-line.png">
 
 # Command Line, Shell, Terminal, Bash
 
@@ -72,7 +72,7 @@ The command line is a text interface for your computer. You type commands, and t
 
 When you [open your command line application](topics-basics.md#find-a-file-or-program), you'll be greeted by the command prompt, signified by the `$`. This is where you type commands and press enter to make the shell read your input and determine which command to execute.
 
-![whoami](assets/img/command-line-whoami.png)
+![whoami](assets/img/command-line/command-line-whoami.png)
 
 For example, run the `whoami` command to "output" or "return" your username:
 
@@ -158,7 +158,7 @@ Vim has two modes: *command* and *insert*. In the command mode, you can move aro
 
 To change to the insert mode, press `i`. Type some text.
 
-![vim insert](assets/img/command-line-vim-insert.png)
+![vim insert](assets/img/command-line/command-line-vim-insert.png)
 
 Change back to command mode by pressing `ESC`. Now you can save your file by pressing `:wq` (write and quit). Once you do this, run the following to confirm the file exists and its contents.
 
@@ -168,7 +168,7 @@ cat hello.txt
 # -> hello world!
 ```
 
-![vim insert](assets/img/command-line-vim-save.png)
+![vim insert](assets/img/command-line/command-line-vim-save.png)
 
 
 

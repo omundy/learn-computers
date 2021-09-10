@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-files-folders.png">
+<img width="375" src="assets/img/banner/banner-files-folders.png">
 
 # The Filesystem
 

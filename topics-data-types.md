@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="375" src="assets/img/banner-data-types.png">
+<img width="375" src="assets/img/banner/banner-data-types.png">
 
 # Data Types
 

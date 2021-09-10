@@ -25,7 +25,7 @@ Essential knowledge for working with computers.
 
 <td>
 <a href="topics-command-line.md">
-<img src="assets/img/banner-command-line.png">
+<img src="assets/img/banner/banner-command-line.png">
 
 Command line, shell, bash</a>
 </td>
@@ -33,7 +33,8 @@ Command line, shell, bash</a>
 
 <td>
 <a href="topics-files-folders.md">
-<img src="assets/img/banner-files-folders.png">
+<img src="assets/img/banner/banner-files-folders.png">
+
 
 Users, permissions, the filesystem</a>
 </td>
@@ -47,7 +48,7 @@ Users, permissions, the filesystem</a>
 
 <td>
 <a href="topics-keyboard-shortcuts.md">
-<img src="assets/img/banner-keyboard-shortcuts.png">
+<img src="assets/img/banner/banner-keyboard-shortcuts.png">
 
 Keyboard shortcuts, Workflows</a>
 </td>
@@ -55,9 +56,9 @@ Keyboard shortcuts, Workflows</a>
 
 <td>
 <a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">
-<img src="assets/img/banner-version-control.png">
+<img src="assets/img/banner/banner-version-control.png">
 
-Version Control</a>
+Git Version Control</a><sup>📌 </sup>
 </td>
 
 
@@ -83,7 +84,7 @@ Working with media, data, and setting up a development environment.
 
 <td>
 <a href="topics-web-development.md">
-<img src="assets/img/banner-web-development.png">
+<img src="assets/img/banner/banner-web-development.png">
 
 Web Development Environment</a>
 </td>
@@ -92,7 +93,7 @@ Web Development Environment</a>
 
 <td>
 <a href="topics-networks.md">
-<img src="assets/img/banner-networks.png">
+<img src="assets/img/banner/banner-networks.png">
 
 Networks</a>
 </td>
@@ -106,7 +107,7 @@ Networks</a>
 
 <td>
 <a href="topics-images.md">
-<img src="assets/img/banner-images.png">
+<img src="assets/img/banner/banner-images.png">
 
 Images and video</a><sup>📌 </sup>
 </td>
@@ -114,7 +115,7 @@ Images and video</a><sup>📌 </sup>
 
 <td>
 <a href="topics-data-basics.md">
-<img src="assets/img/banner-data-basics.png">
+<img src="assets/img/banner/banner-data-basics.png">
 
 Data Basics</a>
 </td>
@@ -151,7 +152,7 @@ Data Basics</a>
 
 <td>
 <a href="topics-data-types.md">
-<img src="assets/img/banner-data-types.png">
+<img src="assets/img/banner/banner-data-types.png">
 
 Data types</a><sup>📌 </sup>
 </td>
@@ -160,7 +161,7 @@ Data types</a><sup>📌 </sup>
 
 <td>
 <a href="topics-data-cleaning.md">
-<img src="assets/img/banner-data-cleaning.png">
+<img src="assets/img/banner/banner-data-cleaning.png">
 
 Data cleaning</a>
 </td>
@@ -169,7 +170,7 @@ Data cleaning</a>
 
 <!-- <td>
 <a href="topics-computational-thinking.md">
-<img src="assets/img/banner-computational-thinking.png">
+<img src="assets/img/banner/banner-computational-thinking.png">
 
 Computational thinking</a><sup>📌 </sup>
 </td>
