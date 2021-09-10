@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="300" src="assets/img/banner-images.png">
+<img width="375" src="assets/img/banner-images.png">
 
 # Title
 

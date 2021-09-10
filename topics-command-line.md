@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="300" src="assets/img/banner-command-line.png">
+<img width="375" src="assets/img/banner-command-line.png">
 
 # Command Line, Shell, Terminal, Bash
 

@@ -1,7 +1,7 @@
 
 [<](README.md)
 
-<img width="300" src="assets/img/banner-basics.png">
+<img width="375" src="assets/img/banner-basics.png">
 
 # Everyday Computer Basics
 
