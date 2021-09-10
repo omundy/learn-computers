@@ -30,9 +30,9 @@ Students who complete the following will be able to:
 
 - Recall how computers store and use binary data
 - Organize data storage amounts by their respective sizes
-- List
+- Use conversion tools to demonstrate binary, and ASCII and Unicode character encoding standards
 - Define character encoding and file encoding
-- Compare text vs. binary-encoded files
+- Use the command line to examine text- and binary-encoded files
 
 </details>
 
@@ -49,15 +49,15 @@ Complete the following to prepare for this module
 
 
 
-
+In modern computers, data is stored in an SSD (solid state drive) using electrons. Pretty much, each bit of data is repersented by an electron which will represent either 1 or 0 depending on its state. And then these 1’s and 0’s make up your data. This means the data can be read super fast as it’s essentially just electricity. Super interesting technology I’d recommend reading up on if you’re curious.
 
 ## How do computers store data?
 
-Computers don't actually *store data* (text, photos, video, etc.). Rather, computer storage has millions of tiny switches that can each be either `on` or `off`.
+Most modern computers use SSDs (solid state drives) to store *data* (text, photos, videos, etc.) by representing all the content of these files using electrons. A good way to think about data storage is to imagine millions of tiny switches inside your computer, and each can each be either `on` or `off`.
 
 <a href="assets/img/data-basics/data-switch-wall.png"><img src="assets/img/data-basics/data-switch-wall.png" height="310"></a> <a href="assets/img/data-basics/microchip.jpg"><img src="assets/img/data-basics/microchip-cropped.png" height="310"></a>
 
-A switch can be in only one of two states, `on` or `off`. Thus, this single binary value, the smallest unit of data a computer can store, is aptly named a **bit**.
+Since a switch can be in only one of two states, this single binary value, the smallest unit of data a computer can store, is aptly named one **bit**.
 
 
 <a href="assets/img/data-basics/data-switch-symbols.png"><img align="left" src="assets/img/data-basics/data-switch-symbols.png" height="150"></a>
@@ -78,7 +78,7 @@ Symbol | ⏽ | ⭘
 
 ## Bits and Bytes
 
-The switches that store binary data are grouped in bundles of **8 bits**, or **1 byte**. While a switch can be in only one of 2 states, a row of n switches can be in one of 2<sup>n</sup> states! This table describes common file size units and corresponding examples.
+The switches that store binary data are grouped in bundles of **8 bits**, or **1 byte**. While a switch can be in only one of 2 states, each switch in a row of n switches can be in one of 2<sup>n</sup> (2\*2\*2\*2\*[...]) states! This table describes common file size units and corresponding examples.
 
 
 Unit | Symbol | Value | Example size
@@ -94,9 +94,8 @@ Unit | Symbol | Value | Example size
 
 👉 **Try it out**
 
-Let's confirm the above information about a byte. Enter a single character `a` into this [BitCounter](https://lingojam.com/BitCounter) and [ByteCounter](https://lingojam.com/ByteCounter). You should see it is equal to 8 bits and 1 byte, respectively.
-
-The binary representation of the Latin character `a` is `01000001`. But if you plug that sequence into a [Binary to Decimal Converter](https://www.binaryhexconverter.com/binary-to-decimal-converter) it will output not a letter, but the number `65`. Why?
+1. Let's confirm the above information about a byte. Enter a single alphetical character `a` into this [BitCounter](https://lingojam.com/BitCounter) and [ByteCounter](https://lingojam.com/ByteCounter). You should see it is equal to 8 bits and 1 byte, respectively.
+1. The binary representation of the Latin character `a` is `01000001`. But if you plug that sequence into a [Binary to Decimal Converter](https://www.binaryhexconverter.com/binary-to-decimal-converter) it will return not a letter, but the number `65`. Why?
 
 
 
@@ -114,11 +113,11 @@ Character encoding is the process by which computers store and represent text by
 <a href="assets/img/data-basics/ascii.png"><img src="assets/img/data-basics/ascii.png" height="350"></a>
 
 As computing expanded, more character sets were added to accommodate other languages, characters, and symbols.
-The Unicode (1988) standard(s) now define 143,859 characters. Specifically, UTF-8 (capable of 1,112,064 chars), which uses one to four 8-bit bytes, is the most popular, and ensures everyone sees the same character.
+The Unicode (1988) standard(s) now includes 143,859 characters. UTF-8 is currently the most popular version of this standard and uses one to four 8-bit bytes to represent up to 1,112,064 letters, numbers, and emoji and ensure everyone sees the same character across all devices and languages.
 
 👉 **Try it out**
 
-1. [Count](https://lingojam.com/BitCounter) the bits for each of the following text examples. **Try to guess the outcomes first!** Some of these will not produce what you may think. Do you know why?
+1. **Count the bits** using [this tool](https://lingojam.com/BitCounter) for each of the following lines of text. ***Try to guess the outcomes first!*** Some of these will not produce what you may think. Do you know why?
 
 ```
 a
@@ -130,7 +129,7 @@ abc
 😂
 ```
 
-2. Below you can see the binary representations for the above. Use the [Binary to ASCII](https://www.convertbinary.com/to-text/) and [Binary <> UTF-8](http://www.unit-conversion.info/texttools/convert-text-to-binary/) converters to confirm this. One of these tools will only be able to convert some sequences, do you know why?
+2. **Convert binary data to text** using the binary representations (below) of the above examples with the [Binary to ASCII](https://www.convertbinary.com/to-text/) and [Binary <> UTF-8](http://www.unit-conversion.info/texttools/convert-text-to-binary/) converters. One of these tools will only be able to convert some sequences, do you know why?
 
 ```
 01100001
@@ -144,7 +143,7 @@ abc
 
 
 
-3. The first 128 characters of UTF8 are based on the ASCII standard. If you compare this table to the above ASCII chart you will find a slight discrepancy. Yet you can still [convert](http://www.unit-conversion.info/texttools/convert-text-to-binary/) each to the appropriate text character. Do you know what the discrepancy is?
+3. **Compare ASCII to Unicode**  The first 128 characters of UTF8 are based on the ASCII standard. If you compare the below table to the ASCII chart above you will find a slight discrepancy. Yet you can still [convert](http://www.unit-conversion.info/texttools/convert-text-to-binary/) each to the appropriate text character. Do you know what the discrepancy is?
 
 ASCII | b | i | t | s
 --- | --- | --- | --- | ---
@@ -155,9 +154,12 @@ Decimal | `98` | `105` | `116` | `115`
 <details>
 <summary>Answers</summary>
 
-1. These numbers `01234 56789` are each 8 bits, but so is the space character between them since whitespace (spaces, tabs, returns) also require storage. So the total is `88`; Foreign characters like `ü` and `ñ` were not included in the ASCII standard. They are covered by Unicode, and each require `16` bits; Most emoji require `32` bits or `4` bytes `😂`
-2. Since ASCII can only represent 7 bits, anything over 1 byte will fail if converted to ASCII. Instead you have to convert to UTF-8 text.
-3. ASCII only required 7 bits for each character `2 * 2 * 2 * 2 * 2 * 2 * 2`, but Unicode just adds a zero at the beginning of the binary sequence since it is 1-4 bytes.
+1. **Count the bits**
+    1. These numbers `01234 56789` are each 8 bits, but so is the space character between them since whitespace (spaces, tabs, returns) also require storage. So the total is `88`.
+    1. Foreign characters like `ü` and `ñ` were not included in the ASCII standard. They are covered by Unicode, and each require `16` bits.
+    1. Most emoji require `32` bits or `4` bytes `😂`
+2. **Convert binary data to text** Since ASCII can only represent 7 bits, anything over 1 byte will fail if converted to ASCII. Instead you have to convert to UTF-8 text.
+3. **Compare ASCII to Unicode** ASCII only required 7 bits for each character `2 * 2 * 2 * 2 * 2 * 2 * 2`, but Unicode just adds a zero at the beginning of the binary sequence since it is 1-4 bytes.
 
 </details>
 
@@ -171,46 +173,51 @@ Decimal | `98` | `105` | `116` | `115`
 
 ## File encoding
 
+**File encoding** describes how files are viewed and saved by software. While all data on computers is stored on the hard disk as binary data, some file types use binary file encoding, and others use text file encoding.
 
-While all data on computers is stored on the disk as binary data, some file types use binary file encoding, and others use text file encoding. A typical example is a `.txt` file. If you open it in a plain text editor like TextEdit on Mac you will see the text contents. However, most image files cannot be opened in a text editor.
+A typical example is a `.txt` file. If you open a text file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) you will see and can edit the text contents. Other files, like most image files, cannot be edited in a plain text editor.
 
 <img src="assets/img/data-basics/cat-binary.png">
 
-The above shows a photo of a [cat](assets/img/data-basics/cat.png) (on the left) displayed by an application that can read and render the image data as pixels on a screen, and (right) the binary representation of the file's data.
+The above shows a photo of a [cat](assets/img/data-basics/cat.png) (left) displayed by an application that can read and render the image data as pixels on a screen. On the right is the binary representation of the same file's data using hexdump. Columns 1-3 show the hexidecimal data of the file and the last column displays any ASCII data that can be read, including (like most file types) the [file's extension on the first line](http://www.libpng.org/pub/png/spec/1.2/PNG-Rationale.html#R.PNG-file-signature).
 
-👉 **Try it out** on the command line with [hexdump](https://en.wikipedia.org/wiki/Hex_dump). Save the cat image to your computer and run this command:
+👉 **Try it out** on the command line with [hexdump](https://en.wikipedia.org/wiki/Hex_dump).
+
+1. Save the [cat.png](assets/img/data-basics/cat.png) image file and [cat.txt](assets/img/data-basics/cat.txt) plain text file to your computer.
+1. Use the command line to navigate to the folder where you saved the files `cd /path/to/your/files/`
+1. Run each of these commands to view the contents. **What do you notice?**
 
 ```bash
-hexdump -C /path/to/your/cat.png
+hexdump -C cat.png
+hexdump -C cat.txt
 ```
 
+To summarize...
 
 ### Binary-encoded files
 
-- Stored as bits (binary 1s and 0s) and may include multiple types of data in the same file (e.g video and audio).
-- More efficient to store and access but can easily become corrupted.
-- Examples `.jpg`, `.pdf`, and `.mp4`.
-
+- Stored as bits (binary 1s and 0s) and may include multiple types of data in the same file (e.g video and audio), as well as ASCII data representing meta information about the file type.
+- More efficient to store and access but sometimes proprietary software is required and files can easily become corrupted.
+- Examples `.jpg` `.png` `.pdf` `.mp4`.
 
 ### Text-encoded files
 
 - Also stored as bits, but represented by actual text characters.
 - You can open text files in many types of editors.
-- Examples `.txt`, `.html`, and `.cs`.
+- Examples `.txt` `.html` `.css`.
 
-File encoding [is not the same as](https://kunststube.net/encoding/) character encoding.
-
-If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.
+File encoding [is not the same as](https://kunststube.net/encoding/) character encoding. If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.
 
 <img src="assets/img/data-basics/files-binary.png"><br>
 <sub>A `.png` file opened in TextEdit</sub>
 
 
-### Examine filetypes in plain text
 
-1. Find examples of each on your own computers  
-1. Open them in a plain text editor to verify
-1. What clues can you see in the binary formats to tell you about the filetype?
+👉 **Try it out** Compare other files on your computer
+
+1. Find other examples of each type of encoding on your own computer.
+1. Open them in a plain text editor or use hexdump to see what type of file encoding they use?
+1. What clues can you see in the binary formats to tell you about the filetype or other metadata?
 
 
 

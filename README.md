@@ -25,7 +25,7 @@ Essential knowledge for working with computers.
 
 <td>
 <a href="topics-command-line.md">
-<img width="" src="assets/img/banner-command-line.png">
+<img src="assets/img/banner-command-line.png">
 
 Command line, shell, bash</a>
 </td>
@@ -33,7 +33,7 @@ Command line, shell, bash</a>
 
 <td>
 <a href="topics-files-folders.md">
-<img width="" src="assets/img/banner-files-folders.png">
+<img src="assets/img/banner-files-folders.png">
 
 Users, permissions, the filesystem</a>
 </td>
@@ -47,7 +47,7 @@ Users, permissions, the filesystem</a>
 
 <td>
 <a href="topics-keyboard-shortcuts.md">
-<img width="" src="assets/img/banner-keyboard-shortcuts.png">
+<img src="assets/img/banner-keyboard-shortcuts.png">
 
 Keyboard shortcuts, Workflows</a>
 </td>
@@ -55,7 +55,7 @@ Keyboard shortcuts, Workflows</a>
 
 <td>
 <a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">
-<img width="" src="assets/img/banner-version-control.png">
+<img src="assets/img/banner-version-control.png">
 
 Version Control</a>
 </td>
@@ -83,18 +83,16 @@ Working with media, data, and setting up a development environment.
 
 <td>
 <a href="topics-web-development.md">
-<img width="" src="assets/img/banner-web-development.png">
+<img src="assets/img/banner-web-development.png">
 
 Web Development Environment</a>
 </td>
 
 
 
-
-
 <td>
 <a href="topics-networks.md">
-<img width="" src="assets/img/banner-networks.png">
+<img src="assets/img/banner-networks.png">
 
 Networks</a>
 </td>
@@ -108,7 +106,7 @@ Networks</a>
 
 <td>
 <a href="topics-images.md">
-<img width="" src="assets/img/banner-images.png">
+<img src="assets/img/banner-images.png">
 
 Images and video</a><sup>📌 </sup>
 </td>
@@ -116,9 +114,9 @@ Images and video</a><sup>📌 </sup>
 
 <td>
 <a href="topics-data-basics.md">
-<img width="" src="assets/img/banner-data-basics.png">
+<img src="assets/img/banner-data-basics.png">
 
-Introduction to data</a>
+Data Basics</a>
 </td>
 
 
@@ -153,7 +151,7 @@ Introduction to data</a>
 
 <td>
 <a href="topics-data-types.md">
-<img width="" src="assets/img/banner-data-types.png">
+<img src="assets/img/banner-data-types.png">
 
 Data types</a><sup>📌 </sup>
 </td>
@@ -162,7 +160,7 @@ Data types</a><sup>📌 </sup>
 
 <td>
 <a href="topics-data-cleaning.md">
-<img width="" src="assets/img/banner-data-cleaning.png">
+<img src="assets/img/banner-data-cleaning.png">
 
 Data cleaning</a>
 </td>
@@ -171,16 +169,31 @@ Data cleaning</a>
 
 <!-- <td>
 <a href="topics-computational-thinking.md">
-<img width="" src="assets/img/banner-computational-thinking.png">
+<img src="assets/img/banner-computational-thinking.png">
 
 Computational thinking</a><sup>📌 </sup>
 </td>
- -->
-
+-->
 
 
 </tr>
 </table>
+
+
+
+<!--
+
+TO Add
+
+- Design Thinking from 404 and 245
+https://www.google.com/search?q=design+thinking&safe=off&rlz=1C5CHFA_enUS903US909&sxsrf=ALeKk00UmuqK1Wv7fRyv0LQz13FoXSjw9g:1600281343883&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjwrqvIqO7rAhWKMd8KHcCsCwMQ_AUoAXoECB0QAw&biw=1440&bih=798
+
+- Design Patterns from 245 - might need to go in 245 repo
+
+-->
+
+
+
 
 
 
@@ -196,7 +209,7 @@ Computational thinking</a><sup>📌 </sup>
 
 ## Credit
 
-Owen Mundy [Learn Computing](https://github.com/omundy/learn-computing) 2021.
+Owen Mundy [Learn Computing: Active Learning Modules for Computer Literacy](https://github.com/omundy/learn-computing) 2021.
 
 
 ## License
