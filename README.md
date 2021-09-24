@@ -106,8 +106,8 @@ Networks</a>
 
 
 <td>
-<a href="topics-images.md">
-<img src="assets/img/banner/banner-images.png">
+<a href="topics-images-resolutions.md">
+<img src="assets/img/banner/banner-images-resolutions.png">
 
 Images and video</a><sup>📌 </sup>
 </td>

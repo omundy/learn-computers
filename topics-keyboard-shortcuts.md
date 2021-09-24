@@ -239,7 +239,7 @@ Make current window fill top half of the screen* | Ctl + Option + ↑ | ? | 🔥
 
 Level up your text editing skills.
 
-<img style="" src="assets/img/keyboard-shortcuts/workflow-text-editing.png">
+<img style="" src="assets/img/banner/banner-workflow-text-editing.png">
 
 Command | Mac | Windows
 --- | --- | ---
@@ -259,7 +259,7 @@ Repeat | ↪ | ↪
 
 Building web pages requires you to do a lot of repetitive tasks. It’s a good idea to learn proficiency and develop efficient workflows early on.
 
-<img style="" src="assets/img/keyboard-shortcuts/workflow-web.png">
+<img style="" src="assets/img/banner/banner-workflow-web.png">
 
 Mastering the "Edit-Save-Refresh-Loop" can speed up your work immensely. If you can do these you'll never have to move your hands to the mouse!
 

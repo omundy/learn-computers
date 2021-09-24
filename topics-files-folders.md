@@ -69,7 +69,7 @@ Complete the following to prepare for this module
 	- `e[x]ecute` to run the file
 
 
-<img width="600" src="assets/img/files/files-permission-classes.png">
+<img width="600" src="assets/img/banner/banner-files-permission-classes.png">
 
 Permissions sets define access for three groups: users, user groups, and everyone else ("world"), and each position in the group denotes a specific permission, in this order: `[r]ead`, `[w]rite`, `e[x]ecute`.
 
