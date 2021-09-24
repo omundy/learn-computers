@@ -17,7 +17,6 @@ Learn about specific data types used in programming, visualization, gaming, etc.
 1. [Data collections](#data-collections) `5 min`
 1. [Data exchange formats](#data-exchange-formats) `5 min`
 1. [Advanced topics](#advanced-topics) `5 min`
-1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
