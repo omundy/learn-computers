@@ -1,0 +1,22 @@
+<cars>
+    <car>
+        <make>Pontiac</make>
+        <model>Vibe</model>
+        <year>2009</year>
+    </car>
+    <car>
+        <make>Honda</make>
+        <model>Fit</model>
+        <year>2007</year>
+    </car>
+    <car>
+        <make>Chevrolet</make>
+        <model>Blazer</model>
+        <year>2000</year>
+    </car>
+    <car>
+        <make>Toyota</make>
+        <model>RAV4</model>
+        <year>1999</year>
+    </car>
+</cars>

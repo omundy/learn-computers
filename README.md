@@ -154,7 +154,7 @@ Data Basics</a>
 <a href="topics-data-types.md">
 <img src="assets/img/banner/banner-data-types.png">
 
-Data types</a><sup>📌 </sup>
+Data types</a><sup> </sup>
 </td>
 
 

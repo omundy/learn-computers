@@ -49,11 +49,11 @@ Complete the following to prepare for this module
 
 
 
-In modern computers, data is stored in an SSD (solid state drive) using electrons. Pretty much, each bit of data is repersented by an electron which will represent either 1 or 0 depending on its state. And then these 1’s and 0’s make up your data. This means the data can be read super fast as it’s essentially just electricity. Super interesting technology I’d recommend reading up on if you’re curious.
+
 
 ## How do computers store data?
 
-Most modern computers use SSDs (solid state drives) to store *data* (text, photos, videos, etc.) by representing all the content of these files using electrons. A good way to think about data storage is to imagine millions of tiny switches inside your computer, and each can each be either `on` or `off`.
+Most modern computers use SSDs (solid state drives) to store *data* (text, photos, videos, etc.) by representing the content of these files using electrons. A good way to think about data storage is to imagine millions of tiny switches inside your computer, and each can each be either `on` or `off`.
 
 <a href="assets/img/data-basics/data-switch-wall.png"><img src="assets/img/data-basics/data-switch-wall.png" height="310"></a> <a href="assets/img/data-basics/microchip.jpg"><img src="assets/img/data-basics/microchip-cropped.png" height="310"></a>
 
