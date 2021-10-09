@@ -62,7 +62,7 @@ Complete the following to prepare for this module
 
 A **data type** defines the *kind* of data that is stored or used by a program.
 
-Most languages organize data by **primitive** and **non-primitive** types. This diagram shows the most common data types in Javascript and C#.
+Most languages organize data by **primitive** and **non-primitive** types. These diagrams show the most common data types in Javascript and C# languages.
 
 ![js data types](assets/img/data-types/javascript-diagram-data-types.png)
 
@@ -83,7 +83,9 @@ public class Monster
 }
 ```
 
-Some programming languages (e.g. C#, Java, Python) are [strongly typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing), requiring programmers to predefine what kind of data they are using in variables, parameters, functions, etc. before they actually use them. Other, loosely typed languages like Javascript, Perl, and PHP, *do not* require programmers to define their type ahead of time.
+Some programming languages (e.g. C#, Java, Python) are [strongly typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing), requiring programmers to predefine what kind of data they are using in variables, parameters, functions, etc. before they actually use them.
+
+Other, **loosely typed** languages like Javascript, Perl, and PHP, *do not* require programmers to define their type ahead of time.
 
 ```js
 // javascript example
@@ -103,6 +105,7 @@ var health = 0.20;
 
 These common primitive data types (and examples) can be found across many strong- and loosely-typed programming languages and databases.
 
+> 👉 Presenter Note: Demonstrate these with `typeof` in the DevTools Console.
 
 
 ### Boolean
@@ -120,7 +123,7 @@ Most programming languages have a default value for a type. When you create a ne
 
 ### Integer
 
-Integers, or `int` types, are used to store whole numbers.
+Integers (a.k.a. `int` types) are used to store whole numbers.
 
 ```js
 -4
@@ -131,7 +134,7 @@ Integers, or `int` types, are used to store whole numbers.
 
 ### Floats
 
-Numbers with decimals, also called "floating-point numbers".
+Numbers with decimals, also called `floats` ("floating-point numbers").
 
 ```js
 3.14
@@ -139,7 +142,7 @@ Numbers with decimals, also called "floating-point numbers".
 10000000000.0
 ```
 
-Unlike other languages, Javascript does not distinguish between number types.
+Unlike many other languages, Javascript does not distinguish between `int` and `float` number types.
 
 
 ### Strings:
@@ -149,7 +152,7 @@ A string is any grouping of letters, words, numbers, or character symbols surrou
 ```js
 "hello world 😀"
 '2 be or not 2 be'
-`my favorite numbers are 1, 2, and 3.14`
+`favorite numbers: 1, 2, and 3.14`
 ```
 
 
@@ -367,6 +370,14 @@ console.log(cars[4][0]); // -> "Toyota"
 
 Javascript contains its own definition of objects, which is slightly different than the way that other languages use objects and classes.
 
+```js
+var person = {
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 25
+};
+```
+
 Javascript objects are powerful types because you can store any type of data in them, even arrays, other objects, and functions.
 
 ```js
@@ -384,7 +395,7 @@ var singer = {
             "year": 1995
         }
     ]
-}
+};
 ```
 
 With Javascript, each data `value` is assigned to a `key`, and you access the value using using dot notation. So above, we can access the singer's name using:
@@ -412,10 +423,7 @@ console.log(singer.albums[2].year); // -> 1995
 </details>
 
 
-More data type examples:
-
-- [Data Types (Primitives)](https://jsfiddle.net/ow3n/6qpeq20y/)
-- [Data Types (Complex)](https://jsfiddle.net/ow3n/vot5wm94/)
+Use jsfiddle to explore these [primitive](https://jsfiddle.net/ow3n/6qpeq20y/) and [complex](https://jsfiddle.net/ow3n/vot5wm94/) data type examples.
 
 
 
