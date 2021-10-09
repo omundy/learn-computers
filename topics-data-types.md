@@ -62,16 +62,13 @@ Complete the following to prepare for this module
 
 A **data type** defines the *kind* of data that is stored or used by a program.
 
-Most languages organize data by **primitive** and **non-primitive** types. This diagram shows the most common data types in Javascript.
+Most languages organize data by **primitive** and **non-primitive** types. This diagram shows the most common data types in Javascript and C#.
 
 ![js data types](assets/img/data-types/javascript-diagram-data-types.png)
 
 > The **primitive** and **non-primitive** organization structure (a.k.a. **value** vs. **reference**) also explains how data is stored in computer memory and affects software production and performance. See [Advanced Topics](#value-vs-reference-types) for more.
 
-
-
-
-
+![js data types](assets/img/banner/banner-data-types-c-sharp.png)
 
 
 
@@ -470,7 +467,7 @@ While Excel or Google Sheets might store and *display* tabular data by adding li
 More on CSV:
 
 - [CSV history](https://en.wikipedia.org/wiki/Comma-separated_values)
-- How to validate CSV https://csvlint.io/
+- How to validate CSV [csvlint.io](https://csvlint.io)
 
 
 
@@ -511,7 +508,7 @@ More on JSON:
 
 - W3Schools [JSON Tutorial](https://www.w3schools.com/js/js_json_intro.asp)
 - [10 JSON Examples to Use in Your Projects](https://www.sitepoint.com/10-example-json-files/)
-- How to validate JSON https://jsonlint.com/
+- How to validate JSON [jsonlint.com](https://jsonlint.com)
 
 
 
@@ -555,7 +552,7 @@ More on XML:
 
 - W3Schools [XML Examples](https://www.w3schools.com/xml/xml_examples.asp)
 - W3Schools [JSON vs. XML](https://www.w3schools.com/js/js_json_xml.asp)
-- How to validate XML https://www.xmlvalidation.com/
+- How to validate XML [xmlvalidation.com](https://www.xmlvalidation.com/)
 
 
 
