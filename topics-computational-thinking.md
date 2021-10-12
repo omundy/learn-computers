@@ -50,6 +50,8 @@ Complete the following to prepare for this module
 
 Writing out simple instructions for a program you intend to build (a.k.a. "[pseudocode](https://en.wikipedia.org/wiki/Pseudocode)") can help plan your approach. Much like you would make a sketch for a painting, or a wireframe for a design, pseudocode can assist in thinking about your structure, where to put logic, or how your code will respond to events beforehand, while you still have flexibility to make changes.
 
+Even more, writing pseudocode as comments gives you a structure within which you can add actual code, and placeholders for instructions you will eventually add.
+
 While written in English, this example maintains a computational approach, borrowing the phrases, [keywords], and even tabbed structure of a programming language:
 
 ```
