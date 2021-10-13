@@ -73,13 +73,13 @@ While written in English, this example maintains a computational approach, borro
 
 This prompt to reverse engineer an existing work will give you practice writing pseudocode.
 
-1. Select one of the following works:
+1. Select two works, this [Random Article Generator](https://codepen.io/owenmundy/full/PomvjqW) and one more:
     - [eBay Feedback Generator](https://thesurrealist.co.uk/feedback) (2005)
     - [Hacker Simulator](https://hacker-simulator.com/)
     - [itadakimasu.app/](https://itadakimasu.app/)
     - [Tarot-o-bot](https://tarotobot-reboot.illo.tv/) (2019)
     - [Site Shaker](https://hartmut-bohnacker.de/projects/site-shaker) (2018)
-    - [University Title Generator](https://universitytitlegenerator.com/)
+    <!-- - [University Title Generator](https://universitytitlegenerator.com/) -->
 1. Discuss with your partner
     1. What was needed to build this project?
     1. How do you think it works?
@@ -87,9 +87,12 @@ This prompt to reverse engineer an existing work will give you practice writing 
     1. Start from the beginning, with the data sources and variables.
     1. Describe the logic, functions, and control structures that make up the main functionality.
     1. List the event listeners that connect the UI to the code in the background.
-1. Take a [look at the code](https://github.com/fiatflux/uni-title-gen/blob/master/titlegen.py)
+1. Take a look at the code for the [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
     1. What did you get right?
+    1. What questions do you have?
 
+
+<!-- [University Title Generator](https://github.com/fiatflux/uni-title-gen/blob/master/titlegen.py) -->
 
 
 
