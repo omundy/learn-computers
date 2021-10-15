@@ -180,40 +180,40 @@ After you record your data, prepare to share it and your answers to the followin
 
 Command | Mac | Windows | 🤔
 --- | --- | --- | ---
-Cut | Cmd + X | Ctl + X | 🍏
-Copy | Cmd + C | Ctl + C | 🍏
-Paste | Cmd + V | Ctl + V | 🍏
-Undo | Cmd + Z | Ctl + Z | 🍏
-Redo | Cmd + Y | Ctl + Y |
-Find | Cmd + F | Ctl + F | 🔥
-Select all | Cmd + A | Ctl + A | 🔥
-Move cursor by letter or line | ← → ↑ ↓ | ← → ↑ ↓ | 🔥
-Move cursor by word | Option + ← or → | Option + ← or → | 🔥
-Select letters | Shift + ← or → | Shift + ← or → | 🔥
-Select lines | Shift + ↑ or ↓ | Shift + ↑ or ↓ | 🔥
-Select words | Shift + Option + ← or → | Shift + Option + ← or → | 🔥
+Cut | <kbd>Cmd</kbd> + <kbd>X</kbd> | <kbd>Ctl</kbd> + <kbd>X</kbd> | 🍏
+Copy | <kbd>Cmd</kbd> + <kbd>C</kbd> | <kbd>Ctl</kbd> + <kbd>C</kbd> | 🍏
+Paste | <kbd>Cmd</kbd> + <kbd>V</kbd> | <kbd>Ctl</kbd> + <kbd>V</kbd> | 🍏
+Undo | <kbd>Cmd</kbd> + <kbd>Z</kbd> | <kbd>Ctl</kbd> + <kbd>Z</kbd> | 🍏
+Redo | <kbd>Cmd</kbd> + <kbd>Y</kbd> | <kbd>Ctl</kbd> + <kbd>Y</kbd> |
+Find | <kbd>Cmd</kbd> + <kbd>F</kbd> | <kbd>Ctl</kbd> + <kbd>F</kbd> | 🔥
+Select all | <kbd>Cmd</kbd> + <kbd>A</kbd> | <kbd>Ctl</kbd> + <kbd>A</kbd> | 🔥
+Move cursor by letter or line | <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> | <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> | 🔥
+Move cursor by word | <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | 🔥
+Select letters | <kbd>Shift</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | <kbd>Shift</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | 🔥
+Select lines | <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> | <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> | 🔥
+Select words | <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | 🔥
 
 #### Document and application management
 
 Command | Mac | Windows | 🤔
 --- | --- | --- | ---
-Save the current file | Cmd + S | Ctl + S | 🍏
-Open a document | Cmd + O | Ctl + O
-Create a new document | Cmd + N | Ctl + N
-Close current window | Cmd + W | Ctl + W
-Quit current app | Cmd + Q | Ctl + Q
-Switch programs | Cmd + Tab | Windows + Tab | 🔥
+Save the current file | <kbd>Cmd</kbd> + <kbd>S</kbd> | <kbd>Ctl</kbd> + <kbd>S</kbd> | 🍏
+Open a document | <kbd>Cmd</kbd> + <kbd>O</kbd> | <kbd>Ctl</kbd> + <kbd>O</kbd>
+Create a new document | <kbd>Cmd</kbd> + <kbd>N</kbd> | <kbd>Ctl</kbd> + <kbd>N</kbd>
+Close current window | <kbd>Cmd</kbd> + <kbd>N</kbd> | <kbd>Ctl</kbd> + <kbd>N</kbd>
+Quit current app | <kbd>Cmd</kbd> + <kbd>Q</kbd> | <kbd>Ctl</kbd> + <kbd>Q</kbd>
+Switch programs | <kbd>Cmd</kbd> + <kbd>Tab</kbd> | <kbd>Windows</kbd> + <kbd>Tab</kbd> | 🔥
 
 #### Web Browsing
 
 Command | Mac | Windows | 🤔
 --- | --- | --- | ---
-Open a new window | Cmd + N | Ctl + N | 🍏
-Open a new tab | Cmd + T | Ctl + T | 🍏
-Reopen closed tab | Shift + Cmd + T | Shift + Ctl + T
-Find on a web page | Cmd + F | Ctl + F | 🔥
-Reload the page | Cmd + R | Ctl + R | 🔥
-Reload page and clear cache | Shift + Cmd + R | Shift + Ctl + R | 🔥
+Open a new window | <kbd>Cmd</kbd> + <kbd>N</kbd> | <kbd>Ctl</kbd> + <kbd>N</kbd> | 🍏
+Open a new tab | <kbd>Cmd</kbd> + <kbd>Tab</kbd> | <kbd>Ctl</kbd> + <kbd>Tab</kbd> | 🍏
+Reopen closed tab | <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>T</kbd> | <kbd>Shift</kbd> + <kbd>Ctl</kbd> + <kbd>T</kbd>
+Find on a web page | <kbd>Cmd</kbd> + <kbd>F</kbd> | <kbd>Ctl</kbd> + <kbd>F</kbd> | 🔥
+Reload the page | <kbd>Cmd</kbd> + <kbd>R</kbd> | <kbd>Ctl</kbd> + <kbd>R</kbd> | 🔥
+Reload page and clear cache | <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>R</kbd> | <kbd>Shift</kbd> + <kbd>Ctl</kbd> + <kbd>R</kbd> | 🔥
 
 #### Mouse and other tricks (* requires [Rectangle](https://rectangleapp.com/) for Mac)
 
@@ -222,9 +222,9 @@ Command | Mac | Windows | 🤔
 Add your cursor to a document | Click once where you like | Click once where you like | 🍏
 Select a word | Double click any word | Double click any word | 🔥
 Select a whole line of text | Triple click anywhere | Triple click anywhere | 🔥
-Make current window fill screen* | Ctl + Option + Return | ? | 🔥
-Make current window fill left half of the screen* | Ctl + Option + ← | ? | 🔥
-Make current window fill top half of the screen* | Ctl + Option + ↑ | ? | 🔥
+Make current window fill screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>Return</kbd> | ? | 🔥
+Make current window fill left half of the screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> | ? | 🔥
+Make current window fill top half of the screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>↑</kbd> | ? | 🔥
 
 
 
@@ -243,15 +243,15 @@ Level up your text editing skills.
 
 Command | Mac | Windows
 --- | --- | ---
-Find the first quote with the word "pig" on this [page](https://www.audible.com/blog/quotes/kurt-vonnegut) | Cmd + F + "pig" | Ctl + F + "pig"
-Jump to the 2nd "pig" quote | Cmd + G | Ctl + G
+Find the first quote with the word "pig" on this [page](https://www.audible.com/blog/quotes/kurt-vonnegut) | <kbd>Cmd</kbd> + <kbd>F</kbd> + "pig" | <kbd>Ctl</kbd> + <kbd>F</kbd> + "pig"
+Jump to the 2nd "pig" quote | <kbd>Cmd</kbd> + <kbd>G</kbd> | <kbd>Ctl</kbd> + <kbd>G</kbd>
 Select the whole quote | Triple click on the text | Triple click on the text
-Copy it | Cmd + C | Ctl + C
-Switch to your text editor | Cmd + Tab | Ctl + Tab
-Find text where you want to paste a quote | Cmd + F | Ctl + F
-Move cursor by word to the spot | Option + ← or → | Option + ← or →
-Paste quote | Cmd + V | Ctl + V
-Save the file | Cmd + S | Ctl + S
+Copy it | <kbd>Cmd</kbd> + <kbd>C</kbd> | <kbd>Ctl</kbd> + <kbd>C
+Switch to your text editor | <kbd>Cmd</kbd> + <kbd>Tab</kbd> | <kbd>Ctl</kbd> + <kbd>Tab</kbd>
+Find text where you want to paste a quote | <kbd>Cmd</kbd> + <kbd>F</kbd> | <kbd>Ctl</kbd> + <kbd>F</kbd>
+Move cursor by word to the spot | <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd> | <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd>
+Paste quote | <kbd>Cmd</kbd> + <kbd>V</kbd> | <kbd>Ctl</kbd> + <kbd>V</kbd>
+Save the file | <kbd>Cmd</kbd> + <kbd>S</kbd> | <kbd>Ctl</kbd> + <kbd>S</kbd>
 Repeat | ↪ | ↪
 
 
@@ -265,14 +265,14 @@ Mastering the "Edit-Save-Refresh-Loop" can speed up your work immensely. If you 
 
 Command | Mac | Windows
 --- | --- | ---
-Find code to edit | Cmd + F | Ctl + F
+Find code to edit | <kbd>Cmd</kbd> + <kbd>F</kbd> | <kbd>Ctl</kbd> + <kbd>F</kbd>
 Edit the (HTML, CSS, JS, etc.) file | Using the keyboard | Using the keyboard
-Save the file | Cmd + S | Ctl + S
-Switch to browser | Cmd + Tab | Ctl + Tab
-Refresh page | Cmd + R | Ctl + R
-Inspect the page (dev tools) | Cmd + Option + C | Ctl + Option + C
-Find the problem code in dev tools | Cmd + F | Ctl + F
-Switch to editor | Cmd + Tab | Ctl + Tab
+Save the file | <kbd>Cmd</kbd> + <kbd>S</kbd> | <kbd>Ctl</kbd> + <kbd>S</kbd>
+Switch to browser | <kbd>Cmd</kbd> + <kbd>Tab</kbd> | <kbd>Ctl</kbd> + <kbd>Tab</kbd>
+Refresh page | <kbd>Cmd</kbd> + <kbd>R</kbd> | <kbd>Ctl</kbd> + <kbd>R</kbd>
+Inspect the page (dev tools) | <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>C</kbd> | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>C</kbd>
+Find the problem code in dev tools | <kbd>Cmd</kbd> + <kbd>F</kbd> | <kbd>Ctl</kbd> + <kbd>F</kbd>
+Switch to editor | <kbd>Cmd</kbd> + <kbd>Tab</kbd> | <kbd>Ctl</kbd> + <kbd>Tab</kbd>
 Repeat | ↪ | ↪
 
 
