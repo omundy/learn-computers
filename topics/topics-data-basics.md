@@ -1,9 +1,7 @@
 <!-- paginate: true -->
+
 <style>
-.owen {color: red !important;}
 </style>
-
-
 
 
 [<](README.md)
@@ -12,13 +10,9 @@
 
 # [Learn Computing](../README.md): Data Basics
 
-<div class="owen">owen</div>
-
 How computers store data, and encode files and text
 
-keywords: computing, proficiency
-
----
+***
 
 
 ### Contents
@@ -73,26 +67,22 @@ Complete the following to prepare for this module
 - Most modern computers use SSDs (solid state drives) to store *data* (text, photos, videos, etc.) by representing the content of these files using electrons.
 - Imagine millions of tiny switches inside your computer, and each can each be either `on` or `off`.
 
-<a href="../assets/img/data-basics/data-switch-wall.png"><img src="../assets/img/data-basics/data-switch-wall.png" height="310"></a>
-
-<!-- Notes -->
+<a href="../assets/img/data-basics/data-switch-wall.png"><img src="../assets/img/data-basics/data-switch-wall.png" height="310"></a> <a href="../assets/img/data-basics/microchip.jpg"><img src="../assets/img/data-basics/microchip-cropped.png" height="310"></a>
 
 
 ---
 
-
-<a href="../assets/img/data-basics/microchip.jpg"><img src="../assets/img/data-basics/microchip-cropped.png" height="310"></a>
 
 Since a switch can be in only one of two states, this single binary value, the smallest unit of data a computer can store, is aptly named one **bit**.
 
-
----
-
-
 <a href="../assets/img/data-basics/data-switch-symbols.png"><img src="../assets/img/data-basics/data-switch-symbols.png"></a>
+
+<div class="caption small">
 
 1. The on/off binary symbols are ubiquitous on mechanical interfaces
 1. The ⏻ "power on" symbol on computers
+
+</div>
 
 
 ---
@@ -146,14 +136,22 @@ Unit | Symbol | Value | Example size
 
 ## Character Encoding
 
-Character encoding is the process by which computers store and represent text by assigning numbers (and their binary equivalents) to alphanumeric characters. The ASCII (American Standard Code for Information Interchange) (~1963) is based on the English alphabet and encodes 128 characters which each use 7-bits.
+Character encoding is the process by which computers store and represent text by assigning numbers (and their binary equivalents) to alphanumeric characters.
+
+The ASCII (American Standard Code for Information Interchange) (~1963) is based on the English alphabet and encodes 128 characters which each use 7-bits.
 
 <a href="../assets/img/data-basics/ascii.png"><img src="../assets/img/data-basics/ascii.png" height="350"></a>
 
 ---
 
+### Unicode
+
 As computing expanded, more character sets were added to accommodate other languages, characters, and symbols.
-The Unicode (1988) standard(s) now includes 143,859 characters. UTF-8 is currently the most popular version of this standard and uses one to four 8-bit bytes to represent up to 1,112,064 letters, numbers, and emoji and ensure everyone sees the same character across all devices and languages.
+
+The Unicode standard (1988) uses one to four 8-bit bytes to represent up to 1,112,064 possible letters, numbers, and emoji and ensure everyone sees the same character across all devices and languages.
+
+UTF-8 is currently the most popular version of this standard and now includes 143,859 characters, including non-visible characters such as the carriage return.
+
 
 ---
 
@@ -174,6 +172,8 @@ abc
 
 ---
 
+👉 **Try it out**
+
 2. **Convert binary data to text** using the binary representations (below) of the above examples with the [Binary to ASCII](https://www.convertbinary.com/to-text/) and [Binary <> UTF-8](http://www.unit-conversion.info/texttools/convert-text-to-binary/) converters. One of these tools will only be able to convert some sequences, do you know why?
 
 ```
@@ -188,6 +188,8 @@ abc
 
 ---
 
+👉 **Try it out**
+
 3. **Compare ASCII to Unicode**  The first 128 characters of UTF8 are based on the ASCII standard. If you compare the below table to the ASCII chart above you will find a slight discrepancy. Yet you can still [convert](http://www.unit-conversion.info/texttools/convert-text-to-binary/) each to the appropriate text character. Do you know what the discrepancy is?
 
 ASCII | b | i | t | s
@@ -198,6 +200,7 @@ Decimal | `98` | `105` | `116` | `115`
 
 ---
 
+👉 **Try it out**
 
 <details>
 <summary>Answers</summary>
@@ -219,27 +222,37 @@ Decimal | `98` | `105` | `116` | `115`
 
 
 
+
+
+
 ## File encoding
 
-- **File encoding** describes how files are viewed and saved by software. While all data on computers is stored on the hard disk as binary data, some file types use binary file encoding, and others use text file encoding.
-- A typical example is a `.txt` file. If you open a text file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) you will see and can edit the text contents. Other files, like most image files, cannot be edited in a plain text editor.
+**File encoding** describes how files are viewed and saved by software.
+
+While all data on computers is stored on the hard disk as binary data, some file types use binary file encoding, and others use text file encoding.
+
+A typical example is a `.txt` file. If you open a text file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) you can see and edit the text contents.
 
 
 ---
+
+Other files, like most image files, cannot be edited in a plain text editor.
 
 <img src="../assets/img/data-basics/cat-binary.png">
 
-A photo of a [cat](../assets/img/data-basics/cat.png) displayed by an application that can read and render the image data as pixels on a screen.
+---
 
+The previous photo of a [cat](../assets/img/data-basics/cat.png) is displayed by an application that can read and render the image data as pixels on a screen.
 
-
-Right is the binary representation of the same file's data using hexdump. Columns 1-3 show the hexidecimal data of the file and the last column displays any ASCII data that can be read, including (like most file types) the [file's extension on the first line](http://www.libpng.org/pub/png/spec/1.2/PNG-Rationale.html#R.PNG-file-signature).
+On the right is the binary representation of the same file's data using hexdump. Columns 1-3 show the hexidecimal data of the file and the last column displays any ASCII data that can be read, including (like most file types) the [file's extension on the first line](http://www.libpng.org/pub/png/spec/1.2/PNG-Rationale.html#R.PNG-file-signature).
 
 
 ---
 
 
-👉 **Try it out** on the command line with [hexdump](https://en.wikipedia.org/wiki/Hex_dump).
+👉 **Try it out**
+
+View contents of a binary file on the command line with [hexdump](https://en.wikipedia.org/wiki/Hex_dump).
 
 1. Save the [cat.png](../assets/img/data-basics/cat.png) image file and [cat.txt](../assets/img/data-basics/cat.txt) plain text file to your computer.
 1. Use the command line to navigate to the folder where you saved the files `cd /path/to/your/files/`
@@ -252,11 +265,17 @@ hexdump -C cat.txt
 
 To summarize...
 
+---
+
+
+
+
 ### Binary-encoded files
 
 - Stored as bits (binary 1s and 0s) and may include multiple types of data in the same file (e.g video and audio), as well as ASCII data representing meta information about the file type.
 - More efficient to store and access but sometimes proprietary software is required and files can easily become corrupted.
 - Examples `.jpg` `.png` `.pdf` `.mp4`.
+
 
 ### Text-encoded files
 
@@ -264,12 +283,24 @@ To summarize...
 - You can open text files in many types of editors.
 - Examples `.txt` `.html` `.css`.
 
+---
+
+### File vs. character encoding
+
 File encoding [is not the same as](https://kunststube.net/encoding/) character encoding. If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.
 
-<img src="../assets/img/data-basics/files-binary.png"><br>
-<sub>A `.png` file opened in TextEdit</sub>
+<img src="../assets/img/data-basics/files-binary.png">
+
+<sub class="caption">A `.png` file opened in TextEdit</sub>
 
 
+
+
+
+
+
+
+---
 
 👉 **Try it out** Compare other files on your computer
 
@@ -277,15 +308,14 @@ File encoding [is not the same as](https://kunststube.net/encoding/) character e
 1. Open them in a plain text editor or use hexdump to see what type of file encoding they use?
 1. What clues can you see in the binary formats to tell you about the filetype or other metadata?
 
-
-
-
+---
 
 ## Keep practicing
 
 - [Learn Computing: Data Types](topics-data-types.md)
 - [Learn Computing: Data Cleaning](topics-data-cleaning.md)
 
+---
 
 ## References
 

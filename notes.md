@@ -45,3 +45,106 @@ GitHub doesn't permit you to adjust font sizes, styles, or colors when it render
 ### Not supported
 - CSS via the `<style>` or `style=` attribute
 - `class`
+
+
+
+
+
+
+
+
+
+
+
+Lots of [options](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
+
+
+
+## Remark
+
+Repo https://github.com/gnab/remark
+An example https://remarkjs.com/
+
+markdown + [remark](https://github.com/gnab/remark) + [markdown-to-slides](https://github.com/partageit/markdown-to-slides)
+
+Run tool in watch mode to convert `.md` file
+```bash
+markdown-to-slides topics-data-basics.md -o slideshow.html -w
+```
+
+### But...
+
+[Does not have two columns built-in](https://github.com/gnab/remark/wiki/Markdown#content-classes)
+Some options:
+https://github.com/gnab/remark/wiki/HTML-CSS-JS-samples
+
+
+
+Like [liminal](https://github.com/jonathanlilly/liminal)
+examples
+- http://jmlilly.net/course.html
+- http://www.jmlilly.net/talks/liminal/index.html
+
+
+Or story
+https://github.com/xaprb/story/
+https://story.xaprb.com/slides/adirondack/#1
+
+
+
+
+
+
+
+## Marp
+
+https://marp.app/
+https://github.com/marp-team/marpit
+
+How to write markdown for marp https://marpit.marp.app/markdown
+Uses CommonMark spec https://spec.commonmark.org/
+
+
+
+### CLI tools
+https://github.com/marp-team/marp-cli
+
+Run tool in watch mode to convert `.md` file to `topics-data-basics.html`
+```bash
+marp topics-data-basics.md -w --html true
+```
+
+Or, add config to package.json and run just
+```
+marp -w
+```
+
+
+### Options in Package.json
+https://github.com/marp-team/marp-cli#options
+
+- html - Enable HTML tags
+- inputDir - where markdown files
+- output - dir to send output
+- headingDivider - https://marpit-api.marp.app/marpit
+
+
+Styling
+https://marpit.marp.app/directives?id=styling-slide
+
+
+
+Default Theme
+https://github.com/bespokejs/bespoke
+Change themes
+https://github.com/marp-team/marp-core/tree/main/themes#gaia
+
+
+
+https://github.com/marp-team/marp-cli/blob/d539831620cdcf3ba1ea04479b2ec643abc0d758/src/templates/bespoke/navigation.ts#L17-L41
+↓ / → / Space / PageDown: Navigate to next slide (or fragment)
+↑ / ← / Shift + Space / PageUp: Navigate to previous slide (or fragment)
+Home: Navigate to the first slide
+End: Navigate to the last slide
+f: Toggle fullscreen
+p: Open presenter view

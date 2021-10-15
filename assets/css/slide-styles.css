@@ -1,0 +1,37 @@
+/* @theme owen */
+@import 'default';
+/* @import 'gaia'; */
+/* @import 'uncover'; */
+
+.caption { color: #999; }
+.small { font-size: .7rem !important; }
+
+section {
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+header,
+footer {
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    height: 20px;
+    background-color: blue;
+}
+
+header {
+    top: 30px;
+}
+
+footer {
+    bottom: 30px;
+}
