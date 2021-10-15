@@ -1,5 +1,5 @@
 
-[<](README.md)
+[<](../README.md)
 
 <img width="375" src="assets/img/banner/banner-files-naming-conventions.png">
 
@@ -41,7 +41,7 @@ Complete the following to prepare for this module
 </details>
 
 
-
+https://google.github.io/styleguide/htmlcssguide.html
 
 
 ## File naming conventions

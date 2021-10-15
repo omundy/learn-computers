@@ -69,7 +69,7 @@ markdown + [remark](https://github.com/gnab/remark) + [markdown-to-slides](https
 
 Run tool in watch mode to convert `.md` file
 ```bash
-markdown-to-slides topics-data-basics.md -o slideshow.html -w
+markdown-to-slides topics/data-basics.md -o slideshow.html -w
 ```
 
 ### But...
@@ -109,9 +109,9 @@ Uses CommonMark spec https://spec.commonmark.org/
 ### CLI tools
 https://github.com/marp-team/marp-cli
 
-Run tool in watch mode to convert `.md` file to `topics-data-basics.html`
+Run tool in watch mode to convert `.md` file to `topics/data-basics.html`
 ```bash
-marp topics-data-basics.md -w --html true
+marp topics/data-basics.md -w --html true
 ```
 
 Or, add config to package.json and run just

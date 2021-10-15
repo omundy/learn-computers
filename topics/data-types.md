@@ -1,5 +1,5 @@
 
-[<](README.md)
+[<](../README.md)
 
 <img width="375" src="assets/img/banner/banner-data-types.png">
 
@@ -299,11 +299,8 @@ test + " apples" // -> "10 apples"
 
 ## Data collections
 
-The terms, "data collection" and "data set", are sometimes used interchangeably. While a data collection can be used to describe the formal data type categories in programming languages, or the ways that one or more data values are organized together, both terms might be used to refer to any type of data exchange format (discussed in the next section).
+In addition to [primitive data types](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) like `boolean`, `number`, and `string`, many programming languages have types classified as data collections, which can include `arrays`, `objects`, as well as more complex entities, hierarchical collections, and lists.
 
-Regardless, data collections contain more than one value, allowing for comparisons of multiple points. For example, a time series dataset, is a collection of observations made sequentially in time.
-
-In terms of programming language data types, Javascript (refer to the table above) and other languages use "data collection" to mean a collection of single data values.
 
 
 
@@ -371,10 +368,9 @@ console.log(cars[4][0]); // -> "Toyota"
 Javascript contains its own definition of objects, which is slightly different than the way that other languages use objects and classes.
 
 ```js
-var person = {
-    "firstName": "John",
-    "lastName": "Doe",
-    "age": 25
+let artist = {
+    name: "Miles Davis",
+    instrument: "trumpet"
 };
 ```
 
@@ -442,7 +438,17 @@ Use jsfiddle to explore these [primitive](https://jsfiddle.net/ow3n/6qpeq20y/) a
 
 ## Data exchange formats
 
-The above two examples are used to represent data that is "deserialized", or stored inside the computer's memory. In order to save the data in a file or transmit it over a network it must by "serialized" into a [data exchange format](https://en.wikipedia.org/wiki/Data_exchange#Popular_languages_used_for_data_exchange). This section discusses three popular formats / file types.
+Data collections can be stored inside code files, or more often, imported from external files, databases, or API servers. Data exchange formats help to standardize how data is stored and transmitted when you import external data and generally fall into one of the below categories:
+
+1. Tabular data exchange formats (e.g. `CSV`, `TSV`)
+1. Hierarchical data exchange formats (e.g. `JSON` or `XML`).
+
+See this lesson for more on data exchange formats
+
+- [Learn Computing / Data Types / Data Exchange Formats](https://github.com/omundy/learn-computing/blob/main/topics/data-types.md#data-exchange-formats)
+
+
+
 
 
 
@@ -462,7 +468,9 @@ make | model | year
 
 ### CSV
 
-While Excel or Google Sheets might store and *display* tabular data by adding lines to describe the cells where rows and columns meet, the actual data values in those cells are usually stored (and transmitted) as [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values). CSV is one of the most common ways that tabular data is stored (in `.csv` files), [exchanged](https://en.wikipedia.org/wiki/Data_exchange) across spreadsheets, flat files, and databases. The above [dataset as a CSV](datasets/cars.csv) looks like:
+While Excel or Google Sheets might store and *display* tabular data by adding lines to describe the cells where rows and columns meet, the actual data values in those cells are usually stored (and transmitted) as [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values).
+
+CSV is one of the most common ways that tabular data is stored (in `.csv` files), [exchanged](https://en.wikipedia.org/wiki/Data_exchange) across spreadsheets, flat files, and databases, though you can technically delineate the columns with any unique character. The above [dataset as a CSV](datasets/cars.csv) looks like:
 
 ```
 "make", "model", "year"
@@ -472,10 +480,33 @@ While Excel or Google Sheets might store and *display* tabular data by adding li
 "Toyota", "RAV4", 1999
 ```
 
+Note that each row should contain the same number of columns, even if the cell is empty.
+
 More on CSV:
 
 - [CSV history](https://en.wikipedia.org/wiki/Comma-separated_values)
 - How to validate CSV [csvlint.io](https://csvlint.io)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -486,7 +517,7 @@ More on CSV:
 
 Like Javascript objects, they are hierarchical, use `"key":"value"` pairs to store data, and are contained within curly braces `{ ... }`.
 
-One drawback to JSON is that it can be sensitive to syntax errors. JSON documents (with file extensions `.json`) must validate or they won’t work. A good tool for validation is: [jsonlint.com](https://jsonlint.com)
+One drawback to JSON is that it can be sensitive to syntax errors. JSON documents (`.json`) must [validate](https://jsonlint.com) or they won’t work. For example, unlike a regular Javascript `object`, all JSON keys must be wrapped in double quotes.
 
 The [cars dataset represented as JSON](datasets/cars.json) looks like:
 
@@ -523,11 +554,15 @@ More on JSON:
 
 
 
+
+
+
+
 ### XML
 
-[XML (Extensible Markup Language)](http://www.w3schools.com/xml/xml_whatis.asp) is like other markup languages (HTML for example), but considered extensible because (unlike HTML) you can name the elements anything you like.
+[XML (Extensible Markup Language)](http://www.w3schools.com/xml/xml_whatis.asp) is another common hierarchical format for storing and transporting data.
 
-XML [shares some features with JSON](https://www.w3schools.com/js/js_json_xml.asp), since it is also a hierarchical data collection. However, unlike JSON, XML documents have a higher file size to store and transmit the same data values because they require open *and* closing "tags" for every data value.
+XML [shares some features with JSON](https://www.w3schools.com/js/js_json_xml.asp), since it is also a hierarchical data collection. However it has decreased in popularity because, unlike JSON, XML documents need a higher file size to store and transmit the same data values because, like other markup languages (e.g. HTML), they require open *and* closing "tags" for every data value. XML is called "extensible" because (unlike HTML) you can name the elements anything you like.
 
 The [cars dataset represented as XML](datasets/cars.xml) looks like:
 
@@ -558,8 +593,7 @@ The [cars dataset represented as XML](datasets/cars.xml) looks like:
 
 More on XML:
 
-- W3Schools [XML Examples](https://www.w3schools.com/xml/xml_examples.asp)
-- W3Schools [JSON vs. XML](https://www.w3schools.com/js/js_json_xml.asp)
+- W3Schools [XML Examples](https://www.w3schools.com/xml/xml_examples.asp), [JSON vs. XML](https://www.w3schools.com/js/js_json_xml.asp)
 - How to validate XML [xmlvalidation.com](https://www.xmlvalidation.com/)
 
 

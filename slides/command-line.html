@@ -13,17 +13,18 @@
 /* @theme owen */
 /* @import 'gaia'; */
 /* @import 'uncover'; */div#p>svg>foreignObject>section .caption{color:#999}div#p>svg>foreignObject>section .small{font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section section.small{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section{background-color:#fff;color:#333}div#p>svg>foreignObject>section footer,div#p>svg>foreignObject>section header{position:fixed;left:50px;right:50px;height:20px;background-color:blue}div#p>svg>foreignObject>section header{top:30px}div#p>svg>foreignObject>section footer{bottom:30px}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=content],div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-progress-parent"><div class="bespoke-progress-bar"></div></div><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id="p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-theme="owen" style="--theme:owen;">
-<p><a href="README.md">&lt;</a></p>
-<img width="375" src="assets/img/banner/banner-keyboard-shortcuts.png" />
-<h1>Keyboard shortcuts &amp; Workflows</h1>
-<p>Speed up your computing with keyboard shortcuts!</p>
+<p><a href="../README.md">&lt;</a></p>
+<img width="375" src="assets/img/banner/banner-command-line.png" />
+<h1>Command Line, Shell, Terminal, Bash</h1>
+<p>No matter what you call it, using the command line is essential to computing proficiency.</p>
 <h3>Contents</h3>
 <ol>
-<li><a href="#introduction">Introduction</a> <code>5-10 min</code></li>
-<li><a href="#create-an-efficiency-test">Create an efficiency test</a> <code>10 min</code></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#about-the-command-line">About the command line</a> <code>5 min</code></li>
+<li><a href="#navigating-the-filesystem">Navigating the filesystem</a> <code>5 min</code></li>
+<li><a href="#creating-and-editing-files">Creating and editing files</a> <code>5 min</code></li>
+<li><a href="#running-programs">Running programs</a> <code>5 min</code></li>
 <li><a href="#discussion">Discussion</a> <code>5 min</code></li>
-<li><a href="#keyboard-commands">Keyboard commands</a></li>
-<li><a href="#workflows">Workflows</a></li>
 <li><a href="#keep-practicing">Keep practicing</a></li>
 <li><a href="#assessment">Assessment</a></li>
 <li><a href="#references">References</a></li>
@@ -34,498 +35,138 @@
 <summary>Learning Objectives</summary>
 <p>Students who complete the following will be able to:</p>
 <ul>
-<li>Demonstrate basic computer keyboard commands like copy, paste, save</li>
-<li>Perform more advanced commands like switching programs and finding text on a web page or text doc</li>
-<li>Explain how keyboard commands can increase computing efficiency</li>
-<li>Combine multiple keyboard commands to establish faster computing workflows</li>
+<li>Explain what the command line is and common uses</li>
+<li>Open a command line program on their computer and execute basic commands</li>
+<li>Navigate, create, and edit files on their computer using the command line</li>
+<li>Edit and run a Python script using the command line</li>
+<li>Use a web reference to look up shell commands</li>
 </ul>
 </details>
-<details>
-<summary>Preparation</summary>
-<p>Complete the following to prepare for this module</p>
+<h2>About the command line</h2>
+<p>The command line is a text interface for your computer. You type commands, and the computer operating system (OS) will run them when you press enter. From the command line, you can navigate through files and folders on your computer, just as you would with Windows Explorer or Finder on Mac OS. The difference is that the command line is fully text-based and offers additional options that your GUI (Graphical User Interface) might not.</p>
+<h3>Terms</h3>
 <ul>
-<li><a href="topics-command-line-crash-course.md">Command Line Crash Course</a></li>
+<li>OS =&gt; Operating System</li>
+<li>CLI =&gt; <a href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a></li>
+<li>Shell =&gt; The application where you use the command line</li>
+<li>Bash (&quot;Bourne Again Shell&quot;) =&gt; A type of shell</li>
+<li>Zsh (&quot;Z Shell&quot;) =&gt;  The new default shell used in macOS Catalina and later</li>
+<li>Shell programming =&gt; <a href="https://www.tutorialspoint.com/unix/shell_scripting.htm">Programming and running scripts</a> (e.g. <code>.sh</code>) using a shell</li>
 </ul>
-</details>
-<p>In your group, discuss the following.</p>
+<h3>Installation</h3>
 <ul>
-<li>What tips do you know for making your computer use efficient?</li>
-<li>Do you currently use your non-mouse hand to enter commands on your computer keyboard?</li>
+<li>Mac - The Terminal application is already installed</li>
+<li>Windows - Install <a href="https://gitforwindows.org/">Git Bash</a> or use <a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701">Windows Terminal</a></li>
+<li>Linux - <a href="https://www.raspberrypi.org/documentation/usage/terminal/">LXTerminal</a> is already installed</li>
 </ul>
-<p>Now, practice all the <a href="#keyboard-commands">keyboard commands</a> below, including the series of commands in the <a href="#workflows">text editing workflow</a>.</p>
-<ul>
-<li>Which of the basic <img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/>  or advanced <img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/> shortcuts are new to you?</li>
-<li>Did you find it awkward to use the shortcuts at first?</li>
-</ul>
-<p><img src="assets/img/keyboard-shortcuts/keyboard-shortcuts-avid.png" alt="avid shortcuts" /><br /><br />
-<sub>Many industries use templates, like this Avid Media Composer helper, to help recall keyboard shortcuts.</sub></p>
-<h2>Create an efficiency test</h2>
-<p>In the 1910's, Frederick Taylor recorded the <a href="https://www.shutterstock.com/video/clip-19628218-frederick-taylors-pig-iron-carrying-experiment-tests">workflows of laborers</a> and used the data to increase productivity. Through his <a href="https://en.wikipedia.org/wiki/Scientific_management">scientific management</a> analysis, he learned that efficiency actually <em>increased</em> if workers took more breaks because it gave them time to recover from the work.</p>
-<p>Like Taylor, we want to know how we might improve our efficiency at the keyboard. And perhaps more importantly, what could we do with the saved time?! Follow these instructions to measure the efficiency of using (and not using) keyboard shortcuts over the equivalent actions, or series of actions.</p>
+<h3>Running commands</h3>
+<p>When you <a href="topics-basics.md#find-a-file-or-program">open your command line application</a>, you'll be greeted by the command prompt, signified by the <code>$</code>. This is where you type commands and press enter to make the shell read your input and determine which command to execute.</p>
+<p><img src="assets/img/command-line/command-line-whoami.png" alt="whoami" /></p>
+<p>For example, run the <code>whoami</code> command to &quot;output&quot; or &quot;return&quot; your username:</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>whoami
+<span class="hljs-comment"># -&gt; &lt;username&gt;</span>
+</span></span></foreignObject></svg></code></pre>
+<p>The shell looks at the first word to determine the command to run, then uses the following words as needed for parameters.</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>whatis whoami
+<span class="hljs-comment"># -&gt; - display effective user id</span>
+man whoami
+<span class="hljs-comment"># -&gt; &lt;displays the manual entry for whoami command&gt; -&gt; press &quot;q&quot; to exit</span>
+</span></span></foreignObject></svg></code></pre>
+<p>Note, the hash symbol <code>#</code> is used as a comment in bash scripting, so therefore skipped by the shell when evaluating the input. These are displayed here only as a reference.</p>
+<p>Finally, you can combine commands in new ways with special characters. The double ampersand <code>&amp;&amp;</code> let's you combine more than one command:</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>whoami &amp;&amp; <span class="hljs-built_in">pwd</span> &amp;&amp; <span class="hljs-built_in">echo</span> Hello world!
+<span class="hljs-comment"># -&gt; &lt;outputs all three in series&gt;</span>
+</span></span></foreignObject></svg></code></pre>
+<h2>Navigating the filesystem</h2>
+<p>Let's learn how to move around. Most commands are shortened or abbreviations for the English equivalent of what they perform. Run these commands and try to guess what they do.</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-built_in">pwd</span>
+ls
+ls -la
+</span></span></foreignObject></svg></code></pre>
+<p>If you guessed &quot;print working directory&quot; and &quot;list&quot; you were correct!</p>
+<p>The <code>ls</code> command lists the contents of the directory that you are currently in (your present &quot;working directory&quot;). The <code>-la</code> component of the <code>ls</code> command are known as 'flags', which modify the command you run. In this case the <code>l</code> displays the contents of the directory in a list, showing file sizes and last edit date. The <code>a</code> displays all files, including those beginning with a <code>.</code>, which are hidden configuration files for software.</p>
+<p>Let's &quot;change to a new directory&quot; now with the following and output the files. Do you know where you are?</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-built_in">cd</span> /
+ls -la
+</span></span></foreignObject></svg></code></pre>
+<p>Using <code>cd /</code> changes our current working directory to the <a href="topics-files-folders.md#users-and-permissions">root of the computer</a>, where you'll mainly find a lot program files. You can return to your home directory (usually where you start when you open a new shell) with the following (a tilda <code>~</code> + <code>/</code>):</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-built_in">cd</span> ~/
+</span></span></foreignObject></svg></code></pre>
+<h2>Creating and editing files</h2>
+<p>Let's make a new folder in our home directory to create some test files. Before you do the following, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-built_in">cd</span> ~/ <span class="hljs-comment"># confirm you are home</span>
+mkdir <span class="hljs-built_in">test</span> <span class="hljs-comment"># make a new directory called &quot;test&quot;</span>
+<span class="hljs-built_in">cd</span> <span class="hljs-built_in">test</span> <span class="hljs-comment"># change to the directory</span>
+<span class="hljs-built_in">pwd</span> <span class="hljs-comment"># confirm you are in &lt;username&gt;/test</span>
+</span></span></foreignObject></svg></code></pre>
+<p>Great! Now let's create a new file and edit it. This command will create a new file named &quot;hello.txt&quot;:</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>touch hello.txt
+</span></span></foreignObject></svg></code></pre>
+<p>On Windows, if you use Git Bash the default editor will be <a href="https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm">Vim</a>. On Mac you can also use <a href="https://linuxize.com/post/how-to-use-nano-text-editor/">Nano</a>. The following will open (or if it doesn't yet exist, create and open) a file called hello.txt in the Vim text editor:</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>vim hello.txt
+</span></span></foreignObject></svg></code></pre>
+<p>Vim has two modes: <em>command</em> and <em>insert</em>. In the command mode, you can move around the file, delete text, save, etc. In the insert mode, you can insert text.</p>
+<p>To change to the insert mode, press <code>i</code>. Type some text.</p>
+<p><img src="assets/img/command-line/command-line-vim-insert.png" alt="vim insert" /></p>
+<p>Change back to command mode by pressing <code>ESC</code>. Now you can save your file by pressing <code>:wq</code> (write and quit). Once you do this, run the following to confirm the file exists and its contents.</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>ls hello.txt
+cat hello.txt
+<span class="hljs-comment"># -&gt; hello world!</span>
+</span></span></foreignObject></svg></code></pre>
+<p><img src="assets/img/command-line/command-line-vim-save.png" alt="vim insert" /></p>
+<h2>Running programs</h2>
+<p>Excellent! Now, in our final section, we'll create and run a Python script with Vim.</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-built_in">pwd</span> <span class="hljs-comment"># confirm you are still in &lt;username&gt;/test</span>
+clear <span class="hljs-comment"># &quot;clears&quot; the terminal (you can still scroll up to see previous commands)</span>
+vim hello.py <span class="hljs-comment"># create a plain text file with the .py extension</span>
+</span></span></foreignObject></svg></code></pre>
+<p>In the Vim editor, press <code>i</code> to enter insert mode, and paste or type the following code in the file:</p>
+<pre><code class="language-python"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>string1 = <span class="hljs-string">&quot;I&quot;</span>
+string2 = <span class="hljs-string">&quot; &lt;3&quot;</span>
+string3 = <span class="hljs-string">&quot; the CLI&quot;</span>
+joined_string = string1 + string2 + string3
+<span class="hljs-built_in">print</span>(joined_string)
+</span></span></foreignObject></svg></code></pre>
+<p>Press <code>ESC</code> and then <code>:wq</code> to save and quit the editor. Run your file with:</p>
+<pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>python script.py
+</span></span></foreignObject></svg></code></pre>
+<p>Congratulations! <img class="emoji" draggable="false" alt="🎉" src="https://twemoji.maxcdn.com/2/svg/1f389.svg" data-marp-twemoji=""/>   Similar to using built-in commands, you've created a file that runs its own script!</p>
+<h2>Discussion</h2>
+<p>Discuss the following with your group and share a short demo on the above with the class.</p>
 <ol>
-<li>Consider multiple commands and contexts (like the <a href="#workflows">text editing workflow</a>).</li>
-<li>More than one person in your group should take the test(s).</li>
-<li>Perform each with and without keystrokes.</li>
-<li>Move at the speed you would normally move.</li>
-<li>For each action or series, record the number of clicks and the total time:
+<li>Demonstrate example commands that show
 <ol>
-<li>to find the thing you need to click with the mouse</li>
-<li>to move your mouse hand from the keyboard to type and back</li>
-<li>to move your mouse on the screen. (e.g. from your file, <em><strong>aaaaaall</strong></em> the way up to the top left, to choose File &gt; Save, then back down to the space where you were working on the screen)</li>
+<li>how to navigate the filesystem</li>
+<li>how to create files</li>
+<li>how to run a program</li>
 </ol>
 </li>
+<li>Of the commands you used, which reminded you of concepts you already know about computers?</li>
+<li>Revisit the learning objectives for this section. Did you accomplish the goals in this lesson? What questions do you have?</li>
 </ol>
-<p>Here are some to get you started. Try to create 3 more, (use the web dev workflow if you are comfortable).</p>
-<table>
-<tr>
-<td>Action</td>
-<td colspan="2">🚫 Without ⌨️</td>
-<td colspan="2">🔥 With ⌨️</td>
-</tr>
-<tr>
-<td></td>
-<td>Time</td>
-<td>Clicks</td>
-<td>Time</td>
-<td>Clicks</td>
-</tr>
-<tr>
-<td>Create a new text file, type the name of this class, and save it.</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Copy/paste the first 10 words of this page into a text file, each on a new line, one at a time, saving each time</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Select/copy/paste <i>all</i> text on a <a href="https://www.poetryfoundation.org/poems/45477/song-of-myself-1892-version" target="_blank">long web page</a> into a new google doc</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="#workflows">Basic text editing workflow</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>?</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>?</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>?</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
-<h2>Discussion</h2>
-<p>After you record your data, prepare to share it and your answers to the following with the class</p>
-<ol>
-<li>Did you find it faster to use shortcuts? Which shortcuts saved the most time?</li>
-<li>Estimate the time difference between each in 1 hour, 1 day, 1 week, or a whole semester of computer work.</li>
-<li>Considering how often you perform these actions, what would you do with that extra time?</li>
-<li>Share your results with the class.</li>
-</ol>
-<h2>Keyboard commands</h2>
-<h4>Text editing</h4>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac</th>
-<th>Windows</th>
-<th><img class="emoji" draggable="false" alt="🤔" src="https://twemoji.maxcdn.com/2/svg/1f914.svg" data-marp-twemoji=""/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cut</td>
-<td><kbd>Cmd</kbd> + <kbd>X</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>X</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Copy</td>
-<td><kbd>Cmd</kbd> + <kbd>C</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>C</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Paste</td>
-<td><kbd>Cmd</kbd> + <kbd>V</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>V</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Undo</td>
-<td><kbd>Cmd</kbd> + <kbd>Z</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Z</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Redo</td>
-<td><kbd>Cmd</kbd> + <kbd>Y</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Y</kbd></td>
-<td></td>
-</tr>
-<tr>
-<td>Find</td>
-<td><kbd>Cmd</kbd> + <kbd>F</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>F</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Select all</td>
-<td><kbd>Cmd</kbd> + <kbd>A</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>A</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Move cursor by letter or line</td>
-<td><kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd></td>
-<td><kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Move cursor by word</td>
-<td><kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Select letters</td>
-<td><kbd>Shift</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><kbd>Shift</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Select lines</td>
-<td><kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd></td>
-<td><kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Select words</td>
-<td><kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-</tbody>
-</table>
-<h4>Document and application management</h4>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac</th>
-<th>Windows</th>
-<th><img class="emoji" draggable="false" alt="🤔" src="https://twemoji.maxcdn.com/2/svg/1f914.svg" data-marp-twemoji=""/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Save the current file</td>
-<td><kbd>Cmd</kbd> + <kbd>S</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>S</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Open a document</td>
-<td><kbd>Cmd</kbd> + <kbd>O</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>O</kbd></td>
-<td></td>
-</tr>
-<tr>
-<td>Create a new document</td>
-<td><kbd>Cmd</kbd> + <kbd>N</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>N</kbd></td>
-<td></td>
-</tr>
-<tr>
-<td>Close current window</td>
-<td><kbd>Cmd</kbd> + <kbd>N</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>N</kbd></td>
-<td></td>
-</tr>
-<tr>
-<td>Quit current app</td>
-<td><kbd>Cmd</kbd> + <kbd>Q</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Q</kbd></td>
-<td></td>
-</tr>
-<tr>
-<td>Switch programs</td>
-<td><kbd>Cmd</kbd> + <kbd>Tab</kbd></td>
-<td><kbd>Windows</kbd> + <kbd>Tab</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-</tbody>
-</table>
-<h4>Web Browsing</h4>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac</th>
-<th>Windows</th>
-<th><img class="emoji" draggable="false" alt="🤔" src="https://twemoji.maxcdn.com/2/svg/1f914.svg" data-marp-twemoji=""/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Open a new window</td>
-<td><kbd>Cmd</kbd> + <kbd>N</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>N</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Open a new tab</td>
-<td><kbd>Cmd</kbd> + <kbd>Tab</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Tab</kbd></td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Reopen closed tab</td>
-<td><kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>T</kbd></td>
-<td><kbd>Shift</kbd> + <kbd>Ctl</kbd> + <kbd>T</kbd></td>
-<td></td>
-</tr>
-<tr>
-<td>Find on a web page</td>
-<td><kbd>Cmd</kbd> + <kbd>F</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>F</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Reload the page</td>
-<td><kbd>Cmd</kbd> + <kbd>R</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>R</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Reload page and clear cache</td>
-<td><kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>R</kbd></td>
-<td><kbd>Shift</kbd> + <kbd>Ctl</kbd> + <kbd>R</kbd></td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-</tbody>
-</table>
-<h4>Mouse and other tricks (* requires <a href="https://rectangleapp.com/">Rectangle</a> for Mac)</h4>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac</th>
-<th>Windows</th>
-<th><img class="emoji" draggable="false" alt="🤔" src="https://twemoji.maxcdn.com/2/svg/1f914.svg" data-marp-twemoji=""/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Add your cursor to a document</td>
-<td>Click once where you like</td>
-<td>Click once where you like</td>
-<td><img class="emoji" draggable="false" alt="🍏" src="https://twemoji.maxcdn.com/2/svg/1f34f.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Select a word</td>
-<td>Double click any word</td>
-<td>Double click any word</td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Select a whole line of text</td>
-<td>Triple click anywhere</td>
-<td>Triple click anywhere</td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Make current window fill screen*</td>
-<td><kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>Return</kbd></td>
-<td>?</td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Make current window fill left half of the screen*</td>
-<td><kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>←</kbd></td>
-<td>?</td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-<tr>
-<td>Make current window fill top half of the screen*</td>
-<td><kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>↑</kbd></td>
-<td>?</td>
-<td><img class="emoji" draggable="false" alt="🔥" src="https://twemoji.maxcdn.com/2/svg/1f525.svg" data-marp-twemoji=""/></td>
-</tr>
-</tbody>
-</table>
-<h2>Workflows</h2>
-<h3>Basic text editing</h3>
-<p>Level up your text editing skills.</p>
-<img style="" src="assets/img/banner/banner-workflow-text-editing.png" />
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac</th>
-<th>Windows</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Find the first quote with the word &quot;pig&quot; on this <a href="https://www.audible.com/blog/quotes/kurt-vonnegut">page</a></td>
-<td><kbd>Cmd</kbd> + <kbd>F</kbd> + &quot;pig&quot;</td>
-<td><kbd>Ctl</kbd> + <kbd>F</kbd> + &quot;pig&quot;</td>
-</tr>
-<tr>
-<td>Jump to the 2nd &quot;pig&quot; quote</td>
-<td><kbd>Cmd</kbd> + <kbd>G</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>G</kbd></td>
-</tr>
-<tr>
-<td>Select the whole quote</td>
-<td>Triple click on the text</td>
-<td>Triple click on the text</td>
-</tr>
-<tr>
-<td>Copy it</td>
-<td><kbd>Cmd</kbd> + <kbd>C</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>C</td>
-</tr>
-<tr>
-<td>Switch to your text editor</td>
-<td><kbd>Cmd</kbd> + <kbd>Tab</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Tab</kbd></td>
-</tr>
-<tr>
-<td>Find text where you want to paste a quote</td>
-<td><kbd>Cmd</kbd> + <kbd>F</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>F</kbd></td>
-</tr>
-<tr>
-<td>Move cursor by word to the spot</td>
-<td><kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-<td><kbd>Option</kbd> + <kbd>←</kbd> or <kbd>→</kbd></td>
-</tr>
-<tr>
-<td>Paste quote</td>
-<td><kbd>Cmd</kbd> + <kbd>V</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>V</kbd></td>
-</tr>
-<tr>
-<td>Save the file</td>
-<td><kbd>Cmd</kbd> + <kbd>S</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>S</kbd></td>
-</tr>
-<tr>
-<td>Repeat</td>
-<td>↪</td>
-<td>↪</td>
-</tr>
-</tbody>
-</table>
-<h3>Web development Edit-Save-Refresh-Loop</h3>
-<p>Building web pages requires you to do a lot of repetitive tasks. It’s a good idea to learn proficiency and develop efficient workflows early on.</p>
-<img style="" src="assets/img/banner/banner-workflow-web.png" />
-<p>Mastering the &quot;Edit-Save-Refresh-Loop&quot; can speed up your work immensely. If you can do these you'll never have to move your hands to the mouse!</p>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac</th>
-<th>Windows</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Find code to edit</td>
-<td><kbd>Cmd</kbd> + <kbd>F</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>F</kbd></td>
-</tr>
-<tr>
-<td>Edit the (HTML, CSS, JS, etc.) file</td>
-<td>Using the keyboard</td>
-<td>Using the keyboard</td>
-</tr>
-<tr>
-<td>Save the file</td>
-<td><kbd>Cmd</kbd> + <kbd>S</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>S</kbd></td>
-</tr>
-<tr>
-<td>Switch to browser</td>
-<td><kbd>Cmd</kbd> + <kbd>Tab</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Tab</kbd></td>
-</tr>
-<tr>
-<td>Refresh page</td>
-<td><kbd>Cmd</kbd> + <kbd>R</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>R</kbd></td>
-</tr>
-<tr>
-<td>Inspect the page (dev tools)</td>
-<td><kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>C</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>C</kbd></td>
-</tr>
-<tr>
-<td>Find the problem code in dev tools</td>
-<td><kbd>Cmd</kbd> + <kbd>F</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>F</kbd></td>
-</tr>
-<tr>
-<td>Switch to editor</td>
-<td><kbd>Cmd</kbd> + <kbd>Tab</kbd></td>
-<td><kbd>Ctl</kbd> + <kbd>Tab</kbd></td>
-</tr>
-<tr>
-<td>Repeat</td>
-<td>↪</td>
-<td>↪</td>
-</tr>
-</tbody>
-</table>
 <h2>Keep practicing</h2>
+<p>Additional commands and prompts to continue learning the command line:</p>
 <ul>
-<li><a href="https://www.groovypost.com/tips/50-universal-web-browser-hotkeys/">50 Keyboard Shortcuts That Work Across All Web Browsers</a></li>
-<li><a href="assets/img/keyboard-shortcuts/keyboard-shortcuts.gif">A big list of Windows and Microsoft shortcuts</a></li>
-<li><a href="https://www.excelcampus.com/keyboard-shortcuts/advanced-excel-shortcuts/">19 Advanced Excel Shortcuts</a></li>
-<li><a href="https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html">Keyboard shortcuts in Photoshop</a> and others <a href="assets/img/keyboard-shortcuts/keyboard-shortcuts-photoshop.png">in context</a></li>
-<li><a href="https://helpx.adobe.com/after-effects/using/keyboard-shortcuts-reference.html">Keyboard shortcuts in After Effects</a> and others <a href="assets/img/keyboard-shortcuts/keyboard-shortcuts-ae.png">in context</a></li>
-<li><a href="https://support.google.com/youtube/answer/7631406?hl=en">Youtube Keyboard Shortcuts</a></li>
+<li>Change the text your python file prints and run the script again. <strong>Tip</strong>: Use the up <code>↑</code> and down <code>↓</code> arrows on the keyboard to cycle through previous commands.</li>
+<li>Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing <code>tab</code>. If a file or directory that starts with that name exists the shell will fill it in for you.</li>
+<li><a href="https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/">16 Terminal commands every user should know</a></li>
+<li><a href="https://opensource.com/article/19/10/learn-bash-command-line-games">3 command line games for learning Bash the fun way</a></li>
 </ul>
 <h2>Assessment</h2>
-<p>Ready to test your skills? See if you can do the following WITHOUT TOUCHING YOUR MOUSE:</p>
+<p>Ready to test your skills? See if you can</p>
 <ol>
-<li>Create, edit, save, and email a new text document from scratch to your professor.</li>
-<li>Find a Youtube video showing Stage 17 of the 2021 Tour de France and skip to the moment when Tadej Pogačar <a href="https://youtu.be/g24EHF7-9lU?t=1614">rides away</a> to claim the win.</li>
+<li>Complete the <a href="https://www.codecademy.com/learn/learn-the-command-line">command line lesson on Codecademy</a>.</li>
+<li><a href="https://www.linux.com/training-tutorials/writing-simple-bash-script/">Write a simple bash script</a></li>
+<li><a href="https://www.proprofs.com/quiz-school/story.php?title=linux-command-line-quiz-485">Take a quiz</a></li>
 </ol>
 <h2>References</h2>
 <ul>
-<li><a href="https://support.apple.com/en-us/HT201236">Mac keyboard shortcuts</a></li>
-<li><a href="https://www.lifewire.com/essential-windows-keyboard-shortcuts-2377753">Essential Windows Keyboard Shortcuts</a></li>
+<li>Ubuntu <a href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal">The Linux command line for beginners</a></li>
+<li>Codecademy <a href="https://www.codecademy.com/articles/command-line-commands">List of Command Line Commands</a></li>
+<li>Raspberry Pi <a href="https://www.raspberrypi.org/documentation/usage/terminal/">Terminal</a></li>
+<li><a href="https://learn.co/lessons/bash-navigation-osx">Bash navigation</a></li>
 </ul>
 </section>
 <script>!function(){"use strict";const t="marpitSVGPolyfill:setZoomFactor,",e=Symbol();let r,o;function n(n){const i="object"==typeof n&&n.target||document,a="object"==typeof n?n.zoom:n;window[e]||(Object.defineProperty(window,e,{configurable:!0,value:!0}),window.addEventListener("message",(({data:e,origin:r})=>{if(r===window.origin)try{if(e&&"string"==typeof e&&e.startsWith(t)){const[,t]=e.split(","),r=Number.parseFloat(t);Number.isNaN(r)||(o=r)}}catch(t){console.error(t)}})));let l=!1;Array.from(i.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,n,i,s;t.style.transform||(t.style.transform="translateZ(0)");const c=a||o||t.currentScale||1;r!==c&&(r=c,l=c);const d=t.getBoundingClientRect(),{length:u}=t.children;for(let r=0;r<u;r+=1){const o=t.children[r],a=o.getScreenCTM();if(a){const t=null!==(n=null===(e=o.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==n?n:0,r=null!==(s=null===(i=o.y)||void 0===i?void 0:i.baseVal.value)&&void 0!==s?s:0,l=o.firstElementChild,{style:u}=l;u.transformOrigin||(u.transformOrigin=`${-t}px ${-r}px`),u.transform=`scale(${c}) matrix(${a.a}, ${a.b}, ${a.c}, ${a.d}, ${a.e-d.left}, ${a.f-d.top}) translateZ(0.0001px)`}}})),!1!==l&&Array.from(i.querySelectorAll("iframe"),(({contentWindow:e})=>{null==e||e.postMessage(`${t}${l}`,"null"===window.origin?"*":window.origin)}))}r=1,o=void 0;const i=(t,e,r)=>{if(t.getAttribute(e)!==r)return t.setAttribute(e,r),!0};function a({once:t=!1,target:e=document}={}){const r="Apple Computer, Inc."===navigator.vendor?[n]:[];let o=!t;const a=()=>{for(const t of r)t({target:e});!function(t=document){Array.from(t.querySelectorAll('svg[data-marp-fitting="svg"]'),(t=>{var e;const r=t.firstChild,o=r.firstChild,{scrollWidth:n,scrollHeight:a}=o;let l,s=1;if(t.hasAttribute("data-marp-fitting-code")&&(l=null===(e=t.parentElement)||void 0===e?void 0:e.parentElement),t.hasAttribute("data-marp-fitting-math")&&(l=t.parentElement),l){const t=getComputedStyle(l),e=Math.ceil(l.clientWidth-parseFloat(t.paddingLeft||"0")-parseFloat(t.paddingRight||"0"));e&&(s=e)}const c=Math.max(n,s),d=Math.max(a,1),u=`0 0 ${c} ${d}`;i(r,"width",`${c}`),i(r,"height",`${d}`),i(t,"preserveAspectRatio",getComputedStyle(t).getPropertyValue("--preserve-aspect-ratio")||"xMinYMin meet"),i(t,"viewBox",u)&&t.classList.toggle("__reflow__")}))}(e),o&&window.requestAnimationFrame(a)};return a(),()=>{o=!1}}const l=Symbol(),s=document.currentScript;((t=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(t[l])return t[l];const e=a({target:t}),r=()=>{e(),delete t[l]};Object.defineProperty(t,l,{configurable:!0,value:r})})(s?s.getRootNode():document)}();
 </script></foreignObject></svg></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@1.4.1/lib/bespoke.js.LICENSE.txt */
-!function(){"use strict";const e=document.body,t=(...e)=>history.replaceState(...e),n="presenter",r="next",o=["",n,r],a="data-bespoke-marp-",i=(e,{protocol:t,host:n,pathname:r,hash:o}=location)=>{const a=e.toString();return`${t}//${n}${r}${a?"?":""}${a}${o}`},s=()=>e.dataset.bespokeView,l=e=>new URLSearchParams(location.search).get(e),c=(e,n={})=>{var r;const o={location,setter:t,...n},a=new URLSearchParams(o.location.search);for(const t of Object.keys(e)){const n=e[t];"string"==typeof n?a.set(t,n):a.delete(t)}try{o.setter({...null!==(r=window.history.state)&&void 0!==r?r:{}},"",i(a,o.location))}catch(e){console.error(e)}},d=(()=>{const e="bespoke-marp";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}})(),f=e=>{try{return localStorage.getItem(e)}catch(e){return null}},u=(e,t)=>{try{return localStorage.setItem(e,t),!0}catch(e){return!1}},m=e=>{try{return localStorage.removeItem(e),!0}catch(e){return!1}},g=(e,t)=>{const n="aria-hidden";t?e.setAttribute(n,"true"):e.removeAttribute(n)},p=e=>{e.parent.classList.add("bespoke-marp-parent"),e.slides.forEach((e=>e.classList.add("bespoke-marp-slide"))),e.on("activate",(t=>{const n="bespoke-marp-active",r=t.slide,o=r.classList,a=!o.contains(n);if(e.slides.forEach((e=>{e.classList.remove(n),g(e,!0)})),o.add(n),g(r,!1),a){const e=`${n}-ready`;o.add(e),document.body.clientHeight,o.remove(e)}}))},v=e=>{let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map((e=>[null,...e.querySelectorAll("[data-marpit-fragment]")]))});const r=r=>void 0!==e.fragments[t][n+r],o=(r,o)=>{t=r,n=o,e.fragments.forEach(((e,t)=>{e.forEach(((e,n)=>{if(null==e)return;const i=t<r||t===r&&n<=o;e.setAttribute(`${a}fragment`,(i?"":"in")+"active");const s=`${a}current-fragment`;t===r&&n===o?e.setAttribute(s,"current"):e.removeAttribute(s)}))})),e.fragmentIndex=o;const i={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:o};e.fire("fragment",i)};e.on("next",(({fragment:a=!0})=>{if(a){if(r(1))return o(t,n+1),!1;const a=t+1;e.fragments[a]&&o(a,0)}else{const r=e.fragments[t].length;if(n+1<r)return o(t,r-1),!1;const a=e.fragments[t+1];a&&o(t+1,a.length-1)}})),e.on("prev",(({fragment:a=!0})=>{if(r(-1)&&a)return o(t,n-1),!1;const i=t-1;e.fragments[i]&&o(i,e.fragments[i].length-1)})),e.on("slide",(({index:t,fragment:n})=>{let r=0;if(void 0!==n){const o=e.fragments[t];if(o){const{length:e}=o;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}o(t,r)})),o(0,0)},h=document,y=()=>!(!h.fullscreenEnabled&&!h.webkitFullscreenEnabled),x=()=>!(!h.fullscreenElement&&!h.webkitFullscreenElement),w=e=>{e.fullscreen=()=>{y()&&(async()=>{return x()?null===(e=h.exitFullscreen||h.webkitExitFullscreen)||void 0===e?void 0:e.call(h):((e=h.body)=>{var t;return null===(t=e.requestFullscreen||e.webkitRequestFullscreen)||void 0===t?void 0:t.call(e)})();var e})()},document.addEventListener("keydown",(t=>{"f"!==t.key&&"F11"!==t.key||t.altKey||t.ctrlKey||t.metaKey||!y()||(e.fullscreen(),t.preventDefault())}))},b="bespoke-marp-inactive",k=(e=2e3)=>({parent:t,fire:n})=>{const r=t.classList,o=e=>n(`marp-${e?"":"in"}active`);let a;const i=()=>{a&&clearTimeout(a),a=setTimeout((()=>{r.add(b),o()}),e),r.contains(b)&&(r.remove(b),o(!0))};for(const e of["mousedown","mousemove","touchend"])document.addEventListener(e,i);setTimeout(i,0)},E=["AUDIO","BUTTON","INPUT","SELECT","TEXTAREA","VIDEO"],L=e=>{e.parent.addEventListener("keydown",(e=>{if(!e.target)return;const t=e.target;(E.includes(t.nodeName)||"true"===t.contentEditable)&&e.stopPropagation()}))},$=e=>{window.addEventListener("load",(()=>{for(const t of e.slides){const e=t.querySelector("[data-marp-fitting]")?"":"hideable";t.setAttribute(`${a}load`,e)}}))},P=({interval:e=250}={})=>t=>{document.addEventListener("keydown",(e=>{if(" "===e.key&&e.shiftKey)t.prev();else if("ArrowLeft"===e.key||"ArrowUp"===e.key||"PageUp"===e.key)t.prev({fragment:!e.shiftKey});else if(" "!==e.key||e.shiftKey)if("ArrowRight"===e.key||"ArrowDown"===e.key||"PageDown"===e.key)t.next({fragment:!e.shiftKey});else if("End"===e.key)t.slide(t.slides.length-1,{fragment:-1});else{if("Home"!==e.key)return;t.slide(0)}else t.next();e.preventDefault()}));let n,r,o=0;t.parent.addEventListener("wheel",(a=>{let i=!1;const s=(e,t)=>{e&&(i=i||((e,t)=>((e,t)=>{const n="X"===t?"Width":"Height";return e[`client${n}`]<e[`scroll${n}`]})(e,t)&&((e,t)=>{const{overflow:n}=e,r=e[`overflow${t}`];return"auto"===n||"scroll"===n||"auto"===r||"scroll"===r})(getComputedStyle(e),t))(e,t)),(null==e?void 0:e.parentElement)&&s(e.parentElement,t)};if(0!==a.deltaX&&s(a.target,"X"),0!==a.deltaY&&s(a.target,"Y"),i)return;a.preventDefault();const l=Math.sqrt(a.deltaX**2+a.deltaY**2);if(void 0!==a.wheelDelta){if(void 0===a.webkitForce&&Math.abs(a.wheelDelta)<40)return;if(a.deltaMode===a.DOM_DELTA_PIXEL&&l<4)return}else if(a.deltaMode===a.DOM_DELTA_PIXEL&&l<12)return;r&&clearTimeout(r),r=setTimeout((()=>{n=0}),e);const c=Date.now()-o<e,d=l<=n;if(n=l,c||d)return;let f;(a.deltaX>0||a.deltaY>0)&&(f="next"),(a.deltaX<0||a.deltaY<0)&&(f="prev"),f&&(t[f](),o=Date.now())}))},S=(e=".bespoke-marp-osc")=>{const t=document.querySelector(e);if(!t)return()=>{};const n=(e,n)=>{t.querySelectorAll(`[${a}osc=${JSON.stringify(e)}]`).forEach(n)};return y()||n("fullscreen",(e=>e.style.display="none")),d||n("presenter",(e=>{e.disabled=!0,e.title="Presenter view is disabled due to restricted localStorage."})),e=>{t.addEventListener("click",(t=>{if(t.target instanceof HTMLElement){const{bespokeMarpOsc:n}=t.target.dataset;n&&t.target.blur();const r={fragment:!t.shiftKey};"next"===n?e.next(r):"prev"===n?e.prev(r):"fullscreen"===n?null==e||e.fullscreen():"presenter"===n&&e.openPresenterView()}})),e.parent.appendChild(t),e.on("activate",(({index:t})=>{n("page",(n=>n.textContent=`Page ${t+1} of ${e.slides.length}`))})),e.on("fragment",(({index:t,fragments:r,fragmentIndex:o})=>{n("prev",(e=>e.disabled=0===t&&0===o)),n("next",(n=>n.disabled=t===e.slides.length-1&&o===r.length-1))})),e.on("marp-active",(()=>g(t,!1))),e.on("marp-inactive",(()=>g(t,!0))),y()&&(e=>{for(const t of["","webkit"])h.addEventListener(t+"fullscreenchange",e)})((()=>n("fullscreen",(e=>e.classList.toggle("exit",y()&&x())))))}},I=e=>{window.addEventListener("message",(t=>{if(t.origin!==window.origin)return;const[n,r]=t.data.split(":");if("navigate"===n){const[t,n]=r.split(",");let o=Number.parseInt(t,10),a=Number.parseInt(n,10)+1;a>=e.fragments[o].length&&(o+=1,a=0),e.slide(o,{fragment:a})}}))};var T=["area","base","br","col","command","embed","hr","img","input","keygen","link","meta","param","source","track","wbr"];let A=e=>String(e).replace(/[&<>"']/g,(e=>`&${C[e]};`)),C={"&":"amp","<":"lt",">":"gt",'"':"quot","'":"apos"},N="dangerouslySetInnerHTML",K={className:"class",htmlFor:"for"},O={};function D(e,t){let n=[],r="";t=t||{};for(let e=arguments.length;e-- >2;)n.push(arguments[e]);if("function"==typeof e)return t.children=n.reverse(),e(t);if(e){if(r+="<"+e,t)for(let e in t)!1!==t[e]&&null!=t[e]&&e!==N&&(r+=` ${K[e]?K[e]:A(e)}="${A(t[e])}"`);r+=">"}if(-1===T.indexOf(e)){if(t[N])r+=t[N].__html;else for(;n.length;){let e=n.pop();if(e)if(e.pop)for(let t=e.length;t--;)n.push(e[t]);else r+=!0===O[e]?e:A(e)}r+=e?`</${e}>`:""}return O[r]=!0,r}const M=({children:e})=>D(null,null,...e),q="bespoke-marp-presenter-",_={container:`${q}container`,next:`${q}next`,nextContainer:`${q}next-container`,noteContainer:`${q}note-container`,infoContainer:`${q}info-container`,infoPage:`${q}info-page`,infoPageText:`${q}info-page-text`,infoPagePrev:`${q}info-page-prev`,infoPageNext:`${q}info-page-next`,infoTime:`${q}info-time`,infoTimer:`${q}info-timer`},U=e=>{const{title:t}=document;document.title="[Presenter view]"+(t?` - ${t}`:"");const n={},r=e=>(n[e]=n[e]||document.querySelector(`.${e}`),n[e]);document.body.appendChild((e=>{const t=document.createElement("div");return t.className=_.container,t.appendChild(e),t.insertAdjacentHTML("beforeend",D(M,null,D("div",{class:_.nextContainer},D("iframe",{class:_.next,src:"?view=next"})),D("div",{class:_.noteContainer}),D("div",{class:_.infoContainer},D("div",{class:_.infoPage},D("button",{class:_.infoPagePrev,tabindex:"-1",title:"Previous"},"Previous"),D("span",{class:_.infoPageText}),D("button",{class:_.infoPageNext,tabindex:"-1",title:"Next"},"Next")),D("time",{class:_.infoTime,title:"Current time"}),D("div",{class:_.infoTimer})))),t})(e.parent)),(e=>{r(_.nextContainer).addEventListener("click",(()=>e.next()));const t=r(_.next),n=(o=t,(e,t)=>{var n;return null===(n=o.contentWindow)||void 0===n?void 0:n.postMessage(`navigate:${e},${t}`,"null"===window.origin?"*":window.origin)});var o;t.addEventListener("load",(()=>{r(_.nextContainer).classList.add("active"),n(e.slide(),e.fragmentIndex),e.on("fragment",(({index:e,fragmentIndex:t})=>n(e,t)))}));const a=document.querySelectorAll(".bespoke-marp-note");a.forEach((e=>{e.addEventListener("keydown",(e=>e.stopPropagation())),r(_.noteContainer).appendChild(e)})),e.on("activate",(()=>a.forEach((t=>t.classList.toggle("active",t.dataset.index==e.slide()))))),e.on("activate",(({index:t})=>{r(_.infoPageText).textContent=`${t+1} / ${e.slides.length}`}));const i=r(_.infoPagePrev),s=r(_.infoPageNext);i.addEventListener("click",(t=>{i.blur(),e.prev({fragment:!t.shiftKey})})),s.addEventListener("click",(t=>{s.blur(),e.next({fragment:!t.shiftKey})})),e.on("fragment",(({index:t,fragments:n,fragmentIndex:r})=>{i.disabled=0===t&&0===r,s.disabled=t===e.slides.length-1&&r===n.length-1}));const l=()=>r(_.infoTime).textContent=(new Date).toLocaleTimeString();l(),setInterval(l,250)})(e)},V=e=>{if(!(e=>e.syncKey&&"string"==typeof e.syncKey)(e))throw new Error("The current instance of Bespoke.js is invalid for Marp bespoke presenter plugin.");Object.defineProperties(e,{openPresenterView:{enumerable:!0,value:X},presenterUrl:{enumerable:!0,get:F}}),d&&document.addEventListener("keydown",(t=>{"p"!==t.key||t.altKey||t.ctrlKey||t.metaKey||(t.preventDefault(),e.openPresenterView())}))};function X(){const{max:e,floor:t}=Math,n=e(t(.85*window.innerWidth),640),r=e(t(.85*window.innerHeight),360);return window.open(this.presenterUrl,q+this.syncKey,`width=${n},height=${r},menubar=no,toolbar=no`)}function F(){const e=new URLSearchParams(location.search);return e.set("view","presenter"),e.set("sync",this.syncKey),i(e)}const B=e=>{const t=s();return t===r&&e.appendChild(document.createElement("span")),{"":V,[n]:U,[r]:I}[t]},R=e=>{e.on("activate",(t=>{document.querySelectorAll(".bespoke-progress-parent > .bespoke-progress-bar").forEach((n=>{n.style.flexBasis=100*t.index/(e.slides.length-1)+"%"}))}))},j=e=>{const t=Number.parseInt(e,10);return Number.isNaN(t)?null:t},H=(e={})=>{const t={history:!0,...e};return e=>{let n=!0;const r=e=>{const t=n;try{return n=!0,e()}finally{n=t}},o=(t={fragment:!0})=>{((t,n)=>{const{min:r,max:o}=Math,{fragments:a,slides:i}=e,s=o(0,r(t,i.length-1)),l=o(0,r(n||0,a[s].length-1));s===e.slide()&&l===e.fragmentIndex||e.slide(s,{fragment:l})})((j(location.hash.slice(1))||1)-1,t.fragment?j(l("f")||""):null)};e.on("fragment",(({index:e,fragmentIndex:r})=>{n||c({f:0===r||r.toString()},{location:{...location,hash:`#${e+1}`},setter:(...e)=>t.history?history.pushState(...e):history.replaceState(...e)})})),setTimeout((()=>{o(),window.addEventListener("hashchange",(()=>r((()=>{o({fragment:!1}),c({f:void 0})})))),window.addEventListener("popstate",(()=>{n||r((()=>o()))})),n=!1}),0)}},Y=(e={})=>{var n;const r=e.key||(null===(n=window.history.state)||void 0===n?void 0:n.marpBespokeSyncKey)||Math.random().toString(36).slice(2),o=`bespoke-marp-sync-${r}`;var a;a={marpBespokeSyncKey:r},c({},{setter:(e,...n)=>t({...e,...a},...n)});const i=()=>{const e=f(o);return e?JSON.parse(e):Object.create(null)},s=e=>{const t=i(),n={...t,...e(t)};return u(o,JSON.stringify(n)),n},l=()=>{window.removeEventListener("pageshow",l),s((e=>({reference:(e.reference||0)+1})))};return e=>{l(),Object.defineProperty(e,"syncKey",{value:r,enumerable:!0});let t=!0;setTimeout((()=>{e.on("fragment",(e=>{t&&s((()=>({index:e.index,fragmentIndex:e.fragmentIndex})))}))}),0),window.addEventListener("storage",(n=>{if(n.key===o&&n.oldValue&&n.newValue){const r=JSON.parse(n.oldValue),o=JSON.parse(n.newValue);if(r.index!==o.index||r.fragmentIndex!==o.fragmentIndex)try{t=!1,e.slide(o.index,{fragment:o.fragmentIndex})}finally{t=!0}}}));const n=()=>{const{reference:e}=i();void 0===e||e<=1?m(o):s((()=>({reference:e-1})))};window.addEventListener("pagehide",(e=>{e.persisted&&window.addEventListener("pageshow",l),n()})),e.on("destroy",n)}},{PI:J,abs:W,sqrt:z,atan2:G}=Math,Q={passive:!0},Z=({slope:e=-.7,swipeThreshold:t=30}={})=>n=>{let r;const o=n.parent,a=e=>{const t=o.getBoundingClientRect();return{x:e.pageX-(t.left+t.right)/2,y:e.pageY-(t.top+t.bottom)/2}};o.addEventListener("touchstart",(({touches:e})=>{r=1===e.length?a(e[0]):void 0}),Q),o.addEventListener("touchmove",(e=>{if(r)if(1===e.touches.length){e.preventDefault();const t=a(e.touches[0]),n=t.x-r.x,o=t.y-r.y;r.delta=z(W(n)**2+W(o)**2),r.radian=G(n,o)}else r=void 0})),o.addEventListener("touchend",(o=>{if(r){if(r.delta&&r.delta>=t&&r.radian){const t=(r.radian-e+J)%(2*J)-J;n[t<0?"next":"prev"](),o.stopPropagation()}r=void 0}}),Q)},ee="_tA",te=e=>{const t=document.documentTransition;if(!t)return;let n;e._tP=!1;const r=(n,{back:r,cond:o})=>a=>{const i=e.slides[e.slide()].querySelector("section[data-transition]");if(!i)return!0;const s=document.querySelector(".bespoke-marp-osc"),l=s?[s]:void 0;if(e._tP){if(a._tA){e._tP=!1;try{t.start({sharedElements:l}).catch((()=>{}))}catch(e){}return!0}}else{if(!o(a))return!0;e._tP=t.prepare({rootTransition:a.back||r?i.dataset.transitionBack:i.dataset.transition,sharedElements:l}).then((()=>n(a))).catch((()=>n(a)))}return!1};e.on("prev",r((t=>e.prev({...t,[ee]:!0})),{back:!0,cond:e=>{var t;return e.index>0&&!((null===(t=e.fragment)||void 0===t||t)&&n.fragmentIndex>0)}})),e.on("next",r((t=>e.next({...t,[ee]:!0})),{cond:t=>t.index+1<e.slides.length&&!(n.fragmentIndex+1<n.fragments.length)})),setTimeout((()=>{e.on("slide",r((t=>e.slide(t.index,{...t,[ee]:!0})),{cond:t=>{const n=e.slide();return t.index!==n&&(t.back=t.index<n,!0)}}))}),0),e.on("fragment",(e=>{n=e}))};let ne;const re=()=>(void 0===ne&&(ne="wakeLock"in navigator&&navigator.wakeLock),ne),oe=async()=>{const e=re();if(e)try{return await e.request("screen")}catch(e){console.warn(e)}return null},ae=async()=>{if(!re())return;let e;const t=()=>{e&&"visible"===document.visibilityState&&oe()};for(const e of["visibilitychange","fullscreenchange"])document.addEventListener(e,t);return e=await oe(),e};((t=document.getElementById("p"))=>{(()=>{const t=l("view");e.dataset.bespokeView=t===r||t===n?t:""})();const a=(e=>{const t=l(e);return c({[e]:void 0}),t})("sync")||void 0;var i,d,f,u,m,g,h,y,x,b,E,I;i=t,d=((...e)=>{const t=o.findIndex((e=>s()===e));return e.map((([e,n])=>e[t]&&n)).filter((e=>e))})([[1,1,0],Y({key:a})],[[1,1,1],B(t)],[[1,1,0],L],[[1,1,1],p],[[1,0,0],k()],[[1,1,1],$],[[1,1,1],H({history:!1})],[[1,1,0],P()],[[1,1,0],w],[[1,0,0],R],[[1,1,0],Z()],[[1,0,0],S()],[[1,0,0],te],[[1,1,1],v],[[1,1,0],ae]),u=1===(i.parent||i).nodeType?i.parent||i:document.querySelector(i.parent||i),m=[].filter.call("string"==typeof i.slides?u.querySelectorAll(i.slides):i.slides||u.children,(function(e){return"SCRIPT"!==e.nodeName})),g={},h=function(e,t){return(t=t||{}).index=m.indexOf(e),t.slide=e,t},b=function(e,t){m[e]&&(f&&x("deactivate",h(f,t)),f=m[e],x("activate",h(f,t)))},E=function(e,t){var n=m.indexOf(f)+e;x(e>0?"next":"prev",h(f,t))&&b(n,t)},I={off:y=function(e,t){g[e]=(g[e]||[]).filter((function(e){return e!==t}))},on:function(e,t){return(g[e]||(g[e]=[])).push(t),y.bind(null,e,t)},fire:x=function(e,t){return(g[e]||[]).reduce((function(e,n){return e&&!1!==n(t)}),!0)},slide:function(e,t){if(!arguments.length)return m.indexOf(f);x("slide",h(m[e],t))&&b(e,t)},next:E.bind(null,1),prev:E.bind(null,-1),parent:u,slides:m,destroy:function(e){x("destroy",h(f,e)),g={}}},(d||[]).forEach((function(e){e(I)})),f||b(0)})()}();</script><script>window.__marpCliWatchWS="ws://localhost:37717/d4eea6d19020a5ece8bfccaf0185885ffe487f377b6b3cf429a3bec528a2c2a9";!function(){"use strict";const e=(n,o=!1)=>{const t=new WebSocket(n);return t.addEventListener("open",(()=>{console.info("[Marp CLI] Observing the change of file..."),o&&location.reload()})),t.addEventListener("close",(()=>{console.warn("[Marp CLI] WebSocket for file watcher was disconnected. Try re-connecting in 5000ms..."),setTimeout((()=>e(n,!0)),5e3)})),t.addEventListener("message",(e=>{"reload"===e.data&&location.reload()})),t};(()=>{const n=window.__marpCliWatchWS;n&&e(n)})()}();</script></body></html>
+!function(){"use strict";const e=document.body,t=(...e)=>history.replaceState(...e),n="presenter",r="next",o=["",n,r],a="data-bespoke-marp-",i=(e,{protocol:t,host:n,pathname:r,hash:o}=location)=>{const a=e.toString();return`${t}//${n}${r}${a?"?":""}${a}${o}`},s=()=>e.dataset.bespokeView,l=e=>new URLSearchParams(location.search).get(e),c=(e,n={})=>{var r;const o={location,setter:t,...n},a=new URLSearchParams(o.location.search);for(const t of Object.keys(e)){const n=e[t];"string"==typeof n?a.set(t,n):a.delete(t)}try{o.setter({...null!==(r=window.history.state)&&void 0!==r?r:{}},"",i(a,o.location))}catch(e){console.error(e)}},d=(()=>{const e="bespoke-marp";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}})(),f=e=>{try{return localStorage.getItem(e)}catch(e){return null}},u=(e,t)=>{try{return localStorage.setItem(e,t),!0}catch(e){return!1}},m=e=>{try{return localStorage.removeItem(e),!0}catch(e){return!1}},g=(e,t)=>{const n="aria-hidden";t?e.setAttribute(n,"true"):e.removeAttribute(n)},p=e=>{e.parent.classList.add("bespoke-marp-parent"),e.slides.forEach((e=>e.classList.add("bespoke-marp-slide"))),e.on("activate",(t=>{const n="bespoke-marp-active",r=t.slide,o=r.classList,a=!o.contains(n);if(e.slides.forEach((e=>{e.classList.remove(n),g(e,!0)})),o.add(n),g(r,!1),a){const e=`${n}-ready`;o.add(e),document.body.clientHeight,o.remove(e)}}))},v=e=>{let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map((e=>[null,...e.querySelectorAll("[data-marpit-fragment]")]))});const r=r=>void 0!==e.fragments[t][n+r],o=(r,o)=>{t=r,n=o,e.fragments.forEach(((e,t)=>{e.forEach(((e,n)=>{if(null==e)return;const i=t<r||t===r&&n<=o;e.setAttribute(`${a}fragment`,(i?"":"in")+"active");const s=`${a}current-fragment`;t===r&&n===o?e.setAttribute(s,"current"):e.removeAttribute(s)}))})),e.fragmentIndex=o;const i={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:o};e.fire("fragment",i)};e.on("next",(({fragment:a=!0})=>{if(a){if(r(1))return o(t,n+1),!1;const a=t+1;e.fragments[a]&&o(a,0)}else{const r=e.fragments[t].length;if(n+1<r)return o(t,r-1),!1;const a=e.fragments[t+1];a&&o(t+1,a.length-1)}})),e.on("prev",(({fragment:a=!0})=>{if(r(-1)&&a)return o(t,n-1),!1;const i=t-1;e.fragments[i]&&o(i,e.fragments[i].length-1)})),e.on("slide",(({index:t,fragment:n})=>{let r=0;if(void 0!==n){const o=e.fragments[t];if(o){const{length:e}=o;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}o(t,r)})),o(0,0)},h=document,y=()=>!(!h.fullscreenEnabled&&!h.webkitFullscreenEnabled),x=()=>!(!h.fullscreenElement&&!h.webkitFullscreenElement),w=e=>{e.fullscreen=()=>{y()&&(async()=>{return x()?null===(e=h.exitFullscreen||h.webkitExitFullscreen)||void 0===e?void 0:e.call(h):((e=h.body)=>{var t;return null===(t=e.requestFullscreen||e.webkitRequestFullscreen)||void 0===t?void 0:t.call(e)})();var e})()},document.addEventListener("keydown",(t=>{"f"!==t.key&&"F11"!==t.key||t.altKey||t.ctrlKey||t.metaKey||!y()||(e.fullscreen(),t.preventDefault())}))},b="bespoke-marp-inactive",k=(e=2e3)=>({parent:t,fire:n})=>{const r=t.classList,o=e=>n(`marp-${e?"":"in"}active`);let a;const i=()=>{a&&clearTimeout(a),a=setTimeout((()=>{r.add(b),o()}),e),r.contains(b)&&(r.remove(b),o(!0))};for(const e of["mousedown","mousemove","touchend"])document.addEventListener(e,i);setTimeout(i,0)},E=["AUDIO","BUTTON","INPUT","SELECT","TEXTAREA","VIDEO"],L=e=>{e.parent.addEventListener("keydown",(e=>{if(!e.target)return;const t=e.target;(E.includes(t.nodeName)||"true"===t.contentEditable)&&e.stopPropagation()}))},$=e=>{window.addEventListener("load",(()=>{for(const t of e.slides){const e=t.querySelector("[data-marp-fitting]")?"":"hideable";t.setAttribute(`${a}load`,e)}}))},P=({interval:e=250}={})=>t=>{document.addEventListener("keydown",(e=>{if(" "===e.key&&e.shiftKey)t.prev();else if("ArrowLeft"===e.key||"ArrowUp"===e.key||"PageUp"===e.key)t.prev({fragment:!e.shiftKey});else if(" "!==e.key||e.shiftKey)if("ArrowRight"===e.key||"ArrowDown"===e.key||"PageDown"===e.key)t.next({fragment:!e.shiftKey});else if("End"===e.key)t.slide(t.slides.length-1,{fragment:-1});else{if("Home"!==e.key)return;t.slide(0)}else t.next();e.preventDefault()}));let n,r,o=0;t.parent.addEventListener("wheel",(a=>{let i=!1;const s=(e,t)=>{e&&(i=i||((e,t)=>((e,t)=>{const n="X"===t?"Width":"Height";return e[`client${n}`]<e[`scroll${n}`]})(e,t)&&((e,t)=>{const{overflow:n}=e,r=e[`overflow${t}`];return"auto"===n||"scroll"===n||"auto"===r||"scroll"===r})(getComputedStyle(e),t))(e,t)),(null==e?void 0:e.parentElement)&&s(e.parentElement,t)};if(0!==a.deltaX&&s(a.target,"X"),0!==a.deltaY&&s(a.target,"Y"),i)return;a.preventDefault();const l=Math.sqrt(a.deltaX**2+a.deltaY**2);if(void 0!==a.wheelDelta){if(void 0===a.webkitForce&&Math.abs(a.wheelDelta)<40)return;if(a.deltaMode===a.DOM_DELTA_PIXEL&&l<4)return}else if(a.deltaMode===a.DOM_DELTA_PIXEL&&l<12)return;r&&clearTimeout(r),r=setTimeout((()=>{n=0}),e);const c=Date.now()-o<e,d=l<=n;if(n=l,c||d)return;let f;(a.deltaX>0||a.deltaY>0)&&(f="next"),(a.deltaX<0||a.deltaY<0)&&(f="prev"),f&&(t[f](),o=Date.now())}))},S=(e=".bespoke-marp-osc")=>{const t=document.querySelector(e);if(!t)return()=>{};const n=(e,n)=>{t.querySelectorAll(`[${a}osc=${JSON.stringify(e)}]`).forEach(n)};return y()||n("fullscreen",(e=>e.style.display="none")),d||n("presenter",(e=>{e.disabled=!0,e.title="Presenter view is disabled due to restricted localStorage."})),e=>{t.addEventListener("click",(t=>{if(t.target instanceof HTMLElement){const{bespokeMarpOsc:n}=t.target.dataset;n&&t.target.blur();const r={fragment:!t.shiftKey};"next"===n?e.next(r):"prev"===n?e.prev(r):"fullscreen"===n?null==e||e.fullscreen():"presenter"===n&&e.openPresenterView()}})),e.parent.appendChild(t),e.on("activate",(({index:t})=>{n("page",(n=>n.textContent=`Page ${t+1} of ${e.slides.length}`))})),e.on("fragment",(({index:t,fragments:r,fragmentIndex:o})=>{n("prev",(e=>e.disabled=0===t&&0===o)),n("next",(n=>n.disabled=t===e.slides.length-1&&o===r.length-1))})),e.on("marp-active",(()=>g(t,!1))),e.on("marp-inactive",(()=>g(t,!0))),y()&&(e=>{for(const t of["","webkit"])h.addEventListener(t+"fullscreenchange",e)})((()=>n("fullscreen",(e=>e.classList.toggle("exit",y()&&x())))))}},I=e=>{window.addEventListener("message",(t=>{if(t.origin!==window.origin)return;const[n,r]=t.data.split(":");if("navigate"===n){const[t,n]=r.split(",");let o=Number.parseInt(t,10),a=Number.parseInt(n,10)+1;a>=e.fragments[o].length&&(o+=1,a=0),e.slide(o,{fragment:a})}}))};var T=["area","base","br","col","command","embed","hr","img","input","keygen","link","meta","param","source","track","wbr"];let A=e=>String(e).replace(/[&<>"']/g,(e=>`&${C[e]};`)),C={"&":"amp","<":"lt",">":"gt",'"':"quot","'":"apos"},N="dangerouslySetInnerHTML",K={className:"class",htmlFor:"for"},O={};function D(e,t){let n=[],r="";t=t||{};for(let e=arguments.length;e-- >2;)n.push(arguments[e]);if("function"==typeof e)return t.children=n.reverse(),e(t);if(e){if(r+="<"+e,t)for(let e in t)!1!==t[e]&&null!=t[e]&&e!==N&&(r+=` ${K[e]?K[e]:A(e)}="${A(t[e])}"`);r+=">"}if(-1===T.indexOf(e)){if(t[N])r+=t[N].__html;else for(;n.length;){let e=n.pop();if(e)if(e.pop)for(let t=e.length;t--;)n.push(e[t]);else r+=!0===O[e]?e:A(e)}r+=e?`</${e}>`:""}return O[r]=!0,r}const M=({children:e})=>D(null,null,...e),q="bespoke-marp-presenter-",_={container:`${q}container`,next:`${q}next`,nextContainer:`${q}next-container`,noteContainer:`${q}note-container`,infoContainer:`${q}info-container`,infoPage:`${q}info-page`,infoPageText:`${q}info-page-text`,infoPagePrev:`${q}info-page-prev`,infoPageNext:`${q}info-page-next`,infoTime:`${q}info-time`,infoTimer:`${q}info-timer`},U=e=>{const{title:t}=document;document.title="[Presenter view]"+(t?` - ${t}`:"");const n={},r=e=>(n[e]=n[e]||document.querySelector(`.${e}`),n[e]);document.body.appendChild((e=>{const t=document.createElement("div");return t.className=_.container,t.appendChild(e),t.insertAdjacentHTML("beforeend",D(M,null,D("div",{class:_.nextContainer},D("iframe",{class:_.next,src:"?view=next"})),D("div",{class:_.noteContainer}),D("div",{class:_.infoContainer},D("div",{class:_.infoPage},D("button",{class:_.infoPagePrev,tabindex:"-1",title:"Previous"},"Previous"),D("span",{class:_.infoPageText}),D("button",{class:_.infoPageNext,tabindex:"-1",title:"Next"},"Next")),D("time",{class:_.infoTime,title:"Current time"}),D("div",{class:_.infoTimer})))),t})(e.parent)),(e=>{r(_.nextContainer).addEventListener("click",(()=>e.next()));const t=r(_.next),n=(o=t,(e,t)=>{var n;return null===(n=o.contentWindow)||void 0===n?void 0:n.postMessage(`navigate:${e},${t}`,"null"===window.origin?"*":window.origin)});var o;t.addEventListener("load",(()=>{r(_.nextContainer).classList.add("active"),n(e.slide(),e.fragmentIndex),e.on("fragment",(({index:e,fragmentIndex:t})=>n(e,t)))}));const a=document.querySelectorAll(".bespoke-marp-note");a.forEach((e=>{e.addEventListener("keydown",(e=>e.stopPropagation())),r(_.noteContainer).appendChild(e)})),e.on("activate",(()=>a.forEach((t=>t.classList.toggle("active",t.dataset.index==e.slide()))))),e.on("activate",(({index:t})=>{r(_.infoPageText).textContent=`${t+1} / ${e.slides.length}`}));const i=r(_.infoPagePrev),s=r(_.infoPageNext);i.addEventListener("click",(t=>{i.blur(),e.prev({fragment:!t.shiftKey})})),s.addEventListener("click",(t=>{s.blur(),e.next({fragment:!t.shiftKey})})),e.on("fragment",(({index:t,fragments:n,fragmentIndex:r})=>{i.disabled=0===t&&0===r,s.disabled=t===e.slides.length-1&&r===n.length-1}));const l=()=>r(_.infoTime).textContent=(new Date).toLocaleTimeString();l(),setInterval(l,250)})(e)},V=e=>{if(!(e=>e.syncKey&&"string"==typeof e.syncKey)(e))throw new Error("The current instance of Bespoke.js is invalid for Marp bespoke presenter plugin.");Object.defineProperties(e,{openPresenterView:{enumerable:!0,value:X},presenterUrl:{enumerable:!0,get:F}}),d&&document.addEventListener("keydown",(t=>{"p"!==t.key||t.altKey||t.ctrlKey||t.metaKey||(t.preventDefault(),e.openPresenterView())}))};function X(){const{max:e,floor:t}=Math,n=e(t(.85*window.innerWidth),640),r=e(t(.85*window.innerHeight),360);return window.open(this.presenterUrl,q+this.syncKey,`width=${n},height=${r},menubar=no,toolbar=no`)}function F(){const e=new URLSearchParams(location.search);return e.set("view","presenter"),e.set("sync",this.syncKey),i(e)}const B=e=>{const t=s();return t===r&&e.appendChild(document.createElement("span")),{"":V,[n]:U,[r]:I}[t]},R=e=>{e.on("activate",(t=>{document.querySelectorAll(".bespoke-progress-parent > .bespoke-progress-bar").forEach((n=>{n.style.flexBasis=100*t.index/(e.slides.length-1)+"%"}))}))},j=e=>{const t=Number.parseInt(e,10);return Number.isNaN(t)?null:t},H=(e={})=>{const t={history:!0,...e};return e=>{let n=!0;const r=e=>{const t=n;try{return n=!0,e()}finally{n=t}},o=(t={fragment:!0})=>{((t,n)=>{const{min:r,max:o}=Math,{fragments:a,slides:i}=e,s=o(0,r(t,i.length-1)),l=o(0,r(n||0,a[s].length-1));s===e.slide()&&l===e.fragmentIndex||e.slide(s,{fragment:l})})((j(location.hash.slice(1))||1)-1,t.fragment?j(l("f")||""):null)};e.on("fragment",(({index:e,fragmentIndex:r})=>{n||c({f:0===r||r.toString()},{location:{...location,hash:`#${e+1}`},setter:(...e)=>t.history?history.pushState(...e):history.replaceState(...e)})})),setTimeout((()=>{o(),window.addEventListener("hashchange",(()=>r((()=>{o({fragment:!1}),c({f:void 0})})))),window.addEventListener("popstate",(()=>{n||r((()=>o()))})),n=!1}),0)}},Y=(e={})=>{var n;const r=e.key||(null===(n=window.history.state)||void 0===n?void 0:n.marpBespokeSyncKey)||Math.random().toString(36).slice(2),o=`bespoke-marp-sync-${r}`;var a;a={marpBespokeSyncKey:r},c({},{setter:(e,...n)=>t({...e,...a},...n)});const i=()=>{const e=f(o);return e?JSON.parse(e):Object.create(null)},s=e=>{const t=i(),n={...t,...e(t)};return u(o,JSON.stringify(n)),n},l=()=>{window.removeEventListener("pageshow",l),s((e=>({reference:(e.reference||0)+1})))};return e=>{l(),Object.defineProperty(e,"syncKey",{value:r,enumerable:!0});let t=!0;setTimeout((()=>{e.on("fragment",(e=>{t&&s((()=>({index:e.index,fragmentIndex:e.fragmentIndex})))}))}),0),window.addEventListener("storage",(n=>{if(n.key===o&&n.oldValue&&n.newValue){const r=JSON.parse(n.oldValue),o=JSON.parse(n.newValue);if(r.index!==o.index||r.fragmentIndex!==o.fragmentIndex)try{t=!1,e.slide(o.index,{fragment:o.fragmentIndex})}finally{t=!0}}}));const n=()=>{const{reference:e}=i();void 0===e||e<=1?m(o):s((()=>({reference:e-1})))};window.addEventListener("pagehide",(e=>{e.persisted&&window.addEventListener("pageshow",l),n()})),e.on("destroy",n)}},{PI:J,abs:W,sqrt:z,atan2:G}=Math,Q={passive:!0},Z=({slope:e=-.7,swipeThreshold:t=30}={})=>n=>{let r;const o=n.parent,a=e=>{const t=o.getBoundingClientRect();return{x:e.pageX-(t.left+t.right)/2,y:e.pageY-(t.top+t.bottom)/2}};o.addEventListener("touchstart",(({touches:e})=>{r=1===e.length?a(e[0]):void 0}),Q),o.addEventListener("touchmove",(e=>{if(r)if(1===e.touches.length){e.preventDefault();const t=a(e.touches[0]),n=t.x-r.x,o=t.y-r.y;r.delta=z(W(n)**2+W(o)**2),r.radian=G(n,o)}else r=void 0})),o.addEventListener("touchend",(o=>{if(r){if(r.delta&&r.delta>=t&&r.radian){const t=(r.radian-e+J)%(2*J)-J;n[t<0?"next":"prev"](),o.stopPropagation()}r=void 0}}),Q)},ee="_tA",te=e=>{const t=document.documentTransition;if(!t)return;let n;e._tP=!1;const r=(n,{back:r,cond:o})=>a=>{const i=e.slides[e.slide()].querySelector("section[data-transition]");if(!i)return!0;const s=document.querySelector(".bespoke-marp-osc"),l=s?[s]:void 0;if(e._tP){if(a._tA){e._tP=!1;try{t.start({sharedElements:l}).catch((()=>{}))}catch(e){}return!0}}else{if(!o(a))return!0;e._tP=t.prepare({rootTransition:a.back||r?i.dataset.transitionBack:i.dataset.transition,sharedElements:l}).then((()=>n(a))).catch((()=>n(a)))}return!1};e.on("prev",r((t=>e.prev({...t,[ee]:!0})),{back:!0,cond:e=>{var t;return e.index>0&&!((null===(t=e.fragment)||void 0===t||t)&&n.fragmentIndex>0)}})),e.on("next",r((t=>e.next({...t,[ee]:!0})),{cond:t=>t.index+1<e.slides.length&&!(n.fragmentIndex+1<n.fragments.length)})),setTimeout((()=>{e.on("slide",r((t=>e.slide(t.index,{...t,[ee]:!0})),{cond:t=>{const n=e.slide();return t.index!==n&&(t.back=t.index<n,!0)}}))}),0),e.on("fragment",(e=>{n=e}))};let ne;const re=()=>(void 0===ne&&(ne="wakeLock"in navigator&&navigator.wakeLock),ne),oe=async()=>{const e=re();if(e)try{return await e.request("screen")}catch(e){console.warn(e)}return null},ae=async()=>{if(!re())return;let e;const t=()=>{e&&"visible"===document.visibilityState&&oe()};for(const e of["visibilitychange","fullscreenchange"])document.addEventListener(e,t);return e=await oe(),e};((t=document.getElementById("p"))=>{(()=>{const t=l("view");e.dataset.bespokeView=t===r||t===n?t:""})();const a=(e=>{const t=l(e);return c({[e]:void 0}),t})("sync")||void 0;var i,d,f,u,m,g,h,y,x,b,E,I;i=t,d=((...e)=>{const t=o.findIndex((e=>s()===e));return e.map((([e,n])=>e[t]&&n)).filter((e=>e))})([[1,1,0],Y({key:a})],[[1,1,1],B(t)],[[1,1,0],L],[[1,1,1],p],[[1,0,0],k()],[[1,1,1],$],[[1,1,1],H({history:!1})],[[1,1,0],P()],[[1,1,0],w],[[1,0,0],R],[[1,1,0],Z()],[[1,0,0],S()],[[1,0,0],te],[[1,1,1],v],[[1,1,0],ae]),u=1===(i.parent||i).nodeType?i.parent||i:document.querySelector(i.parent||i),m=[].filter.call("string"==typeof i.slides?u.querySelectorAll(i.slides):i.slides||u.children,(function(e){return"SCRIPT"!==e.nodeName})),g={},h=function(e,t){return(t=t||{}).index=m.indexOf(e),t.slide=e,t},b=function(e,t){m[e]&&(f&&x("deactivate",h(f,t)),f=m[e],x("activate",h(f,t)))},E=function(e,t){var n=m.indexOf(f)+e;x(e>0?"next":"prev",h(f,t))&&b(n,t)},I={off:y=function(e,t){g[e]=(g[e]||[]).filter((function(e){return e!==t}))},on:function(e,t){return(g[e]||(g[e]=[])).push(t),y.bind(null,e,t)},fire:x=function(e,t){return(g[e]||[]).reduce((function(e,n){return e&&!1!==n(t)}),!0)},slide:function(e,t){if(!arguments.length)return m.indexOf(f);x("slide",h(m[e],t))&&b(e,t)},next:E.bind(null,1),prev:E.bind(null,-1),parent:u,slides:m,destroy:function(e){x("destroy",h(f,e)),g={}}},(d||[]).forEach((function(e){e(I)})),f||b(0)})()}();</script><script>window.__marpCliWatchWS="ws://localhost:37717/d397a524f782e8935c7ba69cb89e5dae0fcf236c432678e03d33ed929bd6ed36";!function(){"use strict";const e=(n,o=!1)=>{const t=new WebSocket(n);return t.addEventListener("open",(()=>{console.info("[Marp CLI] Observing the change of file..."),o&&location.reload()})),t.addEventListener("close",(()=>{console.warn("[Marp CLI] WebSocket for file watcher was disconnected. Try re-connecting in 5000ms..."),setTimeout((()=>e(n,!0)),5e3)})),t.addEventListener("message",(e=>{"reload"===e.data&&location.reload()})),t};(()=>{const n=window.__marpCliWatchWS;n&&e(n)})()}();</script></body></html>

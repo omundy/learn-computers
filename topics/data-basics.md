@@ -1,10 +1,6 @@
 <!-- paginate: true -->
 
-<style>
-</style>
-
-
-[<](README.md)
+[<](../README.md)
 
 <img width="375" src="../assets/img/banner/banner-data-basics.png" />
 
@@ -12,7 +8,10 @@
 
 How computers store data, and encode files and text
 
-***
+<sup class="small">[markdown](../topics/topics-data-basics.md) / [slides](../slides/topics-data-basics.html)</sup>
+
+
+---
 
 
 ### Contents
@@ -289,9 +288,9 @@ To summarize...
 
 File encoding [is not the same as](https://kunststube.net/encoding/) character encoding. If you can open ***and read*** a file in a plain text editor (e.g. [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) on Windows, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.
 
-<img src="../assets/img/data-basics/files-binary.png">
+![.png](../assets/img/data-basics/files-binary.png)
 
-<sub class="caption">A `.png` file opened in TextEdit</sub>
+<sup class="caption">A `.png` file opened in TextEdit</sup>
 
 
 
