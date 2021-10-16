@@ -61,7 +61,7 @@ The command line allows you to control your computer via a text interface. Depen
 
 👉 **Try it out**
 
-[Open](basics.md#find-a-file-or-program) your command line application and note the **prompt** - the `$` `%` or `#` symbol) where you will type commands.
+[Open](basics.md#find-a-file-or-program) your command line application and note the **prompt** — the `$` `%` or `#` symbol — where you will type commands.
 
 1. Type each of the following commands at the prompt, pressing <kbd>return</kbd> each time.
 1. If you make a mistake press backspace or <kbd>Ctl</kbd> + <kbd>C</kbd> to cancel.
@@ -80,8 +80,8 @@ Step | Command | Description
 6 | `echo "hello world" > hello.txt` | Write some text in the new file
 7 | `cat hello.txt` | View contents of new file (as in "con[cat](https://en.wikipedia.org/wiki/Cat_(Unix)enate"))
 8 | `ping -c 5 davidson.edu` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
-9 |   | [Find](https://www.codecademy.com/articles/command-line-commands) the command to list files with their modified date.
-10 |   | [Find](https://learn.co/lessons/bash-navigation-osx) the command to open the current folder in your Finder / Windows.
+9 |   | [Search for](https://www.codecademy.com/articles/command-line-commands) the command to list files with their modified date.
+10 |   | [Search for](https://learn.co/lessons/bash-navigation-osx) the command to open the current folder in your Finder / Windows.
 
 
 
