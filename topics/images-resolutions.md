@@ -1,11 +1,22 @@
+<!-- paginate: true -->
 
 [<](../README.md)
 
-<img width="375" src="assets/img/banner/banner-images-resolutions.png">
+<img width="375" src="../assets/img/banner/banner-images-resolutions.png">
 
 # Images: Formats, Resolutions
 
 Learn about digital images formats and best practices
+
+<sup class="small">[markdown](../topics/images-resolutions.md) / [slides](../slides/images-resolutions.html)</sup>
+
+<!--
+Presentation comments ...
+-->
+
+
+---
+
 
 ### Contents
 
@@ -15,6 +26,10 @@ Learn about digital images formats and best practices
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
+
+
+---
+
 
 ## Introduction
 
@@ -37,17 +52,32 @@ Students who complete the following will be able to:
 
 Complete the following to prepare for this module
 
-- [Command Line Crash Course](topics-command-line-crash-course.md)
+- [Command Line Crash Course](command-line-crash-course.md)
 
 </details>
 
+
+
+
+---
 
 
 ## Image formats
 
 Humans are intensely visual, and it follows that our most important tool is more than capable at representing the world through pictures.
 
-When it comes to still images, computers typically
+---
+
+
+
+## Raster vs. Vector
+
+All images you see on a computer are both the data that makes up the file, as well as the rendered data rendered using a pixel display. So by the time you see the image it has been translated to pixel space.
+
+Still, these images are stored and handled very differently.
+
+---
+
 
 Type | Description | File size | Example formats
 --- | --- |--- |---
@@ -57,7 +87,11 @@ Vector | Image rendered from list of points describing polygons | Relatively sma
 Character sets | 16 bit characters reference fonts or emoji stored on device  | Tiny | 👍🦄🍤
 
 
-All images you see on a computer are both the data that makes up the file, as well as the rendered data rendered using a pixel display. So by the time you see the image it has been translated to pixel space.
+
+
+
+
+---
 
 
 ## About videos
@@ -70,6 +104,10 @@ FPS | Frame Per Second
 Codec |
 
 
+
+
+
+---
 
 
 ### Common Image Formats
@@ -87,6 +125,10 @@ PSD | Photoshop Document |
 
 
 
+
+---
+
+
 ## Image Resolution
 
 Screen resolution vs. screen resolution
@@ -95,6 +137,10 @@ Pay attention to the pixel dimensions
 
 
 
+
+
+
+---
 
 
 ## How to make a screenshot
@@ -109,6 +155,10 @@ Capture a single window | Shift + Cmd + 4 + Space bar | Alt + PrtScn
 Cancel screenshot | Esc (Escape) | Esc (Escape)
 
 
+
+---
+
+
 Some recommendations for capturing videos:
 
 Name | Cost | Platform | Comments
@@ -119,16 +169,11 @@ Quicktime | Free | Mac | Choose File > New Screen Recording
 
 
 
-## Discussion
 
-In your group, discuss the following.
-
-- Q1
-- Q2
-- Q3
+---
 
 ## Keep practicing
 
-
+---
 
 ## References

@@ -1,17 +1,31 @@
+<!-- paginate: true -->
 
 [<](../README.md)
 
-<img width="375" src="assets/img/banner/banner-basics.png">
+<img width="375" src="../assets/img/banner/banner-basics.png">
 
 # Everyday Computer Basics
 
 A list of essential, everyday computer tasks
+
+<sup class="small">[markdown](../topics/basics.md) / [slides](../slides/basics.html)</sup>
+
+<!--
+Presentation comments ...
+-->
+
+
+---
+
 
 ### Contents
 
 1. [Introduction](#introduction)
 1. [How To...](#how-to)
 1. [References](#references)
+
+
+---
 
 
 ## Introduction
@@ -28,7 +42,6 @@ Students who complete the following will be able to:
 - Explain ...
 - Demonstrate ... -->
 
-
 </details>
 
 
@@ -39,20 +52,16 @@ Students who complete the following will be able to:
 
 
 
-
-
-
-
-
-
-
-
+---
 
 
 ## How To...
 
+1. Find a file or program
+1. ...
 
 
+---
 
 
 ### Find a file or program
@@ -73,4 +82,8 @@ Students who complete the following will be able to:
 
 
 
+---
+
 ## References
+
+-  

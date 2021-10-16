@@ -100,6 +100,7 @@ https://story.xaprb.com/slides/adirondack/#1
 
 https://marp.app/
 https://github.com/marp-team/marpit
+https://github.com/marp-team/marp-core
 
 How to write markdown for marp https://marpit.marp.app/markdown
 Uses CommonMark spec https://spec.commonmark.org/

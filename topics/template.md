@@ -1,11 +1,22 @@
+<!-- paginate: true -->
 
 [<](../README.md)
 
-<img width="375" src="assets/img/banner/banner-images.png">
+<img width="375" src="../assets/img/banner/banner-command-line.png">
 
 # Title
 
 Description of topic
+
+<sup class="small">[markdown](../topics/template.md) / [slides](../slides/template.html)</sup>
+
+<!--
+Presentation comments ...
+-->
+
+
+---
+
 
 ### Contents
 
@@ -14,6 +25,10 @@ Description of topic
 1. [Keep practicing](#keep-practicing)
 1. [Assessment](#assessment)
 1. [References](#references)
+
+
+---
+
 
 ## Introduction
 
@@ -36,7 +51,7 @@ Students who complete the following will be able to:
 
 Complete the following to prepare for this module
 
-- [Command Line Crash Course](topics-command-line-crash-course.md)
+- [Command Line Crash Course](command-line-crash-course.md)
 
 </details>
 
@@ -44,6 +59,7 @@ Complete the following to prepare for this module
 
 
 
+---
 
 
 ## Discussion
@@ -54,15 +70,17 @@ In your group, discuss the following.
 - Q2
 - Q3
 
-## Assessment
 
-Ready to test your skills? See if you can
 
-1.
+
+
+---
 
 ## Keep practicing
 
 -
+
+---
 
 ## References
 

@@ -4,11 +4,15 @@
 
 <img width="375" src="../assets/img/banner/banner-data-basics.png" />
 
-# [Learn Computing](../README.md): Data Basics
+# Data Basics
 
 How computers store data, and encode files and text
 
-<sup class="small">[markdown](../topics/topics-data-basics.md) / [slides](../slides/topics-data-basics.html)</sup>
+<sup class="small">[markdown](../topics/data-basics.md) / [slides](../slides/topics-data-basics.html)</sup>
+
+<!--
+Presentation comments ...
+-->
 
 
 ---
@@ -51,7 +55,7 @@ Students who complete the following will be able to:
 
 Complete the following to prepare for this module
 
-- [Command Line Crash Course](topics-command-line-crash-course.md)
+- [Command Line Crash Course](command-line-crash-course.md)
 - Review the slides in this [Binary Data](https://docs.google.com/presentation/d/1hV4hEiAT_795nXuNIg49VqsZr69UnJ4i_5-dv_2th1U/edit#slide=id.g3ee23d7716_0_1) presentation
 
 </details>
@@ -311,8 +315,8 @@ File encoding [is not the same as](https://kunststube.net/encoding/) character e
 
 ## Keep practicing
 
-- [Learn Computing: Data Types](topics-data-types.md)
-- [Learn Computing: Data Cleaning](topics-data-cleaning.md)
+- [Learn Computing: Data Types](data-types.md)
+- [Learn Computing: Data Cleaning](data-cleaning.md)
 
 ---
 

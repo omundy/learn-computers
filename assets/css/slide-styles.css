@@ -1,10 +1,15 @@
 /* @theme owen */
 @import 'default';
+
 /* @import 'gaia'; */
 /* @import 'uncover'; */
+.caption {
+    color: #999;
+}
 
-.caption { color: #999; }
-.small { font-size: .7rem !important; }
+.small {
+    font-size: .7rem !important;
+}
 
 section {
     background-color: #fff;
@@ -14,10 +19,17 @@ section {
 
 
 
+/* Add "Page" prefix and total page number
+local pagination directive is still required */
+section::after {
+    font-size: .9rem !important;
+    content: attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total);
+}
 
 
 
 
+/*
 
 header,
 footer {
@@ -35,3 +47,5 @@ header {
 footer {
     bottom: 30px;
 }
+
+*/

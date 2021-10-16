@@ -43,7 +43,7 @@
 
         "script": {
 
-            "source":"assets/js/"
+            "source":["assets/js/"]
         }
     }
 

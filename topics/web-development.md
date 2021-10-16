@@ -1,7 +1,8 @@
+<!-- paginate: true -->
 
 [<](../README.md)
 
-<img width="375" src="assets/img/banner/banner-web-development.png">
+<img width="375" src="../assets/img/banner/banner-web-development.png">
 
 # Web Development
 

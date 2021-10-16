@@ -4,11 +4,15 @@
 
 <img width="375" src="../assets/img/banner/banner-data-cleaning.png">
 
-# [Learn Computing](../README.md): Data Cleaning
+# Data Cleaning
 
 Tips for cleaning data
 
-<sup class="small">[markdown](../topics/topics-data-cleaning.md) / [slides](../slides/topics-data-cleaning.html)</sup>
+<sup class="small">[markdown](../topics/data-cleaning.md) / [slides](../slides/topics-data-cleaning.html)</sup>
+
+<!--
+Presentation comments ...
+-->
 
 
 ---
@@ -50,8 +54,8 @@ Students who complete the following will be able to:
 
 Complete the following to prepare for this module
 
-- [Command Line Crash Course](topics-command-line-crash-course.md)
-- [Learn Computing: Data Basics](topics-data-basics.md)
+- [Command Line Crash Course](command-line-crash-course.md)
+- [Learn Computing: Data Basics](data-basics.md)
 
 </details>
 
@@ -272,7 +276,7 @@ Other issues that aren't covered here:
 
 ## Keep practicing
 
-- [Learn Computing: Data Types](topics-data-types.md)
+- [Learn Computing: Data Types](data-types.md)
 
 
 ---

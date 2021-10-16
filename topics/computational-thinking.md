@@ -1,11 +1,21 @@
+<!-- paginate: true -->
 
 [<](../README.md)
 
-<img width="375" src="assets/img/banner/banner-computational-thinking.png">
+<img width="375" src="../assets/img/banner/banner-computational-thinking.png">
 
 # Computational Thinking
 
 Logic, data flow, etc.
+
+<sup class="small">[markdown](../topics/computational-thinking.md) / [slides](../slides/computational-thinking.html)</sup>
+
+<!--
+Presentation comments ...
+-->
+
+---
+
 
 ### Contents
 
@@ -35,7 +45,7 @@ Students who complete the following will be able to:
 
 Complete the following to prepare for this module
 
-- [Command Line Crash Course](topics-command-line-crash-course.md)
+- [Command Line Crash Course](command-line-crash-course.md)
 
 </details> -->
 
@@ -44,11 +54,18 @@ Complete the following to prepare for this module
 
 
 
+---
 
 
 ## Pseudocode
 
-Writing out simple instructions for a program you intend to build (a.k.a. "[pseudocode](https://en.wikipedia.org/wiki/Pseudocode)") can help plan your approach. Much like you would make a sketch for a painting, or a wireframe for a design, pseudocode can assist in thinking about your structure, where to put logic, or how your code will respond to events beforehand, while you still have flexibility to make changes.
+Writing out simplified instructions for a program (a.k.a. "[pseudocode](https://en.wikipedia.org/wiki/Pseudocode)") you intend to build can help plan your approach.
+
+Much like you would make a sketch for a painting, or a wireframe for a design, pseudocode can assist in thinking about your structure, where to put logic, or how your code will respond to events beforehand, while you still have flexibility to make changes.
+
+
+---
+
 
 Even more, writing pseudocode as comments gives you a structure within which you can add actual code, and placeholders for instructions you will eventually add.
 
@@ -68,32 +85,33 @@ While written in English, this example maintains a computational approach, borro
     If the user scrolls to a point where there are no more results, start over [getResults()]
 ```
 
+---
+
 
 👉 **Try it out**
 
-This prompt to reverse engineer an existing work will give you practice writing pseudocode.
+Reverse engineer an existing work to practice writing pseudocode.
 
-1. Select two works, this [Random Article Generator](https://codepen.io/owenmundy/full/PomvjqW) and one more:
-    - [eBay Feedback Generator](https://thesurrealist.co.uk/feedback) (2005)
-    - [Hacker Simulator](https://hacker-simulator.com/)
-    - [itadakimasu.app/](https://itadakimasu.app/)
-    - [Tarot-o-bot](https://tarotobot-reboot.illo.tv/) (2019)
-    - [Site Shaker](https://hartmut-bohnacker.de/projects/site-shaker) (2018)
-    <!-- - [University Title Generator](https://universitytitlegenerator.com/) -->
-1. Discuss with your partner
+1. Examine this [Random Article Generator](https://codepen.io/owenmundy/full/PomvjqW) and discuss with your partner
     1. What was needed to build this project?
     1. How do you think it works?
-1. In your preferred human language (English, German, etc.) list the instructions in this program:
+2. List the instructions using your preferred human language (English, German, etc.)
     1. Start from the beginning, with the data sources and variables.
-    1. Describe the logic, functions, and control structures that make up the main functionality.
+    1. Describe logic, functions, and control structures that make it work.
     1. List the event listeners that connect the UI to the code in the background.
-1. Take a look at the code for the [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
-    1. What did you get right?
+3. Look at the code for the [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
+    1. What did you get right and what
     1. What questions do you have?
+4. Select [another work that uses randomness](https://github.com/omundy/dig245-regenerative#example-works) and try it again.
 
 
+
+<!-- [University Title Generator](https://universitytitlegenerator.com/) -->
 <!-- [University Title Generator](https://github.com/fiatflux/uni-title-gen/blob/master/titlegen.py) -->
 
+
+
+---
 
 
 
@@ -136,9 +154,6 @@ Make a simple version on paper or whiteboard. Use a coin for random variables.
 
 In your group, discuss the following.
 
-- Q1
-- Q2
-- Q3
 
 ## Keep practicing
 
