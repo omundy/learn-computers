@@ -8,7 +8,7 @@
 
 A list of essential, everyday computer tasks
 
-<sup class="small">[markdown](../topics/basics.md) / [slides](../slides/basics.html)</sup>
+<sup class="small"><a href="../slides/basics.html">slides</a> | <a href="../topics/basics.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

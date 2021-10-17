@@ -8,7 +8,7 @@
 
 Description of topic
 
-<sup class="small">[markdown](../topics/template.md) / [slides](../slides/template.html)</sup>
+<sup class="small"><a href="../slides/template.html">slides</a> | <a href="../topics/template.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

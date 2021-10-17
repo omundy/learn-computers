@@ -8,7 +8,7 @@
 
 Tips for cleaning data
 
-<sup class="small">[markdown](../topics/data-cleaning.md) / [slides](../slides/topics-data-cleaning.html)</sup>
+<sup class="small"><a href="../slides/topics-data-cleaning.html">slides</a> | <a href="../topics/data-cleaning.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

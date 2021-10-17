@@ -8,7 +8,7 @@
 
 Speed up your computing with keyboard shortcuts!
 
-<sup class="small">[markdown](../topics/keyboard-shortcuts.md) / [slides](../slides/keyboard-shortcuts.html)</sup>
+<sup class="small"><a href="../slides/keyboard-shortcuts.html">slides</a> | <a href="../topics/keyboard-shortcuts.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

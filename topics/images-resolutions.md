@@ -8,7 +8,7 @@
 
 Learn about digital images formats and best practices
 
-<sup class="small">[markdown](../topics/images-resolutions.md) / [slides](../slides/images-resolutions.html)</sup>
+<sup class="small"><a href="../slides/images-resolutions.html">slides</a> | <a href="../topics/images-resolutions.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

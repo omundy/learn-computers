@@ -8,7 +8,7 @@
 
 Logic, data flow, etc.
 
-<sup class="small">[markdown](../topics/computational-thinking.md) / [slides](../slides/computational-thinking.html)</sup>
+<sup class="small"><a href="../slides/computational-thinking.html">slides</a> | <a href="../topics/computational-thinking.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

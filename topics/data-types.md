@@ -8,7 +8,7 @@
 
 Learn about specific data types used in programming, visualization, gaming, etc.
 
-<sup class="small">[markdown](../topics/data-types.md) / [slides](../slides/data-types.html)</sup>
+<sup class="small"><a href="../slides/data-types.html">slides</a> | <a href="../topics/data-types.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

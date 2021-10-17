@@ -9,7 +9,7 @@
 
 Using the command line is essential to computing proficiency.
 
-<sup class="small">[markdown](../topics/command-line.md) / [slides](../slides/command-line.html)</sup>
+<sup class="small"><a href="../slides/command-line.html">slides</a> | <a href="../topics/command-line.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

@@ -8,7 +8,7 @@
 
 Learn about all the files on your computer!
 
-<sup class="small">[markdown](../topics/files-folders.md) / [slides](../slides/files-folders.html)</sup>
+<sup class="small"><a href="../slides/files-folders.html">slides</a> | <a href="../topics/files-folders.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

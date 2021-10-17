@@ -8,7 +8,7 @@
 
 A short primer for using the command line
 
-<sup class="small">[markdown](../topics/command-line-crash-course.md) / [slides](../slides/command-line-crash-course.html)</sup>
+<sup class="small"><a href="../slides/command-line-crash-course.html">slides</a> | <a href="../topics/command-line-crash-course.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

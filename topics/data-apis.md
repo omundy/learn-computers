@@ -8,7 +8,7 @@
 
 Learn how to connect and retrieve data from APIs
 
-<sup class="small">[markdown](../topics/data-apis.md) / [slides](../slides/data-apis.html)</sup>
+<sup class="small"><a href="../slides/data-apis.html">slides</a> | <a href="../topics/data-apis.md">markdown</a></sup>
 
 <!--
 Presentation comments ...
@@ -123,8 +123,8 @@ With their [API](https://pro.dp.la/developers) you can access data for other use
 Companies build APIs for various reasons:
 
 1. To provide data and functions for their public mobile apps
-1. Allow access to data and software used by employees
-1. To encourage developers to build 3rd party apps that drive user engagement
+1. To allow access to data and software used by employees in a company
+1. To encourage developers to build 3rd party apps that drive users and engagement
 1. Free access to services makes other companies to increase dependency
 
 

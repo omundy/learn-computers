@@ -8,7 +8,7 @@
 
 Best practices for organizing and naming your files.
 
-<sup class="small">[markdown](../topics/files-naming-conventions.md) / [slides](../slides/files-naming-conventions.html)</sup>
+<sup class="small"><a href="../slides/files-naming-conventions.html">slides</a> | <a href="../topics/files-naming-conventions.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...

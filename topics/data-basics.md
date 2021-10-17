@@ -8,7 +8,7 @@
 
 How computers store data, and encode files and text
 
-<sup class="small">[markdown](../topics/data-basics.md) / [slides](../slides/topics-data-basics.html)</sup>
+<sup class="small"><a href="../slides/topics-data-basics.html">slides</a> | <a href="../topics/data-basics.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...
