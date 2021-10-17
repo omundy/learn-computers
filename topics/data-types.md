@@ -21,8 +21,8 @@ Presentation comments ...
 ### Contents
 
 1. [Introduction](#introduction)
-1. [About data types](#common-data-types) `5 min`
-1. [Primitive data types](#common-data-types) `5 min`
+1. [About data types](#about-data-types) `5 min`
+1. [Primitive data types](#primitive-data-types) `5 min`
 1. [Explore data types in the console](#explore-data-types-in-the-console) `5 min`
 1. [Type conversion](#type-conversion) `5 min`
 1. [Data collections](#data-collections) `5 min`

@@ -19,6 +19,10 @@ section {
 
 
 
+
+
+
+
 /* Add "Page" prefix and total page number
 local pagination directive is still required */
 section::after {

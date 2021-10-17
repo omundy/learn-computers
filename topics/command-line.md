@@ -5,9 +5,9 @@
 
 <img width="375" src="../assets/img/banner/banner-command-line.png">
 
-# Command Line, Shell, Terminal, Bash
+# The Command Line
 
-No matter what you call it, using the command line is essential to computing proficiency.
+Using the command line is essential to computing proficiency.
 
 <sup class="small">[markdown](../topics/command-line.md) / [slides](../slides/command-line.html)</sup>
 

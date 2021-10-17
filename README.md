@@ -1,7 +1,7 @@
 
 # Learn Computing
 
-Basic, intermediate, and advanced computing lesson modules
+Active Learning Modules for Computer Literacy
 
 ## Instructions
 
@@ -27,7 +27,7 @@ Essential knowledge for working with computers.
 <a href="topics/command-line.md">
 <img src="assets/img/banner/banner-command-line.png">
 
-Command line, shell, bash</a>
+The Command line - Looking under the hood</a>
 </td>
 
 
@@ -36,7 +36,7 @@ Command line, shell, bash</a>
 <img src="assets/img/banner/banner-files-folders.png">
 
 
-Users, permissions, the filesystem</a>
+The Filesystem - Users, files, folders</a>
 </td>
 
 
@@ -101,9 +101,10 @@ Networks</a>
 
 </tr>
 </table>
-<table>
-<tr>
 
+
+
+<!--
 
 <td>
 <a href="topics/images-resolutions.md">
@@ -112,17 +113,9 @@ Networks</a>
 Images and video</a><sup>📌 </sup>
 </td>
 
-
-<td>
-<a href="topics/data-basics.md">
-<img src="assets/img/banner/banner-data-basics.png">
-
-Data Basics</a>
-</td>
+ -->
 
 
-</tr>
-</table>
 
 
 
@@ -149,6 +142,14 @@ Data Basics</a>
 <tr>
 
 
+<td>
+<a href="topics/data-basics.md">
+<img src="assets/img/banner/banner-data-basics.png">
+
+Data Basics</a>
+</td>
+
+
 
 <td>
 <a href="topics/data-types.md">
@@ -159,11 +160,28 @@ Data types</a><sup> </sup>
 
 
 
+</tr>
+</table>
+<table>
+<tr>
+
+
+
 <td>
 <a href="topics/data-cleaning.md">
 <img src="assets/img/banner/banner-data-cleaning.png">
 
 Data cleaning</a>
+</td>
+
+
+
+
+<td>
+<a href="topics/data-apis.md">
+<img src="assets/img/banner/banner-data-apis.png">
+
+How to use APIs</a>
 </td>
 
 
