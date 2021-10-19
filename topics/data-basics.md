@@ -8,7 +8,7 @@
 
 How computers store data, and encode files and text
 
-<sup class="small"><a href="../slides/topics-data-basics.html">slides</a> | <a href="../topics/data-basics.md">markdown</a> </sup>
+<sup class="small"><a href="../slides/data-basics.html">slides</a> | <a href="../topics/data-basics.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...
@@ -315,8 +315,10 @@ File encoding [is not the same as](https://kunststube.net/encoding/) character e
 
 ## Keep practicing
 
+- [Learn Computing: Data Basics](data-types.md)
 - [Learn Computing: Data Types](data-types.md)
 - [Learn Computing: Data Cleaning](data-cleaning.md)
+- [Learn Computing: APIs](data-apis.md)
 
 ---
 

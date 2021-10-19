@@ -61,9 +61,14 @@ Complete the following to prepare for this module
 
 
 
+## Color Blindness
 
+On Mac
+1. System Preferences > Accessibility > Display > Color Filters
+1. Enable Color Filters
+1. Select different filters to see color blindness effects
 
-
+Protanopia, Deuteranopia, Tritanopia
 
 
 ---

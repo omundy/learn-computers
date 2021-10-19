@@ -225,7 +225,7 @@ myVar // -> undefined
 
 <!-- Variations of this section:
 learn-javascript/javascript-1/1-0-introduction.md
-learn-computing/topics-data-types.md
+learn-computing/topics/data-types.md
 -->
 
 ## Explore data types in the console
@@ -780,7 +780,10 @@ For example, when you use a value type in a program and send it to a function, a
 
 ## Keep practicing
 
+- [Learn Computing: Data Basics](data-types.md)
+- [Learn Computing: Data Types](data-types.md)
 - [Learn Computing: Data Cleaning](data-cleaning.md)
+- [Learn Computing: APIs](data-apis.md)
 
 ---
 

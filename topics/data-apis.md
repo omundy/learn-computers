@@ -22,9 +22,11 @@ Presentation comments ...
 
 1. [Introduction](#introduction)
 1. [About APIs](#about-apis) `5 min`
+1. [The Response](#the-response) `5 min`
+1. [The Client and Request](#the-client-and-request) `5 min`
+1. [Why are many APIs free?](#why-are-many-apis-free) `5 min`
 1. [Connect to an API](#connect-to-an-api) `5 min`
-1. [Using Postman](#using-postman) `5 min`
-1. [Advanced topics](#advanced-topics) `5 min`
+1. [Use Postman to test APIs](#use-postman-to-test-apis) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
@@ -210,7 +212,10 @@ It is available [on the web](go.postman.co/home) and as a [native desktop app fo
 
 ## Keep practicing
 
--
+- [Learn Computing: Data Basics](data-types.md)
+- [Learn Computing: Data Types](data-types.md)
+- [Learn Computing: Data Cleaning](data-cleaning.md)
+- [Learn Computing: APIs](data-apis.md)
 
 ---
 

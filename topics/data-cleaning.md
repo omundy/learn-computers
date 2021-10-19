@@ -8,7 +8,7 @@
 
 Tips for cleaning data
 
-<sup class="small"><a href="../slides/topics-data-cleaning.html">slides</a> | <a href="../topics/data-cleaning.md">markdown</a> </sup>
+<sup class="small"><a href="../slides/data-cleaning.html">slides</a> | <a href="../topics/data-cleaning.md">markdown</a> </sup>
 
 <!--
 Presentation comments ...
@@ -253,9 +253,68 @@ We could make these stock symbols into a Javascript array using
 
 ## More Regex examples
 
-Find `"(.*)-(.*)",` and replace `$1, $2,`
 
-<img width="600" src="../assets/img/data-cleaning/find-regex-date.png">
+
+
+
+---
+
+#### Remove and replace characters
+
+Remove `""` and replace `-` characters in line 1
+```bash
+"1-03"
+1,03
+```
+
+With this find / replace
+```bash
+"(.*)-(.*)",
+$1, $2,
+```
+
+<a href="../assets/img/data-cleaning/find-regex-date.png" target="_blank"><img width="500" src="../assets/img/data-cleaning/find-regex-date.png"></a>
+
+---
+
+#### Swap the order
+
+Change line 1 > line 2
+```bash
+<p>First / Second</p>
+<p>Second | First</p>
+```
+
+With this find / replace
+```bash
+<p>(.*) / (.*)</p>
+<p>$2 | $1</p>
+```
+
+---
+
+#### Metacharacters
+
+Use a backslash to escape <a href="https://en.wikipedia.org/wiki/Metacharacter#:~:text=A%20metacharacter%20is%20a%20character,regular%20expression%20(regex)%20engine." target="_blank">metacharacters</a>. To match `(123)` not `123`
+```bash
+\(123\)
+```
+
+
+Change line 1 > line 2
+```bash
+<p>[slides](../slides/data-cleaning.html)</p>
+<p><a href="../slides/data-cleaning.html">slides</a></p>
+```
+
+With this find / replace
+```bash
+<p>\[slides\]\(../slides/(.*)\)</p>
+<p><a href="../slides/$1">slides</a></p>
+```
+
+
+
 
 
 ---
@@ -276,8 +335,10 @@ Other issues that aren't covered here:
 
 ## Keep practicing
 
+- [Learn Computing: Data Basics](data-types.md)
 - [Learn Computing: Data Types](data-types.md)
-
+- [Learn Computing: Data Cleaning](data-cleaning.md)
+- [Learn Computing: APIs](data-apis.md)
 
 ---
 
