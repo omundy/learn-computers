@@ -335,10 +335,10 @@ Other issues that aren't covered here:
 
 ## Keep practicing
 
-- [Learn Computing: Data Basics](data-types.md)
-- [Learn Computing: Data Types](data-types.md)
-- [Learn Computing: Data Cleaning](data-cleaning.md)
-- [Learn Computing: APIs](data-apis.md)
+- Learn Computing: Data Basics [slides](../slides/data-basics.html) | [markdown](../topics/data-basics.md)
+- Learn Computing: Data Types [slides](../slides/data-types.html) | [markdown](../topics/data-types.md)
+- Learn Computing: Data Cleaning [slides](../slides/data-cleaning.html) | [markdown](../topics/data-cleaning.md)
+- Learn Computing: APIs [slides](../slides/data-apis.html) | [markdown](../topics/data-apis.md)
 
 ---
 
