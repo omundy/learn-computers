@@ -37,6 +37,8 @@ Presentation comments ...
 
 Review the following sections and perform the activities on your own or with your group.
 
+Perform the task(s) when you see this 👉  emoji
+
 <details>
 <summary>Learning Objectives</summary>
 
@@ -256,6 +258,22 @@ We could make these stock symbols into a Javascript array using
 
 
 
+
+---
+
+#### Remove and replace characters
+
+Replace characters in line 1 with line 2
+```bash
+javascript-1/1-1-variables/
+topics/variables/
+```
+
+With this find / replace
+```bash
+javascript-1/([0-9])-([0-9])-
+topics/
+```
 
 ---
 

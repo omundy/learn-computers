@@ -34,6 +34,8 @@ Presentation comments ...
 
 Review the following sections and perform the activities on your own or with your group.
 
+Perform the task(s) when you see this 👉  emoji
+
 <details>
 <summary>Learning Objectives</summary>
 

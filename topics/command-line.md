@@ -1,4 +1,3 @@
-
 <!-- paginate: true -->
 
 [<](../README.md)
@@ -39,7 +38,7 @@ Presentation comments ...
 
 Review the following sections and perform the activities on your own or with your group.
 
-When you see this emoji 👉 perform the task(s)!
+Perform the task(s) when you see this 👉  emoji
 
 <details>
 <summary>Learning Objectives</summary>
