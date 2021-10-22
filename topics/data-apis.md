@@ -1,22 +1,12 @@
 <!-- paginate: true -->
 
-<style>
-.twocolumn {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 20px;
-   text-align: left;
-}
-</style>
-
-
 [<](../README.md)
 
 <img width="375" src="../assets/img/banner/banner-data-apis.png">
 
 # APIs
 
-An introduction to using APIs
+An introduction to APIs
 
 <sup class="small"><a href="../slides/data-apis.html">slides</a> | <a href="../topics/data-apis.md">markdown</a></sup>
 
@@ -30,7 +20,7 @@ Presentation comments ...
 
 ### Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#introduction), [Required tools](#required-tools)
 1. [About APIs](#about-apis)
 1. [APIs are like search engines](#apis-are-like-search-engines)
 1. [Make an API request](#make-an-api-request)
@@ -39,8 +29,7 @@ Presentation comments ...
 1. [API authentication](#api-authentication)
 1. [Why are most APIs free?](#why-are-most-apis-free)
 1. [Use Postman to test APIs](#use-postman-to-test-apis)
-1. [Keep practicing](#keep-practicing)
-1. [References](#references)
+1. [Keep practicing](#keep-practicing), [References](#references)
 
 
 ---
@@ -87,11 +76,11 @@ Complete the following to prepare for this module
 
 ---
 
-## About APIs
+## Application Program Interface
 
-An Application Program Interface (API) is a software service that provides data or functionality, usually to other software.
+An API is a software service that provides data or functionality, usually to other software.
 
-<img width="700" src="../assets/img/banner/banner-data-apis-diagram.png">
+<img width="800" src="../assets/img/banner/banner-data-apis-diagram.png">
 
 1. A **Client** (web page, mobile or desktop app) makes a **request**
 1. The **Server** processes the request, queries a **database** if needed
@@ -282,7 +271,7 @@ Companies build APIs for various reasons:
 
 [Postman](https://www.postman.com/) is an API development client. Once you [install](https://www.postman.com/downloads/) the app and [login](https://identity.getpostman.com/signup):
 
-Create a new `GET` request with this URL and click Send
+👉 Create a new `GET` request with this URL and click Send
 
 <code class="small block">
 https://jsonplaceholder.typicode.com/users
@@ -300,6 +289,47 @@ You will see `Status: 200 OK` and a collection of "users" if your request was su
 </div>
 
 
+
+
+---
+
+## URL anatomy
+
+`https://jsonplaceholder.typicode.com/users`
+
+- **HTTPS** (Hypertext Transfer Protocol Secure) - enables secure (encrypted) communication over a computer network
+- **jsonplaceholder.typicode.com** - the API host
+- **/users** - the endpoint
+
+[Request methods](http://www.w3schools.com/tags/ref_httpmethods.asp) are standards for exchanging data between clients and servers:
+
+- **GET** - *requests* data, parameters are included in the URL so can be bookmarked https://www.google.com/search?q=cats
+- **POST** - *sends* data in the HTTP message body so has no length restrictions
+
+
+---
+
+## 👉  Use Postman
+
+
+
+
+
+
+https://jsonplaceholder.typicode.com/posts
+
+http://jsonplaceholder.typicode.com/guide/
+
+
+
+https://www.guru99.com/postman-tutorial.html
+
+Make your own requests
+
+
+Use jsonplaceholder
+
+Now use any that you see below. Note that if authentication is required you will have to register with them first
 
 
 ---
@@ -363,25 +393,42 @@ https://github.com/public-apis/public-apis
 
 ## Digital Public Library of America (DPLA)
 
-- For example, when [requesting data](https://pro.dp.la/developers/requests#url) from the [DPLA](https://dp.la/) you must include your `api_key` in the request `https://api.dp.la/v2/items?q=kittens&api_key=<here>`
+- Fetch data about items in [dp.la](https://dp.la/) collection
+- [documentation](https://pro.dp.la/developers/api-codex) - free | auth: **🔑 required**
+- [/items](https://pro.dp.la/developers/requests#simple) = `http://api.dp.la/v2/items?q=cats&api_key=API_KEY`
+- Used by - [Historical GIFs](https://twitter.com/dpladotgif) ([code](https://github.com/dogrdon/accidentalculture)) | [Term vs Term](https://owenmundy.com/work/term-vs-term/index.php?q1=cats&q2=dogs)
 
+<a href="../assets/img/data-apis/data-apis-dlpa-response-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-dlpa-response-cropped.png"></a>
 
-Consider the DPLA. You can search their [website](https://dp.la/) to retrieve data about items in their collection (e.g. a search for cats [dp.la/search?q=cats](https://dp.la/search?q=cats)).
+---
 
-With their [API](https://pro.dp.la/developers) you can access data for other uses: [Historical GIFs](https://twitter.com/dpladotgif) ([code](https://github.com/dogrdon/accidentalculture)) and [Term vs Term](https://owenmundy.com/work/term-vs-term/index.php?q1=cats&q2=dogs)
+## Wikipedia
 
-- Free | auth required | [documentation](https://pro.dp.la/developers/api-codex)
-- Request: http://api.dp.la/v2/items?q=cats&api_key=YOUR_API_KEY , Response
+- Retrieve articles and metadata from [wikipedia.org](https://wikipedia.org)
+- [documentation](http://www.mediawiki.org/wiki/API:Main_page) - free | auth: no / yes (🔑 for bots)
+- [/query](https://en.wikipedia.org/w/api.php?action=help&modules=query) = `https://en.wikipedia.org/w/api.php?format=json&action=query&titles=cat&prop=revisions&rvprop=content`
+- Used by - [Wikiscanner](https://web.archive.org/web/20160314095050/http://virgil.gr/wikiscanner/) ([2002-07](https://en.wikipedia.org/wiki/WikiScanner))
 
-<a href="../assets/img/data-apis/data-apis-dlpa-response.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-dlpa-response.png"></a>
+<a href="../assets/img/data-apis/data-apis-wikipedia-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-wikipedia-cropped.png"></a>
 
+---
 
+## OpenSecrets
 
+- Retrieve data about money in politics from [opensecrets.org](http://www.opensecrets.org/)
+- [documentation](https://www.opensecrets.org/resources/create/api_doc.php) - free | auth: **🔑 required** | non-commercial only | limit: 200/day
+- [getLegislators](https://www.opensecrets.org/api/?method=getLegislators&output=doc) = `https://www.opensecrets.org/api/?method=getLegislators&id=WV&apikey=API_KEY`
+- [candIndByInd](https://www.opensecrets.org/api/?method=candIndByInd&output=doc) [📄](https://www.opensecrets.org/downloads/crp/CRP_Categories.txt) = `https://www.opensecrets.org/api/?method=candIndByInd&output=json&cid=N00032838&cycle=2018&ind=E1210&apikey=API_KEY` [🤨](http://www.opensecrets.org/industries/recips.php?Ind=E1210&amp;cycle=2022&amp;Mem=Y&amp;sortorder=U)
 
-
-
-
-
+```json
+{ "response":{
+        "cand_name":"Manchin, Joe", "cid":"N00032838", "cycle":"2018",
+        "industry":"Coal mining", "chamber":"S", "party":"D", "state":"West Virginia",
+        "total":"40550", "indivs":"29050", "pacs":"11500", "rank":"6",
+        "origin":"Center for Responsive Politics", "source": "...", "last_updated":"06\/10\/19"
+    }
+}
+```
 
 
 
