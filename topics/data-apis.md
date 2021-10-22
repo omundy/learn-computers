@@ -277,8 +277,14 @@ Companies build APIs for various reasons:
 https://jsonplaceholder.typicode.com/users
 </code>
 
-
 You will see `Status: 200 OK` and a collection of "users" if your request was successful.
+
+
+<div class="caption small">
+
+*[JSON Placeholder](https://jsonplaceholder.typicode.com/) is a free fake API for testing
+
+</div>
 
 </div>
 
@@ -295,7 +301,7 @@ You will see `Status: 200 OK` and a collection of "users" if your request was su
 
 ## URL anatomy
 
-`https://jsonplaceholder.typicode.com/users`
+The parts of this URL `https://jsonplaceholder.typicode.com/users`
 
 - **HTTPS** (Hypertext Transfer Protocol Secure) - enables secure (encrypted) communication over a computer network
 - **jsonplaceholder.typicode.com** - the API host
@@ -307,83 +313,58 @@ You will see `Status: 200 OK` and a collection of "users" if your request was su
 - **POST** - *sends* data in the HTTP message body so has no length restrictions
 
 
----
 
-## 👉  Use Postman
-
-
-
-
-
-
-https://jsonplaceholder.typicode.com/posts
-
-http://jsonplaceholder.typicode.com/guide/
-
-
-
-https://www.guru99.com/postman-tutorial.html
-
-Make your own requests
-
-
-Use jsonplaceholder
-
-Now use any that you see below. Note that if authentication is required you will have to register with them first
 
 
 ---
 
-## APIs are a moving target
-
-Thousands available for anything you can imagine.
-
-
-
-
-- APIs are always changing based on needs and resources.
-- In the early days of Facebook and Instagram anyone (artists, researchers, [anti-press authoritarian governments](https://www.scu.edu/ethics-spotlight/social-media-and-democracy/weaponization-of-social-media-by-authoritarian-states/)) could collect entire databases via their APIs. Thanks to various [cultural](https://iknowwhereyourcatlives.com/) works [this](https://givememydata.com/) is no longer the case.
 
 
 
 
 
 
+<div class="twocolumn">
+
+<div class="col">
+
+<h2>👉  API Practice</h2>
+
+Continue exploring APIs with a browser or Postman using the following [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/).
+
+- [Bored API](https://www.boredapi.com/documentation) - Get a new random [/activity](http://www.boredapi.com/api/activity/)
+- [Random User Generator](https://randomuser.me/) - [/api](https://randomuser.me/api/)
+- [IP Geolocation API](https://freegeoip.app/) - Data about your present location [/json](https://freegeoip.app/json/)
+- [faker.hook.io](https://fakerjsdocs.netlify.app/) uses [faker.js](https://github.com/marak/Faker.js/) - [hacker.phrase](http://faker.hook.io/?property=hacker.phrase), [companyName](http://faker.hook.io/?property=company.companyName) ([see list](http://faker.hook.io/?property=))
+<!-- - [fakercloud](https://fakercloud.com/api) 🔑 -->
+
+
+</div>
+
+<div class="col">
+<a href="../assets/img/data-apis/i-love-APIs-2.jpg" target="_blank"><img width="100%" src="../assets/img/data-apis/i-love-APIs-2.jpg"></a>
 
 
 
+[CATAAS](https://cataas.com/#/) - Random images of cats [/cat/says](https://cataas.com/cat/says/i%20love%20APIs?size=50&color=white)
+
+</div>
+
+</div>
 
 
 
 
 ---
 
-## API examples from this lecture
+## 👉  API Practice
 
-- [JSON Placeholder](https://jsonplaceholder.typicode.com/) - Free fake API for testing and prototyping.
+API collections to explore. If authentication is required you need to register with them first.
 
-
----
-
-## API examples below
-
-- [Digital Public Library of America API](#digital-public-library-of-america-dpla)
-
-
-
----
-
-## More examples
-
+- [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/) - Big List of Free and Open Public APIs (No Auth Needed)
 - [Public APIs](https://github.com/public-apis/public-apis) - A collective list of free APIs for use in software and web development
+- [apilist.fun](https://apilist.fun/) - A collective list of APIs
 - [Data / Functionality API Resource List](https://docs.google.com/spreadsheets/d/196CgwxBIkX5v6VeitOFWTYfd07OU_5A-HC4Gu7gy6xE/edit#gid=0) - My own list
-
-
-
-https://github.com/public-apis/public-apis
-
-- [Bored API](https://www.boredapi.com/documentation) [example](http://www.boredapi.com/api/activity/)
-- [CATAAS](https://cataas.com/#/) (images) [cat/says](https://cataas.com/cat/says/hello), [JSON url](https://cataas.com/cat?json=true)
 
 
 
@@ -394,7 +375,7 @@ https://github.com/public-apis/public-apis
 ## Digital Public Library of America (DPLA)
 
 - Fetch data about items in [dp.la](https://dp.la/) collection
-- [documentation](https://pro.dp.la/developers/api-codex) - free | auth: **🔑 required**
+- [docs](https://pro.dp.la/developers/api-codex) - free | auth: **🔑 required**
 - [/items](https://pro.dp.la/developers/requests#simple) = `http://api.dp.la/v2/items?q=cats&api_key=API_KEY`
 - Used by - [Historical GIFs](https://twitter.com/dpladotgif) ([code](https://github.com/dogrdon/accidentalculture)) | [Term vs Term](https://owenmundy.com/work/term-vs-term/index.php?q1=cats&q2=dogs)
 
@@ -405,7 +386,7 @@ https://github.com/public-apis/public-apis
 ## Wikipedia
 
 - Retrieve articles and metadata from [wikipedia.org](https://wikipedia.org)
-- [documentation](http://www.mediawiki.org/wiki/API:Main_page) - free | auth: no / yes (🔑 for bots)
+- [docs](http://www.mediawiki.org/wiki/API:Main_page) - free | auth: no / yes (🔑 for bots)
 - [/query](https://en.wikipedia.org/w/api.php?action=help&modules=query) = `https://en.wikipedia.org/w/api.php?format=json&action=query&titles=cat&prop=revisions&rvprop=content`
 - Used by - [Wikiscanner](https://web.archive.org/web/20160314095050/http://virgil.gr/wikiscanner/) ([2002-07](https://en.wikipedia.org/wiki/WikiScanner))
 
@@ -416,9 +397,9 @@ https://github.com/public-apis/public-apis
 ## OpenSecrets
 
 - Retrieve data about money in politics from [opensecrets.org](http://www.opensecrets.org/)
-- [documentation](https://www.opensecrets.org/resources/create/api_doc.php) - free | auth: **🔑 required** | non-commercial only | limit: 200/day
-- [getLegislators](https://www.opensecrets.org/api/?method=getLegislators&output=doc) = `https://www.opensecrets.org/api/?method=getLegislators&id=WV&apikey=API_KEY`
-- [candIndByInd](https://www.opensecrets.org/api/?method=candIndByInd&output=doc) [📄](https://www.opensecrets.org/downloads/crp/CRP_Categories.txt) = `https://www.opensecrets.org/api/?method=candIndByInd&output=json&cid=N00032838&cycle=2018&ind=E1210&apikey=API_KEY` [🤨](http://www.opensecrets.org/industries/recips.php?Ind=E1210&amp;cycle=2022&amp;Mem=Y&amp;sortorder=U)
+- [docs](https://www.opensecrets.org/resources/create/api_doc.php) - free | auth: **🔑 required** | non-commercial only | limit: 200/day
+- [/getLegislators](https://www.opensecrets.org/api/?method=getLegislators&output=doc) = `https://www.opensecrets.org/api/?method=getLegislators&id=WV&apikey=API_KEY`
+- [/candIndByInd](https://www.opensecrets.org/api/?method=candIndByInd&output=doc) [📄](https://www.opensecrets.org/downloads/crp/CRP_Categories.txt) = `https://www.opensecrets.org/api/?method=candIndByInd&output=json&cid=N00032838&cycle=2018&ind=E1210&apikey=API_KEY` [🤨](http://www.opensecrets.org/industries/recips.php?Ind=E1210&amp;cycle=2022&amp;Mem=Y&amp;sortorder=U)
 
 ```json
 { "response":{
@@ -445,7 +426,11 @@ https://github.com/public-apis/public-apis
 - Learn Computing: Data Cleaning [slides](../slides/data-cleaning.html) | [markdown](../topics/data-cleaning.md)
 - Learn Computing: APIs [slides](../slides/data-apis.html) | [markdown](../topics/data-apis.md)
 
+---
 
+##  Notes
+
+- APIs are always changing - Before Facebook (and Instagram) added restrictions to their APIs anyone (artists, researchers, [anti-press governments](https://www.scu.edu/ethics-spotlight/social-media-and-democracy/weaponization-of-social-media-by-authoritarian-states/)) could download entire databases. Thanks to various cultural works and activism this has changed (see [iknowwhereyourcatlives.com](https://iknowwhereyourcatlives.com/), [givememydata.com](https://givememydata.com/)).
 
 
 
