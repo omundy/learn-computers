@@ -13,20 +13,12 @@
 /* @theme owen */
 
 /* @import 'gaia'; */
-/* @import 'uncover'; */div#p>svg>foreignObject>section .caption{color:#999}div#p>svg>foreignObject>section .small{font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section section.small{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section{background-color:#fff;color:#333}
+/* @import 'uncover'; */div#p>svg>foreignObject>section .caption{color:#999;margin-top:0!important;margin-bottom:16px!important}div#p>svg>foreignObject>section .small{font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important;margin-top:0!important;margin-bottom:16px!important}div#p>svg>foreignObject>section section.small{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section .block{display:block}div#p>svg>foreignObject>section{background-color:#fff;color:#333}
 
+/* Create two col layout, works in markdown if added to file */div#p>svg>foreignObject>section .twocolumn{display:grid;grid-template-columns:1fr 1fr;grid-gap:20px;text-align:left}
 
-
-
-
-
-
-
-/* Add "Page" prefix and total page number
-local pagination directive is still required */div#p>svg>foreignObject>section:after{font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important;content:attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total)}div#p>svg>foreignObject>section:after{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important}
-
-
-
+/* Adds "Page" prefix and total page number
+local pagination directive still required */div#p>svg>foreignObject>section:after{font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important;content:attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total)}div#p>svg>foreignObject>section:after{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important}
 
 /*
 
@@ -338,7 +330,7 @@ hexdump -C cat.txt
 <h3>File vs. character encoding</h3>
 <p>File encoding <a href="https://kunststube.net/encoding/">is not the same as</a> character encoding. If you can open <em><strong>and read</strong></em> a file in a plain text editor (e.g. <a href="https://en.wikipedia.org/wiki/Microsoft_Notepad">Notepad</a> on Windows, or <a href="https://en.wikipedia.org/wiki/TextEdit">TextEdit</a> on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.</p>
 <p><img src="../assets/img/data-basics/files-binary.png" alt=".png" /></p>
-<p><sup class="caption">A <code>.png</code> file opened in TextEdit</sup></p>
+<div class="caption small">A `.png` file opened in TextEdit</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-theme="owen" data-marpit-pagination="21" data-marpit-pagination-total="23" style="--paginate:true;--theme:owen;">
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/2/svg/1f449.svg" data-marp-twemoji=""/> <strong>Try it out</strong> Compare other files on your computer</p>

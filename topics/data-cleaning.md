@@ -259,6 +259,27 @@ We could make these stock symbols into a Javascript array using
 
 
 
+
+
+
+
+---
+
+#### Search for a string
+
+Replace line 1 with line 2
+```bash
+https://code.jquery.com/jquery-3.5.1.min.js
+https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+```
+
+With this find / replace
+```bash
+http(.*)jquery(.*).js
+https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+```
+
+
 ---
 
 #### Remove and replace characters

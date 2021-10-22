@@ -5,10 +5,18 @@
 /* @import 'uncover'; */
 .caption {
     color: #999;
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
 }
 
 .small {
     font-size: .7rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
+}
+
+.block {
+    display: block;
 }
 
 section {
@@ -16,22 +24,20 @@ section {
     color: #333;
 }
 
+/* Create two col layout, works in markdown if added to file */
+.twocolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+}
 
-
-
-
-
-
-
-/* Add "Page" prefix and total page number
-local pagination directive is still required */
+/* Adds "Page" prefix and total page number
+local pagination directive still required */
 section::after {
     font-size: .9rem !important;
     content: attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total);
 }
-
-
-
 
 /*
 

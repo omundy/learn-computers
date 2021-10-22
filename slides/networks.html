@@ -13,20 +13,12 @@
 /* @theme owen */
 
 /* @import 'gaia'; */
-/* @import 'uncover'; */div#p>svg>foreignObject>section .caption{color:#999}div#p>svg>foreignObject>section .small{font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section section.small{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section{background-color:#fff;color:#333}
+/* @import 'uncover'; */div#p>svg>foreignObject>section .caption{color:#999;margin-top:0!important;margin-bottom:16px!important}div#p>svg>foreignObject>section .small{font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important;margin-top:0!important;margin-bottom:16px!important}div#p>svg>foreignObject>section section.small{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .7)!important}div#p>svg>foreignObject>section .block{display:block}div#p>svg>foreignObject>section{background-color:#fff;color:#333}
 
+/* Create two col layout, works in markdown if added to file */div#p>svg>foreignObject>section .twocolumn{display:grid;grid-template-columns:1fr 1fr;grid-gap:20px;text-align:left}
 
-
-
-
-
-
-
-/* Add "Page" prefix and total page number
-local pagination directive is still required */div#p>svg>foreignObject>section:after{font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important;content:attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total)}div#p>svg>foreignObject>section:after{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important}
-
-
-
+/* Adds "Page" prefix and total page number
+local pagination directive still required */div#p>svg>foreignObject>section:after{font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important;content:attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total)}div#p>svg>foreignObject>section:after{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * .9)!important}
 
 /*
 

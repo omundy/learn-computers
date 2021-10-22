@@ -296,7 +296,7 @@ File encoding [is not the same as](https://kunststube.net/encoding/) character e
 
 ![.png](../assets/img/data-basics/files-binary.png)
 
-<sup class="caption">A `.png` file opened in TextEdit</sup>
+<div class="caption small">A `.png` file opened in TextEdit</div>
 
 
 
