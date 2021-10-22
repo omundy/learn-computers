@@ -1,8 +1,8 @@
 /* @theme owen */
 @import 'default';
 
-/* @import 'gaia'; */
-/* @import 'uncover'; */
+/* Styles for slides only, they don't work on github.com */
+
 .caption {
     color: #999;
     margin-top: 0 !important;
@@ -24,7 +24,7 @@ section {
     color: #333;
 }
 
-/* Create two col layout, works in markdown if added to file */
+/* Create two col layout */
 .twocolumn {
     display: grid;
     grid-template-columns: 1fr 1fr;

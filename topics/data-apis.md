@@ -272,25 +272,13 @@ Companies build APIs for various reasons:
 
 ---
 
-## Use Postman to test APIs
-
-<!-- [Postman](https://www.postman.com/) is an API development client. To begin, [install](https://www.postman.com/downloads/) the app and [login](https://identity.getpostman.com/signup):
-
-1. Create a new request
-1. HTTP request: `GET`
-1. Request URL: `https://jsonplaceholder.typicode.com/users`
-1. Click Send
-
-You will see `Status: 200 OK` and a collection of "users" if your request was successful. -->
-
-
-
-
-
 
 <div class="twocolumn">
 
 <div class="col">
+
+<h2>Use Postman to test APIs</h2>
+
 
 [Postman](https://www.postman.com/) is an API development client. Once you [install](https://www.postman.com/downloads/) the app and [login](https://identity.getpostman.com/signup):
 
