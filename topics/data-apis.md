@@ -335,7 +335,7 @@ Continue exploring APIs with a browser or Postman using the following [No Auth A
 - [Bored API](https://www.boredapi.com/documentation) - Get a new random [/activity](http://www.boredapi.com/api/activity/)
 - [Random User Generator](https://randomuser.me/) - [/api](https://randomuser.me/api/)
 - [IP Geolocation API](https://freegeoip.app/) - Data about your present location [/json](https://freegeoip.app/json/)
-- [faker.hook.io](https://fakerjsdocs.netlify.app/) uses [faker.js](https://github.com/marak/Faker.js/) - [hacker.phrase](http://faker.hook.io/?property=hacker.phrase), [companyName](http://faker.hook.io/?property=company.companyName) ([see list](http://faker.hook.io/?property=))
+- [faker.hook.io](https://fakerjsdocs.netlify.app/) uses [faker.js](https://github.com/marak/Faker.js/) - [name.findName&locale=de](http://faker.hook.io/?property=name.findName&locale=de), [hacker.phrase](http://faker.hook.io/?property=hacker.phrase), [companyName](http://faker.hook.io/?property=company.companyName) ([see list](http://faker.hook.io/?property=))
 <!-- - [fakercloud](https://fakercloud.com/api) 🔑 -->
 
 
