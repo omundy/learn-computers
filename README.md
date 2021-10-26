@@ -15,7 +15,7 @@ Active Learning Modules for Computer Literacy
 
 
 
-## Section 1
+## Basics
 
 Essential knowledge for working with computers.
 
@@ -23,20 +23,16 @@ Essential knowledge for working with computers.
 <tr>
 
 
-<td>
-<a href="topics/command-line.md">
+<td width="50%">
 <img src="assets/img/banner/banner-command-line.png">
-
-The Command line - Looking under the hood</a>
+The Command line - <a href="slides/data-apis.html">slides</a> | <a href="topics/command-line.md">markdown</a>
 </td>
 
 
-<td>
-<a href="topics/files-folders.md">
+<td width="50%">
 <img src="assets/img/banner/banner-files-folders.png">
-
-
-The Filesystem - Users, files, folders</a>
+The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="topics/files-folders.md">markdown</a>
+<!-- Users, files, folders -->
 </td>
 
 
@@ -46,19 +42,15 @@ The Filesystem - Users, files, folders</a>
 <tr>
 
 
-<td>
-<a href="topics/keyboard-shortcuts.md">
+<td width="50%">
 <img src="assets/img/banner/banner-keyboard-shortcuts.png">
-
-Keyboard shortcuts, Workflows</a>
+Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.md">slides</a> | <a href="topics/keyboard-shortcuts.md">markdown</a>
 </td>
 
 
-<td>
-<a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">
+<td width="50%">
 <img src="assets/img/banner/banner-version-control.png">
-
-Git Version Control</a><sup>📌 </sup>
+Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">slides</a>
 </td>
 
 
@@ -74,88 +66,73 @@ Git Version Control</a><sup>📌 </sup>
 
 
 
-## Section 2
+## Media
 
-Working with media, data, and setting up a development environment.
+Working with images, networks, and setting up a development environment.
 
 <table>
 <tr>
 
 
-<td>
-<a href="topics/web-development.md">
+<td width="50%">
 <img src="assets/img/banner/banner-web-development.png">
-
-Web Development Environment</a>
+Web Development Environment - <a href="slides/web-development.md">slides</a> | <a href="topics/web-development.md">markdown</a>
 </td>
 
 
 
-<td>
-<a href="topics/networks.md">
+<td width="50%">
 <img src="assets/img/banner/banner-networks.png">
-
-Networks</a>
+Networks - <a href="slides/networks.md">slides</a> | <a href="topics/networks.md">markdown</a>
 </td>
+
 
 
 </tr>
 </table>
+<table>
+<tr>
 
 
 
-<!--
 
-<td>
-<a href="topics/images-resolutions.md">
+<td width="50%">
 <img src="assets/img/banner/banner-images-resolutions.png">
-
 Images and video</a><sup>📌 </sup>
+<!-- - <a href="slides/images-resolutions.md">slides</a> | <a href="topics/images-resolutions.md">markdown</a> -->
 </td>
 
- -->
+
+<td width="50%">
+<img src="assets/img/banner/banner-color.png">
+Color</a><sup>📌 </sup>
+<!-- - <a href="slides/color.md">slides</a> | <a href="topics/color.md">markdown</a> -->
+</td>
 
 
 
+</tr>
+</table>
 
 
 
+## Data
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Section 3
-
-
+Working with data and APIs.
 
 <table>
 <tr>
 
-
-<td>
-<a href="topics/data-basics.md">
+<td width="50%">
 <img src="assets/img/banner/banner-data-basics.png">
-
-Data Basics</a>
+Data Basics - <a href="slides/data-basics.md">slides</a> | <a href="topics/data-basics.md">markdown</a>
 </td>
 
 
 
-<td>
-<a href="topics/data-types.md">
+<td width="50%">
 <img src="assets/img/banner/banner-data-types.png">
-
-Data types</a><sup> </sup>
+Data types - <a href="slides/data-types.md">slides</a> | <a href="topics/data-types.md">markdown</a>
 </td>
 
 
@@ -167,30 +144,24 @@ Data types</a><sup> </sup>
 
 
 
-<td>
-<a href="topics/data-cleaning.md">
+<td width="50%">
 <img src="assets/img/banner/banner-data-cleaning.png">
-
-Data cleaning</a>
+Data cleaning - <a href="slides/data-cleaning.md">slides</a> | <a href="topics/data-cleaning.md">markdown</a>
 </td>
 
 
 
 
-<td>
-<a href="topics/data-apis.md">
+<td width="50%">
 <img src="assets/img/banner/banner-data-apis.png">
-
-How to use APIs</a>
+How to use APIs - <a href="slides/data-apis.md">slides</a> | <a href="topics/data-apis.md">markdown</a>
 </td>
 
 
 
-<!-- <td>
-<a href="topics/computational-thinking.md">
+<!-- <td width="50%">
 <img src="assets/img/banner/banner-computational-thinking.png">
-
-Computational thinking</a><sup>📌 </sup>
+Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.md">slides</a> | <a href="topics/computational-thinking.md">markdown</a>
 </td>
 -->
 
