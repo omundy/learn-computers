@@ -25,7 +25,7 @@ Essential knowledge for working with computers.
 
 <td width="50%">
 <img src="assets/img/banner/banner-command-line.png">
-The Command line - <a href="slides/data-apis.html">slides</a> | <a href="topics/command-line.md">markdown</a>
+The Command line - <a href="slides/command-line.html">slides</a> | <a href="topics/command-line.md">markdown</a>
 </td>
 
 
