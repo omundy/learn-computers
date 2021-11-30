@@ -76,7 +76,7 @@ Working with images, networks, and setting up a development environment.
 
 <td width="50%">
 <img src="assets/img/banner/banner-web-development.png">
-Web Development Environment - <a href="slides/web-development.md">slides</a> | <a href="topics/web-development.md">markdown</a>
+Web Development Environment - <a href="topics/web-development.md">markdown</a>
 </td>
 
 
@@ -159,15 +159,33 @@ How to use APIs - <a href="slides/data-apis.md">slides</a> | <a href="topics/dat
 
 
 
+
+
+</tr>
+</table>
+<table>
+<tr>
+
+
+
+
+<td width="50%">
+<img src="assets/img/banner/banner-web-servers.png">
+Web servers<sup>📌 </sup> - <a href="topics/web-servers.md">markdown</a>
+</td>
+
+
+
+
 <!-- <td width="50%">
 <img src="assets/img/banner/banner-computational-thinking.png">
 Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.md">slides</a> | <a href="topics/computational-thinking.md">markdown</a>
 </td>
 -->
 
-
 </tr>
 </table>
+
 
 
 

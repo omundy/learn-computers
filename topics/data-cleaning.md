@@ -251,14 +251,26 @@ We could make these stock symbols into a Javascript array using
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ---
+
 
 ## More Regex examples
 
 
 
 
-
+Also see this converter: https://www.convertcsv.com/csv-to-json.htm
 
 
 
@@ -332,6 +344,38 @@ With this find / replace
 
 ---
 
+#### Prepare a table for Javascript
+
+Replace all the tabs
+```bash
+adjective	color	animal
+sad	red	dog
+furtive	green	cat
+cautious	blue	rabbit
+happy		rooster
+adventurous		gazelle
+		aardvark
+		sea lion
+```
+
+With this find / replace (the tab is hidden) and then add additional syntax and copy / paste.
+```bash
+
+', '
+```
+
+
+```js
+let options = {
+    adjective: ['sad', 'furtive', 'cautious', 'happy', 'adventurous'],
+    color: ['red', 'green', 'blue'],
+    animal: ['dog', 'cat', 'rabbit', 'rooster', 'gazelle', 'aardvark', 'sea lion']
+}
+```
+
+
+---
+
 #### Metacharacters
 
 Use a backslash to escape <a href="https://en.wikipedia.org/wiki/Metacharacter#:~:text=A%20metacharacter%20is%20a%20character,regular%20expression%20(regex)%20engine." target="_blank">metacharacters</a>. To match `(123)` not `123`
@@ -351,6 +395,17 @@ With this find / replace
 <p>\[slides\]\(../slides/(.*)\)</p>
 <p><a href="../slides/$1">slides</a></p>
 ```
+
+
+
+
+
+
+
+
+
+
+
 
 
 

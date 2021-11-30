@@ -411,9 +411,35 @@ API collections to explore. If authentication is required you need to register w
 }
 ```
 
+---
+
+## Spotify
+
+- Retrieve metadata about music artists, albums, and tracks using [Spotify Web API endpoints](https://developer.spotify.com/documentation/web-api/).
+- [docs](https://developer.spotify.com/documentation/web-api/reference/#/) - free | auth: [yes](https://developer.spotify.com/documentation/general/guides/authorization/) 🔑 - make an app, then get token with appropriate permissions
+- [/me](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-current-users-profile) = `https://api.spotify.com/v1/me`
+- [/me/top/artists](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-users-top-artists-and-tracks) = `https://api.spotify.com/v1/me/top/artists`
+
+
+1. Login to the [developer dashboard](https://developer.spotify.com/dashboard/) and [create an app](https://developer.spotify.com/dashboard/applications)
+1. Test the [`/me`](https://developer.spotify.com/console/get-current-user/) endpoint in their Console. Click Get Token and select all required scopes.
+1. Click Try It to make a request or copy your token and the endpoint you wish to test into [Postman](https://blog.postman.com/spotify-music-discovery-with-postman/).
 
 
 
+---
+
+## Authentication with Postman
+
+To reuse a token across multiple (e.g. Spotify) requests in Postman:
+
+1. Create a collection named Spotify
+1. In the Spotify collection  
+    1. In Variables - Add a new variable named `token`. Paste the token in **value** (use select all!).
+    1. In Authorization - Set **Type** to OAuth2.0 and then reference the variable with `{{token}}`
+1. In Authorization for each request, choose "inherit from parent" to use the token
+
+Note: APIs are not always perfect. For example, the [/me/top/{type}](https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/) endpoint is not documented well. You have to enter values for ALL parameters to make it work.
 
 
 
