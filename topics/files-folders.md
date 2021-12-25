@@ -117,7 +117,6 @@ The directory that contains all other directories in a filesystem is called the 
 
 
 
-
 ---
 
 ### Paths
@@ -217,12 +216,38 @@ The answers to the above questions are possible thanks to options selected in Ma
 1. In Finder, choose View and enable the following options:
 	- Show Path Bar
 	- Show Status Bar
-1. Now you can see your home directory!! Find your home folder and drag it to the Sidebar to make a bookmark.
+1. Now you can see your home directory!! Drag your home folder to the sidebar to bookmark it and access it any time.
 1. Explore other options in your MacOS Finder or Windows Explorer to see more data about your filesystem, files, etc.
 
 
 
+---
 
+
+### Cloud-backups
+
+Cloud-syncing services back up directories on your computer to remote servers.
+
+Some tools are clear when you use a synced directory. But Apple, in a constant effort to dumb-down users, obscures the division between the Finder and their iCloud Drive $ervice, [leaving it to the user](https://support.apple.com/en-us/HT201104) to know when this is a bad idea.
+
+👉 If you have cloud backup software running on your computer:
+
+
+
+<div class="twocolumn">
+<div class="col">
+
+1. Don't save [git repositories](https://www.google.com/search?q=git+repository+icloud+issues), [Unity projects](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.gc6cd8ea0db_0_13), and other app files in cloud-synced folders
+1. Bookmark the home directory (see above) so you know the difference.
+1. Optionally, don't use cloud folders at all.
+
+</div>
+<div class="col">
+
+<a href="../assets/img/files/icloud-drive-finder.png" target="_blank"><img width="460" src="../assets/img/files/icloud-drive-finder.png"></a>
+
+</div>
+</div>
 
 
 
