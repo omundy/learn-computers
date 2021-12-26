@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a href="../index.html"><img width="30" src="../assets/img/_icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-data-apis.png">
 
@@ -8,7 +8,7 @@
 
 An introduction to APIs
 
-<sup class="small"><a href="../slides/data-apis.html">slides</a> | <a href="../topics/data-apis.md">markdown</a></sup>
+<span class="slides-small"><a href="../slides/data-apis.html">slides</a> | <a href="../www/data-apis.html">HTML</a></span>
 
 <!--
 Presentation comments ...
@@ -135,7 +135,7 @@ The method you use to send an API request depends on your context. For testing:
 
 If you are coding an application:
 
-- API creators often publish SDKs (development kits) to simplify requests  
+- API creators often publish SDKs (development kits) to simplify requests
 - Most languages have built-in code for asynchronous requests, like Javascript's [`$.ajax()`](https://www.w3schools.com/jquery/jquery_ref_ajax.asp) or [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 
@@ -192,7 +192,7 @@ Using the `/gridpoints` endpoint we can send a new request to get the forecast
 👉 https://api.weather.gov/gridpoints/GSP/116,76/forecast
 
 ```json
-"periods": [{    
+"periods": [{
         "name": "Today",
         "temperature": 78,
         "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
@@ -376,10 +376,26 @@ API collections to explore. If authentication is required you need to register w
 
 - Fetch data about items in [dp.la](https://dp.la/) collection
 - [docs](https://pro.dp.la/developers/api-codex) - free | auth: **🔑 required**
-- [/items](https://pro.dp.la/developers/requests#simple) = `http://api.dp.la/v2/items?q=cats&api_key=API_KEY`
+- [/items](https://pro.dp.la/developers/requests#simple) = `http://api.dp.la/v2/items?q=kittens&api_key=API_KEY`
 - Used by - [Historical GIFs](https://twitter.com/dpladotgif) ([code](https://github.com/dogrdon/accidentalculture)) | [Term vs Term](https://owenmundy.com/work/term-vs-term/index.php?q1=cats&q2=dogs)
 
+<!--
 <a href="../assets/img/data-apis/data-apis-dlpa-response-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-dlpa-response-cropped.png"></a>
+-->
+
+```json
+"creator": ["Jones, Leslie, 1886-1967"],
+"title": ["Kittens"],
+"subject": [
+    {"name": "Cats"},
+    {"name": "Baby animals"}
+],
+"format": [
+    "Photographs",
+    "Glass negatives"
+],
+```
+[link to above object](https://www.digitalcommonwealth.org/search/commonwealth:6682xj30d)
 
 ---
 
@@ -390,7 +406,22 @@ API collections to explore. If authentication is required you need to register w
 - [/query](https://en.wikipedia.org/w/api.php?action=help&modules=query) = `https://en.wikipedia.org/w/api.php?format=json&action=query&titles=cat&prop=revisions&rvprop=content`
 - Used by - [Wikiscanner](https://web.archive.org/web/20160314095050/http://virgil.gr/wikiscanner/) ([2002-07](https://en.wikipedia.org/wiki/WikiScanner))
 
+<!--
 <a href="../assets/img/data-apis/data-apis-wikipedia-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-wikipedia-cropped.png"></a>
+-->
+
+```json
+"title": "Cat",
+"revisions": [{
+    "contentformat": "text/x-wiki",
+    "contentmodel": "wikitext",
+    "*": "{{Short description|Domesticated felid species}}
+        {{About|the species that is commonly kept as a pet|the cat family|Felidae|other
+        uses|Cat (disambiguation)|and|Cats (disambiguation)}}"
+}]
+...
+```
+
 
 ---
 
@@ -434,7 +465,7 @@ API collections to explore. If authentication is required you need to register w
 To reuse a token across multiple (e.g. Spotify) requests in Postman:
 
 1. Create a collection named Spotify
-1. In the Spotify collection  
+1. In the Spotify collection
     1. In Variables - Add a new variable named `token`. Paste the token in **value** (use select all!).
     1. In Authorization - Set **Type** to OAuth2.0 and then reference the variable with `{{token}}`
 1. In Authorization for each request, choose "inherit from parent" to use the token
@@ -457,7 +488,7 @@ Note: APIs are not always perfect. For example, the [/me/top/{type}](https://dev
 ##  Notes
 
 - APIs are always changing - Before Facebook (and Instagram) added restrictions to their APIs anyone (artists, researchers, [anti-press governments](https://www.scu.edu/ethics-spotlight/social-media-and-democracy/weaponization-of-social-media-by-authoritarian-states/)) could download entire databases. Thanks to various cultural works and activism this has changed (see [iknowwhereyourcatlives.com](https://iknowwhereyourcatlives.com/), [givememydata.com](https://givememydata.com/)).
-
+- If you are building an interface or processing the data, save the API result in a local .json file and point to that URL so you don't exceed the API rate limit when testing,
 
 
 ---

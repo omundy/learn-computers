@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Computing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../assets/css/www-styles.css">
+
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+            <!-- paginate: true -->
+
+<p><a href="../README.md">&lt;</a></p>
+<img width="375" src="../assets/img/banner/banner-computational-thinking.png">
+
+<h1 id="computational-thinking">Computational Thinking</h1>
+<p>Logic, data flow, etc.</p>
+<p><sup class="small"><a href="../slides/computational-thinking.html">slides</a> | <a href="../topics/computational-thinking.md">markdown</a> </sup></p>
+<!--
+Presentation comments ...
+-->
+
+<hr>
+<h3 id="contents">Contents</h3>
+<ol>
+<li><a href="#introduction">Introduction</a> <code>5 min</code></li>
+<li><a href="#discussion">Discussion</a> <code>5 min</code></li>
+<li><a href="#keep-practicing">Keep practicing</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+<!-- ## Introduction
+
+Review the following sections and perform the activities on your own or with your group.
+
+Perform the task(s) when you see this 👉  emoji
+
+<details>
+<summary>Learning Objectives</summary>
+
+Students who complete the following will be able to:
+
+- Describe ...
+- List ...
+- Explain ...
+- Demonstrate ...
+
+</details>
+
+<details>
+<summary>Preparation</summary>
+
+Complete the following to prepare for this module
+
+- [Command Line Crash Course](command-line-crash-course.md)
+
+</details> -->
+
+
+
+
+
+
+<hr>
+<h2 id="pseudocode">Pseudocode</h2>
+<p>Writing out simplified instructions for a program (a.k.a. &quot;<a href="https://en.wikipedia.org/wiki/Pseudocode">pseudocode</a>&quot;) you intend to build can help plan your approach.</p>
+<p>Much like you would make a sketch for a painting, or a wireframe for a design, pseudocode can assist in thinking about your structure, where to put logic, or how your code will respond to events beforehand, while you still have flexibility to make changes.</p>
+<hr>
+<p>Even more, writing pseudocode as comments gives you a structure within which you can add actual code, and placeholders for instructions you will eventually add.</p>
+<p>While written in English, this example maintains a computational approach, borrowing the phrases, [keywords], and even tabbed structure of a programming language:</p>
+<pre><code>[<span class="hljs-keyword">Function</span>] getResults
+    Make a [request] <span class="hljs-keyword">to</span> the <span class="hljs-keyword">server</span>
+    [<span class="hljs-keyword">Fetch</span>] the latest <span class="hljs-number">20</span> results <span class="hljs-keyword">in</span> chronological <span class="hljs-keyword">order</span>
+    [<span class="hljs-keyword">For</span>] <span class="hljs-keyword">each</span> result, [append]
+        the image <span class="hljs-keyword">or</span> media
+        number <span class="hljs-keyword">of</span> likes
+        the first <span class="hljs-number">25</span> characters <span class="hljs-keyword">of</span> the caption
+        Assign [click listeners] <span class="hljs-keyword">to</span> the <span class="hljs-keyword">like</span> button <span class="hljs-keyword">and</span> image <span class="hljs-keyword">to</span> <span class="hljs-keyword">call</span> specific [<span class="hljs-keyword">functions</span>]
+        [<span class="hljs-keyword">If</span>] the <span class="hljs-keyword">user</span> has clicked the <span class="hljs-keyword">like</span> button
+            <span class="hljs-keyword">show</span> that it has been clicked
+    <span class="hljs-keyword">If</span> the <span class="hljs-keyword">user</span> scrolls <span class="hljs-keyword">to</span> a <span class="hljs-type">point</span> <span class="hljs-keyword">where</span> there are <span class="hljs-keyword">no</span> more results, <span class="hljs-keyword">start</span> <span class="hljs-keyword">over</span> [getResults()]
+</code></pre>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<p>Reverse engineer an existing work to practice writing pseudocode.</p>
+<ol>
+<li>Examine this <a href="https://codepen.io/owenmundy/full/PomvjqW">Random Article Generator</a> and discuss with your partner<ol>
+<li>What was needed to build this project?</li>
+<li>How do you think it works?</li>
+</ol>
+</li>
+<li>List the instructions using your preferred human language (English, German, etc.)<ol>
+<li>Start from the beginning, with the data sources and variables.</li>
+<li>Describe logic, functions, and control structures that make it work.</li>
+<li>List the event listeners that connect the UI to the code in the background.</li>
+</ol>
+</li>
+<li>Look at the code for the <a href="https://codepen.io/owenmundy/pen/PomvjqW?editors=1010">Random Article Generator</a><ol>
+<li>What did you get right and what</li>
+<li>What questions do you have?</li>
+</ol>
+</li>
+<li>Select <a href="https://github.com/omundy/dig245-regenerative#example-works">another work that uses randomness</a> and try it again.</li>
+</ol>
+<!-- [University Title Generator](https://universitytitlegenerator.com/) -->
+<!-- [University Title Generator](https://github.com/fiatflux/uni-title-gen/blob/master/titlegen.py) -->
+
+
+
+<hr>
+<h2 id="paper-prototype">Paper prototype</h2>
+<p>Make a simple version on paper or whiteboard. Use a coin for random variables.</p>
+<!--
+
+### Coming soon
+
+- https://csunplugged.org/en/topics/sorting-networks/
+- https://edu.google.com/resources/programs/exploring-computational-thinking/
+- https://www.digitaltechnologieshub.edu.au/search#/site-search?pageNumber=1&keyword=GoogleCT
+- https://www.gettingsmart.com/2018/03/early-learning-strategies-for-developing-computational-thinking-skills/
+- https://www.google.com/search?q=computational-thinking&safe=off&rlz=1C5CHFA_enUS903US909&sxsrf=ALeKk02K0Ksznja200f7HCS29B35WmiJ_g:1619879844197&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiwmsTV2qjwAhXDKs0KHdJFC7sQ_AUoAXoECAEQAw&biw=1920&bih=1066#imgrc=nXOw92GlPSFwAM
+
+
+
+
+### Notes
+
+- State, state control, build state machine
+- Iteration, structure, flow chart to describe
+- logic / flow structure, flow chart to describe
+- algorithms - create your own to represent some thing that exists in the world.
+
+
+## Discussion
+
+In your group, discuss the following.
+
+
+## Keep practicing
+
+
+
+## References -->
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>

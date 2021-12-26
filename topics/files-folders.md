@@ -175,7 +175,9 @@ Examine a file, folder, and program on your computer. For each:
 1. What are the owner, group, and world permitted to do?
 1. Copy/paste the permissions set (e.g. `rwxrw-rw-`) into a ["permissions calculator"](https://chmod-calculator.com/) to confirm your answers.
 
+Examples:
 
+- `chmod 644` for images.
 
 
 

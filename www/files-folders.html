@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Computing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../assets/css/www-styles.css">
+
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+            <!-- paginate: true -->
+
+<p><a href="../README.md">&lt;</a></p>
+<img width="375" src="../assets/img/banner/banner-files-folders.png">
+
+<h1 id="the-filesystem">The Filesystem</h1>
+<p>Learn about all the files on your computer!</p>
+<p><sup class="small"><a href="../slides/files-folders.html">slides</a> | <a href="../topics/files-folders.md">markdown</a> </sup></p>
+<!--
+Presentation comments ...
+-->
+
+
+<hr>
+<h3 id="contents">Contents</h3>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#about-the-filesystem">About the filesystem</a> <code>7 min</code></li>
+<li><a href="#discussion">Discussion</a> <code>5 min</code></li>
+<li><a href="#file-extensions">File extensions</a> <code>5 min</code></li>
+<li><a href="#hidden-files">Hidden files</a> <code>5 min</code></li>
+<li><a href="#references">References</a></li>
+</ol>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>Review the following sections and perform the activities on your own or with your group.</p>
+<p>Perform the task(s) when you see this 👉  emoji</p>
+<details>
+<summary>Learning Objectives</summary>
+
+<p>Students who complete the following will be able to:</p>
+<ul>
+<li>Describe basic computing concepts like files, folders, programs, users, and permissions</li>
+<li>List common file extensions and their purpose</li>
+<li>Explain what hidden files do and how to find them</li>
+<li>Demonstrate best practices for filesystem organization</li>
+</ul>
+</details>
+
+<details>
+<summary>Preparation</summary>
+
+<p>Complete the following to prepare for this module</p>
+<ul>
+<li><a href="command-line-crash-course.md">Command Line Crash Course</a></li>
+</ul>
+</details>
+
+
+
+
+<hr>
+<h2 id="about-the-filesystem">About the filesystem</h2>
+<p><img src="../assets/img/files/files-folders-software.png" alt="files"></p>
+<hr>
+<h3 id="files-folders--programs">Files, folders, &amp; programs</h3>
+<ul>
+<li><strong>Files</strong> are how computers organize and store data about discrete objects.</li>
+<li><strong>Folders</strong> (a.k.a. &quot;directories&quot;) are (<a href="https://www.tutorialspoint.com/unix/unix-directories.htm">also files</a>) used to organize other files and folders.</li>
+<li><strong>Programs</strong> (a.k.a. &quot;applications&quot; or &quot;software&quot;) are (<em>also</em> files, <a href="https://whatis.techtarget.com/definition/software-package">often packaged with other files</a>) that contain instructions for a computer to run.</li>
+<li><strong>Force quit</strong> - what you can do if a program stops responding or becomes frozen on <a href="https://support.apple.com/en-us/HT201276">Mac</a> and <a href="https://en.wikipedia.org/wiki/Control-Alt-Delete">Windows</a>.</li>
+</ul>
+<hr>
+<h3 id="users-and-permissions">Users and Permissions</h3>
+<img width="500" src="../assets/img/files/files-permissions-gui.png">
+
+<ul>
+<li>A <strong>User</strong> is a virtual identity that determines what someone can do on a computer.</li>
+<li>Every file, folder, and program has a set of <strong>Permissions</strong> which control which users are permitted to:<ul>
+<li><code>[r]ead</code> to view or open a file</li>
+<li><code>[w]rite</code> to modify, save, or delete a file</li>
+<li><code>e[x]ecute</code> to run the file</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Programs need special permissions so the operating system (OS) knows it is safe to <strong>execute</strong> the instructions within.</p>
+<img width="600" src="../assets/img/banner/banner-files-permission-classes.png">
+
+<p>Permissions sets define access for three groups: users, user groups, and everyone else (&quot;world&quot;), and each position in the group denotes a specific permission, in this order: <code>[r]ead</code>, <code>[w]rite</code>, <code>e[x]ecute</code>.</p>
+<hr>
+<h3 id="file-organization">File Organization</h3>
+<p>All modern computers use <strong>hierarchical filesystems</strong> to organize files.</p>
+<p>The directory that contains all other directories in a filesystem is called the <strong>root</strong>. The root directory contains many special files that your operating system (OS) uses for its work.</p>
+<hr>
+<h3 id="paths">Paths</h3>
+<p>The location or &quot;address&quot; of a file in a filesystem is the <strong>path</strong>. For example, to make it easier for users to find their documents, the OS gives each their own <strong>home directory</strong> inside the <code>Users</code> directory at the following paths:</p>
+<ul>
+<li>Mac: <code>/Users/&lt;username&gt;</code></li>
+<li>Windows: <code>C:\Users\&lt;username&gt;\</code></li>
+<li>Linux: <code>/home/&lt;username&gt;</code></li>
+<li>Shorthand on Mac or Linux: <code>~/</code></li>
+</ul>
+<p>As you can see, the root path on Mac/Linux is just <code>/</code>, and Windows is <code>C:</code>.</p>
+<hr>
+<h3 id="👉-who-are-you">👉 Who are you?</h3>
+<ol>
+<li>Open the Terminal (MacOS) application</li>
+<li>Type: <code>whoami</code> and press <kbd>return</kbd> to find the username of the current logged-in user</li>
+<li>Change into the Desktop directory with <code>cd Desktop</code></li>
+<li>List the files in this directory with the &quot;long flag&quot; to show permissions <code>ls -l</code></li>
+<li>What permissions does your user have?</li>
+</ol>
+<hr>
+<h3 id="👉-view-permissions-for-any-file">👉 View permissions for any file</h3>
+<ol>
+<li>In the MacOS Finder:<ol>
+<li>Select the file and press <kbd>Cmd</kbd> + <kbd>i</kbd>, or right click and select Get Info.</li>
+</ol>
+</li>
+<li>Using the terminal<ol>
+<li>In the Finder, select the containing folder of the file and press <kbd>Cmd</kbd> + <kbd>C</kbd></li>
+<li>In Terminal, type <code>cd </code> and then press <kbd>Cmd</kbd> + <kbd>V</kbd> to paste the full path of the folder</li>
+<li>Type <code>ls -la</code> to list the files with their permissions</li>
+</ol>
+</li>
+</ol>
+<img width="550" src="../assets/img/files/files-permissions-ls.png">
+
+
+
+<hr>
+<h3 id="👉-compare-permissions">👉 Compare permissions</h3>
+<p>Examine a file, folder, and program on your computer. For each:</p>
+<ol>
+<li>Who is the <strong>owner</strong> and <strong>group</strong> (that the owner belongs to)</li>
+<li>What are the owner, group, and world permitted to do?</li>
+<li>Copy/paste the permissions set (e.g. <code>rwxrw-rw-</code>) into a <a href="https://chmod-calculator.com/">&quot;permissions calculator&quot;</a> to confirm your answers.</li>
+</ol>
+<p>Examples:</p>
+<ul>
+<li><code>chmod 644</code> for images.</li>
+</ul>
+<hr>
+<h3 id="file-organization-1">File organization</h3>
+<p><img src="../assets/img/files/files-hierarchy.png" alt="file organization"></p>
+<hr>
+<h3 id="file-organization-2">File organization</h3>
+<p>👉 Answer these prompts about the above screenshot (with the photo from <a href="https://www.imdb.com/title/tt0319343/">Elf</a>):</p>
+<ol>
+<li>Who is currently logged-in?</li>
+<li>What is the name of the root directory on this filesystem?</li>
+<li>When was the file last edited?</li>
+<li>Where is the user&#39;s home directory?</li>
+<li>What is the full path to the image that is shown?</li>
+<li>How much space is available on this computer?</li>
+</ol>
+<hr>
+<h3 id="pro-tips">Pro tips!</h3>
+<p>The answers to the above questions are possible thanks to options selected in Mac OS.</p>
+<p>👉 Do the following on your (MacOS) computer so that you have this same access</p>
+<ol>
+<li>In Finder, choose View and enable the following options:<ul>
+<li>Show Path Bar</li>
+<li>Show Status Bar</li>
+</ul>
+</li>
+<li>Now you can see your home directory!! Drag your home folder to the sidebar to bookmark it and access it any time.</li>
+<li>Explore other options in your MacOS Finder or Windows Explorer to see more data about your filesystem, files, etc.</li>
+</ol>
+<hr>
+<h3 id="cloud-backups">Cloud-backups</h3>
+<p>Cloud-syncing services back up directories on your computer to remote servers.</p>
+<p>Some tools are clear when you use a synced directory. But Apple, in a constant effort to dumb-down users, obscures the division between the Finder and their iCloud Drive $ervice, <a href="https://support.apple.com/en-us/HT201104">leaving it to the user</a> to know when this is a bad idea.</p>
+<p>👉 If you have cloud backup software running on your computer:</p>
+<div class="twocolumn">
+<div class="col">
+
+<ol>
+<li>Don&#39;t save <a href="https://www.google.com/search?q=git+repository+icloud+issues">git repositories</a>, <a href="https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.gc6cd8ea0db_0_13">Unity projects</a>, and other app files in cloud-synced folders</li>
+<li>Bookmark the home directory (see above) so you know the difference.</li>
+<li>Optionally, don&#39;t use cloud folders at all.</li>
+</ol>
+</div>
+<div class="col">
+
+<p><a href="../assets/img/files/icloud-drive-finder.png" target="_blank"><img width="460" src="../assets/img/files/icloud-drive-finder.png"></a></p>
+</div>
+</div>
+
+
+
+
+<hr>
+<h2 id="file-extensions">File extensions</h2>
+<p>A file extension is the suffix at the end of a filename that tells you what type of file it is.</p>
+<ul>
+<li>An extension comes after the period, and is usually 2–4 characters long.</li>
+<li>Extensions tell your operating system (OS) which applications can open which files.</li>
+<li>Most files can be opened by many different apps (e.g. an <code>.html</code> file can be opened in a text editor or a web browser), but your OS uses <em><strong>only one as the default</strong></em> if you double click a file.</li>
+<li>Modern OS&#39;s hide the file extension. You can change this setting on both <a href="https://support.apple.com/guide/mac-help/show-or-hide-filename-extensions-on-mac-mchlp2304/mac">Mac</a> and <a href="https://www.thewindowsclub.com/show-file-extensions-in-windows">Windows</a></li>
+</ul>
+<hr>
+<p>Here are some common file extensions:</p>
+<table>
+<thead>
+<tr>
+<th>Extension</th>
+<th>Filetype</th>
+<th>File encoding</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>.txt</code></td>
+<td>A plain text file</td>
+<td>Text</td>
+</tr>
+<tr>
+<td><code>.doc</code></td>
+<td>Microsoft Word</td>
+<td><a href="https://en.wikipedia.org/wiki/Office_Open_XML">Text</a></td>
+</tr>
+<tr>
+<td><code>.html</code></td>
+<td>HyperText Markup Language (web pages)</td>
+<td>Text</td>
+</tr>
+<tr>
+<td><code>.css</code></td>
+<td>Cascading Style Sheet</td>
+<td>Text</td>
+</tr>
+<tr>
+<td><code>.js</code></td>
+<td>Javascript file</td>
+<td>Text</td>
+</tr>
+<tr>
+<td><code>.jpg</code>, <code>.gif</code>, <code>.png</code></td>
+<td>Common image formats</td>
+<td><a href="https://www.nayuki.io/page/what-are-binary-and-text-files">Binary</a></td>
+</tr>
+<tr>
+<td><code>.psd</code></td>
+<td>Photoshop document</td>
+<td><a href="https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/">Binary</a></td>
+</tr>
+<tr>
+<td><code>.pdf</code></td>
+<td>Portable Document Format</td>
+<td><a href="https://www.prepressure.com/pdf/basics/fileformat">Binary</a></td>
+</tr>
+<tr>
+<td><code>.unity</code></td>
+<td>Unity 3D (game engine) scene file</td>
+<td>Text (<a href="https://docs.unity3d.com/Manual/YAMLSceneExample.html">YAML</a>)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="hidden-files">Hidden files</h2>
+<p>All operating systems (OS) hide certain types of configuration and system files by default.</p>
+<p>While most basic users never know these exist, when you are writing code you&#39;ll inevitably need to access or change these files. Files are hidden one of two ways:</p>
+<ul>
+<li><a href="https://www.macworld.co.uk/how-to/show-hidden-files-mac-3520878/">Mac</a> and <a href="https://www.lifewire.com/what-is-a-hidden-file-2625898">Windows</a> both hide system files.</li>
+<li>Unix-based computers (Linux and MacOS) hide configuration files using a preceding period <code>.</code> before the filename.</li>
+</ul>
+<hr>
+<h3 id="👉-view-hidden-configuration-files-on-a-mac">👉 View hidden configuration files on a Mac</h3>
+<p>Follow these instructions to view hidden files on a Mac:</p>
+<ol>
+<li>Open the Terminal application.</li>
+<li>Confirm you are in your home directory</li>
+</ol>
+<pre><code class="language-bash"><span class="hljs-built_in">pwd</span>
+</code></pre>
+<ol start="3">
+<li>List the items. You will see all the same files and folders you can see with the Finder.</li>
+</ol>
+<pre><code class="language-bash"><span class="hljs-built_in">ls</span>
+</code></pre>
+<ol start="4">
+<li>Now you can see a list of all these files, as well as all the hidden files and folders.</li>
+</ol>
+<pre><code class="language-bash"><span class="hljs-keyword">ls</span> -<span class="hljs-keyword">la</span>
+</code></pre>
+<hr>
+<ol start="5">
+<li>Note the <code>.Trash</code> directory. To see the contents type <code>ls -la .Trash</code>.</li>
+<li>Note the <code>.DS_Store</code> file <a href="https://en.wikipedia.org/wiki/.DS_Store">which stores information</a> about icon positions in the Finder. To see the (binary) contents type <code>cat .DS_Store</code>.</li>
+</ol>
+<img width="660" src="../assets/img/files/files-hidden.png">
+
+
+
+
+
+
+
+
+
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://fileinfo.com/help/binary_vs_text_files">What is the difference between binary and text files?</a></li>
+<li><a href="http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node58.html">Binary files</a></li>
+<li><a href="https://www.howtogeek.com/356448/what-is-a-file-extension/">What Is A File Extension?</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>

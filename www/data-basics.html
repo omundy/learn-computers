@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Computing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../assets/css/www-styles.css">
+
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+            <!-- paginate: true -->
+
+<p><a href="../README.md">&lt;</a></p>
+<img width="375" src="../assets/img/banner/banner-data-basics.png" />
+
+<h1 id="data-basics">Data Basics</h1>
+<p>How computers store data, and encode files and text</p>
+<p><sup class="small"><a href="../slides/data-basics.html">slides</a> | <a href="../topics/data-basics.md">markdown</a> </sup></p>
+<!--
+Presentation comments ...
+-->
+
+
+<hr>
+<h3 id="contents">Contents</h3>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#how-do-computers-store-data">How do computers store data?</a> <code>5 min</code></li>
+<li><a href="#bits-and-bytes">Bits and Bytes</a> <code>5 min</code></li>
+<li><a href="#character-encoding">Character encoding</a> <code>5 min</code></li>
+<li><a href="#file-encoding">File encoding</a> <code>5 min</code></li>
+<li><a href="#discussion">Discussion</a> <code>5 min</code></li>
+<li><a href="#keep-practicing">Keep practicing</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+<hr>
+<h3 id="introduction">Introduction</h3>
+<p>Review the following sections and perform the activities on your own or with your group.</p>
+<p>Perform the task(s) when you see this 👉  emoji</p>
+<details>
+<summary>Learning Objectives</summary>
+
+<p>Students who complete the following will be able to:</p>
+<ul>
+<li>Recall how computers store and use binary data</li>
+<li>Organize data storage amounts by their respective sizes</li>
+<li>Use conversion tools to demonstrate binary, and ASCII and Unicode character encoding standards</li>
+<li>Define character encoding and file encoding</li>
+<li>Use the command line to examine text- and binary-encoded files</li>
+</ul>
+</details>
+
+<details>
+<summary>Preparation</summary>
+
+<p>Complete the following to prepare for this module</p>
+<ul>
+<li><a href="command-line-crash-course.md">Command Line Crash Course</a></li>
+<li>Review the slides in this <a href="https://docs.google.com/presentation/d/1hV4hEiAT_795nXuNIg49VqsZr69UnJ4i_5-dv_2th1U/edit#slide=id.g3ee23d7716_0_1">Binary Data</a> presentation</li>
+</ul>
+</details>
+
+<hr>
+<h2 id="how-do-computers-store-data">How do computers store data?</h2>
+<ul>
+<li>Most modern computers use SSDs (solid state drives) to store <em>data</em> (text, photos, videos, etc.) by representing the content of these files using electrons.</li>
+<li>Imagine millions of tiny switches inside your computer, and each can each be either <code>on</code> or <code>off</code>.</li>
+</ul>
+<p><a href="../assets/img/data-basics/data-switch-wall.png"><img src="../assets/img/data-basics/data-switch-wall.png" height="310"></a> <a href="../assets/img/data-basics/microchip.jpg"><img src="../assets/img/data-basics/microchip-cropped.png" height="310"></a></p>
+<hr>
+<p>Since a switch can be in only one of two states, this single binary value, the smallest unit of data a computer can store, is aptly named one <strong>bit</strong>.</p>
+<p><a href="../assets/img/data-basics/data-switch-symbols.png"><img src="../assets/img/data-basics/data-switch-symbols.png"></a></p>
+<div class="caption small">
+
+<ol>
+<li>The on/off binary symbols are ubiquitous on mechanical interfaces</li>
+<li>The ⏻ &quot;power on&quot; symbol on computers</li>
+</ol>
+</div>
+
+
+<hr>
+<table>
+<thead>
+<tr>
+<th align="left">Power</th>
+<th align="center">ON</th>
+<th align="center">OFF</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Boolean</td>
+<td align="center">true</td>
+<td align="center">false</td>
+</tr>
+<tr>
+<td align="left">Binary</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">Symbol</td>
+<td align="center">⏽</td>
+<td align="center">⭘</td>
+</tr>
+</tbody></table>
+<p>The values of a switch with their binary, boolean, and symbolic equivalent.</p>
+<hr>
+<h2 id="bits-and-bytes">Bits and Bytes</h2>
+<p>The switches that store binary data are grouped in bundles of <strong>8 bits</strong>, or <strong>1 byte</strong>. While a switch can be in only one of 2 states, each switch in a row of n switches can be in one of 2<sup>n</sup> (2*2*2*2*[...]) states! This table describes common file size units and corresponding examples.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Unit</th>
+<th align="center">Symbol</th>
+<th align="left">Value</th>
+<th align="left">Example size</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1 bit</td>
+<td align="center">bit</td>
+<td align="left"><code>0</code> or <code>1</code></td>
+<td align="left">a boolean value (e.g. <code>true</code>)</td>
+</tr>
+<tr>
+<td align="left">1 byte</td>
+<td align="center">byte</td>
+<td align="left">8 bits</td>
+<td align="left">a single text character</td>
+</tr>
+<tr>
+<td align="left">1 kilobyte</td>
+<td align="center">KB</td>
+<td align="left">1024 bytes</td>
+<td align="left">a multipage text document</td>
+</tr>
+<tr>
+<td align="left">1 megabyte</td>
+<td align="center">MB</td>
+<td align="left">1024 kilobytes</td>
+<td align="left">a medium-resolution photo file</td>
+</tr>
+<tr>
+<td align="left">1 gigabyte</td>
+<td align="center">GB</td>
+<td align="left">1024 megabytes</td>
+<td align="left">a feature length movie</td>
+</tr>
+<tr>
+<td align="left">1 terabyte</td>
+<td align="center">TB</td>
+<td align="left">1024 gigabytes</td>
+<td align="left">a hard drive</td>
+</tr>
+<tr>
+<td align="left">1 petabyte</td>
+<td align="center">PB</td>
+<td align="left">1024 terabytes</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<ol>
+<li>Let&#39;s confirm the above information about a byte. Enter a single alphetical character <code>a</code> into this <a href="https://lingojam.com/BitCounter">BitCounter</a> and <a href="https://lingojam.com/ByteCounter">ByteCounter</a>. You should see it is equal to 8 bits and 1 byte, respectively.</li>
+<li>The binary representation of the Latin character <code>a</code> is <code>01000001</code>. But if you plug that sequence into a <a href="https://www.binaryhexconverter.com/binary-to-decimal-converter">Binary to Decimal Converter</a> it will return not a letter, but the number <code>65</code>. Why?</li>
+</ol>
+<hr>
+<h2 id="character-encoding">Character Encoding</h2>
+<p>Character encoding is the process by which computers store and represent text by assigning numbers (and their binary equivalents) to alphanumeric characters.</p>
+<p>The ASCII (American Standard Code for Information Interchange) (~1963) is based on the English alphabet and encodes 128 characters which each use 7-bits.</p>
+<p><a href="../assets/img/data-basics/ascii.png"><img src="../assets/img/data-basics/ascii.png" height="350"></a></p>
+<hr>
+<h3 id="unicode">Unicode</h3>
+<p>As computing expanded, more character sets were added to accommodate other languages, characters, and symbols.</p>
+<p>The Unicode standard (1988) uses one to four 8-bit bytes to represent up to 1,112,064 possible letters, numbers, and emoji and ensure everyone sees the same character across all devices and languages.</p>
+<p>UTF-8 is currently the most popular version of this standard and now includes 143,859 characters, including non-visible characters such as the carriage return.</p>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<ol>
+<li><strong>Count the bits</strong> using <a href="https://lingojam.com/BitCounter">this tool</a> for each of the following lines of text. <em><strong>Try to guess the outcomes first!</strong></em> Some of these will not produce what you may think. Do you know why?</li>
+</ol>
+<pre><code>a
+abc
+<span class="hljs-number">0123456789</span>
+<span class="hljs-number">01234 56789</span>
+ü
+ñ
+😂
+</code></pre>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<ol start="2">
+<li><strong>Convert binary data to text</strong> using the binary representations (below) of the above examples with the <a href="https://www.convertbinary.com/to-text/">Binary to ASCII</a> and <a href="http://www.unit-conversion.info/texttools/convert-text-to-binary/">Binary &lt;&gt; UTF-8</a> converters. One of these tools will only be able to convert some sequences, do you know why?</li>
+</ol>
+<pre><code><span class="hljs-number">01100001</span>
+<span class="hljs-symbol">01100001 </span><span class="hljs-number">01100010</span> <span class="hljs-number">01100011</span>
+<span class="hljs-symbol">00110000 </span><span class="hljs-number">00110001</span> <span class="hljs-number">00110010</span> <span class="hljs-number">00110011</span> <span class="hljs-number">00110100</span> <span class="hljs-number">00110101</span> <span class="hljs-number">00110110</span> <span class="hljs-number">00110111</span> <span class="hljs-number">00111000</span> <span class="hljs-number">00111001</span>
+<span class="hljs-symbol">00110000 </span><span class="hljs-number">00110001</span> <span class="hljs-number">00110010</span> <span class="hljs-number">00110011</span> <span class="hljs-number">00110100</span> <span class="hljs-number">00100000</span> <span class="hljs-number">00110101</span> <span class="hljs-number">00110110</span> <span class="hljs-number">00110111</span> <span class="hljs-number">00111000</span> <span class="hljs-number">00111001</span>
+<span class="hljs-symbol">11000011 </span><span class="hljs-number">10111100</span>
+<span class="hljs-symbol">11000011 </span><span class="hljs-number">10110001</span>
+<span class="hljs-symbol">11110000 </span><span class="hljs-number">10011111</span> <span class="hljs-number">10011000</span> <span class="hljs-number">10000010</span>
+</code></pre>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<ol start="3">
+<li><strong>Compare ASCII to Unicode</strong>  The first 128 characters of UTF8 are based on the ASCII standard. If you compare the below table to the ASCII chart above you will find a slight discrepancy. Yet you can still <a href="http://www.unit-conversion.info/texttools/convert-text-to-binary/">convert</a> each to the appropriate text character. Do you know what the discrepancy is?</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>ASCII</th>
+<th>b</th>
+<th>i</th>
+<th>t</th>
+<th>s</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Binary</td>
+<td><code>01100010</code></td>
+<td><code>01101001</code></td>
+<td><code>01110100</code></td>
+<td><code>01110011</code></td>
+</tr>
+<tr>
+<td>Decimal</td>
+<td><code>98</code></td>
+<td><code>105</code></td>
+<td><code>116</code></td>
+<td><code>115</code></td>
+</tr>
+</tbody></table>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<details>
+<summary>Answers</summary>
+
+<ol>
+<li><strong>Count the bits</strong><ol>
+<li>These numbers <code>01234 56789</code> are each 8 bits, but so is the space character between them since whitespace (spaces, tabs, returns) also require storage. So the total is <code>88</code>.</li>
+<li>Foreign characters like <code>ü</code> and <code>ñ</code> were not included in the ASCII standard. They are covered by Unicode, and each require <code>16</code> bits.</li>
+<li>Most emoji require <code>32</code> bits or <code>4</code> bytes <code>😂</code></li>
+</ol>
+</li>
+<li><strong>Convert binary data to text</strong> Since ASCII can only represent 7 bits, anything over 1 byte will fail if converted to ASCII. Instead you have to convert to UTF-8 text.</li>
+<li><strong>Compare ASCII to Unicode</strong> ASCII only required 7 bits for each character <code>2 * 2 * 2 * 2 * 2 * 2 * 2</code>, but Unicode just adds a zero at the beginning of the binary sequence since it is 1-4 bytes.</li>
+</ol>
+</details>
+
+
+<hr>
+<h2 id="file-encoding">File encoding</h2>
+<p><strong>File encoding</strong> describes how files are viewed and saved by software.</p>
+<p>While all data on computers is stored on the hard disk as binary data, some file types use binary file encoding, and others use text file encoding.</p>
+<p>A typical example is a <code>.txt</code> file. If you open a text file in a plain text editor (e.g. <a href="https://en.wikipedia.org/wiki/Microsoft_Notepad">Notepad</a> on Windows, or <a href="https://en.wikipedia.org/wiki/TextEdit">TextEdit</a> on Mac) you can see and edit the text contents.</p>
+<hr>
+<p>Other files, like most image files, cannot be edited in a plain text editor.</p>
+<img src="../assets/img/data-basics/cat-binary.png">
+
+<hr>
+<p>The previous photo of a <a href="../assets/img/data-basics/cat.png">cat</a> is displayed by an application that can read and render the image data as pixels on a screen.</p>
+<p>On the right is the binary representation of the same file&#39;s data using hexdump. Columns 1-3 show the hexidecimal data of the file and the last column displays any ASCII data that can be read, including (like most file types) the <a href="http://www.libpng.org/pub/png/spec/1.2/PNG-Rationale.html#R.PNG-file-signature">file&#39;s extension on the first line</a>.</p>
+<hr>
+<p>👉 <strong>Try it out</strong></p>
+<p>View contents of a binary file on the command line with <a href="https://en.wikipedia.org/wiki/Hex_dump">hexdump</a>.</p>
+<ol>
+<li>Save the <a href="../assets/img/data-basics/cat.png">cat.png</a> image file and <a href="../assets/img/data-basics/cat.txt">cat.txt</a> plain text file to your computer.</li>
+<li>Use the command line to navigate to the folder where you saved the files <code>cd /path/to/your/files/</code></li>
+<li>Run each of these commands to view the contents. <strong>What do you notice?</strong></li>
+</ol>
+<pre><code class="language-bash"><span class="hljs-keyword">hexdump</span> -C <span class="hljs-keyword">cat</span>.png
+<span class="hljs-keyword">hexdump</span> -C <span class="hljs-keyword">cat</span>.txt
+</code></pre>
+<p>To summarize...</p>
+<hr>
+<h3 id="binary-encoded-files">Binary-encoded files</h3>
+<ul>
+<li>Stored as bits (binary 1s and 0s) and may include multiple types of data in the same file (e.g video and audio), as well as ASCII data representing meta information about the file type.</li>
+<li>More efficient to store and access but sometimes proprietary software is required and files can easily become corrupted.</li>
+<li>Examples <code>.jpg</code> <code>.png</code> <code>.pdf</code> <code>.mp4</code>.</li>
+</ul>
+<h3 id="text-encoded-files">Text-encoded files</h3>
+<ul>
+<li>Also stored as bits, but represented by actual text characters.</li>
+<li>You can open text files in many types of editors.</li>
+<li>Examples <code>.txt</code> <code>.html</code> <code>.css</code>.</li>
+</ul>
+<hr>
+<h3 id="file-vs-character-encoding">File vs. character encoding</h3>
+<p>File encoding <a href="https://kunststube.net/encoding/">is not the same as</a> character encoding. If you can open <em><strong>and read</strong></em> a file in a plain text editor (e.g. <a href="https://en.wikipedia.org/wiki/Microsoft_Notepad">Notepad</a> on Windows, or <a href="https://en.wikipedia.org/wiki/TextEdit">TextEdit</a> on Mac) it is a text file. However, if the content of the file appears as mostly garbled text, it is a binary file.</p>
+<p><img src="../assets/img/data-basics/files-binary.png" alt=".png"></p>
+<div class="caption small">A `.png` file opened in TextEdit</div>
+
+
+
+
+
+
+
+
+<hr>
+<p>👉 <strong>Try it out</strong> Compare other files on your computer</p>
+<ol>
+<li>Find other examples of each type of encoding on your own computer.</li>
+<li>Open them in a plain text editor or use hexdump to see what type of file encoding they use?</li>
+<li>What clues can you see in the binary formats to tell you about the filetype or other metadata?</li>
+</ol>
+<hr>
+<h2 id="keep-practicing">Keep practicing</h2>
+<ul>
+<li>Learn Computing: Data Basics <a href="../slides/data-basics.html">slides</a> | <a href="../topics/data-basics.md">markdown</a></li>
+<li>Learn Computing: Data Types <a href="../slides/data-types.html">slides</a> | <a href="../topics/data-types.md">markdown</a></li>
+<li>Learn Computing: Data Cleaning <a href="../slides/data-cleaning.html">slides</a> | <a href="../topics/data-cleaning.md">markdown</a></li>
+<li>Learn Computing: APIs <a href="../slides/data-apis.html">slides</a> | <a href="../topics/data-apis.md">markdown</a></li>
+</ul>
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/bits-vs-bytes">When bandwidth and storage size matters: Bits vs. bytes</a></li>
+<li><a href="https://kunststube.net/encoding/">What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text</a></li>
+<li><a href="https://www.extremetech.com/extreme/191996-zoom-into-a-computer-chip-watch-this-video-to-fully-appreciate-just-how-magical-modern-microchips-are">Zoom into a computer chip: Watch this video to fully appreciate just how magical modern microchips are</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>

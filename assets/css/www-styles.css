@@ -1,0 +1,30 @@
+
+
+.caption {
+    color: #999;
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
+}
+
+.small {
+    font-size: .7rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
+}
+
+.block {
+    display: block;
+}
+
+section {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Create two col layout */
+.twocolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+}

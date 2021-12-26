@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Computing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../assets/css/www-styles.css">
+
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+            <!-- paginate: true -->
+
+<p><a href="../README.md">&lt;</a></p>
+<img width="375" src="../assets/img/banner/banner-command-line.png">
+
+<h1 id="the-command-line">The Command Line</h1>
+<p>Using the command line is essential to computing proficiency.</p>
+<p><sup class="small"><a href="../slides/command-line.html">slides</a> | <a href="../topics/command-line.md">markdown</a> </sup></p>
+<!--
+Presentation comments ...
+-->
+
+
+<hr>
+<h3 id="contents">Contents</h3>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#about-the-command-line">About the command line</a> <code>5 min</code></li>
+<li><a href="#navigating-the-filesystem">Navigating the filesystem</a> <code>5 min</code></li>
+<li><a href="#creating-and-editing-files">Creating and editing files</a> <code>5 min</code></li>
+<li><a href="#running-programs">Running programs</a> <code>5 min</code></li>
+<li><a href="#discussion">Discussion</a> <code>5 min</code></li>
+<li><a href="#keep-practicing">Keep practicing</a></li>
+<li><a href="#assessment">Assessment</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>Review the following sections and perform the activities on your own or with your group.</p>
+<p>Perform the task(s) when you see this 👉  emoji</p>
+<details>
+<summary>Learning Objectives</summary>
+
+<p>Students who complete the following will be able to:</p>
+<ul>
+<li>Explain what the command line is and common uses</li>
+<li>Open a command line program on their computer and execute basic commands</li>
+<li>Navigate, create, and edit files on their computer using the command line</li>
+<li>Edit and run a Python script using the command line</li>
+<li>Use a web reference to look up shell commands</li>
+</ul>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<h2 id="about-the-command-line">About the command line</h2>
+<p>The command line is a text interface for your computer. You type commands, and the computer operating system (OS) will run them when you press <kbd>return</kbd>.</p>
+<img width="600" src="../assets/img/command-line/command-line-hello-world.gif">
+
+
+<hr>
+<h2 id="about-the-command-line-1">About the command line</h2>
+<p>The command line is is similar to using the GUI (Graphical User Interface) with a mouse.</p>
+<p>It allows you to create and edit documents, or manage files and folders on your computer, just as you would with Windows Explorer or the MacOS Finder.</p>
+<p>In fact, when you use the GUI, your clicks and interactions with the &quot;<a href="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/">pictures under glass</a>&quot; on screen are just sending the same commands to the operating system.</p>
+<p>Let&#39;s see what the command line can do that your mouse <em>cannot</em>...</p>
+<hr>
+<h3 id="related-terms">Related terms</h3>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>OS</td>
+<td>Operating System</td>
+</tr>
+<tr>
+<td>CLI</td>
+<td><a href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a></td>
+</tr>
+<tr>
+<td>Shell</td>
+<td>The application where you use the command line</td>
+</tr>
+<tr>
+<td>Bash (&quot;Bourne Again Shell&quot;)</td>
+<td>A type of shell</td>
+</tr>
+<tr>
+<td>Zsh (&quot;Z Shell&quot;)</td>
+<td>The new default shell used in macOS Catalina and later</td>
+</tr>
+<tr>
+<td>Shell programming</td>
+<td><a href="https://www.tutorialspoint.com/unix/shell_scripting.htm">Programming and running scripts</a> (e.g. <code>.sh</code>) using a shell</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="👉--installation">👉  Installation</h3>
+<ul>
+<li>Mac - The Terminal application is already installed</li>
+<li>Windows - Install <a href="https://gitforwindows.org/">Git Bash</a> or use <a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701">Windows Terminal</a></li>
+<li>Linux - <a href="https://www.raspberrypi.org/documentation/usage/terminal/">LXTerminal</a> is already installed</li>
+</ul>
+<hr>
+<h3 id="running-commands">Running commands</h3>
+<p><a href="basics.md#find-a-file-or-program">Open</a> your command line app.</p>
+<p>You&#39;ll see the command prompt, signified by the <code>$</code> <code>%</code> or <code>#</code> symbol, where you will type each command and press <kbd>return</kbd> to make the computer execute it.</p>
+<p><img src="../assets/img/command-line/command-line-whoami.png" alt="whoami"></p>
+<hr>
+<h4 id="whoami">whoami</h4>
+<p>👉 Type this command and press <kbd>return</kbd>. If you make a mistake, press <kbd>Ctl</kbd> + <kbd>C</kbd> to cancel.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">whoami</span>
+</code></pre>
+<p>The <a href="https://en.wikipedia.org/wiki/Whoami">whoami</a> command will <strong>return</strong> or <strong>output</strong> your username.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">pwd</span>
+</code></pre>
+<p>Use <a href="https://en.wikipedia.org/wiki/Pwd">pwd</a> (<strong>P</strong>rint <strong>W</strong>orking <strong>D</strong>irectory) to find out <em>where</em> you are in the filesystem.</p>
+<hr>
+<h4 id="parameters">Parameters</h4>
+<p>When you type on the command line, the shell that your terminal uses (e.g. bash, zsh, etc.) can also accept parameters that change what the command will do. These are called &quot;flags&quot;.</p>
+<p>👉 For example, this will tell you what version of the <code>whoami</code> command is on your machine:</p>
+<pre><code class="language-bash">whoami <span class="hljs-comment">--version</span>
+</code></pre>
+<p>👉 And this prints the help file associated with it, showing all flags.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">whoami</span> --<span class="hljs-built_in">help</span>
+</code></pre>
+<hr>
+<h4 id="which">which</h4>
+<p>👉 You can also combine commands. For example, <a href="https://en.wikipedia.org/wiki/Which_(command)">which</a> returns the file path of other programs on your system.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">which</span> <span class="hljs-built_in">whoami</span>
+<span class="hljs-comment"># -&gt; /usr/bin/whoami</span>
+</code></pre>
+<p>The hash symbol <code>#</code> is used for comments in bash scripting, and so is skipped by the shell when evaluating the input. These are displayed to show what the output will be.</p>
+<p>👉 Special operators can create new commands from many. The double ampersand <code>&amp;&amp;</code> runs all of these.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">whoami</span> &amp;&amp; <span class="hljs-built_in">pwd</span> &amp;&amp; <span class="hljs-built_in">echo</span> Hello world!
+<span class="hljs-comment"># -&gt; &lt;outputs all three in series&gt;</span>
+<span class="hljs-comment"># -&gt; owenmundy</span>
+<span class="hljs-comment"># -&gt; /Users/owenmundy</span>
+<span class="hljs-comment"># -&gt; Hello world!</span>
+</code></pre>
+<hr>
+<h2 id="navigating-the-filesystem">Navigating the filesystem</h2>
+<p>👉 Let&#39;s learn how to move around. First, confirm your location:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">pwd</span>
+</code></pre>
+<p>Most commands are abbreviations for the English equivalent of what they perform.</p>
+<p>👉 Run these commands and try to guess what they do.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">ls</span>
+<span class="hljs-built_in">ls</span> -a
+</code></pre>
+<hr>
+<h2 id="ls">ls</h2>
+<p>If you guessed &quot;list&quot; and &quot;list, show all&quot; you were correct!</p>
+<p><a href="https://en.wikipedia.org/wiki/Ls"><code>ls</code></a> lists the contents of your present &quot;working directory&quot;, and the <code>-a</code> flag displays all files.</p>
+<p>The <code>a</code> displays all files, including those beginning with a <code>.</code>, which are hidden configuration files for software.</p>
+<p>Adding an <code>l</code> (&quot;long form&quot;) flag displays the contents&#39; file sizes and last edit dates.</p>
+<hr>
+<p>👉 Now, <code>cd</code> (&quot;<strong>C</strong>hange to a new <strong>D</strong>irectory&quot;) and list the files. Where you are?</p>
+<pre><code class="language-bash"><span class="hljs-keyword">cd</span> /
+<span class="hljs-keyword">ls</span> -<span class="hljs-keyword">la</span>
+</code></pre>
+<p>Using <code>cd /</code> changes our current working directory to the <a href="files-folders.md#users-and-permissions">root of the computer</a>, where you&#39;ll find files your OS uses.</p>
+<p>👉  Return to your home directory (the default location for a new shell) with (a &quot;tilda&quot; <kbd>~</kbd> + <kbd>/</kbd>)</p>
+<pre><code class="language-bash"><span class="hljs-built_in">cd</span> ~/
+</code></pre>
+<hr>
+<h2 id="creating-and-editing-files">Creating and editing files</h2>
+<p>Let&#39;s make a new folder in our home directory to create some test files.</p>
+<p>👉 First, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">cd</span> ~/ <span class="hljs-comment"># confirm you are home</span>
+<span class="hljs-built_in">mkdir</span> <span class="hljs-built_in">test</span> <span class="hljs-comment"># make a new directory called &quot;test&quot;</span>
+<span class="hljs-built_in">cd</span> <span class="hljs-built_in">test</span> <span class="hljs-comment"># change to the directory</span>
+<span class="hljs-built_in">pwd</span> <span class="hljs-comment"># confirm you are in &lt;username&gt;/test</span>
+</code></pre>
+<hr>
+<h3 id="create-a-new-file">Create a new file</h3>
+<p>👉 Use <a href="https://en.wikipedia.org/wiki/Touch_(command)">touch</a> to create a new file named &quot;hello.txt&quot;:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">touch</span> hello.txt
+</code></pre>
+<p>On Windows, Git Bash defaults to the <a href="https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm">Vim</a> editor. On Mac you can also use <a href="https://linuxize.com/post/how-to-use-nano-text-editor/">Nano</a>.</p>
+<p>👉 Either editor can open (or if it doesn&#39;t yet exist, create and open) a file we created above hello.txt</p>
+<pre><code class="language-bash"><span class="hljs-attribute">vim</span> hello.txt
+</code></pre>
+<hr>
+<p>Vim has two modes: <em>command</em> and <em>insert</em>. In the command mode, you can move around the file, delete text, save, etc. In the insert mode, you can insert text.</p>
+<p>👉 To change to the insert mode, press <kbd>i</kbd>. Type some text.</p>
+<p><img src="../assets/img/command-line/command-line-vim-insert.png" alt="vim insert"></p>
+<hr>
+<p>👉 Change back to command mode by pressing <kbd>ESC</kbd>, and save your file by pressing <kbd>:</kbd><kbd>w</kbd><kbd>q</kbd> (<code>:wq</code>) (write and quit). Once you do this, run the following to confirm the file exists and see its contents.</p>
+<pre><code class="language-bash"><span class="hljs-built_in">ls</span> hello.txt
+<span class="hljs-built_in">cat</span> hello.txt
+<span class="hljs-comment"># -&gt; hello world!</span>
+</code></pre>
+<p><img src="../assets/img/command-line/command-line-vim-save.png" alt="vim insert"></p>
+<hr>
+<h2 id="running-programs">Running programs</h2>
+<p>Excellent! Now, in our final section, we&#39;ll create and run a Python script with Vim.</p>
+<p>👉 Confirm you are still in <username>/test, and &quot;clear&quot; the terminal (you can still scroll up to see previous commands)</p>
+<pre><code class="language-bash"><span class="hljs-keyword">pwd</span>
+<span class="hljs-keyword">clear</span>
+</code></pre>
+<p>👉 Create and open a plain text file with the .py extension.</p>
+<pre><code class="language-bash"><span class="hljs-keyword">vim</span> hello.<span class="hljs-keyword">py</span>
+</code></pre>
+<hr>
+<h3 id="add-python-code">Add Python code</h3>
+<p>👉 In the Vim editor, enter insert mode using <kbd>i</kbd>, and paste or type the following:</p>
+<pre><code class="language-python">string1 = <span class="hljs-string">&quot;I&quot;</span>
+string2 = <span class="hljs-string">&quot; &lt;3&quot;</span>
+string3 = <span class="hljs-string">&quot; the CLI&quot;</span>
+joined_string = string1 + string2 + string3
+print(joined_string)
+</code></pre>
+<p>👉 Press <code>ESC</code> and then <code>:wq</code> to save and quit the editor. Run your file with:</p>
+<pre><code class="language-bash"><span class="hljs-keyword">python</span> script.<span class="hljs-keyword">py</span>
+</code></pre>
+<p>Congratulations! 🎉 &nbsp; You&#39;ve created a file that runs its own script!</p>
+<hr>
+<h2 id="discussion">Discussion</h2>
+<p>Discuss the following with your group and share a short demo on the above with the class.</p>
+<ol>
+<li>Demonstrate example commands that show<ol>
+<li>how to navigate the filesystem</li>
+<li>how to create files</li>
+<li>how to run a program</li>
+</ol>
+</li>
+<li>Of the commands you used, which reminded you of concepts you already know about computers?</li>
+<li>Revisit the learning objectives for this section. Did you accomplish the goals in this lesson? What questions do you have?</li>
+</ol>
+<hr>
+<h2 id="keep-practicing">Keep practicing</h2>
+<p>Additional commands and prompts to continue learning the command line:</p>
+<ul>
+<li>Change the text your python file prints and run the script again. <strong>Tip</strong>: Use the up <kbd>↑</kbd> and down <kbd>↓</kbd> arrows on the keyboard to cycle through previous commands.</li>
+<li>Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing <kbd>Tab</kbd>. If a file or directory that starts with that name exists the shell will fill it in for you.</li>
+<li><a href="https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/">16 Terminal commands every user should know</a></li>
+<li><a href="https://opensource.com/article/19/10/learn-bash-command-line-games">3 command line games for learning Bash the fun way</a></li>
+</ul>
+<hr>
+<h2 id="assessment">Assessment</h2>
+<p>Ready to test your skills? See if you can</p>
+<ol>
+<li>Complete the <a href="https://www.codecademy.com/learn/learn-the-command-line">command line lesson on Codecademy</a>.</li>
+<li><a href="https://www.linux.com/training-tutorials/writing-simple-bash-script/">Write a simple bash script</a></li>
+<li><a href="https://www.proprofs.com/quiz-school/story.php?title=linux-command-line-quiz-485">Take a quiz</a></li>
+</ol>
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li>Ubuntu <a href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal">The Linux command line for beginners</a></li>
+<li>Codecademy <a href="https://www.codecademy.com/articles/command-line-commands">List of Command Line Commands</a></li>
+<li>Raspberry Pi <a href="https://www.raspberrypi.org/documentation/usage/terminal/">Terminal</a></li>
+<li><a href="https://learn.co/lessons/bash-navigation-osx">Bash navigation</a></li>
+<li>Brett Victor <a href="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/">A Brief Rant On The Future Of Interaction Design</a> (2011)</li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>

@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn Computing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../assets/css/www-styles.css">
+
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+            <!-- paginate: true -->
+
+<p><a href="../README.md">&lt;</a></p>
+<img width="375" src="../assets/img/banner/banner-data-types.png">
+
+<h1 id="data-types">Data Types</h1>
+<p>Learn about specific data types used in programming, visualization, gaming, etc.</p>
+<p><sup class="small"><a href="../slides/data-types.html">slides</a> | <a href="../topics/data-types.md">markdown</a> </sup></p>
+<!--
+Presentation comments ...
+-->
+
+
+<hr>
+<h3 id="contents">Contents</h3>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#about-data-types">About data types</a> <code>5 min</code></li>
+<li><a href="#primitive-data-types">Primitive data types</a> <code>5 min</code></li>
+<li><a href="#explore-data-types-in-the-console">Explore data types in the console</a> <code>5 min</code></li>
+<li><a href="#type-conversion">Type conversion</a> <code>5 min</code></li>
+<li><a href="#data-collections">Data collections</a> <code>5 min</code></li>
+<li><a href="#data-exchange-formats">Data exchange formats</a> <code>5 min</code></li>
+<li><a href="#advanced-topics">Advanced topics</a> <code>5 min</code></li>
+<li><a href="#keep-practicing">Keep practicing</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>Review the following sections and perform the activities on your own or with your group.</p>
+<p>Perform the task(s) when you see this 👉  emoji</p>
+<details>
+<summary>Learning Objectives</summary>
+
+<p>Students who complete the following will be able to:</p>
+<ul>
+<li>Define and compare data types, as well as strongly- and loosely-typed programming languages</li>
+<li>List common data types and recall examples of each</li>
+<li>Explain what a data collection is and provide examples</li>
+<li>Use appropriate types to create data representations of real world examples</li>
+</ul>
+</details>
+
+<details>
+<summary>Preparation</summary>
+
+<p>Complete the following to prepare for this module</p>
+<ul>
+<li><a href="command-line-crash-course.md">Command Line Crash Course</a></li>
+<li><a href="data-basics.md">Learn Computing: Data Basics</a></li>
+</ul>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<h2 id="about-data-types">About data types</h2>
+<p>A <strong>data type</strong> defines the <em>kind</em> of data that is stored or used by a program.</p>
+<p>Most languages organize data by <strong>primitive</strong> and <strong>non-primitive</strong> types. These diagrams show the most common data types in Javascript and C# languages.</p>
+<p><img src="../assets/img/data-types/javascript-diagram-data-types.png" alt="js data types"></p>
+<hr>
+<blockquote>
+<p>The <strong>primitive</strong> and <strong>non-primitive</strong> organization structure (a.k.a. <strong>value</strong> vs. <strong>reference</strong>) also explains how data is stored in computer memory and affects software production and performance. See <a href="#value-vs-reference-types">Advanced Topics</a> for more.</p>
+</blockquote>
+<p><img src="../assets/img/banner/banner-data-types-c-sharp.png" alt="js data types"></p>
+<hr>
+<h3 id="data-values">Data Values</h3>
+<p>A data type is different than its <strong>value</strong>. In this C# example below, <code>7</code> is the <em>value</em> of the <code>mid</code> variable  and <code>int</code> (integer) is its <em>type</em>.</p>
+<pre><code class="language-cs"><span class="hljs-comment">// Unity C# example</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-symbol">Monster</span>
+{
+    <span class="hljs-built_in">int</span> mid = <span class="hljs-number">7</span>;
+    <span class="hljs-built_in">float</span> health = <span class="hljs-number">0.20f</span>;
+}
+</code></pre>
+<hr>
+<h3 id="strong-vs-loosely-typed">Strong vs. loosely-typed</h3>
+<p>Some programming languages (e.g. C#, Java, Python) are <a href="https://en.wikipedia.org/wiki/Strong_and_weak_typing">strongly typed</a>, requiring programmers to predefine what kind of data they are using in variables, parameters, functions, etc. before they actually use them.</p>
+<p>Other, <strong>loosely typed</strong> languages like Javascript, Perl, and PHP, <em>do not</em> require programmers to define their type ahead of time.</p>
+<pre><code class="language-js">// javascript example
+var mid <span class="hljs-operator">=</span> <span class="hljs-number">7</span><span class="hljs-comment">;</span>
+var health <span class="hljs-operator">=</span> <span class="hljs-number">0.20</span><span class="hljs-comment">;</span>
+</code></pre>
+<hr>
+<h2 id="primitive-data-types">Primitive data types</h2>
+<p>These common primitive data types (and examples) can be found across many strong- and loosely-typed programming languages and databases.</p>
+<blockquote>
+<p>👉 Presenter Note: Demonstrate these with <code>typeof</code> in the DevTools Console.</p>
+</blockquote>
+<h3 id="boolean">Boolean</h3>
+<p>The boolean type can only have one of two values:</p>
+<pre><code class="language-js"><span class="hljs-literal">true</span>
+<span class="hljs-literal">false</span>
+</code></pre>
+<p>Most programming languages have a default value for a type. When you create a new boolean variable in a strongly-typed language it will be <code>false</code> by default.</p>
+<hr>
+<h3 id="integer">Integer</h3>
+<p>Integers (a.k.a. <code>int</code> types) are used to store whole numbers.</p>
+<pre><code class="language-js"><span class="hljs-deletion">-4</span>
+1
+45
+10000000000
+</code></pre>
+<h3 id="floats">Floats</h3>
+<p>Numbers with decimals, also called <code>floats</code> (&quot;floating-point numbers&quot;).</p>
+<pre><code class="language-js"><span class="hljs-number">3</span>.<span class="hljs-number">14</span>
+.<span class="hljs-number">0000001</span>
+<span class="hljs-number">10000000000</span>.<span class="hljs-number">0</span>
+</code></pre>
+<p>Unlike many other languages, Javascript does not distinguish <code>int</code> from <code>float</code> numbers.</p>
+<hr>
+<h3 id="strings">Strings:</h3>
+<p>A string is any grouping of letters, words, numbers, or character symbols surrounded by single or double quotes, or back ticks.</p>
+<pre><code class="language-js"><span class="hljs-string">&quot;hello world 😀&quot;</span>
+<span class="hljs-string">&#x27;2 be or not 2 be&#x27;</span>
+<span class="hljs-string">`favorite numbers: 1, 2, and 3.14`</span>
+</code></pre>
+<hr>
+<h3 id="non-types">Non-types</h3>
+<p>Just as there are types that represent data, there are types that represent NO data</p>
+<ul>
+<li><strong>Null</strong> is a zero value. A special “value” that represents NO value!</li>
+<li><strong>undefined</strong> is the value of a variable that has not been assigned a value.</li>
+</ul>
+<pre><code class="language-javascript"><span class="hljs-keyword">var</span> myVar;
+myVar <span class="hljs-comment">// -&gt; undefined</span>
+</code></pre>
+<hr>
+<!-- Variations of this section:
+learn-javascript/javascript-1/1-0-introduction.md
+learn-computing/topics/data-types.md
+-->
+
+<h2 id="explore-data-types-in-the-console">Explore data types in the console</h2>
+<p>An <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators">expression</a> is any unit of code that resolves to a data value. Expressions are the fundamental building blocks of code, and use data (&quot;operands&quot;) with <a href="https://www.w3schools.com/js/js_operators.asp">operators</a> to perform math, logic, or string calculations.</p>
+<h3 id="👉-try-it-out">👉 <strong>Try it out</strong></h3>
+<ol>
+<li>In a web browser, <a href="https://developer.chrome.com/docs/devtools/open/">open the Developer Tools</a> and click Console.</li>
+<li>At the bottom, you will see a <code>&gt;</code> <strong>prompt</strong> where you can enter (<em>input</em>) Javascript code.</li>
+<li><strong>Primary expressions</strong> - If you pass data to Javascript it will simply <strong>return</strong> that value.</li>
+</ol>
+<pre><code class="language-js">12
+</code></pre>
+<details>
+<summary>Solution</summary>
+
+<img src="../assets/img/data-types/devtools-console-12.png">
+
+</details>
+
+
+
+<hr>
+<h3 id="👉-try-it-out-1">👉 <strong>Try it out</strong></h3>
+<ol start="4">
+<li>Adding an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators">arithmetic</a> operator and another data value will prompt Javascript to <strong>evaluate</strong> the code, multiplying the values to <strong>return</strong> (<em>output</em>) the <em>new</em> value <code>144</code> produced.</li>
+</ol>
+<pre><code class="language-js"><span class="hljs-symbol">12 </span>* <span class="hljs-number">12</span>
+</code></pre>
+<ol start="5">
+<li>If you use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"><code>typeof</code></a> operator, Javascript will return a string describing the data&#39;s <em>type</em>.</li>
+</ol>
+<pre><code class="language-js"><span class="hljs-keyword">typeof</span> <span class="hljs-number">12</span>
+</code></pre>
+<hr>
+<h3 id="👉-try-it-out-2">👉 <strong>Try it out</strong></h3>
+<ol start="6">
+<li>If you combine expressions, Javascript will evaluate each in the appropriate order. <strong>What will these return?</strong></li>
+</ol>
+<pre><code class="language-js"><span class="hljs-keyword">typeof</span> (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>)
+<span class="hljs-keyword">typeof</span> (<span class="hljs-keyword">typeof</span> (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>))
+<span class="hljs-keyword">typeof</span> <span class="hljs-string">&quot;hello world!&quot;</span>
+</code></pre>
+<details>
+<summary>Solution</summary>
+
+<pre><code class="language-js"><span class="hljs-attribute">typeof</span> (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>) // -&gt; <span class="hljs-string">&quot;number&quot;</span>
+<span class="hljs-attribute">typeof</span> (typeof (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>)) // -&gt; <span class="hljs-string">&quot;string&quot;</span> - The <span class="hljs-number">1</span>st returns <span class="hljs-string">&quot;number&quot;</span>, a string value, to the <span class="hljs-number">2</span>nd
+<span class="hljs-attribute">typeof</span> <span class="hljs-string">&quot;hello world!&quot;</span> // -&gt; <span class="hljs-string">&quot;string&quot;</span>
+</code></pre>
+</details>
+
+
+<hr>
+<h3 id="👉-try-it-out-3">👉 <strong>Try it out</strong></h3>
+<ol start="7">
+<li>A data&#39;s value and its type are not the same thing. <strong>What type are these?</strong></li>
+</ol>
+<pre><code class="language-js"><span class="hljs-number">555</span>
+<span class="hljs-string">&quot;555&quot;</span>
+`false`
+<span class="hljs-literal">true</span>
+</code></pre>
+<details>
+<summary>Solution</summary>
+
+<pre><code class="language-js"><span class="hljs-number">555</span> <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;number&quot;</span>
+<span class="hljs-string">&quot;555&quot;</span> <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;string&quot;</span>
+`false` <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;string&quot;</span>
+true <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;boolean&quot;</span>
+</code></pre>
+</details>
+
+
+
+
+
+<hr>
+<!-- CONSIDER MOVING TO LEARN-JAVASCRIPT ONLY  -->
+
+<h2 id="type-conversion">Type conversion</h2>
+<p>Many programming languages allow you to <a href="https://en.wikipedia.org/wiki/Type_conversion">convert a data&#39;s type</a>. In Javascript, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion">type conversion</a> can happen intentionally (a.k.a. &quot;explicit conversion&quot;), such as when you use built-in functions to initiate the conversion.</p>
+<pre><code class="language-js">typeof Number(<span class="hljs-string">&quot;555&quot;</span>) <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;number&quot;</span>
+typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;string&quot;</span>
+</code></pre>
+<hr>
+<h3 id="type-coercion">Type <em>coercion</em></h3>
+<p>It can also happen when it automatically converts your data to another type (a.k.a. &quot;implicit conversion&quot; or &quot;type <a href="https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"><em>coercion</em></a>&quot;). For example, when you use the <code>+</code> operator with two numbers then Javascript will perform arithmetic. But, if one of the operands is a <code>string</code> it will automatically convert all data types to <code>string</code> and then concatenate them into a larger string.  </p>
+<pre><code class="language-js">var test = 10;
+<span class="hljs-keyword">test </span>+ 1 // -&gt; 11
+<span class="hljs-keyword">test </span>+ &quot; apples&quot; // -&gt; &quot;10 apples&quot;
+</code></pre>
+<hr>
+<h2 id="data-collections">Data collections</h2>
+<p>In addition to <a href="https://developer.mozilla.org/en-US/docs/Glossary/Primitive">primitive data types</a> like <code>boolean</code>, <code>number</code>, and <code>string</code>, many programming languages have types classified as data collections, which can include <code>arrays</code>, <code>objects</code>, as well as more complex entities, hierarchical collections, and lists.</p>
+<hr>
+<h3 id="arrays">Arrays</h3>
+<p>Most languages use the <code>array</code> type to store one or more instances of the same type (or even different types) of data. The instances are separated by commas, enclosed in square brackets. In Javascript, these are both valid arrays:</p>
+<pre><code class="language-js"><span class="hljs-attribute">var numbers</span> = [4,3,2,1];
+<span class="hljs-attribute">var greeting</span> = [<span class="hljs-string">&quot;hello&quot;</span>, <span class="hljs-string">&quot;world&quot;</span>];
+</code></pre>
+<p>In Javascript, you can assign or retrieve individual cells from arrays like below. Arrays are zero-indexed so providing <code>1</code> between the square brackets gives you the 2nd value:</p>
+<pre><code class="language-js">greeting[<span class="hljs-number">1</span>] <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;world&quot;</span>
+</code></pre>
+<hr>
+<!-- CONSIDER MOVING TO LEARN-JAVASCRIPT ONLY  -->
+
+
+<p>The <code>array</code> data type is a common way to store tabular data (rows and columns). To do this, we use an array of arrays, or &quot;two-dimensional array&quot;, where each row is its own array:</p>
+<pre><code class="language-js">var cars = [
+    [<span class="hljs-string">&quot;make&quot;</span>, <span class="hljs-string">&quot;model&quot;</span>, <span class="hljs-string">&quot;year&quot;</span>],
+    [<span class="hljs-string">&quot;Pontiac&quot;</span>, <span class="hljs-string">&quot;Vibe&quot;</span>, <span class="hljs-number">2009</span>],
+    [<span class="hljs-string">&quot;Honda&quot;</span>, <span class="hljs-string">&quot;Fit&quot;</span>, <span class="hljs-number">2007</span>],
+    [<span class="hljs-string">&quot;Chevrolet&quot;</span>, <span class="hljs-string">&quot;Blazer&quot;</span>, <span class="hljs-number">2000</span>],
+    [<span class="hljs-string">&quot;Toyota&quot;</span>, <span class="hljs-string">&quot;RAV4&quot;</span>, <span class="hljs-number">1999</span>]
+];
+</code></pre>
+<p>To get a &quot;cell&quot; in this table, use the following notation, where the first number is the row, and second is the column:</p>
+<pre><code class="language-js"><span class="hljs-attribute">cars</span>[<span class="hljs-number">1</span>][<span class="hljs-number">0</span>] // -&gt; <span class="hljs-string">&quot;Pontiac&quot;</span>
+</code></pre>
+<hr>
+<h3 id="👉-try-it-out-4">👉 <strong>Try it out</strong></h3>
+<ol>
+<li>Copy / paste the cars array into the console and press <kbd>return</kbd>. The data is now saved there.</li>
+<li>You can log the above example using <code>console.log()</code> by placing the reference to the data point inside the parentheses, like this: <code>console.log(cars[1][0])</code></li>
+<li>Log the notation to access the Chevrolet&#39;s model only.</li>
+<li>Log the notation to access the Honda&#39;s year.</li>
+<li>Log the notation to access the make of the car built in 1999.</li>
+</ol>
+<details>
+<summary>Solution</summary>
+
+<pre><code class="language-js"><span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(cars[3][1]); // -&gt;</span> <span class="hljs-string">&quot;Blazer&quot;</span>
+<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(cars[2][2]); // -&gt;</span> <span class="hljs-number">2007</span>
+<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(cars[4][0]); // -&gt;</span> <span class="hljs-string">&quot;Toyota&quot;</span>
+</code></pre>
+</details>
+
+
+
+
+
+
+<hr>
+<h3 id="objects">Objects</h3>
+<p>Javascript contains its own definition of objects, which is slightly different than the way that other languages use objects and classes.</p>
+<pre><code class="language-js">let <span class="hljs-attr">artist</span> <span class="hljs-operator">=</span> <span class="hljs-punctuation">{</span>
+<span class="hljs-symbol">    name:</span> <span class="hljs-string">&quot;Miles Davis&quot;</span>,
+<span class="hljs-symbol">    instrument:</span> <span class="hljs-string">&quot;trumpet&quot;</span>
+<span class="hljs-punctuation">};</span>
+</code></pre>
+<hr>
+<p>Javascript objects are powerful types because you can store any type of data in them, even arrays, other objects, and functions.</p>
+<pre><code class="language-js"><span class="hljs-attribute">var singer</span> = {
+    <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Bruce Springsteen&quot;</span>,
+    <span class="hljs-string">&quot;albums&quot;</span>: [
+        {
+            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Born to Run&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: 1975
+        }, {
+            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Born in the U.S.A.&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: 1984
+        }, {
+            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;The Ghost of Tom Joad&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: 1995
+        }
+    ]
+};
+</code></pre>
+<hr>
+<p>With Javascript, each data <code>value</code> is assigned to a <code>key</code>, and you access the value using using dot notation. So above, we can access the singer&#39;s name using:</p>
+<pre><code class="language-js"><span class="hljs-function"><span class="hljs-title">singer</span>.<span class="hljs-keyword">name</span>; // -&gt;</span> <span class="hljs-string">&quot;Bruce Springsteen&quot;</span>
+</code></pre>
+<h3 id="👉-try-it-out-5">👉 <strong>Try it out</strong></h3>
+<ol>
+<li>Copy / paste the singer object into the console and press <kbd>return</kbd>. The data is now saved there.</li>
+<li>Log the singer&#39;s name.</li>
+<li>Log the name of the singer&#39;s first album. Keep in mind that you are accessing a value in an array stored inside the key, <code>albums</code>.</li>
+<li>Log the year of the singer&#39;s third album.</li>
+</ol>
+<details>
+<summary>Solution</summary>
+
+<pre><code class="language-js"><span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(singer.<span class="hljs-keyword">name</span>); // -&gt;</span> <span class="hljs-string">&quot;Bruce Springsteen&quot;</span>
+<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(singer.albums[0].<span class="hljs-keyword">name</span>); // -&gt;</span> <span class="hljs-string">&quot;Born to Run&quot;</span>
+<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(singer.albums[2].year); // -&gt;</span> <span class="hljs-number">1995</span>
+</code></pre>
+</details>
+
+
+<p>Use jsfiddle to explore these <a href="https://jsfiddle.net/ow3n/6qpeq20y/">primitive</a> and <a href="https://jsfiddle.net/ow3n/vot5wm94/">complex</a> data type examples.</p>
+<hr>
+<h2 id="data-exchange-formats">Data exchange formats</h2>
+<p>Data collections can be stored inside code files, or more often, imported from external files, databases, or API servers. Data exchange formats help to standardize how data is stored and transmitted when you import external data and generally fall into one of the below categories:</p>
+<ol>
+<li>Tabular data exchange formats (e.g. <code>CSV</code>, <code>TSV</code>)</li>
+<li>Hierarchical data exchange formats (e.g. <code>JSON</code> or <code>XML</code>).</li>
+</ol>
+<p>See this lesson for more on data exchange formats</p>
+<ul>
+<li><a href="https://github.com/omundy/learn-computing/blob/main/topics/data-types.md#data-exchange-formats">Learn Computing / Data Types / Data Exchange Formats</a></li>
+</ul>
+<hr>
+<h3 id="tabular-data">Tabular Data</h3>
+<p><a href="https://en.wikipedia.org/wiki/Table_(information)">Tabular data</a> is a collection of data values arranged in rows and columns. The following is an example of tabular data, displayed in a table:</p>
+<table>
+<thead>
+<tr>
+<th>make</th>
+<th>model</th>
+<th>year</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&quot;Pontiac&quot;</td>
+<td>&quot;Vibe&quot;</td>
+<td>2009</td>
+</tr>
+<tr>
+<td>&quot;Honda&quot;</td>
+<td>&quot;Fit&quot;</td>
+<td>2007</td>
+</tr>
+<tr>
+<td>&quot;Chevrolet&quot;</td>
+<td>&quot;Blazer&quot;</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>&quot;Toyota&quot;</td>
+<td>&quot;RAV4&quot;</td>
+<td>1999</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="csv">CSV</h3>
+<p>While Excel or Google Sheets might store and <em>display</em> tabular data by adding lines to describe the cells where rows and columns meet, the actual data values in those cells are usually stored (and transmitted) as <a href="https://en.wikipedia.org/wiki/Comma-separated_values">Comma-separated values</a>.</p>
+<p>The above dataset as a CSV (<a href="../datasets/cars.csv">datasets/cars.csv</a>) looks like:</p>
+<pre><code><span class="hljs-string">&quot;make&quot;</span>, <span class="hljs-string">&quot;model&quot;</span>, <span class="hljs-string">&quot;year&quot;</span>
+<span class="hljs-string">&quot;Pontiac&quot;</span>, <span class="hljs-string">&quot;Vibe&quot;</span>, <span class="hljs-number">2009</span>
+<span class="hljs-string">&quot;Honda&quot;</span>, <span class="hljs-string">&quot;Fit&quot;</span>, <span class="hljs-number">2007</span>
+<span class="hljs-string">&quot;Chevrolet&quot;</span>, <span class="hljs-string">&quot;Blazer&quot;</span>, <span class="hljs-number">2000</span>
+<span class="hljs-string">&quot;Toyota&quot;</span>, <span class="hljs-string">&quot;RAV4&quot;</span>, <span class="hljs-number">1999</span>
+</code></pre>
+<hr>
+<p>CSV is one of the most common ways that tabular data is stored (in <code>.csv</code> files), <a href="https://en.wikipedia.org/wiki/Data_exchange">exchanged</a> across spreadsheets, flat files, and databases, though you can technically delineate the columns with any unique character.</p>
+<p>Note that each row should contain the same number of columns, even if the cell is empty.</p>
+<p>More on CSV:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV history</a></li>
+<li>How to validate CSV <a href="https://csvlint.io">csvlint.io</a></li>
+</ul>
+<hr>
+<h3 id="json">JSON</h3>
+<p><a href="https://www.w3schools.com/js/js_json_intro.asp">JSON (&quot;JavaScript Object Notation&quot;)</a>, based on the Javascript <code>object</code> type, is popular for sending data across networks.</p>
+<p>Like Javascript objects, they are hierarchical, use <code>key:value</code> pairs to store data, and are contained within curly braces.</p>
+<pre><code class="language-json"><span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;key&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;value&quot;</span> <span class="hljs-punctuation">}</span>
+</code></pre>
+<p>One drawback to JSON is that it can be sensitive to syntax errors. JSON documents (<code>.json</code>) must <a href="https://jsonlint.com">validate</a> or they won’t work. For example, unlike a regular Javascript <code>object</code>, all JSON keys must be wrapped in double quotes.</p>
+<hr>
+<p>The cars dataset represented as JSON (<a href="../datasets/cars.json">datasets/cars.json</a>) looks like:</p>
+<pre><code class="language-json">{
+    <span class="hljs-string">&quot;cars&quot;</span>: [{
+            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Pontiac&quot;</span>,
+            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;Vibe&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">2009</span>
+        }, {
+            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Honda&quot;</span>,
+            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;Fit&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">2007</span>
+        }, {
+            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Chevrolet&quot;</span>,
+            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;Blazer&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">2000</span>
+        }, {
+            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Toyota&quot;</span>,
+            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;RAV4&quot;</span>,
+            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">1999</span>
+        }]
+}
+</code></pre>
+<hr>
+<p>More on JSON:</p>
+<ul>
+<li>W3Schools <a href="https://www.w3schools.com/js/js_json_intro.asp">JSON Tutorial</a></li>
+<li><a href="https://www.sitepoint.com/10-example-json-files/">10 JSON Examples to Use in Your Projects</a></li>
+<li>How to validate JSON <a href="https://jsonlint.com">jsonlint.com</a></li>
+</ul>
+<hr>
+<h3 id="xml">XML</h3>
+<p><a href="http://www.w3schools.com/xml/xml_whatis.asp">XML (Extensible Markup Language)</a> is another common hierarchical format for storing and transporting data.</p>
+<p>XML <a href="https://www.w3schools.com/js/js_json_xml.asp">shares some features with JSON</a>, since it is also a hierarchical data collection. However it has decreased in popularity because, unlike JSON, XML documents need a higher file size to store and transmit the same data values because, like other markup languages (e.g. HTML), they require open <em>and</em> closing &quot;tags&quot; for every data value. XML is called &quot;extensible&quot; because (unlike HTML) you can name the elements anything you like.</p>
+<hr>
+<p>The cars dataset represented as XML (<a href="../datasets/cars.xml">datasets/cars.xml</a>) looks like:</p>
+<pre><code class="language-XML"><span class="hljs-tag">&lt;<span class="hljs-name">cars</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Pontiac<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>Vibe<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>2009<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Honda<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>Fit<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>2007<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Chevrolet<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>Blazer<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>2000<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Toyota<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>RAV4<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>1999<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">cars</span>&gt;</span>
+</code></pre>
+<hr>
+<p>More on XML:</p>
+<ul>
+<li>W3Schools <a href="https://www.w3schools.com/xml/xml_examples.asp">XML Examples</a>, <a href="https://www.w3schools.com/js/js_json_xml.asp">JSON vs. XML</a></li>
+<li>How to validate XML <a href="https://www.xmlvalidation.com/">xmlvalidation.com</a></li>
+</ul>
+<hr>
+<h2 id="discussion">Discussion</h2>
+<h3 id="👉-try-it-out-6">👉 <strong>Try it out</strong></h3>
+<p>In your group, create one dataset to represent each of the following. Select an appropriate data exchange format for each, and check to make sure the dataset is valid!</p>
+<ol>
+<li>A person and five of their attributes.</li>
+<li>Your top 10 movies of all time and the year they were released.</li>
+<li>Three different attributes of six different quadrupeds.</li>
+</ol>
+<hr>
+<h2 id="advanced-topics">Advanced Topics</h2>
+<h3 id="memory-implications">Memory implications</h3>
+<p>Data types are important because some data types require more storage than others.</p>
+<p>For example, if you store <code>&quot;12345678&quot;</code> in a database as a string, it will <a href="https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html">require</a> <code>8+1</code> bytes. Whereas, the same value <code>12345678</code> stored as an integer type only requires 4 bytes.</p>
+<hr>
+<h3 id="value-vs-reference-types">Value vs reference types</h3>
+<blockquote>
+<p>Many programming languages organize data types by <strong>primitive</strong> and <strong>non-primitive</strong> types. This structure, often called <strong>value</strong> vs. <strong>reference</strong>, is about how and where the data is actually stored in memory and used by the language.</p>
+</blockquote>
+<p>For example, when you use a value type in a program and send it to a function, a <em>new copy</em> of that data, its &quot;value&quot;, is passed to the function. But, when you define a reference type the data is stored in <em>only one</em> location (the &quot;heap&quot;), and when you pass it to other functions then only a <em>pointer</em> or &quot;reference&quot; to that location in memory is passed.</p>
+<p><a href="http://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/">Reference types are created on the heap, value types are created on the stack</a>. If you create too many copies of a value type then you can crash your program thanks to a &quot;stack overflow&quot;.</p>
+<hr>
+<h2 id="keep-practicing">Keep practicing</h2>
+<ul>
+<li>Learn Computing: Data Basics <a href="../slides/data-basics.html">slides</a> | <a href="../topics/data-basics.md">markdown</a></li>
+<li>Learn Computing: Data Types <a href="../slides/data-types.html">slides</a> | <a href="../topics/data-types.md">markdown</a></li>
+<li>Learn Computing: Data Cleaning <a href="../slides/data-cleaning.html">slides</a> | <a href="../topics/data-cleaning.md">markdown</a></li>
+<li>Learn Computing: APIs <a href="../slides/data-apis.html">slides</a> | <a href="../topics/data-apis.md">markdown</a></li>
+</ul>
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.redhat.com/sysadmin/bits-vs-bytes">When bandwidth and storage size matters: Bits vs. bytes</a></li>
+<li><a href="https://kunststube.net/encoding/">What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text</a></li>
+<li><a href="https://www.extremetech.com/extreme/191996-zoom-into-a-computer-chip-watch-this-video-to-fully-appreciate-just-how-magical-modern-microchips-are">Zoom into a computer chip: Watch this video to fully appreciate just how magical modern microchips are</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>
