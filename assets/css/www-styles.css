@@ -28,3 +28,7 @@ section {
     grid-gap: 20px;
     text-align: left;
 }
+
+.back-icon {
+    margin-top: 20px;
+}

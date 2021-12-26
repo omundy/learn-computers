@@ -39,23 +39,6 @@ section::after {
     content: attr(data-marpit-pagination) ' / 'attr(data-marpit-pagination-total);
 }
 
-/*
-
-header,
-footer {
-    position: fixed;
-    left: 50px;
-    right: 50px;
-    height: 20px;
-    background-color: blue;
+.back-icon {
+    margin-top: 20px;
 }
-
-header {
-    top: 30px;
-}
-
-footer {
-    bottom: 30px;
-}
-
-*/

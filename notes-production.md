@@ -171,6 +171,6 @@ Run with verbose
 
 ### Highlight.js
 
+HTML code formatting by https://highlightjs.org/
 
-https://highlightjs.org/static/demo/ 
-https://github.com/highlightjs/highlight.js/tree/main/src/styles
+- Styles [demo](https://highlightjs.org/static/demo/), [directory](https://github.com/highlightjs/highlight.js/tree/main/src/styles)
