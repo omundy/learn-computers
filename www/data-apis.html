@@ -9,10 +9,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/icons/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="../assets/img/icons/favicon_io/site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icons/favicon_io/favicon.ico">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icons/favicon_io/favicon.ico"> -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css"> -->
     <link rel="stylesheet" href="../assets/css/www-styles.css">
 
 </head>
@@ -23,7 +23,7 @@
         <div class="col-12 col-md-10 offset-md-1">
             <!-- paginate: true -->
 
-<p><a class="back-icon" href="../index.html"><img width="20" src="../assets/img/icons/arrow-left-short-250sq.png"></a></p>
+<p><a class="back-icon" href="../index.html"><img width="20" src="../assets/img/icons/arrow-left-short.svg"></a></p>
 <img width="375" src="../assets/img/banner/banner-data-apis.png">
 
 <h1 id="apis">APIs</h1>
@@ -85,7 +85,7 @@ Presentation comments ...
 <hr>
 <h2 id="application-program-interface">Application Program Interface</h2>
 <p>An API is a software service that provides data or functionality, usually to other software.</p>
-<img width="800" src="../assets/img/banner/banner-data-apis-diagram.png">
+<img class="img-fluid" width="800" src="../assets/img/banner/banner-data-apis-diagram.png">
 
 <ol>
 <li>A <strong>Client</strong> (web page, mobile or desktop app) makes a <strong>request</strong></li>
@@ -149,7 +149,7 @@ Presentation comments ...
 <hr>
 <h2 id="national-weather-service-api">National Weather Service API</h2>
 <p>Their <a href="https://www.weather.gov/documentation/services-web-api">documentation</a> says to get a forecast, we send a request with our current (<a href="https://en.wikipedia.org/wiki/Decimal_degrees" target="_blank">decimal</a>) latitude and longitude to the <code>/points</code> endpoint, formatted like:</p>
-<pre><code>https:<span class="hljs-regexp">//</span>api.weather.gov<span class="hljs-regexp">/points/</span>{latitude},{longitude}
+<pre><code class="language-markdown">https:<span class="hljs-regexp">//</span>api.weather.gov<span class="hljs-regexp">/points/</span>{latitude},{longitude}
 </code></pre>
 <p>For <a href="https://www.latlong.net/place/davidson-nc-usa-10313.html" target="_blank">Davidson College</a> we use 👉 <a href="https://api.weather.gov/points/35.499302,-80.848686" target="_blank">https://api.weather.gov/points/35.499302,-80.848686</a></p>
 <p>The response includes several data points, like our grid office <code>gsp</code> and position <code>116,76</code></p>
@@ -223,9 +223,8 @@ Presentation comments ...
 
 <p><a href="https://www.postman.com/">Postman</a> is an API development client. Once you <a href="https://www.postman.com/downloads/">install</a> the app and <a href="https://identity.getpostman.com/signup">login</a>:</p>
 <p>👉 Create a new <code>GET</code> request with this URL and click Send</p>
-<code class="small block">
-https://jsonplaceholder.typicode.com/users
-</code>
+<pre><code class="small block">https://jsonplaceholder.typicode.com/users
+</code></pre>
 
 <p>You will see <code>Status: 200 OK</code> and a collection of &quot;users&quot; if your request was successful.</p>
 <div class="caption small">
@@ -410,8 +409,8 @@ https://jsonplaceholder.typicode.com/users
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script> -->
 
 </body>
 </html>

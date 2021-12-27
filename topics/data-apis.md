@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-<a class="back-icon" href="../index.html"><img width="20" src="../assets/img/icons/arrow-left-short-250sq.png"></a>
+<a class="back-icon" href="../index.html"><img width="20" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-data-apis.png">
 
@@ -80,7 +80,7 @@ Complete the following to prepare for this module
 
 An API is a software service that provides data or functionality, usually to other software.
 
-<img width="800" src="../assets/img/banner/banner-data-apis-diagram.png">
+<img class="img-fluid" width="800" src="../assets/img/banner/banner-data-apis-diagram.png">
 
 1. A **Client** (web page, mobile or desktop app) makes a **request**
 1. The **Server** processes the request, queries a **database** if needed
@@ -169,7 +169,7 @@ Of common software-independent, machine readable data exchange formats, [JSON](h
 
 Their [documentation](https://www.weather.gov/documentation/services-web-api) says to get a forecast, we send a request with our current (<a href="https://en.wikipedia.org/wiki/Decimal_degrees" target="_blank">decimal</a>) latitude and longitude to the `/points` endpoint, formatted like:
 
-```
+```markdown
 https://api.weather.gov/points/{latitude},{longitude}
 ```
 
@@ -273,9 +273,8 @@ Companies build APIs for various reasons:
 
 👉 Create a new `GET` request with this URL and click Send
 
-<code class="small block">
-https://jsonplaceholder.typicode.com/users
-</code>
+<pre><code class="small block">https://jsonplaceholder.typicode.com/users
+</code></pre>
 
 You will see `Status: 200 OK` and a collection of "users" if your request was successful.
 
