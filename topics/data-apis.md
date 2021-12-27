@@ -14,6 +14,13 @@ An introduction to APIs
 Presentation comments ...
 -->
 
+```html
+<pre><code>
+<h1>I'm big BAD HTML</h1>
+<script>alert("your hacked");</script>
+</code></pre>
+```
+
 
 ---
 

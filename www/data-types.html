@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Learn Computing</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/icons/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../assets/img/icons/favicon_io/site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icons/favicon_io/favicon.ico">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="../assets/css/www-styles.css">
-
 
 </head>
 
@@ -94,11 +99,11 @@ Presentation comments ...
 <hr>
 <h3 id="data-values">Data Values</h3>
 <p>A data type is different than its <strong>value</strong>. In this C# example below, <code>7</code> is the <em>value</em> of the <code>mid</code> variable  and <code>int</code> (integer) is its <em>type</em>.</p>
-<pre><code class="language-cs"><span class="hljs-comment">// Unity C# example</span>
-<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-symbol">Monster</span>
+<pre><code class="language-cs">// Unity C# example
+public class Monster
 {
-    <span class="hljs-built_in">int</span> mid = <span class="hljs-number">7</span>;
-    <span class="hljs-built_in">float</span> health = <span class="hljs-number">0.20f</span>;
+    int mid = 7;
+    float health = 0.20f;
 }
 </code></pre>
 <hr>
@@ -106,8 +111,8 @@ Presentation comments ...
 <p>Some programming languages (e.g. C#, Java, Python) are <a href="https://en.wikipedia.org/wiki/Strong_and_weak_typing">strongly typed</a>, requiring programmers to predefine what kind of data they are using in variables, parameters, functions, etc. before they actually use them.</p>
 <p>Other, <strong>loosely typed</strong> languages like Javascript, Perl, and PHP, <em>do not</em> require programmers to define their type ahead of time.</p>
 <pre><code class="language-js">// javascript example
-var mid <span class="hljs-operator">=</span> <span class="hljs-number">7</span><span class="hljs-comment">;</span>
-var health <span class="hljs-operator">=</span> <span class="hljs-number">0.20</span><span class="hljs-comment">;</span>
+var mid = 7;
+var health = 0.20;
 </code></pre>
 <hr>
 <h2 id="primitive-data-types">Primitive data types</h2>
@@ -117,31 +122,31 @@ var health <span class="hljs-operator">=</span> <span class="hljs-number">0.20</
 </blockquote>
 <h3 id="boolean">Boolean</h3>
 <p>The boolean type can only have one of two values:</p>
-<pre><code class="language-js"><span class="hljs-literal">true</span>
-<span class="hljs-literal">false</span>
+<pre><code class="language-js">true
+false
 </code></pre>
 <p>Most programming languages have a default value for a type. When you create a new boolean variable in a strongly-typed language it will be <code>false</code> by default.</p>
 <hr>
 <h3 id="integer">Integer</h3>
 <p>Integers (a.k.a. <code>int</code> types) are used to store whole numbers.</p>
-<pre><code class="language-js"><span class="hljs-deletion">-4</span>
+<pre><code class="language-js">-4
 1
 45
 10000000000
 </code></pre>
 <h3 id="floats">Floats</h3>
 <p>Numbers with decimals, also called <code>floats</code> (&quot;floating-point numbers&quot;).</p>
-<pre><code class="language-js"><span class="hljs-number">3</span>.<span class="hljs-number">14</span>
-.<span class="hljs-number">0000001</span>
-<span class="hljs-number">10000000000</span>.<span class="hljs-number">0</span>
+<pre><code class="language-js">3.14
+.0000001
+10000000000.0
 </code></pre>
 <p>Unlike many other languages, Javascript does not distinguish <code>int</code> from <code>float</code> numbers.</p>
 <hr>
 <h3 id="strings">Strings:</h3>
 <p>A string is any grouping of letters, words, numbers, or character symbols surrounded by single or double quotes, or back ticks.</p>
-<pre><code class="language-js"><span class="hljs-string">&quot;hello world 😀&quot;</span>
-<span class="hljs-string">&#x27;2 be or not 2 be&#x27;</span>
-<span class="hljs-string">`favorite numbers: 1, 2, and 3.14`</span>
+<pre><code class="language-js">&quot;hello world 😀&quot;
+&#39;2 be or not 2 be&#39;
+`favorite numbers: 1, 2, and 3.14`
 </code></pre>
 <hr>
 <h3 id="non-types">Non-types</h3>
@@ -150,8 +155,8 @@ var health <span class="hljs-operator">=</span> <span class="hljs-number">0.20</
 <li><strong>Null</strong> is a zero value. A special “value” that represents NO value!</li>
 <li><strong>undefined</strong> is the value of a variable that has not been assigned a value.</li>
 </ul>
-<pre><code class="language-javascript"><span class="hljs-keyword">var</span> myVar;
-myVar <span class="hljs-comment">// -&gt; undefined</span>
+<pre><code class="language-javascript">var myVar;
+myVar // -&gt; undefined
 </code></pre>
 <hr>
 <!-- Variations of this section:
@@ -183,28 +188,28 @@ learn-computing/topics/data-types.md
 <ol start="4">
 <li>Adding an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators">arithmetic</a> operator and another data value will prompt Javascript to <strong>evaluate</strong> the code, multiplying the values to <strong>return</strong> (<em>output</em>) the <em>new</em> value <code>144</code> produced.</li>
 </ol>
-<pre><code class="language-js"><span class="hljs-symbol">12 </span>* <span class="hljs-number">12</span>
+<pre><code class="language-js">12 * 12
 </code></pre>
 <ol start="5">
 <li>If you use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"><code>typeof</code></a> operator, Javascript will return a string describing the data&#39;s <em>type</em>.</li>
 </ol>
-<pre><code class="language-js"><span class="hljs-keyword">typeof</span> <span class="hljs-number">12</span>
+<pre><code class="language-js">typeof 12
 </code></pre>
 <hr>
 <h3 id="👉-try-it-out-2">👉 <strong>Try it out</strong></h3>
 <ol start="6">
 <li>If you combine expressions, Javascript will evaluate each in the appropriate order. <strong>What will these return?</strong></li>
 </ol>
-<pre><code class="language-js"><span class="hljs-keyword">typeof</span> (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>)
-<span class="hljs-keyword">typeof</span> (<span class="hljs-keyword">typeof</span> (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>))
-<span class="hljs-keyword">typeof</span> <span class="hljs-string">&quot;hello world!&quot;</span>
+<pre><code class="language-js">typeof (12 * 12)
+typeof (typeof (12 * 12))
+typeof &quot;hello world!&quot;
 </code></pre>
 <details>
 <summary>Solution</summary>
 
-<pre><code class="language-js"><span class="hljs-attribute">typeof</span> (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>) // -&gt; <span class="hljs-string">&quot;number&quot;</span>
-<span class="hljs-attribute">typeof</span> (typeof (<span class="hljs-number">12</span> * <span class="hljs-number">12</span>)) // -&gt; <span class="hljs-string">&quot;string&quot;</span> - The <span class="hljs-number">1</span>st returns <span class="hljs-string">&quot;number&quot;</span>, a string value, to the <span class="hljs-number">2</span>nd
-<span class="hljs-attribute">typeof</span> <span class="hljs-string">&quot;hello world!&quot;</span> // -&gt; <span class="hljs-string">&quot;string&quot;</span>
+<pre><code class="language-js">typeof (12 * 12) // -&gt; &quot;number&quot;
+typeof (typeof (12 * 12)) // -&gt; &quot;string&quot; - The 1st returns &quot;number&quot;, a string value, to the 2nd
+typeof &quot;hello world!&quot; // -&gt; &quot;string&quot;
 </code></pre>
 </details>
 
@@ -214,18 +219,18 @@ learn-computing/topics/data-types.md
 <ol start="7">
 <li>A data&#39;s value and its type are not the same thing. <strong>What type are these?</strong></li>
 </ol>
-<pre><code class="language-js"><span class="hljs-number">555</span>
-<span class="hljs-string">&quot;555&quot;</span>
+<pre><code class="language-js">555
+&quot;555&quot;
 `false`
-<span class="hljs-literal">true</span>
+true
 </code></pre>
 <details>
 <summary>Solution</summary>
 
-<pre><code class="language-js"><span class="hljs-number">555</span> <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;number&quot;</span>
-<span class="hljs-string">&quot;555&quot;</span> <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;string&quot;</span>
-`false` <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;string&quot;</span>
-true <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;boolean&quot;</span>
+<pre><code class="language-js">555 // -&gt; &quot;number&quot;
+&quot;555&quot; // -&gt; &quot;string&quot;
+`false` // -&gt; &quot;string&quot;
+true // -&gt; &quot;boolean&quot;
 </code></pre>
 </details>
 
@@ -238,15 +243,15 @@ true <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;b
 
 <h2 id="type-conversion">Type conversion</h2>
 <p>Many programming languages allow you to <a href="https://en.wikipedia.org/wiki/Type_conversion">convert a data&#39;s type</a>. In Javascript, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion">type conversion</a> can happen intentionally (a.k.a. &quot;explicit conversion&quot;), such as when you use built-in functions to initiate the conversion.</p>
-<pre><code class="language-js">typeof Number(<span class="hljs-string">&quot;555&quot;</span>) <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;number&quot;</span>
-typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;string&quot;</span>
+<pre><code class="language-js">typeof Number(&quot;555&quot;) // -&gt; &quot;number&quot;
+typeof String(555) // -&gt; &quot;string&quot;
 </code></pre>
 <hr>
 <h3 id="type-coercion">Type <em>coercion</em></h3>
 <p>It can also happen when it automatically converts your data to another type (a.k.a. &quot;implicit conversion&quot; or &quot;type <a href="https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"><em>coercion</em></a>&quot;). For example, when you use the <code>+</code> operator with two numbers then Javascript will perform arithmetic. But, if one of the operands is a <code>string</code> it will automatically convert all data types to <code>string</code> and then concatenate them into a larger string.  </p>
 <pre><code class="language-js">var test = 10;
-<span class="hljs-keyword">test </span>+ 1 // -&gt; 11
-<span class="hljs-keyword">test </span>+ &quot; apples&quot; // -&gt; &quot;10 apples&quot;
+test + 1 // -&gt; 11
+test + &quot; apples&quot; // -&gt; &quot;10 apples&quot;
 </code></pre>
 <hr>
 <h2 id="data-collections">Data collections</h2>
@@ -254,11 +259,11 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <hr>
 <h3 id="arrays">Arrays</h3>
 <p>Most languages use the <code>array</code> type to store one or more instances of the same type (or even different types) of data. The instances are separated by commas, enclosed in square brackets. In Javascript, these are both valid arrays:</p>
-<pre><code class="language-js"><span class="hljs-attribute">var numbers</span> = [4,3,2,1];
-<span class="hljs-attribute">var greeting</span> = [<span class="hljs-string">&quot;hello&quot;</span>, <span class="hljs-string">&quot;world&quot;</span>];
+<pre><code class="language-js">var numbers = [4,3,2,1];
+var greeting = [&quot;hello&quot;, &quot;world&quot;];
 </code></pre>
 <p>In Javascript, you can assign or retrieve individual cells from arrays like below. Arrays are zero-indexed so providing <code>1</code> between the square brackets gives you the 2nd value:</p>
-<pre><code class="language-js">greeting[<span class="hljs-number">1</span>] <span class="hljs-regexp">//</span> -&gt; <span class="hljs-string">&quot;world&quot;</span>
+<pre><code class="language-js">greeting[1] // -&gt; &quot;world&quot;
 </code></pre>
 <hr>
 <!-- CONSIDER MOVING TO LEARN-JAVASCRIPT ONLY  -->
@@ -266,15 +271,15 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 
 <p>The <code>array</code> data type is a common way to store tabular data (rows and columns). To do this, we use an array of arrays, or &quot;two-dimensional array&quot;, where each row is its own array:</p>
 <pre><code class="language-js">var cars = [
-    [<span class="hljs-string">&quot;make&quot;</span>, <span class="hljs-string">&quot;model&quot;</span>, <span class="hljs-string">&quot;year&quot;</span>],
-    [<span class="hljs-string">&quot;Pontiac&quot;</span>, <span class="hljs-string">&quot;Vibe&quot;</span>, <span class="hljs-number">2009</span>],
-    [<span class="hljs-string">&quot;Honda&quot;</span>, <span class="hljs-string">&quot;Fit&quot;</span>, <span class="hljs-number">2007</span>],
-    [<span class="hljs-string">&quot;Chevrolet&quot;</span>, <span class="hljs-string">&quot;Blazer&quot;</span>, <span class="hljs-number">2000</span>],
-    [<span class="hljs-string">&quot;Toyota&quot;</span>, <span class="hljs-string">&quot;RAV4&quot;</span>, <span class="hljs-number">1999</span>]
+    [&quot;make&quot;, &quot;model&quot;, &quot;year&quot;],
+    [&quot;Pontiac&quot;, &quot;Vibe&quot;, 2009],
+    [&quot;Honda&quot;, &quot;Fit&quot;, 2007],
+    [&quot;Chevrolet&quot;, &quot;Blazer&quot;, 2000],
+    [&quot;Toyota&quot;, &quot;RAV4&quot;, 1999]
 ];
 </code></pre>
 <p>To get a &quot;cell&quot; in this table, use the following notation, where the first number is the row, and second is the column:</p>
-<pre><code class="language-js"><span class="hljs-attribute">cars</span>[<span class="hljs-number">1</span>][<span class="hljs-number">0</span>] // -&gt; <span class="hljs-string">&quot;Pontiac&quot;</span>
+<pre><code class="language-js">cars[1][0] // -&gt; &quot;Pontiac&quot;
 </code></pre>
 <hr>
 <h3 id="👉-try-it-out-4">👉 <strong>Try it out</strong></h3>
@@ -288,9 +293,9 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <details>
 <summary>Solution</summary>
 
-<pre><code class="language-js"><span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(cars[3][1]); // -&gt;</span> <span class="hljs-string">&quot;Blazer&quot;</span>
-<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(cars[2][2]); // -&gt;</span> <span class="hljs-number">2007</span>
-<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(cars[4][0]); // -&gt;</span> <span class="hljs-string">&quot;Toyota&quot;</span>
+<pre><code class="language-js">console.log(cars[3][1]); // -&gt; &quot;Blazer&quot;
+console.log(cars[2][2]); // -&gt; 2007
+console.log(cars[4][0]); // -&gt; &quot;Toyota&quot;
 </code></pre>
 </details>
 
@@ -302,32 +307,32 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <hr>
 <h3 id="objects">Objects</h3>
 <p>Javascript contains its own definition of objects, which is slightly different than the way that other languages use objects and classes.</p>
-<pre><code class="language-js">let <span class="hljs-attr">artist</span> <span class="hljs-operator">=</span> <span class="hljs-punctuation">{</span>
-<span class="hljs-symbol">    name:</span> <span class="hljs-string">&quot;Miles Davis&quot;</span>,
-<span class="hljs-symbol">    instrument:</span> <span class="hljs-string">&quot;trumpet&quot;</span>
-<span class="hljs-punctuation">};</span>
+<pre><code class="language-js">let artist = {
+    name: &quot;Miles Davis&quot;,
+    instrument: &quot;trumpet&quot;
+};
 </code></pre>
 <hr>
 <p>Javascript objects are powerful types because you can store any type of data in them, even arrays, other objects, and functions.</p>
-<pre><code class="language-js"><span class="hljs-attribute">var singer</span> = {
-    <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Bruce Springsteen&quot;</span>,
-    <span class="hljs-string">&quot;albums&quot;</span>: [
+<pre><code class="language-js">var singer = {
+    &quot;name&quot;: &quot;Bruce Springsteen&quot;,
+    &quot;albums&quot;: [
         {
-            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Born to Run&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: 1975
+            &quot;name&quot;: &quot;Born to Run&quot;,
+            &quot;year&quot;: 1975
         }, {
-            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Born in the U.S.A.&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: 1984
+            &quot;name&quot;: &quot;Born in the U.S.A.&quot;,
+            &quot;year&quot;: 1984
         }, {
-            <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;The Ghost of Tom Joad&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: 1995
+            &quot;name&quot;: &quot;The Ghost of Tom Joad&quot;,
+            &quot;year&quot;: 1995
         }
     ]
 };
 </code></pre>
 <hr>
 <p>With Javascript, each data <code>value</code> is assigned to a <code>key</code>, and you access the value using using dot notation. So above, we can access the singer&#39;s name using:</p>
-<pre><code class="language-js"><span class="hljs-function"><span class="hljs-title">singer</span>.<span class="hljs-keyword">name</span>; // -&gt;</span> <span class="hljs-string">&quot;Bruce Springsteen&quot;</span>
+<pre><code class="language-js">singer.name; // -&gt; &quot;Bruce Springsteen&quot;
 </code></pre>
 <h3 id="👉-try-it-out-5">👉 <strong>Try it out</strong></h3>
 <ol>
@@ -339,9 +344,9 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <details>
 <summary>Solution</summary>
 
-<pre><code class="language-js"><span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(singer.<span class="hljs-keyword">name</span>); // -&gt;</span> <span class="hljs-string">&quot;Bruce Springsteen&quot;</span>
-<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(singer.albums[0].<span class="hljs-keyword">name</span>); // -&gt;</span> <span class="hljs-string">&quot;Born to Run&quot;</span>
-<span class="hljs-function"><span class="hljs-title">console</span>.<span class="hljs-built_in">log</span>(singer.albums[2].year); // -&gt;</span> <span class="hljs-number">1995</span>
+<pre><code class="language-js">console.log(singer.name); // -&gt; &quot;Bruce Springsteen&quot;
+console.log(singer.albums[0].name); // -&gt; &quot;Born to Run&quot;
+console.log(singer.albums[2].year); // -&gt; 1995
 </code></pre>
 </details>
 
@@ -394,11 +399,11 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <h3 id="csv">CSV</h3>
 <p>While Excel or Google Sheets might store and <em>display</em> tabular data by adding lines to describe the cells where rows and columns meet, the actual data values in those cells are usually stored (and transmitted) as <a href="https://en.wikipedia.org/wiki/Comma-separated_values">Comma-separated values</a>.</p>
 <p>The above dataset as a CSV (<a href="../datasets/cars.csv">datasets/cars.csv</a>) looks like:</p>
-<pre><code><span class="hljs-string">&quot;make&quot;</span>, <span class="hljs-string">&quot;model&quot;</span>, <span class="hljs-string">&quot;year&quot;</span>
-<span class="hljs-string">&quot;Pontiac&quot;</span>, <span class="hljs-string">&quot;Vibe&quot;</span>, <span class="hljs-number">2009</span>
-<span class="hljs-string">&quot;Honda&quot;</span>, <span class="hljs-string">&quot;Fit&quot;</span>, <span class="hljs-number">2007</span>
-<span class="hljs-string">&quot;Chevrolet&quot;</span>, <span class="hljs-string">&quot;Blazer&quot;</span>, <span class="hljs-number">2000</span>
-<span class="hljs-string">&quot;Toyota&quot;</span>, <span class="hljs-string">&quot;RAV4&quot;</span>, <span class="hljs-number">1999</span>
+<pre><code>&quot;make&quot;, &quot;model&quot;, &quot;year&quot;
+&quot;Pontiac&quot;, &quot;Vibe&quot;, 2009
+&quot;Honda&quot;, &quot;Fit&quot;, 2007
+&quot;Chevrolet&quot;, &quot;Blazer&quot;, 2000
+&quot;Toyota&quot;, &quot;RAV4&quot;, 1999
 </code></pre>
 <hr>
 <p>CSV is one of the most common ways that tabular data is stored (in <code>.csv</code> files), <a href="https://en.wikipedia.org/wiki/Data_exchange">exchanged</a> across spreadsheets, flat files, and databases, though you can technically delineate the columns with any unique character.</p>
@@ -412,28 +417,28 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <h3 id="json">JSON</h3>
 <p><a href="https://www.w3schools.com/js/js_json_intro.asp">JSON (&quot;JavaScript Object Notation&quot;)</a>, based on the Javascript <code>object</code> type, is popular for sending data across networks.</p>
 <p>Like Javascript objects, they are hierarchical, use <code>key:value</code> pairs to store data, and are contained within curly braces.</p>
-<pre><code class="language-json"><span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;key&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;value&quot;</span> <span class="hljs-punctuation">}</span>
+<pre><code class="language-json">{ &quot;key&quot;: &quot;value&quot; }
 </code></pre>
 <p>One drawback to JSON is that it can be sensitive to syntax errors. JSON documents (<code>.json</code>) must <a href="https://jsonlint.com">validate</a> or they won’t work. For example, unlike a regular Javascript <code>object</code>, all JSON keys must be wrapped in double quotes.</p>
 <hr>
 <p>The cars dataset represented as JSON (<a href="../datasets/cars.json">datasets/cars.json</a>) looks like:</p>
 <pre><code class="language-json">{
-    <span class="hljs-string">&quot;cars&quot;</span>: [{
-            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Pontiac&quot;</span>,
-            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;Vibe&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">2009</span>
+    &quot;cars&quot;: [{
+            &quot;make&quot;: &quot;Pontiac&quot;,
+            &quot;model&quot;: &quot;Vibe&quot;,
+            &quot;year&quot;: 2009
         }, {
-            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Honda&quot;</span>,
-            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;Fit&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">2007</span>
+            &quot;make&quot;: &quot;Honda&quot;,
+            &quot;model&quot;: &quot;Fit&quot;,
+            &quot;year&quot;: 2007
         }, {
-            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Chevrolet&quot;</span>,
-            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;Blazer&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">2000</span>
+            &quot;make&quot;: &quot;Chevrolet&quot;,
+            &quot;model&quot;: &quot;Blazer&quot;,
+            &quot;year&quot;: 2000
         }, {
-            <span class="hljs-string">&quot;make&quot;</span>: <span class="hljs-string">&quot;Toyota&quot;</span>,
-            <span class="hljs-string">&quot;model&quot;</span>: <span class="hljs-string">&quot;RAV4&quot;</span>,
-            <span class="hljs-string">&quot;year&quot;</span>: <span class="hljs-number">1999</span>
+            &quot;make&quot;: &quot;Toyota&quot;,
+            &quot;model&quot;: &quot;RAV4&quot;,
+            &quot;year&quot;: 1999
         }]
 }
 </code></pre>
@@ -450,28 +455,28 @@ typeof String(<span class="hljs-number">555</span>) <span class="hljs-regexp">//
 <p>XML <a href="https://www.w3schools.com/js/js_json_xml.asp">shares some features with JSON</a>, since it is also a hierarchical data collection. However it has decreased in popularity because, unlike JSON, XML documents need a higher file size to store and transmit the same data values because, like other markup languages (e.g. HTML), they require open <em>and</em> closing &quot;tags&quot; for every data value. XML is called &quot;extensible&quot; because (unlike HTML) you can name the elements anything you like.</p>
 <hr>
 <p>The cars dataset represented as XML (<a href="../datasets/cars.xml">datasets/cars.xml</a>) looks like:</p>
-<pre><code class="language-XML"><span class="hljs-tag">&lt;<span class="hljs-name">cars</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Pontiac<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>Vibe<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>2009<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Honda<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>Fit<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>2007<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Chevrolet<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>Blazer<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>2000<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">car</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">make</span>&gt;</span>Toyota<span class="hljs-tag">&lt;/<span class="hljs-name">make</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">model</span>&gt;</span>RAV4<span class="hljs-tag">&lt;/<span class="hljs-name">model</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">year</span>&gt;</span>1999<span class="hljs-tag">&lt;/<span class="hljs-name">year</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">car</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">cars</span>&gt;</span>
+<pre><code class="language-XML">&lt;cars&gt;
+    &lt;car&gt;
+        &lt;make&gt;Pontiac&lt;/make&gt;
+        &lt;model&gt;Vibe&lt;/model&gt;
+        &lt;year&gt;2009&lt;/year&gt;
+    &lt;/car&gt;
+    &lt;car&gt;
+        &lt;make&gt;Honda&lt;/make&gt;
+        &lt;model&gt;Fit&lt;/model&gt;
+        &lt;year&gt;2007&lt;/year&gt;
+    &lt;/car&gt;
+    &lt;car&gt;
+        &lt;make&gt;Chevrolet&lt;/make&gt;
+        &lt;model&gt;Blazer&lt;/model&gt;
+        &lt;year&gt;2000&lt;/year&gt;
+    &lt;/car&gt;
+    &lt;car&gt;
+        &lt;make&gt;Toyota&lt;/make&gt;
+        &lt;model&gt;RAV4&lt;/model&gt;
+        &lt;year&gt;1999&lt;/year&gt;
+    &lt;/car&gt;
+&lt;/cars&gt;
 </code></pre>
 <hr>
 <p>More on XML:</p>

@@ -39,11 +39,6 @@ module.exports = function(grunt) {
                             return this.project;
                         }
                     },
-                    highlightjs: {
-                        enabled: true,
-                        style: 'paraiso.dark',
-                        compressStyle: true
-                    },
                 },
                 files: [{
                     expand: true,
