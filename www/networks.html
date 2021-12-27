@@ -78,18 +78,18 @@ Presentation comments ...
 <h2 id="ip-addresses">IP Addresses</h2>
 <p>An <a href="https://en.wikipedia.org/wiki/IP_address">Internet Protocol (IP) address</a> is a numerical label used to identify and connect devices to the Internet. Assigned by your Internet Service Provider (ISP), it is required before your device can send data through the network.</p>
 <p>👉 On Google, <a href="https://www.google.com/search?q=what+is+my+IP">&quot;what is my ip&quot;</a> will yield a number that looks like this:</p>
-<pre><code>24.224.66.226
+<pre><code><span class="hljs-number">24.224.66.226</span>
 </code></pre>
 <p>IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255. Noteworthy examples:</p>
-<pre><code>1.1.1.1        =&gt; Cloudflare DNS server
-8.8.8.8        =&gt; Google DNS server
-192.168.1.1    =&gt; Default address to configure your home internet router
-255.255.255.0  =&gt; Subnet mask used by TCP/IP to know if a host is local or remote.
+<pre><code><span class="hljs-number">1.1.1.1</span>        =&gt; Cloudflare DNS server
+<span class="hljs-number">8.8.8.8</span>        =&gt; Google DNS server
+<span class="hljs-number">192.168.1.1</span>    =&gt; Default address to configure your home internet router
+<span class="hljs-number">255.255.255.0</span>  =&gt; Subnet mask used by TCP/IP to know if a host is local or remote.
 </code></pre>
 <hr>
 <p>Surprisingly, IPv4&#39;s 2<sup>32</sup> addresses was not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup> (<a href="https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers">how to say this number</a>)!</p>
-<pre><code>IPv4 =&gt; 4,294,967,296
-IPv6 =&gt; 340,282,366,920,938,000,000,000,000,000,000,000,000
+<pre><code><span class="hljs-attribute">IPv4</span> =&gt; <span class="hljs-number">4</span>,<span class="hljs-number">294</span>,<span class="hljs-number">967</span>,<span class="hljs-number">296</span>
+<span class="hljs-attribute">IPv6</span> =&gt; <span class="hljs-number">340</span>,<span class="hljs-number">282</span>,<span class="hljs-number">366</span>,<span class="hljs-number">920</span>,<span class="hljs-number">938</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>,<span class="hljs-number">000</span>
 </code></pre>
 <hr>
 <h2 id="domain-names">Domain Names</h2>
@@ -119,8 +119,8 @@ IPv6 =&gt; 340,282,366,920,938,000,000,000,000,000,000,000,000
 <li><strong>nameservers</strong> of the host to which the domain name points</li>
 </ul>
 <p>👉 Try a whois search with the following names, and at least one additional domain. What do you notice?</p>
-<pre><code class="language-bash">whois davidson.edu
-whois cnn.com
+<pre><code class="language-bash">whois davidson<span class="hljs-selector-class">.edu</span>
+whois cnn<span class="hljs-selector-class">.com</span>
 whois owenmundy.com
 </code></pre>
 <hr>
@@ -133,10 +133,10 @@ whois owenmundy.com
 <hr>
 <p>👉 <strong>Try it out</strong></p>
 <p>Ping Google&#39;s domain name. By default, ping will continue executing until you use <code>Ctrl+C</code> to interrupt the execution.</p>
-<pre><code class="language-bash">ping google.com
+<pre><code class="language-bash"><span class="hljs-built_in">ping</span> google.com
 </code></pre>
 <p>Ping Google&#39;s DNS server 5 times and then stop</p>
-<pre><code class="language-bash">ping -c 5 8.8.8.8
+<pre><code class="language-bash"><span class="hljs-attribute">ping</span> -c <span class="hljs-number">5</span> <span class="hljs-number">8.8.8.8</span>
 </code></pre>
 <p>Run <code>ping</code> with different domains to compare speeds. What did you notice?</p>
 <hr>
@@ -148,10 +148,10 @@ whois owenmundy.com
 <hr>
 <p>👉 <strong>Try it out</strong></p>
 <p>Trace the path your packets take to a destination:</p>
-<pre><code class="language-bash">traceroute google.com
+<pre><code class="language-bash"><span class="hljs-attribute">traceroute</span> google.com
 </code></pre>
 <p>By default, traceroute uses <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol">UDP</a> ports which are blocked by some firewalls. If your traceroute &quot;hangs&quot;, try it with the <a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol">ICMP</a> port</p>
-<pre><code class="language-bash">traceroute -I google.com
+<pre><code class="language-bash">traceroute -<span class="hljs-selector-tag">I</span> google<span class="hljs-selector-class">.com</span>
 </code></pre>
 <hr>
 <h3 id="curl">curl</h3>
@@ -161,10 +161,10 @@ whois owenmundy.com
 <p><a href="https://en.wikipedia.org/wiki/CURL">curl</a> (Client URL) is used to download network files via CLI.</p>
 <p>👉 <strong>Try it out</strong></p>
 <p>To fetch a file and display it in the shell:</p>
-<pre><code class="language-bash">curl https://davidson.edu
+<pre><code class="language-bash">curl https:<span class="hljs-regexp">//</span>davidson.edu
 </code></pre>
 <p>To fetch a file and <em>save it on your computer</em></p>
-<pre><code class="language-bash">curl -o index.html https://davidson.edu
+<pre><code class="language-bash">curl -o index.html https:<span class="hljs-regexp">//</span>davidson.edu
 </code></pre>
 <hr>
 <h3 id="ssh">SSH</h3>
@@ -179,10 +179,10 @@ whois owenmundy.com
 <p>👉 <strong>Try it out</strong></p>
 <p>If you know your username and password, and are permitted to connect via SSH to your host, then try it out.</p>
 <p>The first time you connect you will be prompted to trust the secure key on the remote host and <a href="#about-passwords">enter your password</a>.</p>
-<pre><code class="language-bash">ssh  &lt;username&gt;@&lt;servername&gt;
+<pre><code class="language-bash">ssh  <span class="hljs-tag">&lt;<span class="hljs-name">username</span>&gt;</span>@<span class="hljs-tag">&lt;<span class="hljs-name">servername</span>&gt;</span>
 </code></pre>
 <p>You could then edit a file using the Nano text editor. This command will open a file to edit (creating the file if it doesn&#39;t currently exist):</p>
-<pre><code class="language-bash">nano index.html
+<pre><code class="language-bash">nano <span class="hljs-keyword">index</span>.html
 </code></pre>
 <p>Use <kbd>Ctl</kbd> + <kbd>o</kbd> to save and <kbd>Ctl</kbd> + <kbd>x</kbd> to exit nano.</p>
 <hr>
@@ -193,10 +193,10 @@ whois owenmundy.com
 <h3 id="sftp">SFTP</h3>
 <p>SFTP (Secure File Transfer Protocol) allows you to send files across a network with the command line. It is usually more convenient to use a GUI like Cyberduck.</p>
 <p>👉 To create an SFTP connection type the following.</p>
-<pre><code class="language-bash">sftp &lt;username&gt;@&lt;servername&gt;
+<pre><code class="language-bash">sftp <span class="hljs-tag">&lt;<span class="hljs-name">username</span>&gt;</span>@<span class="hljs-tag">&lt;<span class="hljs-name">servername</span>&gt;</span>
 </code></pre>
 <p>To &quot;put&quot; a file simple type: <code>put &lt;local_filename&gt;</code> at the <code>sftp&gt;</code> prompt like so:</p>
-<pre><code class="language-bash">sftp&gt; put hello.jpg
+<pre><code class="language-bash">sftp&gt; <span class="hljs-keyword">put</span> hello.jpg
 </code></pre>
 <hr>
 <h3 id="dig">dig</h3>
@@ -204,44 +204,44 @@ whois owenmundy.com
 <p>Just give me the nameservers</p>
 </blockquote>
 <p><code>dig</code> (Domain Information Groper) is used in DNS lookup to query the nameservers, or troubleshoot related DNS issues. It returns info on the A record by default.</p>
-<pre><code class="language-bash">dig davidson.edu
+<pre><code class="language-bash"><span class="hljs-keyword">dig </span>davidson.edu
 </code></pre>
 <p>If you want all records including MX (email) and NS (nameservers):</p>
-<pre><code class="language-bash">dig google.com ANY
+<pre><code class="language-bash"><span class="hljs-keyword">dig</span> google.<span class="hljs-keyword">com</span> ANY
 </code></pre>
 <hr>
 <h3 id="ifconfig">ifconfig</h3>
 <p>The InterFace CONFIGurator is used to inspect, configure, and/or enable/disable network interfaces.</p>
 <p>👉 Print your <a href="https://en.wikipedia.org/wiki/MAC_address">MAC</a> (Media Access Control) address. This is a unique identifier assigned to each network interface controller on your system (e.g. ethernet, WiFi, and bluetooth).</p>
-<pre><code class="language-bash">ifconfig | grep ether
+<pre><code class="language-bash">ifconfig <span class="hljs-string">| grep ether</span>
 </code></pre>
 <p>👉 Print your IP address</p>
-<pre><code class="language-bash">ipconfig getifaddr en0
+<pre><code class="language-bash"><span class="hljs-built_in">ipconfig</span> getifaddr en0
 </code></pre>
 <p><code>ifconfig</code> reports your device address <em><strong>on your subnet</strong></em> (something like <code>192.168.*.*</code>). Use an site on the internet to see the IP address that you connect from.</p>
-<pre><code class="language-bash">ifconfig en0
+<pre><code class="language-bash"><span class="hljs-attribute">ifconfig</span> en0
 </code></pre>
 <hr>
 <h4 id="netstat">Netstat</h4>
 <p><a href="https://en.wikipedia.org/wiki/Netstat">netstat</a> (NETwork STATistics) displays information about TCP, routing tables, and all virtual connections to/from your computer. <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite">TCP/IP</a> is the set of communications protocols used to transfer data over the Internet and similar computer networks. The current protocols are <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">Transmission Control Protocol</a> (TCP) and <a href="https://en.wikipedia.org/wiki/Internet_Protocol">Internet Protocol</a> (IP).</p>
 <p>👉 To view a list of all the network interfaces (a.k.a. &quot;<a href="https://en.wikipedia.org/wiki/Network_socket">sockets</a>&quot;) on your machine:</p>
-<pre><code class="language-bash">netstat -at
+<pre><code class="language-bash">netstat -<span class="hljs-keyword">at</span>
 </code></pre>
 <p>View statistics for network interfaces</p>
-<pre><code class="language-bash">netstat -i
+<pre><code class="language-bash">netstat -<span class="hljs-selector-tag">i</span>
 </code></pre>
 <hr>
 <h4 id="tcpdump">Tcpdump</h4>
 <p><a href="https://www.tcpdump.org/">tcpdump</a> is a network package analyzer. It can be used to monitor network activity or even capture data packets.</p>
 <p>To prevent others from viewing your network activity without permission (a.k.a. a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man in the Middle attack</a>) this command must be run with <code>sudo</code> (Super User DO) permission <a href="#about-passwords">using your password</a>.</p>
 <p>👉 To view all your network activity in real time, run the following. Use <kbd>Ctl</kbd> + <kbd>c</kbd> to exit:</p>
-<pre><code class="language-bash">sudo tcpdump -nS
+<pre><code class="language-bash"><span class="hljs-attribute">sudo tcpdump -nS</span>
 </code></pre>
 <hr>
 <h4 id="wireshark">Wireshark</h4>
 <p>Wireshark can inspect network packets with a GUI.</p>
 <p>👉 Mac users can install it using this script (via <a href="https://formulae.brew.sh/formula/wireshark">homebrew</a>)</p>
-<pre><code class="language-bash">brew install --cask wireshark
+<pre><code class="language-bash"><span class="hljs-keyword">brew </span><span class="hljs-keyword">install </span>--cask wireshark
 </code></pre>
 <p>Windows users should install from the <a href="https://www.wireshark.org/">Wireshark</a> website.</p>
 <hr>

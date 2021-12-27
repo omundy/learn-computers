@@ -40,16 +40,16 @@ Presentation comments ...
 <ol>
 <li>In Terminal, change <code>cd</code> to the location to run the server. This directory should exist.</li>
 </ol>
-<pre><code class="language-bash"># location of a Git repository
-cd /Users/owenmundy/Documents/GitHub/&lt;your-repository-name&gt;
-# or your the Sites directory in your home folder
-cd ~/Sites/
+<pre><code class="language-bash"><span class="hljs-comment"># location of a Git repository</span>
+cd <span class="hljs-regexp">/Users/</span>owenmundy<span class="hljs-regexp">/Documents/</span>GitHub/&lt;your-repository-name&gt;
+<span class="hljs-comment"># or your the Sites directory in your home folder</span>
+cd ~<span class="hljs-regexp">/Sites/</span>
 </code></pre>
 <ol start="2">
 <li>Start the Python server, where <code>7777</code> is the port you wish to use:</li>
 </ol>
-<pre><code class="language-bash">python -m http.server 7777 # Python 3 version (try this first)
-python -m SimpleHTTPServer 7777 # Python 2.7 (older)
+<pre><code class="language-bash"><span class="hljs-attribute">python</span> -m http.server <span class="hljs-number">7777</span> # Python <span class="hljs-number">3</span> version (try this first)
+<span class="hljs-attribute">python</span> -m SimpleHTTPServer <span class="hljs-number">7777</span> # Python <span class="hljs-number">2</span>.<span class="hljs-number">7</span> (older)
 </code></pre>
 <ol start="3">
 <li>Go to <a href="http://0.0.0.0:7777">http://0.0.0.0:7777</a> in your web browser. To stop the server use <kbd>Ctl</kbd> + <kbd>C</kbd></li>

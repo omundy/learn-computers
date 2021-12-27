@@ -196,8 +196,8 @@ Presentation comments ...
 </ol>
 <pre><code>a
 abc
-0123456789
-01234 56789
+<span class="hljs-number">0123456789</span>
+<span class="hljs-number">01234 56789</span>
 ü
 ñ
 😂
@@ -207,13 +207,13 @@ abc
 <ol start="2">
 <li><strong>Convert binary data to text</strong> using the binary representations (below) of the above examples with the <a href="https://www.convertbinary.com/to-text/">Binary to ASCII</a> and <a href="http://www.unit-conversion.info/texttools/convert-text-to-binary/">Binary &lt;&gt; UTF-8</a> converters. One of these tools will only be able to convert some sequences, do you know why?</li>
 </ol>
-<pre><code>01100001
-01100001 01100010 01100011
-00110000 00110001 00110010 00110011 00110100 00110101 00110110 00110111 00111000 00111001
-00110000 00110001 00110010 00110011 00110100 00100000 00110101 00110110 00110111 00111000 00111001
-11000011 10111100
-11000011 10110001
-11110000 10011111 10011000 10000010
+<pre><code><span class="hljs-number">01100001</span>
+<span class="hljs-symbol">01100001 </span><span class="hljs-number">01100010</span> <span class="hljs-number">01100011</span>
+<span class="hljs-symbol">00110000 </span><span class="hljs-number">00110001</span> <span class="hljs-number">00110010</span> <span class="hljs-number">00110011</span> <span class="hljs-number">00110100</span> <span class="hljs-number">00110101</span> <span class="hljs-number">00110110</span> <span class="hljs-number">00110111</span> <span class="hljs-number">00111000</span> <span class="hljs-number">00111001</span>
+<span class="hljs-symbol">00110000 </span><span class="hljs-number">00110001</span> <span class="hljs-number">00110010</span> <span class="hljs-number">00110011</span> <span class="hljs-number">00110100</span> <span class="hljs-number">00100000</span> <span class="hljs-number">00110101</span> <span class="hljs-number">00110110</span> <span class="hljs-number">00110111</span> <span class="hljs-number">00111000</span> <span class="hljs-number">00111001</span>
+<span class="hljs-symbol">11000011 </span><span class="hljs-number">10111100</span>
+<span class="hljs-symbol">11000011 </span><span class="hljs-number">10110001</span>
+<span class="hljs-symbol">11110000 </span><span class="hljs-number">10011111</span> <span class="hljs-number">10011000</span> <span class="hljs-number">10000010</span>
 </code></pre>
 <hr>
 <p>👉 <strong>Try it out</strong></p>
@@ -283,8 +283,8 @@ abc
 <li>Use the command line to navigate to the folder where you saved the files <code>cd /path/to/your/files/</code></li>
 <li>Run each of these commands to view the contents. <strong>What do you notice?</strong></li>
 </ol>
-<pre><code class="language-bash">hexdump -C cat.png
-hexdump -C cat.txt
+<pre><code class="language-bash"><span class="hljs-keyword">hexdump</span> -C <span class="hljs-keyword">cat</span>.png
+<span class="hljs-keyword">hexdump</span> -C <span class="hljs-keyword">cat</span>.txt
 </code></pre>
 <p>To summarize...</p>
 <hr>
