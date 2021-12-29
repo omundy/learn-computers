@@ -1,9 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    
+    
+    
+    
+    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learn Computing</title>
+    <title>Learn Computing - command-line</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon_io/favicon-32x32.png">
@@ -12,12 +19,16 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icons/favicon_io/favicon.ico"> -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="../assets/css/www-styles.css">
 
 </head>
 
 <body>
+
+
+
+
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-10 offset-md-1">
@@ -135,44 +146,44 @@ Presentation comments ...
 <hr>
 <h4 id="whoami">whoami</h4>
 <p>👉 Type this command and press <kbd>return</kbd>. If you make a mistake, press <kbd>Ctl</kbd> + <kbd>C</kbd> to cancel.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">whoami</span>
+<pre><code class="language-bash">whoami
 </code></pre>
 <p>The <a href="https://en.wikipedia.org/wiki/Whoami">whoami</a> command will <strong>return</strong> or <strong>output</strong> your username.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">pwd</span>
+<pre><code class="language-bash">pwd
 </code></pre>
 <p>Use <a href="https://en.wikipedia.org/wiki/Pwd">pwd</a> (<strong>P</strong>rint <strong>W</strong>orking <strong>D</strong>irectory) to find out <em>where</em> you are in the filesystem.</p>
 <hr>
 <h4 id="parameters">Parameters</h4>
 <p>When you type on the command line, the shell that your terminal uses (e.g. bash, zsh, etc.) can also accept parameters that change what the command will do. These are called &quot;flags&quot;.</p>
 <p>👉 For example, this will tell you what version of the <code>whoami</code> command is on your machine:</p>
-<pre><code class="language-bash">whoami <span class="hljs-comment">--version</span>
+<pre><code class="language-bash">whoami --version
 </code></pre>
 <p>👉 And this prints the help file associated with it, showing all flags.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">whoami</span> --<span class="hljs-built_in">help</span>
+<pre><code class="language-bash">whoami --help
 </code></pre>
 <hr>
 <h4 id="which">which</h4>
 <p>👉 You can also combine commands. For example, <a href="https://en.wikipedia.org/wiki/Which_(command)">which</a> returns the file path of other programs on your system.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">which</span> <span class="hljs-built_in">whoami</span>
-<span class="hljs-comment"># -&gt; /usr/bin/whoami</span>
+<pre><code class="language-bash">which whoami
+# -&gt; /usr/bin/whoami
 </code></pre>
 <p>The hash symbol <code>#</code> is used for comments in bash scripting, and so is skipped by the shell when evaluating the input. These are displayed to show what the output will be.</p>
 <p>👉 Special operators can create new commands from many. The double ampersand <code>&amp;&amp;</code> runs all of these.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">whoami</span> &amp;&amp; <span class="hljs-built_in">pwd</span> &amp;&amp; <span class="hljs-built_in">echo</span> Hello world!
-<span class="hljs-comment"># -&gt; &lt;outputs all three in series&gt;</span>
-<span class="hljs-comment"># -&gt; owenmundy</span>
-<span class="hljs-comment"># -&gt; /Users/owenmundy</span>
-<span class="hljs-comment"># -&gt; Hello world!</span>
+<pre><code class="language-bash">whoami &amp;&amp; pwd &amp;&amp; echo Hello world!
+# -&gt; &lt;outputs all three in series&gt;
+# -&gt; owenmundy
+# -&gt; /Users/owenmundy
+# -&gt; Hello world!
 </code></pre>
 <hr>
 <h2 id="navigating-the-filesystem">Navigating the filesystem</h2>
 <p>👉 Let&#39;s learn how to move around. First, confirm your location:</p>
-<pre><code class="language-bash"><span class="hljs-built_in">pwd</span>
+<pre><code class="language-bash">pwd
 </code></pre>
 <p>Most commands are abbreviations for the English equivalent of what they perform.</p>
 <p>👉 Run these commands and try to guess what they do.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">ls</span>
-<span class="hljs-built_in">ls</span> -a
+<pre><code class="language-bash">ls
+ls -a
 </code></pre>
 <hr>
 <h2 id="ls">ls</h2>
@@ -182,30 +193,30 @@ Presentation comments ...
 <p>Adding an <code>l</code> (&quot;long form&quot;) flag displays the contents&#39; file sizes and last edit dates.</p>
 <hr>
 <p>👉 Now, <code>cd</code> (&quot;<strong>C</strong>hange to a new <strong>D</strong>irectory&quot;) and list the files. Where you are?</p>
-<pre><code class="language-bash"><span class="hljs-keyword">cd</span> /
-<span class="hljs-keyword">ls</span> -<span class="hljs-keyword">la</span>
+<pre><code class="language-bash">cd /
+ls -la
 </code></pre>
 <p>Using <code>cd /</code> changes our current working directory to the <a href="files-folders.md#users-and-permissions">root of the computer</a>, where you&#39;ll find files your OS uses.</p>
 <p>👉  Return to your home directory (the default location for a new shell) with (a &quot;tilda&quot; <kbd>~</kbd> + <kbd>/</kbd>)</p>
-<pre><code class="language-bash"><span class="hljs-built_in">cd</span> ~/
+<pre><code class="language-bash">cd ~/
 </code></pre>
 <hr>
 <h2 id="creating-and-editing-files">Creating and editing files</h2>
 <p>Let&#39;s make a new folder in our home directory to create some test files.</p>
 <p>👉 First, make sure you have a Finder or Explorer window open so you can see the effects of your work in the GUI.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">cd</span> ~/ <span class="hljs-comment"># confirm you are home</span>
-<span class="hljs-built_in">mkdir</span> <span class="hljs-built_in">test</span> <span class="hljs-comment"># make a new directory called &quot;test&quot;</span>
-<span class="hljs-built_in">cd</span> <span class="hljs-built_in">test</span> <span class="hljs-comment"># change to the directory</span>
-<span class="hljs-built_in">pwd</span> <span class="hljs-comment"># confirm you are in &lt;username&gt;/test</span>
+<pre><code class="language-bash">cd ~/ # confirm you are home
+mkdir test # make a new directory called &quot;test&quot;
+cd test # change to the directory
+pwd # confirm you are in &lt;username&gt;/test
 </code></pre>
 <hr>
 <h3 id="create-a-new-file">Create a new file</h3>
 <p>👉 Use <a href="https://en.wikipedia.org/wiki/Touch_(command)">touch</a> to create a new file named &quot;hello.txt&quot;:</p>
-<pre><code class="language-bash"><span class="hljs-built_in">touch</span> hello.txt
+<pre><code class="language-bash">touch hello.txt
 </code></pre>
 <p>On Windows, Git Bash defaults to the <a href="https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm">Vim</a> editor. On Mac you can also use <a href="https://linuxize.com/post/how-to-use-nano-text-editor/">Nano</a>.</p>
 <p>👉 Either editor can open (or if it doesn&#39;t yet exist, create and open) a file we created above hello.txt</p>
-<pre><code class="language-bash"><span class="hljs-attribute">vim</span> hello.txt
+<pre><code class="language-bash">vim hello.txt
 </code></pre>
 <hr>
 <p>Vim has two modes: <em>command</em> and <em>insert</em>. In the command mode, you can move around the file, delete text, save, etc. In the insert mode, you can insert text.</p>
@@ -213,32 +224,32 @@ Presentation comments ...
 <p><img src="../assets/img/command-line/command-line-vim-insert.png" alt="vim insert"></p>
 <hr>
 <p>👉 Change back to command mode by pressing <kbd>ESC</kbd>, and save your file by pressing <kbd>:</kbd><kbd>w</kbd><kbd>q</kbd> (<code>:wq</code>) (write and quit). Once you do this, run the following to confirm the file exists and see its contents.</p>
-<pre><code class="language-bash"><span class="hljs-built_in">ls</span> hello.txt
-<span class="hljs-built_in">cat</span> hello.txt
-<span class="hljs-comment"># -&gt; hello world!</span>
+<pre><code class="language-bash">ls hello.txt
+cat hello.txt
+# -&gt; hello world!
 </code></pre>
 <p><img src="../assets/img/command-line/command-line-vim-save.png" alt="vim insert"></p>
 <hr>
 <h2 id="running-programs">Running programs</h2>
 <p>Excellent! Now, in our final section, we&#39;ll create and run a Python script with Vim.</p>
 <p>👉 Confirm you are still in <username>/test, and &quot;clear&quot; the terminal (you can still scroll up to see previous commands)</p>
-<pre><code class="language-bash"><span class="hljs-keyword">pwd</span>
-<span class="hljs-keyword">clear</span>
+<pre><code class="language-bash">pwd
+clear
 </code></pre>
 <p>👉 Create and open a plain text file with the .py extension.</p>
-<pre><code class="language-bash"><span class="hljs-keyword">vim</span> hello.<span class="hljs-keyword">py</span>
+<pre><code class="language-bash">vim hello.py
 </code></pre>
 <hr>
 <h3 id="add-python-code">Add Python code</h3>
 <p>👉 In the Vim editor, enter insert mode using <kbd>i</kbd>, and paste or type the following:</p>
-<pre><code class="language-python">string1 = <span class="hljs-string">&quot;I&quot;</span>
-string2 = <span class="hljs-string">&quot; &lt;3&quot;</span>
-string3 = <span class="hljs-string">&quot; the CLI&quot;</span>
+<pre><code class="language-python">string1 = &quot;I&quot;
+string2 = &quot; &lt;3&quot;
+string3 = &quot; the CLI&quot;
 joined_string = string1 + string2 + string3
 print(joined_string)
 </code></pre>
 <p>👉 Press <code>ESC</code> and then <code>:wq</code> to save and quit the editor. Run your file with:</p>
-<pre><code class="language-bash"><span class="hljs-keyword">python</span> script.<span class="hljs-keyword">py</span>
+<pre><code class="language-bash">python script.py
 </code></pre>
 <p>Congratulations! 🎉 &nbsp; You&#39;ve created a file that runs its own script!</p>
 <hr>
@@ -288,8 +299,8 @@ print(joined_string)
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-<script>hljs.highlightAll();</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 </body>
 </html>

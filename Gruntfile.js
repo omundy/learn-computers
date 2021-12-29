@@ -1,4 +1,6 @@
 module.exports = function(grunt) {
+    // let path = require('path');
+
 
     grunt.initConfig({
         jshint: {
@@ -16,10 +18,10 @@ module.exports = function(grunt) {
                     templateData: {
                         basePath: "",
                         author: "Owen Mundy",
-                        project: "Learn Computing",
-                        title: function() {
-                            return this.project;
-                        }
+                        projectTitle: "Learn Computing",
+                        filename: function(src) {
+                            return  src[0].match(/\/(.*).md/);
+                        },
                     },
                 },
                 files: [{
@@ -34,10 +36,10 @@ module.exports = function(grunt) {
                     templateData: {
                         basePath: "../",
                         author: "Owen Mundy",
-                        project: "Learn Computing",
-                        title: function() {
-                            return this.project;
-                        }
+                        projectTitle: "Learn Computing",
+                        filename: function(src) {
+                            return  src[0].match(/\/(.*).md/);
+                        },
                     },
                 },
                 files: [{

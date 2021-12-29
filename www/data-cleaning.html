@@ -1,9 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    
+    
+    
+    
+    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learn Computing</title>
+    <title>Learn Computing - data-cleaning</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon_io/favicon-32x32.png">
@@ -12,12 +19,16 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icons/favicon_io/favicon.ico"> -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="../assets/css/www-styles.css">
 
 </head>
 
 <body>
+
+
+
+
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-10 offset-md-1">
@@ -84,9 +95,9 @@ Presentation comments ...
 <hr>
 <h2 id="remove-whitespace">Remove whitespace</h2>
 <p><a href="https://en.wikipedia.org/wiki/Whitespace_character">Whitespace characters</a> (tabs, spaces, line breaks) are essential to make text documents human-readable, but if you have too many they can really clutter up a dataset.</p>
-<pre><code class="language-bash">      <span class="hljs-keyword">this</span>  <span class="hljs-keyword">is</span>                      some
+<pre><code class="language-bash">      this  is                      some
              really       dirty
-     <span class="hljs-keyword">data</span>       !
+     data       !
 </code></pre>
 <p>Replacing all the spaces, tabs, and line breaks (&quot;carriage returns&quot;) in the example above by hand would be a lot of work in a big dataset. However, you can use simple find/replace tools in Atom to make short work of this.</p>
 <hr>
@@ -210,51 +221,51 @@ Presentation comments ...
 <hr>
 <h4 id="search-for-a-string">Search for a string</h4>
 <p>Replace line 1 with line 2</p>
-<pre><code class="language-bash">https:<span class="hljs-regexp">//</span>code.jquery.com/jquery-<span class="hljs-number">3.5</span>.<span class="hljs-number">1</span>.min.js
-https:<span class="hljs-regexp">//</span>ajax.googleapis.com<span class="hljs-regexp">/ajax/</span>libs<span class="hljs-regexp">/jquery/</span><span class="hljs-number">3.6</span>.<span class="hljs-number">0</span>/jquery.min.js
+<pre><code class="language-bash">https://code.jquery.com/jquery-3.5.1.min.js
+https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
 </code></pre>
 <p>With this find / replace</p>
-<pre><code class="language-bash"><span class="hljs-function"><span class="hljs-title">http</span><span class="hljs-params">(.*)</span><span class="hljs-title">jquery</span><span class="hljs-params">(.*)</span></span><span class="hljs-selector-class">.js</span>
-https:<span class="hljs-comment">//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js</span>
+<pre><code class="language-bash">http(.*)jquery(.*).js
+https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
 </code></pre>
 <hr>
 <h4 id="remove-and-replace-characters">Remove and replace characters</h4>
 <p>Replace characters in line 1 with line 2</p>
-<pre><code class="language-bash">javascript-<span class="hljs-number">1</span><span class="hljs-regexp">/1-1-variables/</span>
-topics<span class="hljs-regexp">/variables/</span>
+<pre><code class="language-bash">javascript-1/1-1-variables/
+topics/variables/
 </code></pre>
 <p>With this find / replace</p>
-<pre><code class="language-bash"><span class="hljs-attribute">javascript</span>-<span class="hljs-number">1</span>/([<span class="hljs-number">0</span>-<span class="hljs-number">9</span>])-([<span class="hljs-number">0</span>-<span class="hljs-number">9</span>])-
-<span class="hljs-attribute">topics</span>/
+<pre><code class="language-bash">javascript-1/([0-9])-([0-9])-
+topics/
 </code></pre>
 <hr>
 <h4 id="remove-and-replace-characters-1">Remove and replace characters</h4>
 <p>Remove <code>&quot;&quot;</code> and replace <code>-</code> characters in line 1</p>
-<pre><code class="language-bash"><span class="hljs-string">&quot;1-03&quot;</span>
-<span class="hljs-number">1</span>,<span class="hljs-number">03</span>
+<pre><code class="language-bash">&quot;1-03&quot;
+1,03
 </code></pre>
 <p>With this find / replace</p>
-<pre><code class="language-bash"><span class="hljs-string">&quot;(.*)-(.*)&quot;</span>,
+<pre><code class="language-bash">&quot;(.*)-(.*)&quot;,
 $1, $2,
 </code></pre>
 <p><a href="../assets/img/data-cleaning/find-regex-date.png" target="_blank"><img width="500" src="../assets/img/data-cleaning/find-regex-date.png"></a></p>
 <hr>
 <h4 id="swap-the-order">Swap the order</h4>
 <p>Change line 1 &gt; line 2</p>
-<pre><code class="language-bash">&lt;p&gt;<span class="hljs-built_in">First</span> / <span class="hljs-built_in">Second</span>&lt;/p&gt;
-&lt;p&gt;<span class="hljs-built_in">Second</span> | <span class="hljs-built_in">First</span>&lt;/p&gt;
+<pre><code class="language-bash">&lt;p&gt;First / Second&lt;/p&gt;
+&lt;p&gt;Second | First&lt;/p&gt;
 </code></pre>
 <p>With this find / replace</p>
-<pre><code class="language-bash"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>(.*) / (.*)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>$2 | $1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<pre><code class="language-bash">&lt;p&gt;(.*) / (.*)&lt;/p&gt;
+&lt;p&gt;$2 | $1&lt;/p&gt;
 </code></pre>
 <hr>
 <h4 id="prepare-a-table-for-javascript">Prepare a table for Javascript</h4>
 <p>Replace all the tabs</p>
-<pre><code class="language-bash">adjective    <span class="hljs-type">color</span>    animal
-sad    <span class="hljs-built_in">red</span>    dog
-furtive    <span class="hljs-built_in">green</span>    cat
-cautious    <span class="hljs-built_in">blue</span>    rabbit
+<pre><code class="language-bash">adjective    color    animal
+sad    red    dog
+furtive    green    cat
+cautious    blue    rabbit
 happy        rooster
 adventurous        gazelle
         aardvark
@@ -262,26 +273,26 @@ adventurous        gazelle
 </code></pre>
 <p>With this find / replace (the tab is hidden) and then add additional syntax and copy / paste.</p>
 <pre><code class="language-bash">
-&#x27;, &#x27;
+&#39;, &#39;
 </code></pre>
 <pre><code class="language-js">let options = {
-    adjective: [<span class="hljs-string">&#x27;sad&#x27;</span>, <span class="hljs-string">&#x27;furtive&#x27;</span>, <span class="hljs-string">&#x27;cautious&#x27;</span>, <span class="hljs-string">&#x27;happy&#x27;</span>, <span class="hljs-string">&#x27;adventurous&#x27;</span>],
-    color: [<span class="hljs-string">&#x27;red&#x27;</span>, <span class="hljs-string">&#x27;green&#x27;</span>, <span class="hljs-string">&#x27;blue&#x27;</span>],
-    animal: [<span class="hljs-string">&#x27;dog&#x27;</span>, <span class="hljs-string">&#x27;cat&#x27;</span>, <span class="hljs-string">&#x27;rabbit&#x27;</span>, <span class="hljs-string">&#x27;rooster&#x27;</span>, <span class="hljs-string">&#x27;gazelle&#x27;</span>, <span class="hljs-string">&#x27;aardvark&#x27;</span>, <span class="hljs-string">&#x27;sea lion&#x27;</span>]
+    adjective: [&#39;sad&#39;, &#39;furtive&#39;, &#39;cautious&#39;, &#39;happy&#39;, &#39;adventurous&#39;],
+    color: [&#39;red&#39;, &#39;green&#39;, &#39;blue&#39;],
+    animal: [&#39;dog&#39;, &#39;cat&#39;, &#39;rabbit&#39;, &#39;rooster&#39;, &#39;gazelle&#39;, &#39;aardvark&#39;, &#39;sea lion&#39;]
 }
 </code></pre>
 <hr>
 <h4 id="metacharacters">Metacharacters</h4>
 <p>Use a backslash to escape <a href="https://en.wikipedia.org/wiki/Metacharacter#:~:text=A%20metacharacter%20is%20a%20character,regular%20expression%20(regex)%20engine." target="_blank">metacharacters</a>. To match <code>(123)</code> not <code>123</code></p>
-<pre><code class="language-bash"><span class="hljs-symbol">\(</span>123<span class="hljs-symbol">\)</span>
+<pre><code class="language-bash">\(123\)
 </code></pre>
 <p>Change line 1 &gt; line 2</p>
-<pre><code class="language-bash"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>[slides](../slides/data-cleaning.html)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../slides/data-cleaning.html&quot;</span>&gt;</span>slides<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<pre><code class="language-bash">&lt;p&gt;[slides](../slides/data-cleaning.html)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;../slides/data-cleaning.html&quot;&gt;slides&lt;/a&gt;&lt;/p&gt;
 </code></pre>
 <p>With this find / replace</p>
-<pre><code class="language-bash"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>\[slides\]\(../slides/(.*)\)<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../slides/$1&quot;</span>&gt;</span>slides<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<pre><code class="language-bash">&lt;p&gt;\[slides\]\(../slides/(.*)\)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;../slides/$1&quot;&gt;slides&lt;/a&gt;&lt;/p&gt;
 </code></pre>
 <hr>
 <h2 id="other-issues">Other issues</h2>
@@ -311,8 +322,8 @@ adventurous        gazelle
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-<script>hljs.highlightAll();</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 </body>
 </html>

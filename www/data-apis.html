@@ -1,9 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    
+    
+    
+    
+    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learn Computing</title>
+    <title>Learn Computing - data-apis</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon_io/favicon-32x32.png">
@@ -12,12 +19,16 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="../assets/img/icons/favicon_io/favicon.ico"> -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="../assets/css/www-styles.css">
 
 </head>
 
 <body>
+
+
+
+
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-10 offset-md-1">
@@ -136,9 +147,9 @@ Presentation comments ...
 <h2 id="test-an-api-in-the-browser">Test an API in the browser</h2>
 <p>Any web browser can send a request to a public API via it&#39;s <strong>endpoint</strong> (the URL that provides specific data or functionality).</p>
 <p>This National Weather Service (NWS) API endpoint returns JSON data about its status: (click to view) 👉  <a href="https://api.weather.gov/" target="_blank">https://api.weather.gov/</a></p>
-<pre><code class="language-json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;status&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;OK&quot;</span>
-<span class="hljs-punctuation">}</span>
+<pre><code class="language-json">{
+  &quot;status&quot;: &quot;OK&quot;
+}
 </code></pre>
 <div class="caption small">
 
@@ -149,27 +160,27 @@ Presentation comments ...
 <hr>
 <h2 id="national-weather-service-api">National Weather Service API</h2>
 <p>Their <a href="https://www.weather.gov/documentation/services-web-api">documentation</a> says to get a forecast, we send a request with our current (<a href="https://en.wikipedia.org/wiki/Decimal_degrees" target="_blank">decimal</a>) latitude and longitude to the <code>/points</code> endpoint, formatted like:</p>
-<pre><code class="language-markdown">https:<span class="hljs-regexp">//</span>api.weather.gov<span class="hljs-regexp">/points/</span>{latitude},{longitude}
+<pre><code class="language-markdown">https://api.weather.gov/points/{latitude},{longitude}
 </code></pre>
 <p>For <a href="https://www.latlong.net/place/davidson-nc-usa-10313.html" target="_blank">Davidson College</a> we use 👉 <a href="https://api.weather.gov/points/35.499302,-80.848686" target="_blank">https://api.weather.gov/points/35.499302,-80.848686</a></p>
 <p>The response includes several data points, like our grid office <code>gsp</code> and position <code>116,76</code></p>
-<pre><code class="language-json"><span class="hljs-attr">&quot;forecast&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;https://api.weather.gov/gridpoints/GSP/116,76/forecast&quot;</span><span class="hljs-punctuation">,</span>
-<span class="hljs-attr">&quot;forecastHourly&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;https://api.weather.gov/gridpoints/GSP/116,76/forecast/hourly&quot;</span><span class="hljs-punctuation">,</span>
+<pre><code class="language-json">&quot;forecast&quot;: &quot;https://api.weather.gov/gridpoints/GSP/116,76/forecast&quot;,
+&quot;forecastHourly&quot;: &quot;https://api.weather.gov/gridpoints/GSP/116,76/forecast/hourly&quot;,
 </code></pre>
 <hr>
 <h2 id="national-weather-service-api-1">National Weather Service API</h2>
 <p>Using the <code>/gridpoints</code> endpoint we can send a new request to get the forecast</p>
 <p>👉 <a href="https://api.weather.gov/gridpoints/GSP/116,76/forecast">https://api.weather.gov/gridpoints/GSP/116,76/forecast</a></p>
-<pre><code class="language-json"><span class="hljs-string">&quot;periods&quot;</span>: [{
-        <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Today&quot;</span>,
-        <span class="hljs-string">&quot;temperature&quot;</span>: <span class="hljs-number">78</span>,
-        <span class="hljs-string">&quot;icon&quot;</span>: <span class="hljs-string">&quot;https://api.weather.gov/icons/land/day/sct?size=medium&quot;</span>,
-        <span class="hljs-string">&quot;shortForecast&quot;</span>: <span class="hljs-string">&quot;Mostly Sunny&quot;</span>,
+<pre><code class="language-json">&quot;periods&quot;: [{
+        &quot;name&quot;: &quot;Today&quot;,
+        &quot;temperature&quot;: 78,
+        &quot;icon&quot;: &quot;https://api.weather.gov/icons/land/day/sct?size=medium&quot;,
+        &quot;shortForecast&quot;: &quot;Mostly Sunny&quot;,
     },{
-        <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Tonight&quot;</span>,
-        <span class="hljs-string">&quot;temperature&quot;</span>: <span class="hljs-number">62</span>,
-        <span class="hljs-string">&quot;icon&quot;</span>: <span class="hljs-string">&quot;https://api.weather.gov/icons/land/night/rain_showers,20?size=medium&quot;</span>,
-        <span class="hljs-string">&quot;shortForecast&quot;</span>: <span class="hljs-string">&quot;Slight Chance Rain Showers&quot;</span>,
+        &quot;name&quot;: &quot;Tonight&quot;,
+        &quot;temperature&quot;: 62,
+        &quot;icon&quot;: &quot;https://api.weather.gov/icons/land/night/rain_showers,20?size=medium&quot;,
+        &quot;shortForecast&quot;: &quot;Slight Chance Rain Showers&quot;,
 }]
 </code></pre>
 <p>The response includes the time, temperature, conditions, and links to icons:</p>
@@ -306,15 +317,15 @@ Presentation comments ...
 <a href="../assets/img/data-apis/data-apis-dlpa-response-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-dlpa-response-cropped.png"></a>
 -->
 
-<pre><code class="language-json"><span class="hljs-string">&quot;creator&quot;</span>: [<span class="hljs-string">&quot;Jones, Leslie, 1886-1967&quot;</span>],
-<span class="hljs-string">&quot;title&quot;</span>: [<span class="hljs-string">&quot;Kittens&quot;</span>],
-<span class="hljs-string">&quot;subject&quot;</span>: [
-    {<span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Cats&quot;</span>},
-    {<span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;Baby animals&quot;</span>}
+<pre><code class="language-json">&quot;creator&quot;: [&quot;Jones, Leslie, 1886-1967&quot;],
+&quot;title&quot;: [&quot;Kittens&quot;],
+&quot;subject&quot;: [
+    {&quot;name&quot;: &quot;Cats&quot;},
+    {&quot;name&quot;: &quot;Baby animals&quot;}
 ],
-<span class="hljs-string">&quot;format&quot;</span>: [
-    <span class="hljs-string">&quot;Photographs&quot;</span>,
-    <span class="hljs-string">&quot;Glass negatives&quot;</span>
+&quot;format&quot;: [
+    &quot;Photographs&quot;,
+    &quot;Glass negatives&quot;
 ],
 </code></pre>
 <p><a href="https://www.digitalcommonwealth.org/search/commonwealth:6682xj30d">link to above object</a></p>
@@ -330,15 +341,15 @@ Presentation comments ...
 <a href="../assets/img/data-apis/data-apis-wikipedia-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-wikipedia-cropped.png"></a>
 -->
 
-<pre><code class="language-json"><span class="language-xml">&quot;title&quot;: &quot;Cat&quot;,
+<pre><code class="language-json">&quot;title&quot;: &quot;Cat&quot;,
 &quot;revisions&quot;: [{
     &quot;contentformat&quot;: &quot;text/x-wiki&quot;,
     &quot;contentmodel&quot;: &quot;wikitext&quot;,
-    &quot;*&quot;: &quot;</span><span class="hljs-template-variable">{{<span class="hljs-name">Short</span> description|Domesticated felid species}}</span><span class="language-xml">
-        </span><span class="hljs-template-variable">{{<span class="hljs-name">About</span>|the species that is commonly kept as a pet|the cat family|Felidae|other
-        uses|Cat (<span class="hljs-name">disambiguation</span>)|and|Cats (<span class="hljs-name">disambiguation</span>)}}</span><span class="language-xml">&quot;
+    &quot;*&quot;: &quot;{{Short description|Domesticated felid species}}
+        {{About|the species that is commonly kept as a pet|the cat family|Felidae|other
+        uses|Cat (disambiguation)|and|Cats (disambiguation)}}&quot;
 }]
-...</span>
+...
 </code></pre>
 <hr>
 <h2 id="opensecrets">OpenSecrets</h2>
@@ -348,13 +359,13 @@ Presentation comments ...
 <li><a href="https://www.opensecrets.org/api/?method=getLegislators&amp;output=doc">/getLegislators</a> = <code>https://www.opensecrets.org/api/?method=getLegislators&amp;id=WV&amp;apikey=API_KEY</code></li>
 <li><a href="https://www.opensecrets.org/api/?method=candIndByInd&amp;output=doc">/candIndByInd</a> <a href="https://www.opensecrets.org/downloads/crp/CRP_Categories.txt">📄</a> = <code>https://www.opensecrets.org/api/?method=candIndByInd&amp;output=json&amp;cid=N00032838&amp;cycle=2018&amp;ind=E1210&amp;apikey=API_KEY</code> <a href="http://www.opensecrets.org/industries/recips.php?Ind=E1210&amp;cycle=2022&amp;Mem=Y&amp;sortorder=U">🤨</a></li>
 </ul>
-<pre><code class="language-json"><span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;response&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-punctuation">{</span>
-        <span class="hljs-attr">&quot;cand_name&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;Manchin, Joe&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;cid&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;N00032838&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;cycle&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;2018&quot;</span><span class="hljs-punctuation">,</span>
-        <span class="hljs-attr">&quot;industry&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;Coal mining&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;chamber&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;S&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;party&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;D&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;state&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;West Virginia&quot;</span><span class="hljs-punctuation">,</span>
-        <span class="hljs-attr">&quot;total&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;40550&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;indivs&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;29050&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;pacs&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;11500&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;rank&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;6&quot;</span><span class="hljs-punctuation">,</span>
-        <span class="hljs-attr">&quot;origin&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;Center for Responsive Politics&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;source&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;...&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;last_updated&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;06\/10\/19&quot;</span>
-    <span class="hljs-punctuation">}</span>
-<span class="hljs-punctuation">}</span>
+<pre><code class="language-json">{ &quot;response&quot;:{
+        &quot;cand_name&quot;:&quot;Manchin, Joe&quot;, &quot;cid&quot;:&quot;N00032838&quot;, &quot;cycle&quot;:&quot;2018&quot;,
+        &quot;industry&quot;:&quot;Coal mining&quot;, &quot;chamber&quot;:&quot;S&quot;, &quot;party&quot;:&quot;D&quot;, &quot;state&quot;:&quot;West Virginia&quot;,
+        &quot;total&quot;:&quot;40550&quot;, &quot;indivs&quot;:&quot;29050&quot;, &quot;pacs&quot;:&quot;11500&quot;, &quot;rank&quot;:&quot;6&quot;,
+        &quot;origin&quot;:&quot;Center for Responsive Politics&quot;, &quot;source&quot;: &quot;...&quot;, &quot;last_updated&quot;:&quot;06\/10\/19&quot;
+    }
+}
 </code></pre>
 <hr>
 <h2 id="spotify">Spotify</h2>
@@ -409,8 +420,8 @@ Presentation comments ...
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-<script>hljs.highlightAll();</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 </body>
 </html>
