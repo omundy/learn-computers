@@ -11,6 +11,7 @@
         "url": "git+https://github.com/omundy/learn-computing.git"
     },
     "author": "Owen Mundy",
+    "title": "Learn Computing",
     "license": "Attribution-NonCommercial 4.0 International",
     "bugs": {
         "url": "https://github.com/omundy/learn-computing/issues"

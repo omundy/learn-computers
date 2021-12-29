@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
-    // let path = require('path');
-
+    var pkgJson = require('./package.json');
+    // console.log(pkgJson);
 
     grunt.initConfig({
         jshint: {
@@ -17,8 +17,8 @@ module.exports = function(grunt) {
                     layout: "assets/md2html/templates/bootstrap.html",
                     templateData: {
                         basePath: "",
-                        author: "Owen Mundy",
-                        projectTitle: "Learn Computing",
+                        author: pkgJson.author,
+                        projectTitle: pkgJson.title,
                         filename: function(src) {
                             return  src[0].match(/\/(.*).md/);
                         },
@@ -31,12 +31,11 @@ module.exports = function(grunt) {
             },
             multiple_files: {
                 options: {
-                    // layout: "assets/md2html/templates/basic.html",
                     layout: "assets/md2html/templates/bootstrap.html",
                     templateData: {
                         basePath: "../",
-                        author: "Owen Mundy",
-                        projectTitle: "Learn Computing",
+                        author: pkgJson.author,
+                        projectTitle: pkgJson.title,
                         filename: function(src) {
                             return  src[0].match(/\/(.*).md/);
                         },
@@ -64,8 +63,7 @@ module.exports = function(grunt) {
                 }
             },
             markdown: {
-                // files to watch
-                files: ['topics/*.md', 'README.md'],
+                files: ['topics/*.md', 'README.md'], // files to watch
                 tasks: ['md2html', 'shell'], // run these tasks
                 options: {
                     spawn: false,

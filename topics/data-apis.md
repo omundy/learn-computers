@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-<a class="back-icon" href="../index.html"><img width="20" src="../assets/img/icons/arrow-left-short.svg"></a>
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-data-apis.png">
 
