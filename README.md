@@ -66,6 +66,43 @@ Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presen
 
 
 
+## Internet
+
+Understanding networks and setting up a development environment.
+
+<table>
+<tr>
+
+<td width="50%">
+<img class="img-fluid" src="assets/img/banner/banner-web-development.png">
+Web Development Environment - <a href="www/web-development.html">HTML</a> | <a href="topics/web-development.md">md</a>
+</td>
+
+<td width="50%">
+<img class="img-fluid" src="assets/img/banner/banner-networks.png">
+Networks - <a href="slides/networks.md">slides</a> | <a href="www/networks.html">HTML</a> | <a href="topics/networks.md">md</a>
+</td>
+
+</tr>
+</table>
+
+<table>
+<tr>
+
+<td width="50%">
+<img class="img-fluid" src="assets/img/banner/banner-web-servers.png">
+Web servers<sup>📌 </sup> - <a href="www/web-servers.html">HTML</a> | <a href="topics/web-servers.md">md</a>
+</td>
+
+<td width="50%">
+</td>
+
+</tr>
+</table>
+
+
+
+
 ## Media
 
 Working with images, networks, and setting up a development environment.
@@ -73,46 +110,41 @@ Working with images, networks, and setting up a development environment.
 <table>
 <tr>
 
-
-<td width="50%">
-<img class="img-fluid" src="assets/img/banner/banner-web-development.png">
-Web Development Environment - <a href="www/web-development.html">HTML</a> | <a href="topics/web-development.md">md</a>
-</td>
-
-
-
-<td width="50%">
-<img class="img-fluid" src="assets/img/banner/banner-networks.png">
-Networks - <a href="slides/networks.md">slides</a> | <a href="www/networks.html">HTML</a> | <a href="topics/networks.md">md</a>
-</td>
-
-
-
-</tr>
-</table>
-<table>
-<tr>
-
-
-
-
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-images-resolutions.png">
-Images and video<sup>📌 </sup>
+Images and video <sup>📌 </sup>
 <!-- - <a href="slides/images-resolutions.md">slides</a> | <a href="www/images-resolutions.html">HTML</a> | <a href="topics/images-resolutions.md">md</a> -->
 </td>
 
-
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-color.png">
-Color<sup>📌 </sup>
+Color <sup>📌 </sup>
 <!-- - <a href="slides/color.md">slides</a> | <a href="www/color.html">HTML</a> | <a href="topics/color.md">md</a> -->
 </td>
 
+</tr>
+</table>
 
+
+<table>
+<tr>
+
+<td width="50%">
+<img class="img-fluid" src="assets/img/banner/banner-documentation.png">
+Documenting digital works <sup>📌 </sup> - <a href="slides/documentation.html">slides</a> | <a href="www/documentation.html">HTML</a> | <a href="topics/documentation.md">md</a>
+</td>
+
+<td width="50%">
+</td>
 
 </tr>
 </table>
+
+
+
+
+
+
 
 
 
@@ -128,14 +160,10 @@ Working with data and APIs.
 Data Basics - <a href="slides/data-basics.md">slides</a> | <a href="www/data-basics.html">HTML</a> | <a href="topics/data-basics.md">md</a>
 </td>
 
-
-
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-types.png">
 Data types - <a href="slides/data-types.md">slides</a> | <a href="www/data-types.html">HTML</a> | <a href="topics/data-types.md">md</a>
 </td>
-
-
 
 </tr>
 </table>
@@ -170,8 +198,6 @@ How to use APIs - <a href="slides/data-apis.md">slides</a> | <a href="www/data-a
 
 
 <td width="50%">
-<img class="img-fluid" src="assets/img/banner/banner-web-servers.png">
-Web servers<sup>📌 </sup> - <a href="www/web-servers.html">HTML</a> | <a href="topics/web-servers.md">md</a>
 </td>
 
 
