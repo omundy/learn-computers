@@ -131,7 +131,7 @@ Color <sup>📌 </sup>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-documentation.png">
-Documenting digital works <sup>📌 </sup> - <a href="slides/documentation.html">slides</a> | <a href="www/documentation.html">HTML</a> | <a href="topics/documentation.md">md</a>
+Documenting digital works - <a href="slides/documentation.html">slides</a> | <a href="www/documentation.html">HTML</a> | <a href="topics/documentation.md">md</a>
 </td>
 
 <td width="50%">

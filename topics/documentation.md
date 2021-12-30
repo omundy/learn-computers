@@ -22,8 +22,13 @@ Presentation comments ...
 
 1. [Introduction](#introduction)
 1. [About](#about)
-
-1. [References](#references)
+1. [Capture everything](##capture-everything)
+1. [Iterate, iterate, iterate.](#iterate-iterate-iterate)
+1. [Screenshots and links](#screenshots-and-links)
+1. [Source code](#source-code)
+1. [Video](#video)
+1. [How to collect it all](#how-to-collect-it-all)
+1. [White paper](#white-paper)
 
 
 ---
@@ -40,10 +45,9 @@ Perform the task(s) when you see this 👉  emoji
 
 Students who complete the following will be able to:
 
-- Define
-- List methods for
-- Explain why
-- Use different
+- Explain why documentation is important
+- List methods for documenting one's work
+- Use different methods to show their creative process
 
 </details>
 
@@ -137,6 +141,42 @@ Sometimes a video is needed to tell the whole story. For example, in both [Immat
 
 ---
 
-## Presentation, PDF or web page
+## How to collect it all
 
-Combine all of the above (the code, statements, video, images) into a single document or white paper.
+Combine all of the above (the code, statements, video, images) into a single document. For example:
+
+- A live Google Presentation or slidedeck
+- A link to a PDF or web page
+- A white paper (see next slide)
+
+
+
+
+
+---
+
+## White paper
+
+White papers offer a common format to document, discuss, and share research-based projects. In your document should:
+
+- Include a statement (800–1200 words) explaining the ideas behind your project.
+- Document your process with images, sketches, flowcharts, links to videos.
+
+Suggestions for preparing such reports:
+
+- Purdue OWL [White Paper: Purpose and Audience](https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/white_papers/index.html)
+- [How to Write White Papers People Actually Want to Read](https://coschedule.com/blog/how-to-write-white-papers/)
+- [8 Basic Tips for Writing an Amazing White Paper](https://contently.com/strategist/2012/02/10/how-to-write-a-white-paper/)
+
+---
+
+## White paper examples
+
+Artistic / Cultural
+- Jonathan Harris and Sep Kamvar, [We Feel Fine and Searching the Emotional Web](../assets/img/documentation/whitepaper-examples/Harris-Kamvar-We-Feel-Fine.pdf), 2005
+- Julian Oliver [The Transparency Grenade](../assets/img/documentation/whitepaper-examples/Oliver-Transparency-Grenade.pdf), 2012
+
+Commercial
+- Google [The Arrival of Real-Time Bidding and What it Means for Media Buyers](../assets/img/documentation/whitepaper-examples/Google-real-time-bidding.pdf)
+- ExactFlat [Accurate 3D to 2D Flattening](../assets/img/documentation/whitepaper-examples/ExactFlat_Customer_White_Paper.pdf)
+- QRA [How to Eliminate Over Half of All Design Errors Before they Occur](../assets/img/documentation/whitepaper-examples/Leveraging-NLP-in-Requirements-Analysis.pdf)
