@@ -299,7 +299,7 @@ And please, <a href="https://www.macworld.com/article/233847/how-to-get-rid-of-t
 ---
 
 
-#### Mouse and other tricks (* requires [Rectangle](https://rectangleapp.com/) for Mac)
+#### Cursor and window tricks
 
 Command | Mac | Windows | 🤔
 --- | --- | --- | ---
@@ -310,6 +310,7 @@ Current window fill screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>Return</
 Window to left of screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> | ? | 🔥
 Window to top of screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>↑</kbd> | ? | 🔥
 
+*requires [Rectangle](https://rectangleapp.com/)
 
 ---
 
