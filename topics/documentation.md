@@ -24,10 +24,10 @@ Presentation comments ...
 1. [About](#about)
 1. [Capture everything](##capture-everything)
 1. [Iterate, iterate, iterate.](#iterate-iterate-iterate)
-1. [Screenshots and links](#screenshots-and-links)
+1. [Screenshots and videos](#screenshots-and-videos)
 1. [Source code](#source-code)
-1. [Video](#video)
-1. [How to collect it all](#how-to-collect-it-all)
+1. [Collect it all](#collect-it-all)
+1. [Edit a video](#edit-a-video)
 1. [White paper](#white-paper)
 
 
