@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-images-resolutions.png">
 
@@ -8,7 +8,7 @@
 
 Learn about digital images formats and best practices
 
-<sup class="small"><a href="../slides/images-resolutions.html">slides</a> | <a href="../topics/images-resolutions.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/images-resolutions.html">slides</a> | <a href="../www/images-resolutions.html">HTML</a> | <a href="../topics/images-resolutions.md">md</a></span>
 
 <!--
 Presentation comments ...

@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-basics.png">
 
@@ -8,7 +8,7 @@
 
 A list of essential, everyday computer tasks
 
-<sup class="small"><a href="../slides/basics.html">slides</a> | <a href="../topics/basics.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/basics.html">slides</a> | <a href="../www/basics.html">HTML</a> | <a href="../topics/basics.md">md</a></span>
 
 <!--
 Presentation comments ...
@@ -88,4 +88,4 @@ Students who complete the following will be able to:
 
 ## References
 
--  
+-

@@ -89,7 +89,7 @@ The problem is, you've slept since then, nothing is live anymore, and you didn't
 Documentation should be an ongoing process, from start to finish, for many reasons:
 
 - To help you finish the work, tracking progress from conception to completion.
-- An archive of your creative energy, the things learned, and successes and failures, that you can tap into and reference later.
+- To archive iterations, things learned, and successes and failures, to reference later.
 - To tell the story of your project for all potential audiences: Professors, peers, potential employers, grad school admissions, award selection committees, academics who may write about your work, and of course, the public.
 
 Continue reading for examples and tips...
@@ -100,7 +100,7 @@ Continue reading for examples and tips...
 
 ## Iterate, iterate, iterate.
 
-Iteration is a powerful method for improving practically anything. Collect documentation that can show your process.
+Iteration is a powerful method for improving practically anything. Collect documentation in a Google Doc and paste links, images, notes, etc. as you progress.
 
 - **Research** (articles, artworks, concepts) while developing the concept.
 - **Methods** (different mediums, practices, tools, etc.) you considered and tested.
@@ -108,13 +108,16 @@ Iteration is a powerful method for improving practically anything. Collect docum
 - **Versions** distinct working examples of successive phases of your project?
 
 
+
+
+
 ---
 
-## Screenshots and links
+## Screenshots and videos
 
-- Add a folder on your desktop and add screenshots as you make progress. The filenames will be ordered by data automatically.
-- Make a Google Doc and paste links in there as you learn from them. Put notes under each and keep adding to it.
-
+- Add a folder to your project folder and add screenshots as you make progress. The filenames will be ordered by data automatically.
+- Capture the entire screen on a Mac: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> - [See more Mac and Windows screenshot shortcuts](..html/keyboard-shortcuts.html#screenshots).
+- Capture video on a Mac: [Quicktime](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) (free) or [Giphy Capture](https://giphy.com/apps/giphycapture) (free), [Screenflow](http://www.telestream.net/screenflow/overview.htm) ($).
 
 
 ---
@@ -127,27 +130,30 @@ Your source code is part of the work and you should share it in your documentati
 - [Share and share alike](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) attribute others' source code (their name and URL) in a comment preceding the borrowed code.
 
 
----
-
-## Video
-
-Sometimes a video is needed to tell the whole story. For example, in both [Immaterials: light painting WiFi](http://www.nearfield.org/2011/02/wifi-light-painting/) and [My little piece of Privacy](https://www.youtube.com/watch?v=rKhbUjVyKIc&ab_channel=NiklasRoy), they:
-
-- Are published online for the world to see (freely)
-- Can be shared, embedded to spread the word.
-- Combine text, footage of the object working, screencasts of the command line, and tell the story dramatically.
-
 
 
 ---
 
-## How to collect it all
+## Collect it all
 
-Combine all of the above (the code, statements, video, images) into a single document. For example:
+Combine all of the above (the code, statements, screenshots/videos, images, flowcharts) into a single document, preferably that is online and you can share with others:
 
-- A live Google Presentation or slidedeck
-- A link to a PDF or web page
-- A white paper (see next slide)
+- Edit multiple segments, text, and other documentation into a video
+- A Google Presentation or slide deck
+- A white paper (see next slide) published online as a PDF or web page
+
+
+
+
+---
+
+## Edit a video
+
+Sometimes a video is needed to tell the whole story. For example, in both [Immaterials: light painting WiFi](http://www.nearfield.org/2011/02/wifi-light-painting/) and [My little piece of Privacy](https://www.youtube.com/watch?v=rKhbUjVyKIc&ab_channel=NiklasRoy), the videos:
+
+- Are published online for the world to see, share, or embed.
+- Combine text, footage of the object, game, or interface working, screencasts of the command line.
+- Tell the story dramatically, with music, a story, and/or a narrator or text subtitles.
 
 
 

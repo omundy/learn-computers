@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-files-folders.png">
 
@@ -8,7 +8,7 @@
 
 Learn about all the files on your computer!
 
-<sup class="small"><a href="../slides/files-folders.html">slides</a> | <a href="../topics/files-folders.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/files-folders.html">slides</a> | <a href="../www/files-folders.html">HTML</a> | <a href="../topics/files-folders.md">md</a></span>
 
 <!--
 Presentation comments ...

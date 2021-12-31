@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-command-line.png">
 
@@ -8,7 +8,7 @@
 
 A short primer for using the command line
 
-<sup class="small"><a href="../slides/command-line-crash-course.html">slides</a> | <a href="../topics/command-line-crash-course.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/command-line-crash-course.html">slides</a> | <a href="../www/command-line-crash-course.html">HTML</a> | <a href="../topics/command-line-crash-course.md">md</a></span>
 
 <!--
 Presentation comments ...

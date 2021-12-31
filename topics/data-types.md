@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-data-types.png">
 
@@ -8,7 +8,7 @@
 
 Learn about specific data types used in programming, visualization, gaming, etc.
 
-<sup class="small"><a href="../slides/data-types.html">slides</a> | <a href="../topics/data-types.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/data-types.html">slides</a> | <a href="../www/data-types.html">HTML</a> | <a href="../topics/data-types.md">md</a></span>
 
 <!--
 Presentation comments ...

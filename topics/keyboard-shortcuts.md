@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-keyboard-shortcuts.png">
 
@@ -8,7 +8,7 @@
 
 Speed up your computing with keyboard shortcuts!
 
-<sup class="small"><a href="../slides/keyboard-shortcuts.html">slides</a> | <a href="../topics/keyboard-shortcuts.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/keyboard-shortcuts.html">slides</a> | <a href="../www/keyboard-shortcuts.html">HTML</a> | <a href="../topics/keyboard-shortcuts.md">md</a></span>
 
 <!--
 Presentation comments ...
@@ -44,10 +44,10 @@ Perform the task(s) when you see this 👉  emoji
 
 Students who complete the following will be able to:
 
-- Demonstrate basic computer keyboard commands like copy, paste, save  
+- Demonstrate basic computer keyboard commands like copy, paste, save
 - Perform more advanced commands like switching programs and finding text on a web page or text doc
 - Explain how keyboard commands can increase computing efficiency
-- Combine multiple keyboard commands to establish faster computing workflows  
+- Combine multiple keyboard commands to establish faster computing workflows
 
 </details>
 
@@ -280,6 +280,22 @@ Reload the page | <kbd>Cmd</kbd> + <kbd>R</kbd> | <kbd>Ctl</kbd> + <kbd>R</kbd> 
 Reload page and clear cache | <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>R</kbd> | <kbd>Shift</kbd> + <kbd>Ctl</kbd> + <kbd>R</kbd> | 🔥
 
 
+
+---
+
+
+#### Screenshots
+
+Command | [Mac](https://support.apple.com/en-us/HT201361) | Windows | 🤔
+--- | --- | --- | ---
+Capture entire screen | <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> | <kbd>PrtScn</kbd> | 🍏
+Capture a portion of a screen | <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd> + drag ⌖ to select | ? | 🍏
+Capture a window or a menu | <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd> then <kbd>Space</kbd> | <kbd>Alt</kbd> + <kbd>PrtScn</kbd> | 🍏
+
+Add <kbd>Ctl</kbd> to Mac commands to capture the image to clipboard (to paste the file in a doc).
+
+And please, <a href="https://www.macworld.com/article/233847/how-to-get-rid-of-the-screenshot-drop-shadow-in-macos.html">remove that dropshadow from Mac screenshots</a>!
+
 ---
 
 
@@ -293,12 +309,6 @@ Select a whole line of text | Triple click anywhere | Triple click anywhere | �
 Current window fill screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>Return</kbd> | ? | 🔥
 Window to left of screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> | ? | 🔥
 Window to top of screen* | <kbd>Ctl</kbd> + <kbd>Option</kbd> + <kbd>↑</kbd> | ? | 🔥
-
-
-
-
-
-
 
 
 ---

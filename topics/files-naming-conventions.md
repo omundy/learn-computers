@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-files-naming-conventions.png">
 
@@ -8,7 +8,7 @@
 
 Best practices for organizing and naming your files.
 
-<sup class="small"><a href="../slides/files-naming-conventions.html">slides</a> | <a href="../topics/files-naming-conventions.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/files-naming-conventions.html">slides</a> | <a href="../www/files-naming-conventions.html">HTML</a> | <a href="../topics/files-naming-conventions.md">md</a></span>
 
 <!--
 Presentation comments ...

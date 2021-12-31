@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-computational-thinking.png">
 
@@ -8,7 +8,7 @@
 
 Logic, data flow, etc.
 
-<sup class="small"><a href="../slides/computational-thinking.html">slides</a> | <a href="../topics/computational-thinking.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/computational-thinking.html">slides</a> | <a href="../www/computational-thinking.html">HTML</a> | <a href="../topics/computational-thinking.md">md</a></span>
 
 <!--
 Presentation comments ...

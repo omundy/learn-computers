@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-color.png">
 
@@ -8,7 +8,7 @@
 
 How colors work on computers, color models, color spaces, and printing
 
-<sup class="small"><a href="../slides/color.html">slides</a> | <a href="../topics/color.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/color.html">slides</a> | <a href="../www/color.html">HTML</a> | <a href="../topics/color.md">md</a></span>
 
 <!--
 Presentation comments ...
@@ -23,6 +23,7 @@ Presentation comments ...
 1. [Introduction](#introduction)
 1. [About color](#about-color) `5 min`
 
+1. [Color blindness](#color blindness)
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
 
@@ -63,7 +64,7 @@ Complete the following to prepare for this module
 
 
 
-## Color Blindness
+## Color blindness
 
 On Mac
 1. System Preferences > Accessibility > Display > Color Filters

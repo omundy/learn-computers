@@ -1,6 +1,6 @@
 <!-- paginate: true -->
 
-[<](../README.md)
+<a class="back-icon" href="../index.html"><img width="30" src="../assets/img/icons/arrow-left-short.svg"></a>
 
 <img width="375" src="../assets/img/banner/banner-command-line.png">
 
@@ -8,7 +8,7 @@
 
 Using the command line is essential to computing proficiency.
 
-<sup class="small"><a href="../slides/command-line.html">slides</a> | <a href="../topics/command-line.md">markdown</a> </sup>
+<span class="slides-small"><a href="../slides/command-line.html">slides</a> | <a href="../www/command-line.html">HTML</a> | <a href="../topics/command-line.md">md</a></span>
 
 <!--
 Presentation comments ...
