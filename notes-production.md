@@ -140,17 +140,17 @@ for i in *.md ; do echo "$i" && pandoc -s $i -o ../www/${i%.*}.html --template=.
     - Plugin to [validate files with jshint](https://www.npmjs.com/package/grunt-contrib-jshint). See: [Setting up JSHint with Grunt](https://www.codereadability.com/jshint-with-grunt/)
     - Plugin to [Run Shell Command Through Grunt Task](https://www.c-sharpcorner.com/blogs/run-shell-command-through-grunt-task-grunt-shell)
 
+
+Basic usage
+
 ```bash
-# Start by installing Grunt command line interface (CLI) globally
+# install Grunt command line interface (CLI) globally
 npm install -g grunt-cli
 # Then install plugins and create a gruntfile for plugin / watch options and run grunt in the project directory
 grunt watch
 ```
 
-
-This is what I did in learn-computing
-
-1. You install everything with `save-dev` so it only runs locally
+Install everything with `save-dev` so it only runs locally
 
 ```bash
 npm install grunt-md2html --save-dev

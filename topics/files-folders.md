@@ -177,6 +177,7 @@ Examine a file, folder, and program on your computer. For each:
 
 Examples:
 
+- `chmod 755` for directories.
 - `chmod 644` for images.
 
 

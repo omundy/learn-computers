@@ -374,7 +374,7 @@ Additional commands and prompts to continue learning the command line:
 
 Ready to test your skills? See if you can
 
-1. Complete the [command line lesson on Codecademy](https://www.codecademy.com/learn/learn-the-command-line).
+1. Try out any commands in [these cheatsheets](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet).
 1. [Write a simple bash script](https://www.linux.com/training-tutorials/writing-simple-bash-script/)
 1. [Take a quiz](https://www.proprofs.com/quiz-school/story.php?title=linux-command-line-quiz-485)
 

@@ -8,7 +8,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> - web-servers</title>
+    <title>Learn Computing - web-servers</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon_io/favicon-32x32.png">
@@ -43,6 +43,10 @@ Presentation comments ...
 -->
 
 
+
+<hr>
+<h2 id="development-web-servers">Development web servers</h2>
+<p>For temporary use. See next slide...</p>
 <hr>
 <h3 id="python-httpserver">Python http.server</h3>
 <p>How to use Python <a href="https://docs.python.org/3.9/library/http.server.html#module-http.server">http.server</a> to run a server on your computer (see also <a href="https://css-tricks.com/snippets/html/start-a-web-server-with-one-terminal-command-on-os-x/">PHP or node</a>).</p>
@@ -63,6 +67,27 @@ python -m SimpleHTTPServer 7777 # Python 2.7 (older)
 <ol start="3">
 <li>Go to <a href="http://0.0.0.0:7777">http://0.0.0.0:7777</a> in your web browser. To stop the server use <kbd>Ctl</kbd> + <kbd>C</kbd></li>
 </ol>
+<hr>
+<h2 id="linux-web-servers">Linux web servers</h2>
+<p>Following are notes applicable to many Linux servers.</p>
+<hr>
+<h3 id="linux-set-the-hostname">Linux: Set the hostname</h3>
+<p>View/edit the <a href="https://www.commandlinux.com/man-page/man1/hostname.1.html">hostname</a> on Linux (tested in on Debian Jessie and Raspberry Pi OS).</p>
+<pre><code class="language-bash">hostname            # view name of the machine on the network
+hostnamectl         # view hostname, etc.
+cat /etc/hostname   # view the hostname directly
+cat /etc/hosts      # view the hosts file, that map names to IP addresses
+</code></pre>
+<p>To change the hostname, edit the file, or use <a href="https://man7.org/linux/man-pages/man1/hostnamectl.1.html"><code>hostnamectl</code></a></p>
+<pre><code class="language-bash">sudo nano /etc/hostname   # view the hostname directly
+hostnamectl set-hostname chip1  # set the hostname
+sudo reboot                 # reboot to take effect
+</code></pre>
+<ul>
+<li><a href="https://www.cyberciti.biz/faq/debian-change-hostname-permanently/">Debian Linux: Change Hostname / Computer Name Permanently</a></li>
+<li><a href="https://www.slicethepi.co.uk/pi_server/">Pi WebServer Project</a></li>
+<li><a href="https://www.server-world.info/en/note?os=Debian_8&amp;p=hostname">Server World &gt; Set Hostname</a></li>
+</ul>
 <hr>
 <h2 id="references">References</h2>
 <ol>

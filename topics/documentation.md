@@ -59,7 +59,6 @@ Students who complete the following will be able to:
 ## About
 
 <div class="twocolumn">
-
 <div class="col">
 
 You completed your final project and turned it in. The last thing you want to do right now is think about it.
@@ -69,12 +68,10 @@ Six months later, you are in a job interview and they ask to see your work.
 The problem is, you've slept since then, nothing is live anymore, and you didn't document it.
 
 
-
 </div>
 <div class="col">
 <img width="375" src="../assets/img/documentation/documentation-meme.jpg">
 </div>
-
 </div>
 
 
@@ -86,11 +83,11 @@ The problem is, you've slept since then, nothing is live anymore, and you didn't
 
 🚫 "I'll just record a quick screen capture ..."
 
-Documentation should be an ongoing process, from start to finish, for many reasons:
+Documentation should be an ongoing process:
 
-- To help you finish the work, tracking progress from conception to completion.
-- To archive iterations, things learned, and successes and failures, to reference later.
-- To tell the story of your project for all potential audiences: Professors, peers, potential employers, grad school admissions, award selection committees, academics who may write about your work, and of course, the public.
+- To help create the work, tracking progress from conception to completion.
+- To archive iterations, things learned, and successes and failures that you can reference later.
+- To tell the story of your project: Parents, professors, peers, potential employers, grad schools, award committees, other academics, the world.
 
 Continue reading for examples and tips...
 
@@ -119,6 +116,7 @@ Iteration is a powerful method for improving practically anything. Collect docum
 - Capture the entire screen on a Mac: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> - [See more Mac and Windows screenshot shortcuts](..html/keyboard-shortcuts.html#screenshots).
 - Capture video on a Mac: [Quicktime](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) (free) or [Giphy Capture](https://giphy.com/apps/giphycapture) (free), [Screenflow](http://www.telestream.net/screenflow/overview.htm) ($).
 
+<img width="200" src="../assets/img/documentation/electro-ugh.gif">
 
 ---
 

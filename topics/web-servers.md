@@ -15,6 +15,14 @@ Presentation comments ...
 -->
 
 
+
+---
+
+## Development web servers
+
+For temporary use. See next slide...
+
+
 ---
 
 
@@ -39,6 +47,51 @@ python -m SimpleHTTPServer 7777 # Python 2.7 (older)
 ```
 
 3. Go to http://0.0.0.0:7777 in your web browser. To stop the server use <kbd>Ctl</kbd> + <kbd>C</kbd>
+
+
+
+
+
+
+
+
+
+---
+
+## Linux web servers
+
+Following are notes applicable to many Linux servers.
+
+
+---
+
+
+### Linux: Set the hostname
+
+View/edit the [hostname](https://www.commandlinux.com/man-page/man1/hostname.1.html) on Linux (tested in on Debian Jessie and Raspberry Pi OS).
+
+```bash
+hostname            # view name of the machine on the network
+hostnamectl         # view hostname, etc.
+cat /etc/hostname   # view the hostname directly
+cat /etc/hosts      # view the hosts file, that map names to IP addresses
+```
+
+To change the hostname, edit the file, or use [`hostnamectl`](https://man7.org/linux/man-pages/man1/hostnamectl.1.html)
+
+```bash
+sudo nano /etc/hostname   # view the hostname directly
+hostnamectl set-hostname chip1  # set the hostname
+sudo reboot                 # reboot to take effect
+```
+
+- [Debian Linux: Change Hostname / Computer Name Permanently](https://www.cyberciti.biz/faq/debian-change-hostname-permanently/)
+- [Pi WebServer Project](https://www.slicethepi.co.uk/pi_server/)
+- [Server World > Set Hostname](https://www.server-world.info/en/note?os=Debian_8&p=hostname)
+
+
+
+
 
 
 ---
