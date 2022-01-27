@@ -289,7 +289,7 @@ Vim has two modes: *command* and *insert*. In the command mode, you can move aro
 👉 Change back to command mode by pressing <kbd>ESC</kbd>, and save your file by pressing <kbd>:</kbd><kbd>w</kbd><kbd>q</kbd> (`:wq`) (write and quit). Once you do this, run the following to confirm the file exists and see its contents.
 
 ```bash
-ls hello.txt
+ls -la
 cat hello.txt
 # -> hello world!
 ```
@@ -304,7 +304,7 @@ cat hello.txt
 
 Excellent! Now, in our final section, we'll create and run a Python script with Vim.
 
-👉 Confirm you are still in <username>/test, and "clear" the terminal (you can still scroll up to see previous commands)
+👉 Confirm you are still in `<username>/test`, and "clear" the terminal (you can still scroll up to see previous commands)
 
 ```bash
 pwd
@@ -341,7 +341,7 @@ python script.py
 
 Congratulations! 🎉 &nbsp; You've created a file that runs its own script!
 
-⚠️ Windows 11 users [may need to install Python and use PowerShell for this last step](https://docs.microsoft.com/en-us/windows/python/beginners)
+⚠️ Windows 11 users [may need to install Python and use PowerShell](https://docs.microsoft.com/en-us/windows/python/beginners) for this step.
 
 ---
 
@@ -361,7 +361,7 @@ Discuss the following with your group and share a short demo on the above with t
 
 ## Keep practicing
 
-Additional commands and prompts to continue learning the command line:
+Continue learning the command line:
 
 - Change the text your python file prints and run the script again. **Tip**: Use the up <kbd>↑</kbd> and down <kbd>↓</kbd> arrows on the keyboard to cycle through previous commands.
 - Try out the autocomplete feature of the shell by typing the first three letters of a filename and pressing <kbd>Tab</kbd>. If a file or directory that starts with that name exists the shell will fill it in for you.
