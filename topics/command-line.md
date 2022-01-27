@@ -341,7 +341,7 @@ python script.py
 
 Congratulations! 🎉 &nbsp; You've created a file that runs its own script!
 
-
+⚠️ Windows 11 users [may need to install Python and use PowerShell for this last step](https://docs.microsoft.com/en-us/windows/python/beginners)
 
 ---
 
