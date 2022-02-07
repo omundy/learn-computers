@@ -378,6 +378,13 @@ Ready to test your skills? See if you can
 1. [Write a simple bash script](https://www.linux.com/training-tutorials/writing-simple-bash-script/)
 1. [Take a quiz](https://www.proprofs.com/quiz-school/story.php?title=linux-command-line-quiz-485)
 
+
+### Quiz
+
+1. How can you autocomplete commands once you start typing?
+
+
+
 ---
 
 ## References
