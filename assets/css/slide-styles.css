@@ -11,6 +11,7 @@
 
 .slides-small {
     font-size: .7rem !important;
+    line-height: normal !important;
     margin-top: 0 !important;
     margin-bottom: 16px !important;
 }

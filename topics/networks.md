@@ -6,7 +6,7 @@
 
 # Networks
 
-Description of topic
+How things are connected
 
 <span class="slides-small"><a href="../slides/networks.html">slides</a> | <a href="../www/networks.html">HTML</a> | <a href="../topics/networks.md">md</a></span>
 

@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                         author: pkgJson.author,
                         projectTitle: pkgJson.title,
                         filename: function(src) {
-                            return  src[0].match(/\/(.*).md/);
+                            return src[0].match(/\/(.*).md/);
                         },
                     },
                 },
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
                         author: pkgJson.author,
                         projectTitle: pkgJson.title,
                         filename: function(src) {
-                            return  src[0].match(/\/(.*).md/);
+                            return src[0].match(/\/(.*).md/);
                         },
                     },
                 },
@@ -89,6 +89,30 @@ module.exports = function(grunt) {
         console.log("🔥 all done");
         // grunt.log.writeln('🔥🔥 all done'); // not sure if flag required --verbose
     });
+
+
+    // SAVING AS A SAMPLE ONLY
+    // const fs = require('fs-extra');
+    // const path = require('path');
+    // // copy all the weeks from the template
+    // grunt.task.registerTask('copyRename', 'run when finished', function() {
+    //     for (let i = 1; i < 15; i++) {
+    //         try {
+    //             fs.copySync(
+    //                 path.resolve(__dirname, 'week-00.md'),
+    //                 `week-${String(i).padStart(2, '0')}.md`, {
+    //                     overwrite: false
+    //                 }
+    //             );
+    //         } catch (err) {
+    //             console.error(err);
+    //         }
+    //     }
+    //     console.log("🔥 all done");
+    // });
+    // //register the build task
+    // grunt.registerTask('default', ['shell', 'copyRename']);
+
 
     // enable plugins, register tasks
     grunt.loadNpmTasks('grunt-md2html');
