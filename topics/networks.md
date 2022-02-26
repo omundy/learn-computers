@@ -180,9 +180,9 @@ whois owenmundy.com
 
 ### ping
 
-> How fast is my connection this domain?
+> How fast is my connection to this domain?
 
-`ping` (Packet INternet Groper) checks network connectivity and latency (the time it takes data to move across network in milliseconds (ms)) between two nodes.
+`ping` (Packet INternet Groper) checks network connectivity and latency (the time it takes data to move across a network in milliseconds (ms)) between two nodes.
 
 It is a simple way to check your device's connection to the outside world. You can use ping with a domain name or IP address.
 
@@ -203,7 +203,7 @@ Ping Google's DNS server 5 times and then stop
 ping -c 5 8.8.8.8
 ```
 
-Run `ping` with different domains to compare speeds. What did you notice?
+Run `ping` with different domains to compare speeds. Why might there be differences?
 
 
 
@@ -217,7 +217,7 @@ Run `ping` with different domains to compare speeds. What did you notice?
 
 > What is the path to a domain?
 
-The `traceroute` command is also useful for network troubleshooting. It provides latency information for and identifies each node along the path to the target destination.
+The `traceroute` command is useful for network troubleshooting. It provides latency information and identifies each node along the path to the target destination.
 
 
 ---
@@ -254,7 +254,7 @@ traceroute -I google.com
 👉 **Try it out**
 
 
-To fetch a file and display it in the shell:
+To fetch a file and display it in the shell
 
 ```bash
 curl https://davidson.edu
@@ -276,7 +276,7 @@ curl -o index.html https://davidson.edu
 
 ### SSH
 
-Secure SHell is perhaps the most invaluable tool for connecting to other computers on the network. When you "SSH" into a remote computer you can execute all commands just as you do on your local machine. SSH uses [public-key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) to secure data.
+Secure SHell is a popular tool for connecting to other computers on the network. With "SSH" you log in to a remote computer and can execute commands just as if you were in the same room. SSH uses [public-key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) to secure data.
 
 Common scenarios where you would use SSH:
 
@@ -290,18 +290,18 @@ Common scenarios where you would use SSH:
 
 👉 **Try it out**
 
-If you know your username and password, and are permitted to connect via SSH to your host, then try it out.
-
-The first time you connect you will be prompted to trust the secure key on the remote host and [enter your password](#about-passwords).
+If you know your username and password, and are permitted to connect via SSH to your host, then try it out. The first time you connect you will be prompted to trust the secure key on the remote host and enter your password*.
 
 ```bash
 ssh  <username>@<servername>
 ```
 
-You could then edit a file using the Nano text editor. This command will open a file to edit (creating the file if it doesn't currently exist):
+<div class="slides-small caption">*Command lines typically do not display password input. If you make a mistake just press <kbd>delete</kbd> a few times and start over.</div>
+
+If successful you'll see a welcome message. You could then edit a file using the Nano text editor. This command will open a file to edit (creating the file if it doesn't currently exist):
 
 ```bash
-nano index.html
+nano hello.html
 ```
 
 Use <kbd>Ctl</kbd> + <kbd>o</kbd> to save and <kbd>Ctl</kbd> + <kbd>x</kbd> to exit nano.
@@ -322,9 +322,6 @@ Use <kbd>Ctl</kbd> + <kbd>o</kbd> to save and <kbd>Ctl</kbd> + <kbd>x</kbd> to e
 ## Advanced Network Tools
 
 
-### About passwords
-
-When you type passwords the command line will not display your input. If you make a mistake just press <kbd>delete</kbd> a few times and start over.
 
 
 

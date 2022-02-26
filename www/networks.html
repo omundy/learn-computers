@@ -135,9 +135,9 @@ whois owenmundy.com
 <hr>
 <h3 id="ping">ping</h3>
 <blockquote>
-<p>How fast is my connection this domain?</p>
+<p>How fast is my connection to this domain?</p>
 </blockquote>
-<p><code>ping</code> (Packet INternet Groper) checks network connectivity and latency (the time it takes data to move across network in milliseconds (ms)) between two nodes.</p>
+<p><code>ping</code> (Packet INternet Groper) checks network connectivity and latency (the time it takes data to move across a network in milliseconds (ms)) between two nodes.</p>
 <p>It is a simple way to check your device&#39;s connection to the outside world. You can use ping with a domain name or IP address.</p>
 <hr>
 <p>👉 <strong>Try it out</strong></p>
@@ -147,13 +147,13 @@ whois owenmundy.com
 <p>Ping Google&#39;s DNS server 5 times and then stop</p>
 <pre><code class="language-bash">ping -c 5 8.8.8.8
 </code></pre>
-<p>Run <code>ping</code> with different domains to compare speeds. What did you notice?</p>
+<p>Run <code>ping</code> with different domains to compare speeds. Why might there be differences?</p>
 <hr>
 <h3 id="traceroute">traceroute</h3>
 <blockquote>
 <p>What is the path to a domain?</p>
 </blockquote>
-<p>The <code>traceroute</code> command is also useful for network troubleshooting. It provides latency information for and identifies each node along the path to the target destination.</p>
+<p>The <code>traceroute</code> command is useful for network troubleshooting. It provides latency information and identifies each node along the path to the target destination.</p>
 <hr>
 <p>👉 <strong>Try it out</strong></p>
 <p>Trace the path your packets take to a destination:</p>
@@ -169,7 +169,7 @@ whois owenmundy.com
 </blockquote>
 <p><a href="https://en.wikipedia.org/wiki/CURL">curl</a> (Client URL) is used to download network files via CLI.</p>
 <p>👉 <strong>Try it out</strong></p>
-<p>To fetch a file and display it in the shell:</p>
+<p>To fetch a file and display it in the shell</p>
 <pre><code class="language-bash">curl https://davidson.edu
 </code></pre>
 <p>To fetch a file and <em>save it on your computer</em></p>
@@ -177,7 +177,7 @@ whois owenmundy.com
 </code></pre>
 <hr>
 <h3 id="ssh">SSH</h3>
-<p>Secure SHell is perhaps the most invaluable tool for connecting to other computers on the network. When you &quot;SSH&quot; into a remote computer you can execute all commands just as you do on your local machine. SSH uses <a href="http://en.wikipedia.org/wiki/Public-key_cryptography">public-key cryptography</a> to secure data.</p>
+<p>Secure SHell is a popular tool for connecting to other computers on the network. With &quot;SSH&quot; you log in to a remote computer and can execute commands just as if you were in the same room. SSH uses <a href="http://en.wikipedia.org/wiki/Public-key_cryptography">public-key cryptography</a> to secure data.</p>
 <p>Common scenarios where you would use SSH:</p>
 <ul>
 <li>To edit files on a web server</li>
@@ -186,18 +186,17 @@ whois owenmundy.com
 </ul>
 <hr>
 <p>👉 <strong>Try it out</strong></p>
-<p>If you know your username and password, and are permitted to connect via SSH to your host, then try it out.</p>
-<p>The first time you connect you will be prompted to trust the secure key on the remote host and <a href="#about-passwords">enter your password</a>.</p>
+<p>If you know your username and password, and are permitted to connect via SSH to your host, then try it out. The first time you connect you will be prompted to trust the secure key on the remote host and enter your password*.</p>
 <pre><code class="language-bash">ssh  &lt;username&gt;@&lt;servername&gt;
 </code></pre>
-<p>You could then edit a file using the Nano text editor. This command will open a file to edit (creating the file if it doesn&#39;t currently exist):</p>
-<pre><code class="language-bash">nano index.html
+<div class="slides-small caption">*Command lines typically do not display password input. If you make a mistake just press <kbd>delete</kbd> a few times and start over.</div>
+
+<p>If successful you&#39;ll see a welcome message. You could then edit a file using the Nano text editor. This command will open a file to edit (creating the file if it doesn&#39;t currently exist):</p>
+<pre><code class="language-bash">nano hello.html
 </code></pre>
 <p>Use <kbd>Ctl</kbd> + <kbd>o</kbd> to save and <kbd>Ctl</kbd> + <kbd>x</kbd> to exit nano.</p>
 <hr>
 <h2 id="advanced-network-tools">Advanced Network Tools</h2>
-<h3 id="about-passwords">About passwords</h3>
-<p>When you type passwords the command line will not display your input. If you make a mistake just press <kbd>delete</kbd> a few times and start over.</p>
 <hr>
 <h3 id="sftp">SFTP</h3>
 <p>SFTP (Secure File Transfer Protocol) allows you to send files across a network with the command line. It is usually more convenient to use a GUI like Cyberduck.</p>
