@@ -294,9 +294,11 @@ Capture a window or a menu | <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd> th
 
 Add <kbd>Ctl</kbd> to Mac commands to capture the image to clipboard (to paste the file in a doc).
 
-And please, <a href="https://www.macworld.com/article/233847/how-to-get-rid-of-the-screenshot-drop-shadow-in-macos.html">remove that dropshadow from Mac screenshots</a>!
+And please, <a target="_blank" href="https://www.macworld.com/article/233847/how-to-get-rid-of-the-screenshot-drop-shadow-in-macos.html">remove that dropshadow from Mac screenshots</a>!
 
 ---
+
+
 
 
 #### Cursor and window tricks

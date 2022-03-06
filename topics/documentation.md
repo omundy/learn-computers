@@ -6,7 +6,7 @@
 
 # Documentation
 
-How to document digital works
+Tips for documenting your creative and technical work
 
 <span class="slides-small"><a href="../slides/documentation.html">slides</a> | <a href="../www/documentation.html">HTML</a></span>
 
@@ -17,13 +17,12 @@ Presentation comments ...
 
 ---
 
-
 ### Contents
 
 1. [Introduction](#introduction)
 1. [About](#about)
 1. [Capture everything](##capture-everything)
-1. [Iterate, iterate, iterate.](#iterate-iterate-iterate)
+1. [Start a Google Doc](#iterate-iterate-iterate)
 1. [Screenshots and videos](#screenshots-and-videos)
 1. [Source code](#source-code)
 1. [Collect it all](#collect-it-all)
@@ -31,8 +30,9 @@ Presentation comments ...
 1. [White paper](#white-paper)
 
 
----
 
+
+---
 
 ## Introduction
 
@@ -61,11 +61,9 @@ Students who complete the following will be able to:
 <div class="twocolumn">
 <div class="col">
 
-You completed your final project and turned it in. The last thing you want to do right now is think about it.
-
-Six months later, you are in a job interview and they ask to see your work.
-
-The problem is, you've slept since then, nothing is live anymore, and you didn't document it.
+- You completed your project and turned it in. The last thing you want to do right now is think about it.
+- Six months later, you are in a job interview and someone asks to see examples of your work.
+- The problem is, you've slept since then, nothing is live anymore, and you didn't document it.
 
 
 </div>
@@ -81,13 +79,11 @@ The problem is, you've slept since then, nothing is live anymore, and you didn't
 
 ## Capture everything
 
-🚫 "I'll just record a quick screen capture ..."
+If you document your process from the outset, it will help:
 
-Documentation should be an ongoing process:
-
-- To help create the work, tracking progress from conception to completion.
-- To archive iterations, things learned, and successes and failures that you can reference later.
-- To tell the story of your project: Parents, professors, peers, potential employers, grad schools, award committees, other academics, the world.
+- Create the work, tracking progress from conception to completion.
+- Archive iterations, concepts, and successes and failures that you can reference later.
+- Tell the story of your project to parents, professors, peers, potential employers, grad schools, award committees, other academics, the world.
 
 Continue reading for examples and tips...
 
@@ -95,9 +91,9 @@ Continue reading for examples and tips...
 
 ---
 
-## Iterate, iterate, iterate.
+## Start a Google Doc
 
-Iteration is a powerful method for improving practically anything. Collect documentation in a Google Doc and paste links, images, notes, etc. as you progress.
+Collect documentation in a Google Doc and paste links, images, notes, etc. as you progress.
 
 - **Research** (articles, artworks, concepts) while developing the concept.
 - **Methods** (different mediums, practices, tools, etc.) you considered and tested.
@@ -112,20 +108,78 @@ Iteration is a powerful method for improving practically anything. Collect docum
 
 ## Screenshots and videos
 
-- Add a folder to your project folder and add screenshots as you make progress. The filenames will be ordered by data automatically.
-- Capture the entire screen on a Mac: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>3</kbd> - [See more Mac and Windows screenshot shortcuts](..html/keyboard-shortcuts.html#screenshots).
-- Capture video on a Mac: [Quicktime](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) (free) or [Giphy Capture](https://giphy.com/apps/giphycapture) (free), [Screenflow](http://www.telestream.net/screenflow/overview.htm) ($).
+<div class="twocolumn">
+<div class="col">
 
-<img width="200" src="../assets/img/documentation/electro-ugh.gif">
+- Add screenshots to your project folder as progress. The filenames will be ordered by date automatically.
+- Screenshot [shortcuts](..html/keyboard-shortcuts.html#screenshots) for Mac:
+	- `Whole screen` <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd>
+	- `Screen section` <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd><br>
+- Capture video on a Mac:
+	- [Quicktime](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) (free)
+	- [Giphy Capture](https://giphy.com/apps/giphycapture) (free)
+	- [Screenflow](http://www.telestream.net/screenflow/overview.htm) ($).
+
+</div>
+<div class="col">
+<img width="400" src="../assets/img/documentation/electro-ugh.gif">
+
+<div class="caption slides-small">Made with <a target="_blank" href="https://giphy.com/apps/giphycapture">Giphy Capture</a></div>
+
+</div>
+</div>
+
+
+
+
+---
+
+## Create a video
+
+Videos are great for incorporating the whole story. For example, in both [Immaterials: light painting WiFi](http://www.nearfield.org/2011/02/wifi-light-painting/) and [My little piece of Privacy](https://www.youtube.com/watch?v=rKhbUjVyKIc&ab_channel=NiklasRoy), the videos:
+
+- Tell the story dramatically, with music, a story, and/or a narrator or text subtitles.
+- Combine text, footage of the object, game, or working interface, and screencasts of the command line.
+- Are published online for the world to see, share, or embed.
+
+
+
+
 
 ---
 
 ## Source code
 
-Your source code is part of the work and you should share it in your documentation:
+Sharing source code has never been more convenient:
 
-- Make it live on Github or at least create a [Gist](https://gist.github.com/) so that others can see and use it.
-- [Share and share alike](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) attribute others' source code (their name and URL) in a comment preceding the borrowed code.
+
+
+
+
+<div class="twocolumn">
+<div class="col">
+
+- Make it live on Github or in a [Gist](https://gist.github.com/) so that others can see and use it.
+- Attribute others (name, URL, etc.) in a comment preceding any code you borrowed.
+- Consider adding a [CC](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) or open source license to your repository so others might do the same.
+
+</div>
+<div class="col">
+
+```js
+/**
+ * Convert Fahrenheit to Celsius:
+ * Credit: W3Schools Javascript Examples
+ * https://www.w3schools.com/js/js_examples.asp
+ */
+function toCelsius(f) {
+	return (5/9) * (f-32);
+}
+console.log(`${toCelsius(77)}`);
+```
+
+</div>
+</div>
 
 
 
@@ -145,20 +199,6 @@ Combine all of the above (the code, statements, screenshots/videos, images, flow
 
 ---
 
-## Edit a video
-
-Sometimes a video is needed to tell the whole story. For example, in both [Immaterials: light painting WiFi](http://www.nearfield.org/2011/02/wifi-light-painting/) and [My little piece of Privacy](https://www.youtube.com/watch?v=rKhbUjVyKIc&ab_channel=NiklasRoy), the videos:
-
-- Are published online for the world to see, share, or embed.
-- Combine text, footage of the object, game, or interface working, screencasts of the command line.
-- Tell the story dramatically, with music, a story, and/or a narrator or text subtitles.
-
-
-
-
-
----
-
 ## White paper
 
 White papers offer a common format to document, discuss, and share research-based projects. In your document should:
@@ -171,6 +211,8 @@ Suggestions for preparing such reports:
 - Purdue OWL [White Paper: Purpose and Audience](https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/white_papers/index.html)
 - [How to Write White Papers People Actually Want to Read](https://coschedule.com/blog/how-to-write-white-papers/)
 - [8 Basic Tips for Writing an Amazing White Paper](https://contently.com/strategist/2012/02/10/how-to-write-a-white-paper/)
+
+
 
 ---
 
