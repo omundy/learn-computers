@@ -44,7 +44,7 @@ The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="www/f
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-keyboard-shortcuts.png">
-Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.md">slides</a> | <a href="www/keyboard-shortcuts.html">HTML</a> | <a href="topics/keyboard-shortcuts.md">md</a>
+Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.html">slides</a> | <a href="www/keyboard-shortcuts.html">HTML</a> | <a href="topics/keyboard-shortcuts.md">md</a>
 </td>
 
 
@@ -80,7 +80,7 @@ Web Development Environment - <a href="www/web-development.html">HTML</a> | <a h
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-networks.png">
-Networks - <a href="slides/networks.md">slides</a> | <a href="www/networks.html">HTML</a> | <a href="topics/networks.md">md</a>
+Networks - <a href="slides/networks.html">slides</a> | <a href="www/networks.html">HTML</a> | <a href="topics/networks.md">md</a>
 </td>
 
 </tr>
@@ -115,13 +115,13 @@ Working with images, networks, and setting up a development environment.
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-images-resolutions.png">
 Images and video <sup>📌 </sup>
-<!-- - <a href="slides/images-resolutions.md">slides</a> | <a href="www/images-resolutions.html">HTML</a> | <a href="topics/images-resolutions.md">md</a> -->
+<!-- - <a href="slides/images-resolutions.html">slides</a> | <a href="www/images-resolutions.html">HTML</a> | <a href="topics/images-resolutions.md">md</a> -->
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-color.png">
 Color <sup>📌 </sup>
-<!-- - <a href="slides/color.md">slides</a> | <a href="www/color.html">HTML</a> | <a href="topics/color.md">md</a> -->
+<!-- - <a href="slides/color.html">slides</a> | <a href="www/color.html">HTML</a> | <a href="topics/color.md">md</a> -->
 </td>
 
 </tr>
@@ -159,12 +159,12 @@ Working with data and APIs.
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-basics.png">
-Data Basics - <a href="slides/data-basics.md">slides</a> | <a href="www/data-basics.html">HTML</a> | <a href="topics/data-basics.md">md</a>
+Data Basics - <a href="slides/data-basics.html">slides</a> | <a href="www/data-basics.html">HTML</a> | <a href="topics/data-basics.md">md</a>
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-types.png">
-Data types - <a href="slides/data-types.md">slides</a> | <a href="www/data-types.html">HTML</a> | <a href="topics/data-types.md">md</a>
+Data types - <a href="slides/data-types.html">slides</a> | <a href="www/data-types.html">HTML</a> | <a href="topics/data-types.md">md</a>
 </td>
 
 </tr>
@@ -176,7 +176,7 @@ Data types - <a href="slides/data-types.md">slides</a> | <a href="www/data-types
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-cleaning.png">
-Data cleaning - <a href="slides/data-cleaning.md">slides</a> | <a href="www/data-cleaning.html">HTML</a> | <a href="topics/data-cleaning.md">md</a>
+Data cleaning - <a href="slides/data-cleaning.html">slides</a> | <a href="www/data-cleaning.html">HTML</a> | <a href="topics/data-cleaning.md">md</a>
 </td>
 
 
@@ -184,7 +184,7 @@ Data cleaning - <a href="slides/data-cleaning.md">slides</a> | <a href="www/data
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-apis.png">
-How to use APIs - <a href="slides/data-apis.md">slides</a> | <a href="www/data-apis.html">HTML</a> | <a href="topics/data-apis.md">md</a>
+How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="www/data-apis.html">HTML</a> | <a href="topics/data-apis.md">md</a>
 </td>
 
 
@@ -207,7 +207,7 @@ How to use APIs - <a href="slides/data-apis.md">slides</a> | <a href="www/data-a
 
  <td width="50%">
 <!--<img class="img-fluid" src="assets/img/banner/banner-computational-thinking.png">
-Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.md">slides</a> | <a href="www/computational-thinking.html">HTML</a> | <a href="topics/computational-thinking.md">md</a>
+Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.html">slides</a> | <a href="www/computational-thinking.html">HTML</a> | <a href="topics/computational-thinking.md">md</a>
 -->
 </td>
 
