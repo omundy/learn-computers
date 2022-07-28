@@ -177,27 +177,25 @@ for i in *.md ; do echo "$i" && pandoc -s $i -o ../www/${i%.*}.html --template=.
 ### Grunt
 
 - Issues automating Pandoc so switched to [bylexus/grunt-md2html](https://github.com/bylexus/grunt-md2html) to convert Markdown files to HTML
-- Grunt "task runner" is popular and has excellent documentation: [Getting started](https://gruntjs.com/getting-started), [Sample Gruntfile](https://gruntjs.com/sample-gruntfile)
-    - [Watching Your Project Files for Changes with Grunt](https://mijingo.com/blog/watching-your-grunt-files-for-changes)
+- Grunt "task runner" is popular and has excellent documentation:
+	- [Getting started](https://gruntjs.com/getting-started)
+    - [Watching Project Files for Changes with Grunt](https://mijingo.com/blog/watching-your-grunt-files-for-changes)
     - **Grunt task** something Grunt does. Make your own with `grunt.registerTask()`
     - **Grunt plugin** a convention for creating reusable tasks. If its on NPM it is a plugin.
-- Many things you can automate:
+- Automate just about anything, especially with plugins:
     - Watch any file or pattern with [grunt-watch](https://github.com/gruntjs/grunt-contrib-watch)
     - Plugin to [validate files with jshint](https://www.npmjs.com/package/grunt-contrib-jshint). See: [Setting up JSHint with Grunt](https://www.codereadability.com/jshint-with-grunt/)
     - Plugin to [Run Shell Command Through Grunt Task](https://www.c-sharpcorner.com/blogs/run-shell-command-through-grunt-task-grunt-shell)
 
 
-### Basic Grunt usage
+### Grunt setup
 
+1. Install the Grunt command line interface (CLI) globally
 ```bash
-# install Grunt command line interface (CLI) globally
 npm install -g grunt-cli
-# Then install plugins and create a gruntfile for plugin / watch options and run grunt in the project directory
-grunt watch
 ```
 
-Install everything with `save-dev` so it only runs locally
-
+2. Install plugins in the project with `--save-dev` so it only runs locally
 ```bash
 npm install grunt-md2html --save-dev
 npm install grunt-contrib-jshint --save-dev
@@ -205,11 +203,27 @@ npm install grunt-contrib-watch --save-dev
 npm install grunt-shell --save-dev
 ```
 
+3. Create a [gruntfile](https://gruntjs.com/sample-gruntfile) for plugin / watch options
 
-Run with verbose
---verbose
 
-[Validate itself](https://github.com/gruntjs/grunt-contrib-jshint)
+
+
+
+### Basic Grunt usage
+
+- Run grunt in the project directory `grunt watch`
+- For debugging, run with `grunt watch --verbose` 
+
+
+### Grunt notes
+
+- `grunt.task.registerTask` is the [same](https://gruntjs.com/api/grunt.task#grunt.task.registertask) as `grunt.registerTask`
+- Thus, `grunt.task.loadNpmTasks` is also the [same](https://gruntjs.com/api/grunt.task#grunt.task.loadnpmtasks) as `grunt.loadNpmTasks`
+- Grunt can validate its own Gruntfile using [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
+
+
+
+
 
 
 
