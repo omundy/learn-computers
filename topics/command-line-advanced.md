@@ -8,7 +8,7 @@
 
 Going further with the text interface.
 
-<span class="slides-small"><a href="../slides/command-line.html">slides</a> | <a href="../www/command-line.html">HTML</a> | <a href="../topics/command-line.md">md</a></span>
+<span class="slides-small"><a href="../slides/command-line-advanced.html">slides</a> | <a href="../www/command-line-advanced.html">HTML</a> | <a href="../topics/command-line-advanced.md">md</a></span>
 
 <!--
 Presentation comments ...
@@ -211,11 +211,9 @@ The following slides cover:
 ## Standard Streams 📌
 
 - Communication between a computer and its environment is known as a *stream*
-- A stream can be physical (e.g. keyboard, display, etc.) or virtual (like with an interactive shell).
+- Streams can be physical (a keyboard, display, etc.) or virtual (an interactive shell).
 - There are three standard streams that [input/output (I/O)](https://en.wikipedia.org/wiki/Input/output) data.
 
-
-<img src="../assets/img/banner/banner-bash-standard-streams.png">
 
 
 
@@ -225,6 +223,12 @@ The following slides cover:
 
 - When a Unix command is executed, data "flows" as text over one of the three standard streams: standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
 
+<img width="600" src="../assets/img/banner/banner-bash-standard-streams.png">
+
+
+---
+
+## Standard Streams
 
 This data is sent to the program "input" using **stdin** and output using **stdout**.
 
@@ -254,6 +258,11 @@ echo "line 1 \nline 2 \nline 3" > file.txt
 # -> This text will be saved into a new file.
 ```
 
+
+---
+
+## Redirection
+
 - Pipe `|` is used to pass output *to another program*.
 
 ```bash
@@ -262,8 +271,10 @@ cat file.txt | grep 2 # stdout -> only lines with a "2"
 ```
 
 ```bash
-history # displays all shell commands during this session
-history | grep cat # displays only commands which contain "cat"
+history
+# -> displays all shell commands during this session
+history | grep cat
+# -> displays only commands which contain "cat"
 ```
 
 

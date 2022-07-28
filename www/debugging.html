@@ -81,6 +81,49 @@ Presentation comments ...
 </div>
 </div>
 
+
+
+<hr>
+<h2 id="computer-benchmarks">Computer Benchmarks</h2>
+<p>A computer benchmarking program works by running a series of specific tests to measure performance, ultimately giving a score that allows comparison across machines.</p>
+<h3 id="geekbench">Geekbench</h3>
+<p>Geekbench is a <a href="https://www.geekbench.com/download/">cross-platform</a> benchmark tool that can measure and track your device&#39;s CPU and GPU performance. Their website lets you compare your score to other machines (<a href="http://browser.geekbench.com/mac-benchmarks">Mac</a>).</p>
+<h3 id="sysbench">Sysbench</h3>
+<p><a href="https://github.com/akopytov/sysbench">sysbench</a> is a command line multi-threaded benchmark tool primarily for MacOS and Linux. It can be used for database, filesystem-level, CPU, memory access, and many other benchmarks.</p>
+<pre><code class="language-bash"># install with homebrew
+brew install sysbench
+# run a cpu test
+sysbench cpu run
+# run a memory test
+sysbench memory run
+</code></pre>
+<h3 id="phoronix-test-suite">Phoronix Test Suite</h3>
+<p>The <a href="https://www.phoronix-test-suite.com/">Phoronix Test Suite</a> is an open source  licensed under the GNU GPLv3 free software license. The Phoronix Test Suite can be used for personal or professional purposes free of charge. Patches to the Phoronix Test Suite are welcome via GitHub.</p>
+<p>Compare results on <a href="https://openbenchmarking.org">https://openbenchmarking.org</a></p>
+<pre><code class="language-bash"># install with homebrew
+brew install phoronix-test-suite
+# this install into
+which phoronix-test-suite
+</code></pre>
+<p>Then to test, <a href="https://github.com/phoronix-test-suite/phoronix-test-suite">download the repository</a></p>
+<blockquote>
+<p>&quot;To run the Phoronix Test Suite locally you must first change directories to phoronix-test-suite/ or install the program using the install-sh script.&quot;</p>
+</blockquote>
+<pre><code class="language-bash"># download and then move into directory
+cd /Users/owenmundy/Documents/_code/phoronix-test-suite
+# get system info
+phoronix-test-suite system-info
+# list recommended tests
+phoronix-test-suite list-recommended-tests
+# test
+phoronix-test-suite benchmark chess
+</code></pre>
+<h3 id="activity">Activity</h3>
+<ol>
+<li>Install</li>
+<li>Compare with a partner</li>
+</ol>
+
         </div>
     </div>
 </div>
