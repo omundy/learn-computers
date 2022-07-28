@@ -2,34 +2,70 @@
 
 # Production Notes
 
+Notes about how to publish / maintain the content of this repo.
+
+---
+
+## Project goals
+
+Why I built this content using Markdown files in a Git repository:
+
+- **Flexibility** – I can create content and automatically publish it to slide presentation *and* HTML tutorials.
+- **Efficiency** – Markdown is very easy to write but I can use HTML/CSS even JS when needed.
+- **The right tool** – Code samples can be placed directly within files, making it easy to search, copy/paste, edit.
+- **Encapsulation** - All content (tutorials, sample code, exercises, diagrams, and other media) are encapsulated within a single repository, making it easy to move, manage, and publish on github.io for classes.
+- **Accessibility** - As a Git repository, content is also easy for me to edit and not locked in propriety formats
+- **Searchability** – I can search all plain text content, even replace text across the entire project.
+
+
+---
+
+## Logistics
+
+- Each Markdown page inside /topics is essentially a topic within theme of the project
+- Markdown pages are auto-published as slide presentations using Grunt and Marp
+- The entire project is published online using GitHub Pages
+
+To start the project
+
+```bash
+# install dependencies
+npm install
+# start grunt
+grunt watch
+```
 
 
 
 
-## Github Markdown
+---
 
-GitHub doesn't permit you to adjust font sizes, styles, or colors when it renders Markdown. That's because the text needs to be legible on all sorts of systems with all sorts of font sizes and in both light and dark mode.
+## Potential platforms
 
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-- [What HTML Tags Does Github Allow?](https://gist.github.com/coolaj86/89821fe046623d5503ce5c4133e70506)
-- [HTML Tags You Can Use on GitHub](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2)
-- [Github sanitization_filter](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html/pipeline/sanitization_filter.rb#L44-L106)
-
-### Not supported
-
-- CSS via the `<style>` or `style=` attribute
-- `class`
+- [Gitbook](https://www.gitbook.com/) would be a great option. Examples: [docs.yarnspinner.dev](https://docs.yarnspinner.dev/). If I had found this earlier I might have used it instead of doing it all from scratch.
+- I explored Wikimedia as well, but I have never liked how content is (not) organized inside Wikis
 
 
 
 
+---
+
+## Writing Github Markdown
+
+- [GitHub Markdown](https://guides.github.com/features/mastering-markdown/) allows some HTML but [doesn't support](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html/pipeline/sanitization_filter.rb#L44-L106)) `class`, `<style>` or `style=` attributes.
+- Essentially, Github [wants](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2) content [to be](https://gist.github.com/coolaj86/89821fe046623d5503ce5c4133e70506) legible on all sorts of systems, including both light and dark mode, so adjusting font sizes, styles, or colors is not allowed.
 
 
-## Convert Markdown to HTML Slides
 
-A list of potential [options](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
+---
+
+## Converting Markdown to HTML Slides
+
+A list of potential [options](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8) and experiments:
 
 
+
+---
 
 ### Remark
 
@@ -48,6 +84,8 @@ markdown-to-slides topics/data-basics.md -o slideshow.html -w
 - Ultimately I chose Marp because it gave me better options
 
 
+
+---
 
 ### Marp
 
@@ -70,13 +108,16 @@ marp -w
 marp
 ```
 
+
+---
+
 ### Marp Options
 
 From [documentation](https://github.com/marp-team/marp-cli#options) for adding to package.json
 
 - `html` Enable/disable HTML tags
-- `inputDir` The base directory to find markdown and theme CSS
-- `output` Output file path (or directory when input-dir is passed)
+- `inputDir` The base directory to find markdown and theme CSS (really only for finding other css files)
+- `output` Output file path (or directory when input-dir is passed) (requires inputDir!)
 - `headingDivider` Create a new slide at heading size ([marpit](https://marpit-api.marp.app/marpit))
 - [Slide styling](https://marpit.marp.app/directives?id=styling-slide)
 - Themes [default](https://github.com/bespokejs/bespoke) but you can [change themes](https://github.com/marp-team/marp-core/tree/main/themes#gaia)
@@ -93,12 +134,15 @@ Open presenter view | <kbd>p</kbd>
 
 
 
-
+---
 
 ## Convert Markdown to HTML
 
 So many [options](https://stackoverflow.com/questions/7694887/is-there-a-command-line-utility-for-rendering-github-flavored-markdown)
 
+
+
+---
 
 ### markdown-to-html-cli
 
@@ -106,6 +150,8 @@ So many [options](https://stackoverflow.com/questions/7694887/is-there-a-command
 - First tool that I tried. Worked OK, but kept looking...
 
 
+
+---
 
 ### Pandoc
 
@@ -126,7 +172,7 @@ for i in *.md ; do echo "$i" && pandoc -s $i -o ../www/${i%.*}.html --template=.
 
 
 
-
+---
 
 ### Grunt
 
@@ -141,7 +187,7 @@ for i in *.md ; do echo "$i" && pandoc -s $i -o ../www/${i%.*}.html --template=.
     - Plugin to [Run Shell Command Through Grunt Task](https://www.c-sharpcorner.com/blogs/run-shell-command-through-grunt-task-grunt-shell)
 
 
-Basic usage
+### Basic Grunt usage
 
 ```bash
 # install Grunt command line interface (CLI) globally
@@ -167,7 +213,7 @@ Run with verbose
 
 
 
-
+---
 
 ### Highlight.js
 

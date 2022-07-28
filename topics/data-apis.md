@@ -173,7 +173,7 @@ Their [documentation](https://www.weather.gov/documentation/services-web-api) sa
 https://api.weather.gov/points/{latitude},{longitude}
 ```
 
-For <a href="https://www.latlong.net/place/davidson-nc-usa-10313.html" target="_blank">Davidson College</a> we use 👉 <a href="https://api.weather.gov/points/35.499302,-80.848686" target="_blank">https://api.weather.gov/points/35.499302,-80.848686</a>
+For <a href="https://www.latlong.net/place/davidson-nc-usa-10313.html" target="_blank">Davidson College</a> use 👉 <a href="https://api.weather.gov/points/35.499302,-80.848686" target="_blank">https://api.weather.gov/points/35.499302,-80.848686</a>
 
 The response includes several data points, like our grid office `gsp` and position `116,76`
 
