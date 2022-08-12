@@ -55,13 +55,26 @@ Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presen
 
 
 
+
 </tr>
 </table>
+<table>
+<tr>
 
 
 
+<td width="50%">
+<img class="img-fluid" src="assets/img/banner/banner-files-naming-conventions.png">
+Files and naming conventions - <a href="slides/files-naming-conventions.html">slides</a> | <a href="www/files-naming-conventions.html">HTML</a> | <a href="topics/files-naming-conventions.md">md</a>
+</td>
 
 
+<td width="50%">
+</td>
+
+
+</tr>
+</table>
 
 
 
@@ -178,8 +191,6 @@ Data types - <a href="slides/data-types.html">slides</a> | <a href="www/data-typ
 <img class="img-fluid" src="assets/img/banner/banner-data-cleaning.png">
 Data cleaning - <a href="slides/data-cleaning.html">slides</a> | <a href="www/data-cleaning.html">HTML</a> | <a href="topics/data-cleaning.md">md</a>
 </td>
-
-
 
 
 <td width="50%">
