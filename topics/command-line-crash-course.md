@@ -63,7 +63,7 @@ The command line allows you to control your computer via a text interface. Depen
 
 👉 **Try it out**
 
-[Open](basics.md#find-a-file-or-program) your command line application and note the **prompt** — the `$` `%` or `#` symbol — where you will type commands.
+Open your command line application (Terminal, etc.) and note the **prompt** — the `$` `%` or `#` symbol — where you will type commands.
 
 1. Type each of the following commands at the prompt, pressing <kbd>return</kbd> each time.
 1. If you make a mistake press backspace or <kbd>Ctl</kbd> + <kbd>C</kbd> to cancel.
