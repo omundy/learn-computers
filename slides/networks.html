@@ -78,33 +78,41 @@
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> On Google, <a href="https://www.google.com/search?q=what+is+my+IP">&quot;what is my ip&quot;</a> will yield a number that looks like this:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>24.224.66.226
 </code></pre>
-<p>IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255. Noteworthy examples:</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-theme="owen" data-marpit-pagination="6" data-marpit-pagination-total="27" style="--paginate:true;--theme:owen;">
+<p>IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>1.1.1.1        =&gt; Cloudflare DNS server
 8.8.8.8        =&gt; Google DNS server
 192.168.1.1    =&gt; Default address to configure your home internet router
 255.255.255.0  =&gt; Subnet mask used by TCP/IP to know if a host is local or remote.
 </code></pre>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-theme="owen" data-marpit-pagination="6" data-marpit-pagination-total="27" style="--paginate:true;--theme:owen;">
-<p>Surprisingly, IPv4's 2<sup>32</sup> addresses was not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup> (<a href="https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers">how to say this number</a>)!</p>
+<p>Surprisingly, IPv4's 2<sup>32</sup> addresses were not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup>!</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>IPv4 =&gt; 4,294,967,296
 IPv6 =&gt; 340,282,366,920,938,000,000,000,000,000,000,000,000
 </code></pre>
+<p class="slides-small">(<a href="https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers">How to say this ^ number</a>)</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-theme="owen" data-marpit-pagination="7" data-marpit-pagination-total="27" style="--paginate:true;--theme:owen;">
 <h2>Domain Names</h2>
 <p>A domain name is a human-readable name for an IP address or web host.</p>
-<p>Domain names are much easier to recall than the string of numbers in an IP.</p>
-<p>A domain name must be <strong>resolved</strong> to the IP address of the destination via the <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a> (DNS) to reach data on a web host:</p>
+<p>For example, use <code>ping google.com</code> to find their IP address: <a href="http://64.233.177.104" target="_blank">64.233.177.104</a></p>
+<p>While easier to recall than the numbers in an IP address, domain names must be <strong>resolved</strong> via the <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a> (DNS) to learn the IP address of the web host:</p>
 <ol>
-<li>A user types a domain name into a web browser</li>
-<li>The browser performs a Domain Name Service (DNS) query to get the IP address of the destination</li>
-<li>The browser can then fetch the data from the server using the IP</li>
+<li>User types a domain name into a web browser</li>
+<li>Browser performs a DNS query to find the IP address of the server</li>
+<li>Browser then requests website files using the server's IP</li>
 </ol>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-theme="owen" data-marpit-pagination="8" data-marpit-pagination-total="27" style="--paginate:true;--theme:owen;">
 <h2>Basic Network Commands</h2>
-<p>The following network commands should run via the <a href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a> (CLI) on any Linux, Mac, or Windows (<img class="emoji" draggable="false" alt="🤞" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f91e.svg" data-marp-twemoji=""/>) command line. These are essential for basic web development.</p>
+<p>The following network commands are essential for basic web development. Run them via the <a href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a> (CLI) on any Linux, Mac, or Windows (<img class="emoji" draggable="false" alt="🤞" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f91e.svg" data-marp-twemoji=""/>) command line.</p>
+<ol>
+<li>whois</li>
+<li>ping</li>
+<li>traceroute</li>
+<li>curl</li>
+<li>ssh</li>
+</ol>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-theme="owen" data-marpit-pagination="9" data-marpit-pagination-total="27" style="--paginate:true;--theme:owen;">
 <h3>whois</h3>

@@ -153,11 +153,11 @@ Presentation comments ...
 <hr>
 <h4 id="parameters">Parameters</h4>
 <p>When you type on the command line, the shell that your terminal uses (e.g. bash, zsh, etc.) can also accept parameters that change what the command will do. These are called &quot;flags&quot;.</p>
-<p>👉 For example, this will tell you what version of the <code>whoami</code> command is on your machine:</p>
-<pre><code class="language-bash">whoami --version
+<p>👉 For example, the <code>id</code> command (like <code>whoami</code>) will return login information, but using the following flags will be more specific.</p>
+<pre><code class="language-bash">id -un
 </code></pre>
-<p>👉 And this prints the help file associated with it, showing all flags.</p>
-<pre><code class="language-bash">whoami --help
+<p>👉 The <code>man</code> command shows the manual file associated with a command, including all flags. Add the command name at the end.</p>
+<pre><code class="language-bash">man id
 </code></pre>
 <hr>
 <h4 id="which">which</h4>
@@ -235,7 +235,7 @@ cat hello.txt
 clear
 </code></pre>
 <p>👉 Create and open a plain text file with the .py extension.</p>
-<pre><code class="language-bash">vim hello.py
+<pre><code class="language-bash">vim script.py
 </code></pre>
 <hr>
 <h3 id="add-python-code">Add Python code</h3>

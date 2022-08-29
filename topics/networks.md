@@ -83,7 +83,9 @@ An [Internet Protocol (IP) address](https://en.wikipedia.org/wiki/IP_address) is
 24.224.66.226
 ```
 
-IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255. Noteworthy examples:
+---
+
+IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255.
 
 ```
 1.1.1.1        => Cloudflare DNS server
@@ -92,18 +94,13 @@ IP Version 4 (IPv4) defines a dot-decimal number with four sections, each betwee
 255.255.255.0  => Subnet mask used by TCP/IP to know if a host is local or remote.
 ```
 
-
----
-
-
-Surprisingly, IPv4's 2<sup>32</sup> addresses was not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup> ([how to say this number](https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers))!
+Surprisingly, IPv4's 2<sup>32</sup> addresses were not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup>!
 
 ```
 IPv4 => 4,294,967,296
 IPv6 => 340,282,366,920,938,000,000,000,000,000,000,000,000
 ```
-
-
+<p class="slides-small">(<a href="https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers">How to say this ^ number</a>)</p>
 
 
 
@@ -116,13 +113,13 @@ IPv6 => 340,282,366,920,938,000,000,000,000,000,000,000,000
 
 A domain name is a human-readable name for an IP address or web host.
 
-Domain names are much easier to recall than the string of numbers in an IP.
+For example, use `ping google.com` to find their IP address: <a href="http://64.233.177.104" target="_blank">64.233.177.104</a>
 
-A domain name must be **resolved** to the IP address of the destination via the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) to reach data on a web host:
+While easier to recall than the numbers in an IP address, domain names must be **resolved** via the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) to learn the IP address of the web host:
 
-1. A user types a domain name into a web browser
-1. The browser performs a Domain Name Service (DNS) query to get the IP address of the destination
-1. The browser can then fetch the data from the server using the IP
+1. User types a domain name into a web browser
+1. Browser performs a DNS query to find the IP address of the server
+1. Browser then requests website files using the server's IP
 
 
 
@@ -135,8 +132,13 @@ A domain name must be **resolved** to the IP address of the destination via the 
 
 ## Basic Network Commands
 
-The following network commands should run via the [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) on any Linux, Mac, or Windows (🤞) command line. These are essential for basic web development.
+The following network commands are essential for basic web development. Run them via the [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) on any Linux, Mac, or Windows (🤞) command line.
 
+1. whois
+1. ping
+1. traceroute
+1. curl
+1. ssh
 
 
 ---

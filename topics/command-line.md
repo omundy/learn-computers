@@ -150,16 +150,16 @@ Use [pwd](https://en.wikipedia.org/wiki/Pwd) (**P**rint **W**orking **D**irector
 
 When you type on the command line, the shell that your terminal uses (e.g. bash, zsh, etc.) can also accept parameters that change what the command will do. These are called "flags".
 
-👉 For example, this will tell you what version of the `whoami` command is on your machine:
+👉 For example, the `id` command (like `whoami`) will return login information, but using the following flags will be more specific.
 
 ```bash
-whoami --version
+id -un
 ```
 
-👉 And this prints the help file associated with it, showing all flags.
+👉 The `man` command shows the manual file associated with a command, including all flags. Add the command name at the end.
 
 ```bash
-whoami --help
+man id
 ```
 
 ---
@@ -314,7 +314,7 @@ clear
 👉 Create and open a plain text file with the .py extension.
 
 ```bash
-vim hello.py
+vim script.py
 ```
 
 
