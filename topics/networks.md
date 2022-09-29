@@ -325,8 +325,13 @@ Use <kbd>Ctl</kbd> + <kbd>o</kbd> to save and <kbd>Ctl</kbd> + <kbd>x</kbd> to e
 
 
 
+---
+
+## Telnet
 
 
+https://osxdaily.com/2018/07/18/get-telnet-macos/
+telnet towel.blinkenlights.nl
 
 
 
@@ -446,6 +451,34 @@ To prevent others from viewing your network activity without permission (a.k.a. 
 sudo tcpdump -nS
 ```
 
+
+
+---
+
+#### Port Scanning with NMap
+
+This will perform a port scan to list open ports / identify running services on a remote host.
+
+
+```bash
+# install
+brew install nmap
+# test
+nmap scanme.nmap.org
+```
+
+> Starting Nmap 7.93 ( https://nmap.org ) at 2022-09-22 10:59 EDT
+> Nmap scan report for scanme.nmap.org (45.33.32.156)
+> Host is up (0.078s latency).
+> Not shown: 996 closed tcp ports (conn-refused)
+> PORT      STATE SERVICE
+> 22/tcp    open  ssh
+> 80/tcp    open  http
+> 9929/tcp  open  nping-echo
+> 31337/tcp open  Elite
+
+
+http://scanme.nmap.org/
 
 
 

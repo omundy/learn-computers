@@ -191,7 +191,7 @@ Examples:
 
 ### File organization
 
-![file organization](../assets/img/files/files-hierarchy.png)
+![file organization](../assets/img/files/i-love-organizing.png)
 
 ---
 
@@ -226,6 +226,13 @@ The answers to the above questions are possible thanks to options selected in Ma
 
 ---
 
+### File organization
+
+![file organization](../assets/img/files/i-love-organizing-overlay.png)
+
+
+
+---
 
 ### Cloud-backups
 

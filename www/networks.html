@@ -211,6 +211,10 @@ whois owenmundy.com
 <hr>
 <h2 id="advanced-network-tools">Advanced Network Tools</h2>
 <hr>
+<h2 id="telnet">Telnet</h2>
+<p><a href="https://osxdaily.com/2018/07/18/get-telnet-macos/">https://osxdaily.com/2018/07/18/get-telnet-macos/</a>
+telnet towel.blinkenlights.nl</p>
+<hr>
 <h3 id="sftp">SFTP</h3>
 <p>SFTP (Secure File Transfer Protocol) allows you to send files across a network with the command line. It is usually more convenient to use a GUI like Cyberduck.</p>
 <p>👉 To create an SFTP connection type the following.</p>
@@ -258,6 +262,26 @@ whois owenmundy.com
 <p>👉 To view all your network activity in real time, run the following. Use <kbd>Ctl</kbd> + <kbd>c</kbd> to exit:</p>
 <pre><code class="language-bash">sudo tcpdump -nS
 </code></pre>
+<hr>
+<h4 id="port-scanning-with-nmap">Port Scanning with NMap</h4>
+<p>This will perform a port scan to list open ports / identify running services on a remote host.</p>
+<pre><code class="language-bash"># install
+brew install nmap
+# test
+nmap scanme.nmap.org
+</code></pre>
+<blockquote>
+<p>Starting Nmap 7.93 ( <a href="https://nmap.org">https://nmap.org</a> ) at 2022-09-22 10:59 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.078s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+9929/tcp  open  nping-echo
+31337/tcp open  Elite</p>
+</blockquote>
+<p><a href="http://scanme.nmap.org/">http://scanme.nmap.org/</a></p>
 <hr>
 <h4 id="wireshark">Wireshark</h4>
 <p>Wireshark can inspect network packets with a GUI.</p>
