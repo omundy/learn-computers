@@ -25,13 +25,13 @@ Essential knowledge for working with computers.
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-command-line.png">
-The Command line - <a href="slides/command-line.html">slides</a> | <a href="www/command-line.html">HTML</a> | <a href="topics/command-line.md">md</a>
+The Command line - <a href="slides/command-line.html">slides</a> | <a href="topics/command-line.md">md</a>
 </td>
 
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-files-folders.png">
-The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="www/files-folders.html">HTML</a> | <a href="topics/files-folders.md">md</a>
+The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="topics/files-folders.md">md</a>
 <!-- Users, files, folders -->
 </td>
 
@@ -44,7 +44,7 @@ The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="www/f
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-keyboard-shortcuts.png">
-Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.html">slides</a> | <a href="www/keyboard-shortcuts.html">HTML</a> | <a href="topics/keyboard-shortcuts.md">md</a>
+Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.html">slides</a> | <a href="topics/keyboard-shortcuts.md">md</a>
 </td>
 
 
@@ -65,7 +65,7 @@ Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presen
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-files-naming-conventions.png">
-Files and naming conventions - <a href="slides/files-naming-conventions.html">slides</a> | <a href="www/files-naming-conventions.html">HTML</a> | <a href="topics/files-naming-conventions.md">md</a>
+Files and naming conventions - <a href="slides/files-naming-conventions.html">slides</a> | <a href="topics/files-naming-conventions.md">md</a>
 </td>
 
 
@@ -88,12 +88,12 @@ Understanding networks and setting up a development environment.
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-web-development.png">
-Web Development Environment - <a href="www/web-development.html">HTML</a> | <a href="topics/web-development.md">md</a>
+Web Development Environment - <a href="slides/web-development.html">slides</a> | <a href="topics/web-development.md">md</a>
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-networks.png">
-Networks - <a href="slides/networks.html">slides</a> | <a href="www/networks.html">HTML</a> | <a href="topics/networks.md">md</a>
+Networks - <a href="slides/networks.html">slides</a> | <a href="topics/networks.md">md</a>
 </td>
 
 </tr>
@@ -104,12 +104,12 @@ Networks - <a href="slides/networks.html">slides</a> | <a href="www/networks.htm
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-web-servers.png">
-Web servers<sup>📌 </sup> - <a href="www/web-servers.html">HTML</a> | <a href="topics/web-servers.md">md</a>
+Web servers<sup>📌 </sup> - <a href="slides/web-servers.html">slides</a> | <a href="topics/web-servers.md">md</a>
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-debugging.png">
-Debugging<sup>📌 </sup> - <a href="www/debugging.html">HTML</a> | <a href="topics/debugging.md">md</a>
+Debugging<sup>📌 </sup> - <a href="slides/debugging.html">slides</a> | <a href="topics/debugging.md">md</a>
 </td>
 
 </tr>
@@ -120,7 +120,7 @@ Debugging<sup>📌 </sup> - <a href="www/debugging.html">HTML</a> | <a href="top
 
 ## Media
 
-Working with images, networks, and setting up a development environment.
+Working with images, video, and color.
 
 <table>
 <tr>
@@ -128,13 +128,13 @@ Working with images, networks, and setting up a development environment.
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-images-resolutions.png">
 Images and video <sup>📌 </sup>
-<!-- - <a href="slides/images-resolutions.html">slides</a> | <a href="www/images-resolutions.html">HTML</a> | <a href="topics/images-resolutions.md">md</a> -->
+<!-- - <a href="slides/images-resolutions.html">slides</a> | <a href="topics/images-resolutions.md">md</a> -->
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-color.png">
 Color <sup>📌 </sup>
-<!-- - <a href="slides/color.html">slides</a> | <a href="www/color.html">HTML</a> | <a href="topics/color.md">md</a> -->
+<!-- - <a href="slides/color.html">slides</a> | <a href="topics/color.md">md</a> -->
 </td>
 
 </tr>
@@ -146,10 +146,12 @@ Color <sup>📌 </sup>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-documentation.png">
-Documenting digital works - <a href="slides/documentation.html">slides</a> | <a href="www/documentation.html">HTML</a> | <a href="topics/documentation.md">md</a>
+Documenting digital works - <a href="slides/documentation.html">slides</a> | <a href="topics/documentation.md">md</a>
 </td>
 
 <td width="50%">
+<img class="img-fluid" src="assets/img/banner/banner-displays.png">
+Displays and monitors📌 - <a href="slides/displays.html">slides</a> | <a href="topics/displays.md">md</a>
 </td>
 
 </tr>
@@ -172,12 +174,12 @@ Working with data and APIs.
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-basics.png">
-Data Basics - <a href="slides/data-basics.html">slides</a> | <a href="www/data-basics.html">HTML</a> | <a href="topics/data-basics.md">md</a>
+Data Basics - <a href="slides/data-basics.html">slides</a> | <a href="topics/data-basics.md">md</a>
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-types.png">
-Data types - <a href="slides/data-types.html">slides</a> | <a href="www/data-types.html">HTML</a> | <a href="topics/data-types.md">md</a>
+Data types - <a href="slides/data-types.html">slides</a> | <a href="topics/data-types.md">md</a>
 </td>
 
 </tr>
@@ -189,13 +191,13 @@ Data types - <a href="slides/data-types.html">slides</a> | <a href="www/data-typ
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-cleaning.png">
-Data cleaning - <a href="slides/data-cleaning.html">slides</a> | <a href="www/data-cleaning.html">HTML</a> | <a href="topics/data-cleaning.md">md</a>
+Data cleaning - <a href="slides/data-cleaning.html">slides</a> | <a href="topics/data-cleaning.md">md</a>
 </td>
 
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-data-apis.png">
-How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="www/data-apis.html">HTML</a> | <a href="topics/data-apis.md">md</a>
+How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="topics/data-apis.md">md</a>
 </td>
 
 
@@ -218,7 +220,7 @@ How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="www/data
 
  <td width="50%">
 <!--<img class="img-fluid" src="assets/img/banner/banner-computational-thinking.png">
-Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.html">slides</a> | <a href="www/computational-thinking.html">HTML</a> | <a href="topics/computational-thinking.md">md</a>
+Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.html">slides</a> | <a href="topics/computational-thinking.md">md</a>
 -->
 </td>
 

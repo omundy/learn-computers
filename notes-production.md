@@ -133,6 +133,15 @@ Open presenter view | <kbd>p</kbd>
 
 
 
+### More articles
+
+https://github.com/hahnec/marp-recipes
+https://www.hashbangcode.com/article/creating-presentations-markdown-marp
+https://towardsdatascience.com/bye-bye-powerpoint-hello-marp-3c0e3b3198b1
+https://davidgarcia.dev/posts/creating-professional-slides-from-markdown-notes/
+https://www.ansiblejunky.com/blog/custom-themes-with-marp/
+
+
 
 ---
 
@@ -212,7 +221,7 @@ npm install grunt-shell --save-dev
 ### Basic Grunt usage
 
 - Run grunt in the project directory `grunt watch`
-- For debugging, run with `grunt watch --verbose` 
+- For debugging, run with `grunt watch --verbose`
 
 
 ### Grunt notes

@@ -27,26 +27,26 @@ module.exports = function(grunt) {
                     dest: 'index.html'
                 }]
             },
-            multiple_files: {
-                options: {
-                    layout: "assets/md2html/templates/bootstrap.html",
-                    templateData: {
-                        basePath: "../",
-                        author: pkgJson.author,
-                        projectTitle: pkgJson.title,
-                        filename: function(src) {
-                            return src[0].match(/\/(.*).md/);
-                        },
-                    },
-                },
-                files: [{
-                    expand: true,
-                    cwd: 'topics',
-                    src: ['**/*.md'],
-                    dest: 'www', // destination directory
-                    ext: '.html' // new file ext
-                }]
-            }
+            // multiple_files: {
+            //     options: {
+            //         layout: "assets/md2html/templates/bootstrap.html",
+            //         templateData: {
+            //             basePath: "../",
+            //             author: pkgJson.author,
+            //             projectTitle: pkgJson.title,
+            //             filename: function(src) {
+            //                 return src[0].match(/\/(.*).md/);
+            //             },
+            //         },
+            //     },
+            //     files: [{
+            //         expand: true,
+            //         cwd: 'topics',
+            //         src: ['**/*.md'],
+            //         dest: 'www', // destination directory
+            //         ext: '.html' // new file ext
+            //     }]
+            // }
         },
         watch: {
             configFiles: {
