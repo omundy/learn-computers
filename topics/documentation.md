@@ -65,10 +65,11 @@ Students who complete the following will be able to:
 - Six months later, you are in a job interview and someone asks to see examples of your work.
 - The problem is, you've slept since then, nothing is live anymore, and you didn't document it.
 
-
 </div>
 <div class="col">
+
 <img width="375" src="../assets/img/documentation/documentation-meme.jpg">
+
 </div>
 </div>
 
@@ -122,9 +123,12 @@ Collect documentation in a Google Doc and paste links, images, notes, etc. as yo
 
 </div>
 <div class="col">
+
 <img width="400" src="../assets/img/documentation/electro-ugh.gif">
 
-<div class="caption slides-small">Made with <a target="_blank" href="https://giphy.com/apps/giphycapture">Giphy Capture</a></div>
+<div class="caption slides-small">
+	Made with <a target="_blank" href="https://giphy.com/apps/giphycapture">Giphy Capture</a>
+</div>
 
 </div>
 </div>

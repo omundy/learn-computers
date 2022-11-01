@@ -65,7 +65,9 @@ The problem is, you've slept since then, nothing is live anymore, and you didn't
 
 </div>
 <div class="col">
+
 <img width="375" src="../assets/img/debugging/debugging-meme.jpg">
+
 </div>
 </div>
 

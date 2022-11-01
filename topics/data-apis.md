@@ -28,8 +28,8 @@ Presentation comments ...
 1. [National Weather Service API](#national-weather-service-api)
 1. [API authentication](#api-authentication)
 1. [Why are most APIs free?](#why-are-most-apis-free)
-1. [Use Postman to test APIs](#use-postman-to-test-apis)
 1. [Keep practicing](#keep-practicing), [References](#references)
+1. [Use Postman to test APIs](#use-postman-to-test-apis)
 
 
 ---
@@ -64,6 +64,10 @@ Complete the following to prepare for this module
 </details>
 
 
+
+
+
+
 ---
 
 ## Required tools
@@ -71,7 +75,7 @@ Complete the following to prepare for this module
 👉 Install these tools now to use them later in this presentation
 
 1. [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) browser extension
-1. Create a [Postman Account](https://identity.getpostman.com/signup) and [install their client](https://www.postman.com/downloads/)
+1. (optional) [Postman](https://www.postman.com/) (account required)
 
 
 ---
@@ -98,10 +102,8 @@ Any time you access the internet or use a mobile app, you're using an API.
 - Social media apps ([Twitter](https://developer.twitter.com/en/docs/twitter-api), [Instagram](https://www.instagram.com/developer/), etc.) use APIs to retrieve and upload data
 
 
-<div class="caption small">
-
-*While "API" can also refer to a specification, or how a standard is exposed, this presentation discusses web services.
-
+<div class="caption slides-small">
+	*While "API" can also refer to a specification, or how a standard is exposed, this presentation discusses web services.
 </div>
 
 
@@ -130,7 +132,7 @@ The key difference between "interfaces" they provide
 The method you use to send an API request depends on your context. For testing:
 
 - Use a web browser
-- Use an API-testing client like Postman
+- Use an API-testing client like [REQBIN](https://reqbin.com/) or Postman
 - Use `wget` or `curl` on a command line
 
 If you are coding an application:
@@ -154,7 +156,7 @@ This National Weather Service (NWS) API endpoint returns JSON data about its sta
 }
 ```
 
-<div class="caption small">
+<div class="caption slides-small">
 
 If you installed <a href="https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US" target="_blank">JSON Viewer</a> then it will display formatted data like above.
 
@@ -240,11 +242,11 @@ Companies build APIs for various reasons:
 ## Why are most APIs free?
 
 <div class="twocolumn">
-
 <div class="col">
-<a href="../assets/img/data-apis/data-apis-taylor-swift.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-taylor-swift.png"></a>
-</div>
 
+<a href="../assets/img/data-apis/data-apis-taylor-swift.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-taylor-swift.png"></a>
+
+</div>
 <div class="col">
 
 - The Instagram app is just another type of client.
@@ -256,20 +258,14 @@ Companies build APIs for various reasons:
 
 
 
-
-
-
 ---
 
-
 <div class="twocolumn">
-
 <div class="col">
 
-<h2>Use Postman to test APIs</h2>
+<h2>Use REQBIN to test APIs</h2>
 
-
-[Postman](https://www.postman.com/) is an API development client. Once you [install](https://www.postman.com/downloads/) the app and [login](https://identity.getpostman.com/signup):
+Go to [REQBIN](https://reqbin.com/)
 
 👉 Create a new `GET` request with this URL and click Send
 
@@ -278,20 +274,21 @@ Companies build APIs for various reasons:
 
 You will see `Status: 200 OK` and a collection of "users" if your request was successful.
 
-
-<div class="caption small">
-
-*[JSON Placeholder](https://jsonplaceholder.typicode.com/) is a free fake API for testing
-
+<div class="caption slides-small">
+	*<a href="https://jsonplaceholder.typicode.com/" target="_blank">JSON Placeholder</a> is a free fake API for testing
 </div>
 
 </div>
-
 <div class="col">
-<a href="../assets/img/data-apis/postman-jsonplaceholder-users.png" target="_blank"><img width="100%" src="../assets/img/data-apis/postman-jsonplaceholder-users.png"></a>
-</div>
+
+<a href="../assets/img/data-apis/data-apis-reqbin.gif"><img width="100%" src="../assets/img/data-apis/data-apis-reqbin.gif"></a>
 
 </div>
+</div>
+
+
+
+
 
 
 
@@ -317,38 +314,31 @@ The parts of this URL `https://jsonplaceholder.typicode.com/users`
 
 ---
 
-
-
-
-
-
-
-<div class="twocolumn">
-
+<div class="twocolumn2x1">
 <div class="col">
 
 <h2>👉  API Practice</h2>
 
-Continue exploring APIs with a browser or Postman using the following [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/).
+Continue exploring APIs with a browser, [REQBIN](https://reqbin.com/), or Postman using the following [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/).
 
-- [Bored API](https://www.boredapi.com/documentation) - Get a new random [/activity](http://www.boredapi.com/api/activity/)
-- [Random User Generator](https://randomuser.me/) - [/api](https://randomuser.me/api/)
-- [IP Geolocation API](https://freegeoip.app/) - Data about your present location [/json](https://freegeoip.app/json/)
-- [faker.hook.io](https://fakerjsdocs.netlify.app/) uses [faker.js](https://github.com/marak/Faker.js/) - [name.findName&locale=de](http://faker.hook.io/?property=name.findName&locale=de), [hacker.phrase](http://faker.hook.io/?property=hacker.phrase), [companyName](http://faker.hook.io/?property=company.companyName) ([see list](http://faker.hook.io/?property=))
+- [Bored API](https://www.boredapi.com/documentation) - Get a new random <a href="http://www.boredapi.com/api/activity/" target="_blank">/activity</a>
+- [Random User Generator](https://randomuser.me/) - <a href="https://randomuser.me/api/" target="_blank">/api</a>
+<!-- - [faker.hook.io](https://fakerjsdocs.netlify.app/) uses [faker.js](https://github.com/marak/Faker.js/) - [name.findName&locale=de](http://faker.hook.io/?property=name.findName&locale=de), [hacker.phrase](http://faker.hook.io/?property=hacker.phrase), [companyName](http://faker.hook.io/?property=company.companyName) ([see list](http://faker.hook.io/?property=)) -->
 <!-- - [fakercloud](https://fakercloud.com/api) 🔑 -->
+- [CATAAS](https://cataas.com/#/) - Random images of cats <a href="https://cataas.com/cat/says/i%20love%20APIs?size=50&color=white" target="_blank">/cat/says</a>
+- [JokeAPI](https://sv443.net/jokeapi/v2/) - Random jokes <a href="https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit" target="_blank">/joke</a>
+- [IP Geolocation API](https://freegeoip.app/) - Data about your present location <a href="https://freegeoip.app/json/" target="_blank">/json</a> 🔑
+
+
+
 
 
 </div>
-
 <div class="col">
-<a href="../assets/img/data-apis/i-love-APIs-2.jpg" target="_blank"><img width="100%" src="../assets/img/data-apis/i-love-APIs-2.jpg"></a>
 
-
-
-[CATAAS](https://cataas.com/#/) - Random images of cats [/cat/says](https://cataas.com/cat/says/i%20love%20APIs?size=50&color=white)
+<a href="../assets/img/data-apis/i-love-APIs-2.jpg"><img width="100%" src="../assets/img/data-apis/i-love-APIs-2.jpg"></a>
 
 </div>
-
 </div>
 
 
@@ -379,7 +369,7 @@ API collections to explore. If authentication is required you need to register w
 - Used by - [Historical GIFs](https://twitter.com/dpladotgif) ([code](https://github.com/dogrdon/accidentalculture)) | [Term vs Term](https://owenmundy.com/work/term-vs-term/index.php?q1=cats&q2=dogs)
 
 <!--
-<a href="../assets/img/data-apis/data-apis-dlpa-response-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-dlpa-response-cropped.png"></a>
+<a href="../assets/img/data-apis/data-apis-dlpa-response-cropped.png"><img width="100%" src="../assets/img/data-apis/data-apis-dlpa-response-cropped.png"></a>
 -->
 
 ```json
@@ -406,7 +396,7 @@ API collections to explore. If authentication is required you need to register w
 - Used by - [Wikiscanner](https://web.archive.org/web/20160314095050/http://virgil.gr/wikiscanner/) ([2002-07](https://en.wikipedia.org/wiki/WikiScanner))
 
 <!--
-<a href="../assets/img/data-apis/data-apis-wikipedia-cropped.png" target="_blank"><img width="100%" src="../assets/img/data-apis/data-apis-wikipedia-cropped.png"></a>
+<a href="../assets/img/data-apis/data-apis-wikipedia-cropped.png"><img width="100%" src="../assets/img/data-apis/data-apis-wikipedia-cropped.png"></a>
 -->
 
 ```json
@@ -457,20 +447,6 @@ API collections to explore. If authentication is required you need to register w
 
 
 
----
-
-## Authentication with Postman
-
-To reuse a token across multiple (e.g. Spotify) requests in Postman:
-
-1. Create a collection named Spotify
-1. In the Spotify collection
-    1. In Variables - Add a new variable named `token`. Paste the token in **value** (use select all!).
-    1. In Authorization - Set **Type** to OAuth2.0 and then reference the variable with `{{token}}`
-1. In Authorization for each request, choose "inherit from parent" to use the token
-
-Note: APIs are not always perfect. For example, the [/me/top/{type}](https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/) endpoint is not documented well. You have to enter values for ALL parameters to make it work.
-
 
 
 ---
@@ -484,7 +460,7 @@ Note: APIs are not always perfect. For example, the [/me/top/{type}](https://dev
 
 ---
 
-##  Notes
+##  Notes/Tips
 
 - APIs are always changing - Before Facebook (and Instagram) added restrictions to their APIs anyone (artists, researchers, [anti-press governments](https://www.scu.edu/ethics-spotlight/social-media-and-democracy/weaponization-of-social-media-by-authoritarian-states/)) could download entire databases. Thanks to various cultural works and activism this has changed (see [iknowwhereyourcatlives.com](https://iknowwhereyourcatlives.com/), [givememydata.com](https://givememydata.com/)).
 - If you are building an interface or processing the data, save the API result in a local .json file and point to that URL so you don't exceed the API rate limit when testing,
@@ -495,3 +471,58 @@ Note: APIs are not always perfect. For example, the [/me/top/{type}](https://dev
 ## References
 
 - [Postman Tutorial: How to use Postman Tool for API Testing](https://www.guru99.com/postman-tutorial.html) (2021)
+
+
+
+
+---
+
+## More on APIs
+
+
+
+
+---
+
+<div class="twocolumn">
+<div class="col">
+
+<h2>Use Postman to test APIs</h2>
+
+[Postman](https://www.postman.com/) is an API development client. Once you [install](https://www.postman.com/downloads/) the app and [login](https://identity.getpostman.com/signup):
+
+👉 Create a new `GET` request with this URL and click Send
+
+<pre><code class="small block">https://jsonplaceholder.typicode.com/users
+</code></pre>
+
+You will see `Status: 200 OK` and a collection of "users" if your request was successful.
+
+<div class="caption slides-small">
+	*<a href="https://jsonplaceholder.typicode.com/" target="_blank">JSON Placeholder</a> is a free fake API for testing
+</div>
+
+</div>
+<div class="col">
+
+<a href="../assets/img/data-apis/postman-jsonplaceholder-users.png"><img width="100%" src="../assets/img/data-apis/postman-jsonplaceholder-users.png"></a>
+
+</div>
+</div>
+
+
+
+
+---
+
+## Authentication with Postman
+
+To reuse a token across multiple (e.g. Spotify) requests in Postman:
+
+1. Create a collection named Spotify
+1. In the Spotify collection
+    1. In Variables - Add a new variable named `token`. Paste the token in **value** (use select all!).
+    1. In Authorization - Set **Type** to OAuth2.0 and then reference the variable with `{{token}}`
+1. In Authorization for each request, choose "inherit from parent" to use the token
+
+Note: APIs are not always perfect. For example, the [/me/top/{type}](https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/) endpoint is not documented well. You have to enter values for ALL parameters to make it work.

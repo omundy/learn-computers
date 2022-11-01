@@ -82,7 +82,7 @@ Since a switch can be in only one of two states, this single binary value, the s
 
 <a href="../assets/img/data-basics/data-switch-symbols.png"><img src="../assets/img/data-basics/data-switch-symbols.png"></a>
 
-<div class="caption small">
+<div class="caption slides-small">
 
 1. The on/off binary symbols are ubiquitous on mechanical interfaces
 1. The ⏻ "power on" symbol on computers
@@ -296,7 +296,7 @@ File encoding [is not the same as](https://kunststube.net/encoding/) character e
 
 ![.png](../assets/img/data-basics/files-binary.png)
 
-<div class="caption small">A `.png` file opened in TextEdit</div>
+<div class="caption slides-small">A `.png` file opened in TextEdit</div>
 
 
 
