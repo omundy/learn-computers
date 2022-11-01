@@ -8,7 +8,7 @@
 
 Learn how to use, format, repair data storage devices
 
-<span class="slides-small"><a href="../slides/storage.html">slides</a> | <a href="../www/storage.html">HTML</a> | <a href="../topics/storage.md">md</a></span>
+<span class="slides-small"><a href="../slides/storage.html">slides</a> | <a href="../topics/storage.md">md</a></span>
 
 <!--
 Presentation comments ...

@@ -8,7 +8,7 @@
 
 Best practices for organizing and naming your files.
 
-<span class="slides-small"><a href="../slides/files-naming-conventions.html">slides</a> | <a href="../www/files-naming-conventions.html">HTML</a> | <a href="../topics/files-naming-conventions.md">md</a></span>
+<span class="slides-small"><a href="../slides/files-naming-conventions.html">slides</a> | <a href="../topics/files-naming-conventions.md">md</a></span>
 
 <!--
 Presentation comments ...

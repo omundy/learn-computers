@@ -8,7 +8,7 @@
 
 Learn about digital images formats and best practices
 
-<span class="slides-small"><a href="../slides/images-resolutions.html">slides</a> | <a href="../www/images-resolutions.html">HTML</a> | <a href="../topics/images-resolutions.md">md</a></span>
+<span class="slides-small"><a href="../slides/images-resolutions.html">slides</a> | <a href="../topics/images-resolutions.md">md</a></span>
 
 <!--
 Presentation comments ...

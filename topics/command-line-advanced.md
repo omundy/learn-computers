@@ -8,7 +8,7 @@
 
 Going further with the text interface.
 
-<span class="slides-small"><a href="../slides/command-line-advanced.html">slides</a> | <a href="../www/command-line-advanced.html">HTML</a> | <a href="../topics/command-line-advanced.md">md</a></span>
+<span class="slides-small"><a href="../slides/command-line-advanced.html">slides</a> | <a href="../topics/command-line-advanced.md">md</a></span>
 
 <!--
 Presentation comments ...

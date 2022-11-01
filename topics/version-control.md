@@ -8,7 +8,7 @@
 
 How to use Git and Github.
 
-<span class="slides-small"><a href="../slides/version-control.html">slides</a> | <a href="../www/version-control.html">HTML</a> | <a href="../topics/version-control.md">md</a></span>
+<span class="slides-small"><a href="../slides/version-control.html">slides</a> | <a href="../topics/version-control.md">md</a></span>
 
 <!--
 Presentation comments ...

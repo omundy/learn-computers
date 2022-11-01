@@ -8,7 +8,7 @@
 
 Speed up your computing with keyboard shortcuts!
 
-<span class="slides-small"><a href="../slides/keyboard-shortcuts.html">slides</a> | <a href="../www/keyboard-shortcuts.html">HTML</a> | <a href="../topics/keyboard-shortcuts.md">md</a></span>
+<span class="slides-small"><a href="../slides/keyboard-shortcuts.html">slides</a> | <a href="../topics/keyboard-shortcuts.md">md</a></span>
 
 <!--
 Presentation comments ...

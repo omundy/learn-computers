@@ -8,7 +8,7 @@
 
 Web and computer security
 
-<span class="slides-small"><a href="../slides/security.html">slides</a> | <a href="../www/security.html">HTML</a> | <a href="../topics/security.md">md</a></span>
+<span class="slides-small"><a href="../slides/security.html">slides</a> | <a href="../topics/security.md">md</a></span>
 
 <!--
 Presentation comments ...

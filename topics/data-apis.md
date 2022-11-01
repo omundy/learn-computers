@@ -8,7 +8,7 @@
 
 An introduction to APIs
 
-<span class="slides-small"><a href="../slides/data-apis.html">slides</a> | <a href="../www/data-apis.html">HTML</a> | <a href="../topics/data-apis.md">md</a></span>
+<span class="slides-small"><a href="../slides/data-apis.html">slides</a> | <a href="../topics/data-apis.md">md</a></span>
 
 <!--
 Presentation comments ...

@@ -8,7 +8,7 @@
 
 Logic, data flow, etc.
 
-<span class="slides-small"><a href="../slides/computational-thinking.html">slides</a> | <a href="../www/computational-thinking.html">HTML</a> | <a href="../topics/computational-thinking.md">md</a></span>
+<span class="slides-small"><a href="../slides/computational-thinking.html">slides</a> | <a href="../topics/computational-thinking.md">md</a></span>
 
 <!--
 Presentation comments ...
@@ -58,7 +58,6 @@ Complete the following to prepare for this module
 
 ---
 
-
 ## Pseudocode
 
 Writing out simplified instructions for a program (a.k.a. "[pseudocode](https://en.wikipedia.org/wiki/Pseudocode)") you intend to build can help plan your approach.
@@ -68,6 +67,7 @@ Much like you would make a sketch for a painting, or a wireframe for a design, p
 
 ---
 
+## Pseudocode
 
 Even more, writing pseudocode as comments gives you a structure within which you can add actual code, and placeholders for instructions you will eventually add.
 
@@ -89,6 +89,7 @@ While written in English, this example maintains a computational approach, borro
 
 ---
 
+## Pseudocode Activity
 
 👉 **Try it out**
 
@@ -117,7 +118,7 @@ Reverse engineer an existing work to practice writing pseudocode.
 
 
 
-## Paper prototype  
+## Paper prototype
 
 Make a simple version on paper or whiteboard. Use a coin for random variables.
 

@@ -8,7 +8,7 @@
 
 How colors work on computers, color models, color spaces, and printing
 
-<span class="slides-small"><a href="../slides/color.html">slides</a> | <a href="../www/color.html">HTML</a> | <a href="../topics/color.md">md</a></span>
+<span class="slides-small"><a href="../slides/color.html">slides</a> | <a href="../topics/color.md">md</a></span>
 
 <!--
 Presentation comments ...

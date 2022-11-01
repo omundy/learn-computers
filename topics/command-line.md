@@ -8,7 +8,7 @@
 
 Using the command line is essential to computing proficiency.
 
-<span class="slides-small"><a href="../slides/command-line.html">slides</a> | <a href="../www/command-line.html">HTML</a> | <a href="../topics/command-line.md">md</a></span>
+<span class="slides-small"><a href="../slides/command-line.html">slides</a> | <a href="../topics/command-line.md">md</a></span>
 
 <!--
 Presentation comments ...

@@ -8,7 +8,7 @@
 
 Tips for documenting your creative and technical work
 
-<span class="slides-small"><a href="../slides/documentation.html">slides</a> | <a href="../www/documentation.html">HTML</a></span>
+<span class="slides-small"><a href="../slides/documentation.html">slides</a> | <a href="../topics/documentation.md">md</a></span>
 
 <!--
 Presentation comments ...

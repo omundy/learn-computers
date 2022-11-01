@@ -8,7 +8,7 @@
 
 Tips for cleaning data
 
-<span class="slides-small"><a href="../slides/data-cleaning.html">slides</a> | <a href="../www/data-cleaning.html">HTML</a> | <a href="../topics/data-cleaning.md">md</a></span>
+<span class="slides-small"><a href="../slides/data-cleaning.html">slides</a> | <a href="../topics/data-cleaning.md">md</a></span>
 
 <!--
 Presentation comments ...

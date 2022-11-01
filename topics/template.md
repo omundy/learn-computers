@@ -8,7 +8,7 @@
 
 Description of topic
 
-<span class="slides-small"><a href="../slides/template.html">slides</a> | <a href="../www/template.html">HTML</a> | <a href="../topics/template.md">md</a></span>
+<span class="slides-small"><a href="../slides/template.html">slides</a> | <a href="../topics/template.md">md</a></span>
 
 <!--
 Presentation comments ...

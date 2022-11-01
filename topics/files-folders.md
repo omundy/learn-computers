@@ -8,7 +8,7 @@
 
 Learn about all the files on your computer!
 
-<span class="slides-small"><a href="../slides/files-folders.html">slides</a> | <a href="../www/files-folders.html">HTML</a> | <a href="../topics/files-folders.md">md</a></span>
+<span class="slides-small"><a href="../slides/files-folders.html">slides</a> | <a href="../topics/files-folders.md">md</a></span>
 
 <!--
 Presentation comments ...

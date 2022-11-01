@@ -8,7 +8,7 @@
 
 A list of essential, everyday computer tasks
 
-<span class="slides-small"><a href="../slides/basics.html">slides</a> | <a href="../www/basics.html">HTML</a> | <a href="../topics/basics.md">md</a></span>
+<span class="slides-small"><a href="../slides/basics.html">slides</a> | <a href="../topics/basics.md">md</a></span>
 
 <!--
 Presentation comments ...

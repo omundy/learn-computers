@@ -8,7 +8,7 @@
 
 Screens, displays, monitors, TVs, projectors, etc.
 
-<span class="slides-small"><a href="../slides/displays.html">slides</a> | <a href="../www/displays.html">HTML</a> | <a href="../topics/displays.md">md</a></span>
+<span class="slides-small"><a href="../slides/displays.html">slides</a> | <a href="../topics/displays.md">md</a></span>
 
 <!--
 Presentation comments ...

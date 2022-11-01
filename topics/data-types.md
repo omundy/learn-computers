@@ -8,7 +8,7 @@
 
 Learn about specific data types used in programming, visualization, gaming, etc.
 
-<span class="slides-small"><a href="../slides/data-types.html">slides</a> | <a href="../www/data-types.html">HTML</a> | <a href="../topics/data-types.md">md</a></span>
+<span class="slides-small"><a href="../slides/data-types.html">slides</a> | <a href="../topics/data-types.md">md</a></span>
 
 <!--
 Presentation comments ...

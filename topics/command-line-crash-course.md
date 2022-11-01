@@ -8,7 +8,7 @@
 
 A short primer for using the command line
 
-<span class="slides-small"><a href="../slides/command-line-crash-course.html">slides</a> | <a href="../www/command-line-crash-course.html">HTML</a> | <a href="../topics/command-line-crash-course.md">md</a></span>
+<span class="slides-small"><a href="../slides/command-line-crash-course.html">slides</a> | <a href="../topics/command-line-crash-course.md">md</a></span>
 
 <!--
 Presentation comments ...
