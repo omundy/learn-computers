@@ -328,7 +328,7 @@ Continue exploring APIs with a browser, [REQBIN](https://reqbin.com/), or Postma
 - [CATAAS](https://cataas.com/#/) - Random images of cats <a href="https://cataas.com/cat/says/i%20love%20APIs?size=50&color=white" target="_blank">/cat/says</a>
 - [JokeAPI](https://sv443.net/jokeapi/v2/) - Random jokes <a href="https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit" target="_blank">/joke</a>
 - [IP Geolocation API](https://freegeoip.app/) - Data about your present location <a href="https://freegeoip.app/json/" target="_blank">/json</a> 🔑
-
+- [Disney API](https://disneyapi.dev/docs) - 7438 [characters](https://api.disneyapi.dev/characters)! 
 
 
 
