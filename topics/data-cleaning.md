@@ -265,14 +265,12 @@ We could make these stock symbols into a Javascript array using
 ---
 
 
-## More Regex examples
+## Data Conversion
 
 
-
-
-Also see this converter: https://www.convertcsv.com/csv-to-json.htm
-
-
+https://www.convertcsv.com/csv-to-json.htm
+https://transform.tools/html-to-jsx
+https://transform.tools/xml-to-json
 
 
 ---

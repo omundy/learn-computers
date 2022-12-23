@@ -77,9 +77,7 @@ The command line is a text interface for your computer. You type commands, and t
 
 ## About the command line
 
-The command line is is similar to using the GUI (Graphical User Interface) with a mouse.
-
-It allows you to create and edit documents, or manage files and folders on your computer, just as you would with Windows Explorer or the MacOS Finder.
+The command line not that different from using a GUI (Graphical User Interface) with a mouse. It allows you to create and edit documents, or manage files and folders on your computer, just as you would with Windows Explorer or the MacOS Finder.
 
 In fact, when you use the GUI, your clicks and interactions with the "[pictures under glass](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)" on screen are just sending the same commands to the operating system.
 

@@ -9,5 +9,6 @@
 	"unused": true,
 	"globals": {
 		"$": false
-	}
+	},
+	"-W079": false
 }
