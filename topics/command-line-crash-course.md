@@ -81,9 +81,9 @@ Step | Command | Description
 5 | `ls` | List files to confirm the new file was created
 6 | `echo "hello world" > hello.txt` | Write some text in the new file
 7 | `cat hello.txt` | View contents of new file (as in "con[cat](https://en.wikipedia.org/wiki/Cat_(Unix)enate"))
-8 | `ping -c 5 davidson.edu` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
-9 |   | [Search for](https://www.codecademy.com/articles/command-line-commands) the command to list files with their modified date.
-10 |   | [Search for](https://learn.co/lessons/bash-navigation-osx) the command to open the current folder in your Finder / Windows.
+8 | `ping -c 5 google.com` | A [networking utility](https://en.wikipedia.org/wiki/Ping_(networking_utility)) to check the connection to any website.
+9 |   | [Search for](https://en.wikipedia.org/wiki/Ls) the command modifier to list files with their modified date.
+10 |   | [Search for](https://google.com) the command modifier to list all files, including hidden files.
 
 
 

@@ -36,7 +36,7 @@
 <p><span class="slides-small"><a href="../slides/networks.html">slides</a> | <a href="../topics/networks.md">md</a></span></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-theme="owen" data-marpit-pagination="2" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>Contents</h3>
+<h2>Contents</h2>
 <ol>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#ip-addresses">IP Addresses</a> <code>5 min</code></li>
@@ -75,7 +75,7 @@
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-theme="owen" data-marpit-pagination="5" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
 <h2>IP Addresses</h2>
-<p>An <a href="https://en.wikipedia.org/wiki/IP_address">Internet Protocol (IP) address</a> is a numerical label used to identify and connect devices to the Internet. Assigned by your Internet Service Provider (ISP), it is required before your device can send data through the network.</p>
+<p>An <a href="https://en.wikipedia.org/wiki/IP_address">Internet Protocol (IP) address</a> is a numerical label used to identify and connect devices to the Internet. Assigned by your wifi router or Internet Service Provider (ISP), it is required before your device can send data through the network.</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> On Google, <a href="https://www.google.com/search?q=what+is+my+IP">&quot;what is my ip&quot;</a> will yield a number that looks like this:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>24.224.66.226
 </code></pre>
@@ -116,7 +116,7 @@ IPv6 =&gt; 340,282,366,920,938,000,000,000,000,000,000,000,000
 </ol>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-theme="owen" data-marpit-pagination="9" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>whois</h3>
+<h2>whois</h2>
 <blockquote>
 <p>Who owns this domain?</p>
 </blockquote>
@@ -137,7 +137,7 @@ whois owenmundy.com
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-theme="owen" data-marpit-pagination="11" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>ping</h3>
+<h2>ping</h2>
 <blockquote>
 <p>How fast is my connection to this domain?</p>
 </blockquote>
@@ -155,7 +155,7 @@ whois owenmundy.com
 <p>Run <code>ping</code> with different domains to compare speeds. Why might there be differences?</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-theme="owen" data-marpit-pagination="13" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>traceroute</h3>
+<h2>traceroute</h2>
 <blockquote>
 <p>What is the path to a domain?</p>
 </blockquote>
@@ -171,21 +171,28 @@ whois owenmundy.com
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-paginate="true" data-theme="owen" data-marpit-pagination="15" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>curl</h3>
+<h2>curl</h2>
 <blockquote>
 <p>Save a file from the internet</p>
 </blockquote>
 <p><a href="https://en.wikipedia.org/wiki/CURL">curl</a> (Client URL) is used to download network files via CLI.</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> <strong>Try it out</strong></p>
-<p>To fetch a file and display it in the shell</p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">curl https://davidson.edu
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-comment"># fetch a resource and display it in the shell</span>
+curl https://davidson.edu
+
+<span class="hljs-comment"># fetch a resource and *save it on your computer*</span>
+curl -o index.html https://davidson.edu
 </code></pre>
-<p>To fetch a file and <em>save it on your computer</em></p>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">curl -o index.html https://davidson.edu
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-comment"># view request and response headers returned from a resource</span>
+curl -v https://davidson.edu
+
+<span class="hljs-comment"># view only response header</span>
+curl --<span class="hljs-built_in">head</span> https://davidson.edu
 </code></pre>
+<p>Also see <a href="https://tools.keycdn.com/curl">https://tools.keycdn.com/curl</a></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-theme="owen" data-marpit-pagination="16" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>SSH</h3>
+<h2>SSH</h2>
 <p>Secure SHell is a popular tool for connecting to other computers on the network. With &quot;SSH&quot; you log in to a remote computer and can execute commands just as if you were in the same room. SSH uses <a href="http://en.wikipedia.org/wiki/Public-key_cryptography">public-key cryptography</a> to secure data.</p>
 <p>Common scenarios where you would use SSH:</p>
 <ul>
@@ -214,7 +221,7 @@ whois owenmundy.com
 telnet towel.blinkenlights.nl</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-theme="owen" data-marpit-pagination="20" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>SFTP</h3>
+<h2>SFTP</h2>
 <p>SFTP (Secure File Transfer Protocol) allows you to send files across a network with the command line. It is usually more convenient to use a GUI like Cyberduck.</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> To create an SFTP connection type the following.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">sftp &lt;username&gt;@&lt;servername&gt;
@@ -224,7 +231,7 @@ telnet towel.blinkenlights.nl</p>
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-theme="owen" data-marpit-pagination="21" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>dig</h3>
+<h2>dig</h2>
 <blockquote>
 <p>Just give me the nameservers</p>
 </blockquote>
@@ -236,7 +243,7 @@ telnet towel.blinkenlights.nl</p>
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-theme="owen" data-marpit-pagination="22" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h3>ifconfig</h3>
+<h2>ifconfig</h2>
 <p>The InterFace CONFIGurator is used to inspect, configure, and/or enable/disable network interfaces.</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> Print your <a href="https://en.wikipedia.org/wiki/MAC_address">MAC</a> (Media Access Control) address. This is a unique identifier assigned to each network interface controller on your system (e.g. ethernet, WiFi, and bluetooth).</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">ifconfig | grep ether
@@ -249,7 +256,7 @@ telnet towel.blinkenlights.nl</p>
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-paginate="true" data-theme="owen" data-marpit-pagination="23" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h4>Netstat</h4>
+<h2>Netstat</h2>
 <p><a href="https://en.wikipedia.org/wiki/Netstat">netstat</a> (NETwork STATistics) displays information about TCP, routing tables, and all virtual connections to/from your computer. <a href="https://en.wikipedia.org/wiki/Internet_protocol_suite">TCP/IP</a> is the set of communications protocols used to transfer data over the Internet and similar computer networks. The current protocols are <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">Transmission Control Protocol</a> (TCP) and <a href="https://en.wikipedia.org/wiki/Internet_Protocol">Internet Protocol</a> (IP).</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> To view a list of all the network interfaces (a.k.a. &quot;<a href="https://en.wikipedia.org/wiki/Network_socket">sockets</a>&quot;) on your machine:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">netstat -at
@@ -259,7 +266,7 @@ telnet towel.blinkenlights.nl</p>
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-paginate="true" data-theme="owen" data-marpit-pagination="24" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h4>Tcpdump</h4>
+<h2>Tcpdump</h2>
 <p><a href="https://www.tcpdump.org/">tcpdump</a> is a network package analyzer. It can be used to monitor network activity or even capture data packets.</p>
 <p>To prevent others from viewing your network activity without permission (a.k.a. a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man in the Middle attack</a>) this command must be run with <code>sudo</code> (Super User DO) permission <a href="#about-passwords">using your password</a>.</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> To view all your network activity in real time, run the following. Use <kbd>Ctl</kbd> + <kbd>c</kbd> to exit:</p>
@@ -267,7 +274,7 @@ telnet towel.blinkenlights.nl</p>
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-paginate="true" data-theme="owen" data-marpit-pagination="25" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h4>Port Scanning with NMap</h4>
+<h2>Port Scanning with NMap</h2>
 <p>This will perform a port scan to list open ports / identify running services on a remote host.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-comment"># install</span>
 brew install nmap
@@ -288,7 +295,7 @@ PORT      STATE SERVICE<br />
 <p><a href="http://scanme.nmap.org/">http://scanme.nmap.org/</a></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-paginate="true" data-theme="owen" data-marpit-pagination="26" data-marpit-pagination-total="29" style="--paginate:true;--theme:owen;">
-<h4>Wireshark</h4>
+<h2>Wireshark</h2>
 <p>Wireshark can inspect network packets with a GUI.</p>
 <p><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> Mac users can install it using this script (via <a href="https://formulae.brew.sh/formula/wireshark">homebrew</a>)</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash">brew install --cask wireshark
