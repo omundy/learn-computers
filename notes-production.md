@@ -131,6 +131,9 @@ Toggle fullscreen | <kbd>f</kbd>
 Open presenter view | <kbd>p</kbd>
 
 
+Look inside for help with Marp
+https://github.com/marp-team/marp/discussions
+
 
 
 ### More articles

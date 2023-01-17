@@ -30,12 +30,6 @@
         "themeSet": [
             "assets/css/slide-styles.css"
         ],
-
-        "script": {
-            "source": [
-                "assets/js/"
-            ]
-        },
         "options": {
             "script": {
                 "source": [
