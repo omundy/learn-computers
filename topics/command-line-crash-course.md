@@ -72,7 +72,7 @@ Open your command line application (Terminal, etc.) and note the **prompt** — 
 ---
 
 
-Step | Command | Description
+Step | Command | Description 
 ---: | --- | ---
 1 | `whoami` | Display [the username of current user](https://en.wikipedia.org/wiki/Whoami)
 2 | `pwd` | Display the full path of your current folder, or [working directory](https://en.wikipedia.org/wiki/Pwd)

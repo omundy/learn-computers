@@ -18,7 +18,7 @@ Presentation comments ...
 ---
 
 
-### Contents
+## Contents
 
 1. [Introduction](#introduction)
 1. [IP Addresses](#ip-addresses) `5 min`
@@ -75,7 +75,7 @@ Complete the following to prepare for this module
 
 ## IP Addresses
 
-An [Internet Protocol (IP) address](https://en.wikipedia.org/wiki/IP_address) is a numerical label used to identify and connect devices to the Internet. Assigned by your Internet Service Provider (ISP), it is required before your device can send data through the network.
+An [Internet Protocol (IP) address](https://en.wikipedia.org/wiki/IP_address) is a numerical label used to identify and connect devices to the Internet. Assigned by your wifi router or Internet Service Provider (ISP), it is required before your device can send data through the network.
 
 👉 On Google, ["what is my ip"](https://www.google.com/search?q=what+is+my+IP) will yield a number that looks like this:
 
@@ -144,7 +144,7 @@ The following network commands are essential for basic web development. Run them
 ---
 
 
-### whois
+## whois
 
 > Who owns this domain?
 
@@ -180,7 +180,7 @@ whois owenmundy.com
 ---
 
 
-### ping
+## ping
 
 > How fast is my connection to this domain?
 
@@ -215,7 +215,7 @@ Run `ping` with different domains to compare speeds. Why might there be differen
 ---
 
 
-### traceroute
+## traceroute
 
 > What is the path to a domain?
 
@@ -246,37 +246,46 @@ traceroute -I google.com
 ---
 
 
-### curl
+## curl
 
-> Save a file from the internet
+> Request data from the network
 
-[curl](https://en.wikipedia.org/wiki/CURL) (Client URL) is used to download network files via CLI.
+[curl](https://en.wikipedia.org/wiki/CURL) (Client URL) offers a variety of functions for requesting resources on a network.
 
 
 👉 **Try it out**
 
-
-To fetch a file and display it in the shell
-
 ```bash
+# fetch a resource and display it in the shell
 curl https://davidson.edu
+
+# fetch a resource and *save it on your computer*
+curl -o index.html https://davidson.edu
+
+# fetch a resource and display only the response headers
+curl --head https://google.com
+
+# fetch a resource and display *all* headers
+curl -v https://google.com
 ```
 
-To fetch a file and *save it on your computer*
+
 
 ```bash
-curl -o index.html https://davidson.edu
+# view request and response headers returned from a resource
+curl -v https://davidson.edu
+
+# view only response header
+curl --head https://davidson.edu
 ```
 
-
-
-
+Also see https://tools.keycdn.com/curl
 
 
 ---
 
 
-### SSH
+## SSH
 
 Secure SHell is a popular tool for connecting to other computers on the network. With "SSH" you log in to a remote computer and can execute commands just as if you were in the same room. SSH uses [public-key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) to secure data.
 
@@ -338,7 +347,7 @@ telnet towel.blinkenlights.nl
 ---
 
 
-### SFTP
+## SFTP
 
 SFTP (Secure File Transfer Protocol) allows you to send files across a network with the command line. It is usually more convenient to use a GUI like Cyberduck.
 
@@ -361,7 +370,7 @@ sftp> put hello.jpg
 ---
 
 
-### dig
+## dig
 
 > Just give me the nameservers
 
@@ -387,7 +396,7 @@ dig google.com ANY
 ---
 
 
-### ifconfig
+## ifconfig
 
 The InterFace CONFIGurator is used to inspect, configure, and/or enable/disable network interfaces.
 
@@ -418,7 +427,7 @@ ifconfig en0
 ---
 
 
-#### Netstat
+## Netstat
 
 [netstat](https://en.wikipedia.org/wiki/Netstat) (NETwork STATistics) displays information about TCP, routing tables, and all virtual connections to/from your computer. [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) is the set of communications protocols used to transfer data over the Internet and similar computer networks. The current protocols are [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) (TCP) and [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol) (IP).
 
@@ -439,7 +448,7 @@ netstat -i
 ---
 
 
-#### Tcpdump
+## Tcpdump
 
 [tcpdump](https://www.tcpdump.org/) is a network package analyzer. It can be used to monitor network activity or even capture data packets.
 
@@ -455,7 +464,7 @@ sudo tcpdump -nS
 
 ---
 
-#### Port Scanning with NMap
+## Port Scanning with NMap
 
 This will perform a port scan to list open ports / identify running services on a remote host.
 
@@ -486,7 +495,7 @@ http://scanme.nmap.org/
 ---
 
 
-#### Wireshark
+## Wireshark
 
 Wireshark can inspect network packets with a GUI.
 

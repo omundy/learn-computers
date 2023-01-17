@@ -23,7 +23,6 @@
         "keywords": "computing, proficiency",
         "allowLocalFiles": true,
         "html": true,
-        "watch": false,
         "bespoke": {
             "progress": true
         },
@@ -31,12 +30,25 @@
         "themeSet": [
             "assets/css/slide-styles.css"
         ],
-        "minifyCSS": false,
+
         "script": {
             "source": [
                 "assets/js/"
             ]
-        }
+        },
+        "options": {
+            "script": {
+                "source": [
+                    "assets/js/main.js"
+                ]
+            },
+            "minifyCSS": false,
+			"emoji": {
+				"shortcode": false,
+				"unicode": false
+			}
+        },
+        "watch": false
     },
     "devDependencies": {
         "grunt": "^1.4.1",
