@@ -134,6 +134,12 @@ Open presenter view | <kbd>p</kbd>
 Look inside for help with Marp
 https://github.com/marp-team/marp/discussions
 
+Not the difference between the ["Options" of the marp-cli](https://github.com/marp-team/marp-cli#options) and [`options` field in the constructor](https://github.com/marp-team/marp-core#constructor-options). 
+
+
+
+
+
 
 
 ### More articles

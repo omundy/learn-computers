@@ -331,7 +331,22 @@ joined_string = string1 + string2 + string3
 print(joined_string)
 ```
 
-👉 Press `ESC` and then `:wq` to save and quit the editor. Run your file with:
+👉 Press `ESC` and then `:wq` to save and quit the editor. 
+
+
+
+---
+
+### Run Python code
+
+To run your file, find out which version of python you have installed by running either of these.
+
+```bash
+which python
+which python3
+```
+
+And use that version with the name of the file:
 
 ```bash
 python script.py
