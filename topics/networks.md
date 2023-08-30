@@ -269,7 +269,9 @@ curl --head https://google.com
 curl -v https://google.com
 ```
 
+---
 
+## More curl examples
 
 ```bash
 # view request and response headers returned from a resource
@@ -280,6 +282,31 @@ curl --head https://davidson.edu
 ```
 
 Also see https://tools.keycdn.com/curl
+
+
+
+
+
+
+
+---
+
+## Conclusion
+
+This concludes the introduction to network CLI tools. 
+
+I'll show SSH from the advanced section before we continue to the next item in the schedule
+
+
+
+
+---
+
+## Advanced Network Tools
+
+
+
+
 
 
 ---
@@ -328,24 +355,6 @@ Use <kbd>Ctl</kbd> + <kbd>o</kbd> to save and <kbd>Ctl</kbd> + <kbd>x</kbd> to e
 
 
 ---
-
-
-## Advanced Network Tools
-
-
-
----
-
-## Telnet
-
-
-https://osxdaily.com/2018/07/18/get-telnet-macos/
-telnet towel.blinkenlights.nl
-
-
-
----
-
 
 ## SFTP
 
