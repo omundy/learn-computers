@@ -5,12 +5,10 @@ Active Learning Modules for Computer Literacy
 
 ## Instructions
 
-1. Select an activity (that is new to you, from the top) and find your group.
-1. Follow the instructions in the activity.
-1. Make notes while you engage with the material, in order to [teach](https://en.wikipedia.org/wiki/Jigsaw_(teaching_technique)) the concepts to the rest of the class.
-1. After you finish, prepare to share what you have learned.
-1. Each module takes about 25–30 minutes, and you will have 3–5 minutes to present.
-
+1. Select an activity (one that is new to you, starting from the top). 
+1. Follow the instructions in the activity. You can work on your own or with others.
+1. Make notes while you engage with the material. How would you put the concepts in your own words to [teach](https://en.wikipedia.org/wiki/Jigsaw_(teaching_technique)) the concepts to others?
+1. Each module takes about 20–30 minutes. You may be asked to share what you have learned.
 
 
 
