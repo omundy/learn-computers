@@ -475,8 +475,7 @@ sudo tcpdump -nS
 
 ## Port Scanning with NMap
 
-This will perform a port scan to list open ports / identify running services on a remote host.
-
+<a href="http://scanme.nmap.org/" target="_blank">NMap</a> performs a port scan to list open ports / identify running services on a remote host.
 
 ```bash
 # install
@@ -484,6 +483,9 @@ brew install nmap
 # test
 nmap scanme.nmap.org
 ```
+
+
+<div class="slides-small caption">
 
 > Starting Nmap 7.93 ( https://nmap.org ) at 2022-09-22 10:59 EDT
 > Nmap scan report for scanme.nmap.org (45.33.32.156)
@@ -495,8 +497,9 @@ nmap scanme.nmap.org
 > 9929/tcp  open  nping-echo
 > 31337/tcp open  Elite
 
+</div>
 
-http://scanme.nmap.org/
+
 
 
 
