@@ -22,7 +22,9 @@ Essential knowledge for working with computers.
 
 
 <td width="50%">
+<a href="topics/command-line.md">
 <img class="img-fluid" src="assets/img/banner/banner-command-line.png">
+</a>
 The Command line - <a href="slides/command-line.html">slides</a> | <a href="topics/command-line.md">md</a>
 </td>
 
