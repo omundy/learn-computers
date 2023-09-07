@@ -30,6 +30,8 @@ The Command line - <a href="slides/command-line.html">slides</a> | <a href="topi
 
 
 <td width="50%">
+<a href="topics/files-folders.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-files-folders.png">
 The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="topics/files-folders.md">md</a>
 <!-- Users, files, folders -->
@@ -43,12 +45,16 @@ The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="topic
 
 
 <td width="50%">
+<a href="topics/keyboard-shortcuts.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-keyboard-shortcuts.png">
 Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.html">slides</a> | <a href="topics/keyboard-shortcuts.md">md</a>
 </td>
 
 
 <td width="50%">
+<a href="topics/version-control.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-version-control.png">
 Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">slides</a>
 </td>
@@ -64,6 +70,8 @@ Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presen
 
 
 <td width="50%">
+<a href="topics/files-naming-conventions.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-files-naming-conventions.png">
 Files and naming conventions - <a href="slides/files-naming-conventions.html">slides</a> | <a href="topics/files-naming-conventions.md">md</a>
 </td>
@@ -87,11 +95,15 @@ Understanding networks and setting up a development environment.
 <tr>
 
 <td width="50%">
+<a href="topics/web-development.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-web-development.png">
 Web Development Environment - <a href="slides/web-development.html">slides</a> | <a href="topics/web-development.md">md</a>
 </td>
 
 <td width="50%">
+<a href="topics/networks.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-networks.png">
 Networks - <a href="slides/networks.html">slides</a> | <a href="topics/networks.md">md</a>
 </td>
@@ -103,11 +115,15 @@ Networks - <a href="slides/networks.html">slides</a> | <a href="topics/networks.
 <tr>
 
 <td width="50%">
+<a href="topics/web-servers.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-web-servers.png">
 Web servers<sup>📌 </sup> - <a href="slides/web-servers.html">slides</a> | <a href="topics/web-servers.md">md</a>
 </td>
 
 <td width="50%">
+<a href="topics/debugging.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-debugging.png">
 Debugging<sup>📌 </sup> - <a href="slides/debugging.html">slides</a> | <a href="topics/debugging.md">md</a>
 </td>
@@ -145,11 +161,15 @@ Color <sup>📌 </sup>
 <tr>
 
 <td width="50%">
+<a href="topics/documentation.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-documentation.png">
 Documenting digital works - <a href="slides/documentation.html">slides</a> | <a href="topics/documentation.md">md</a>
 </td>
 
 <td width="50%">
+<a href="topics/displays.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-displays.png">
 Displays and monitors📌 - <a href="slides/displays.html">slides</a> | <a href="topics/displays.md">md</a>
 </td>
@@ -173,11 +193,15 @@ Working with data and APIs.
 <tr>
 
 <td width="50%">
+<a href="topics/data-basics.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-data-basics.png">
 Data Basics - <a href="slides/data-basics.html">slides</a> | <a href="topics/data-basics.md">md</a>
 </td>
 
 <td width="50%">
+<a href="topics/data-types.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-data-types.png">
 Data types - <a href="slides/data-types.html">slides</a> | <a href="topics/data-types.md">md</a>
 </td>
@@ -188,11 +212,15 @@ Data types - <a href="slides/data-types.html">slides</a> | <a href="topics/data-
 <tr>
 
 <td width="50%">
+<a href="topics/data-cleaning.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-data-cleaning.png">
 Data cleaning - <a href="slides/data-cleaning.html">slides</a> | <a href="topics/data-cleaning.md">md</a>
 </td>
 
 <td width="50%">
+<a href="topics/data-apis.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-data-apis.png">
 How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="topics/data-apis.md">md</a>
 </td>
@@ -211,7 +239,9 @@ How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="topics/d
 
 
 
- <td width="50%">
+<td width="50%">
+<a href="topics/computational-thinking.md">
+</a>
 <img class="img-fluid" src="assets/img/banner/banner-computational-thinking.png">
 Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.html">slides</a> | <a href="topics/computational-thinking.md">md</a>
 
