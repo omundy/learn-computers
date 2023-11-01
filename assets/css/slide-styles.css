@@ -45,7 +45,7 @@ section {
 }
 .twocolumn1x2 {
 	display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
     text-align: left;
 }
@@ -70,4 +70,9 @@ a[target="_blank"]::after {
 /* fix line height in code samples  */
 pre {
 	line-height: 130%;
+}
+/* make sure it wraps */
+pre, code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word;
 }
