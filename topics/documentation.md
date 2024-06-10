@@ -24,6 +24,7 @@ Presentation comments ...
 1. [Capture everything](##capture-everything)
 1. [Start a Google Doc](#iterate-iterate-iterate)
 1. [Screenshots and videos](#screenshots-and-videos)
+1. [How to make a screenshot](#how-to-make-a-screenshot) `5 min`
 1. [Source code](#source-code)
 1. [Collect it all](#collect-it-all)
 1. [Edit a video](#edit-a-video)
@@ -112,14 +113,9 @@ Collect documentation in a Google Doc and paste links, images, notes, etc. as yo
 <div class="twocolumn">
 <div class="col">
 
-- Add screenshots to your project folder as progress. The filenames will be ordered by date automatically.
-- Screenshot [shortcuts](..html/keyboard-shortcuts.html#screenshots) for Mac:
-	- `Whole screen` <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd>
-	- `Screen section` <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd><br>
-- Capture video on a Mac:
-	- [Quicktime](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) (free)
-	- [Giphy Capture](https://giphy.com/apps/giphycapture) (free)
-	- [Screenflow](http://www.telestream.net/screenflow/overview.htm) ($).
+Add screenshots to your project folder as you progress through a project. The filenames will be ordered by date automatically.
+
+
 
 </div>
 <div class="col">
@@ -133,6 +129,43 @@ Collect documentation in a Google Doc and paste links, images, notes, etc. as yo
 </div>
 </div>
 
+
+
+
+
+
+
+---
+
+
+## How to make a screenshot
+
+You may already know the basic command for capturing a screenshot, but these can level-up your ability to capture stills on a computer:
+
+Screenshot type | [Mac](https://support.apple.com/en-us/HT201361) | [Windows](https://www.cnet.com/how-to/7-ways-you-can-take-screenshots-in-windows-10) [[1](https://www.howtogeek.com/226280/how-to-take-screenshots-in-windows-10/)]
+--- | --- | ---
+Capture entire screen | <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd> | <kbd>Windows</kbd>+<kbd>PrtScn</kbd>
+Drag to select a portion of screen | <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd> | <kbd>Windows</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
+Capture a single window | <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>PrtScn</kbd>
+Cancel screenshot | <kbd>Esc</kbd> (Escape) | <kbd>Esc</kbd> (Escape)
+
+
+
+
+---
+
+
+## How to make a screencast
+
+Capturing videos of your screen
+
+Name | Cost | Platform | Comments
+--- | --- | --- | ---
+[Quicktime](https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac) | Free | Mac | Choose File > New Screen Recording
+[Screenflow](http://www.telestream.net/screenflow/overview.htm) | $129 | Mac | Amazing tool and editor. Can capture computer audio too.
+[Giphy Capture](https://giphy.com/apps/giphycapture) | free | any(?) | Create GIFs or MPGs of your screen
+Record screen with phone | $0 | Any | Don't do this please :-)
+<!-- ? | ? | Windows -->
 
 
 

@@ -13,6 +13,7 @@ Active Learning Modules for Computer Literacy
 
 
 
+
 ## Basics
 
 Essential knowledge for working with computers.
@@ -118,14 +119,14 @@ Networks - <a href="slides/networks.html">slides</a> | <a href="topics/networks.
 <a href="topics/web-servers.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-web-servers.png">
-Web servers<sup>📌 </sup> - <a href="slides/web-servers.html">slides</a> | <a href="topics/web-servers.md">md</a>
+Web servers - <a href="slides/web-servers.html">slides</a> | <a href="topics/web-servers.md">md</a>
 </td>
 
 <td width="50%">
-<a href="topics/debugging.md">
+<!-- <a href="topics/debugging.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-debugging.png">
-Debugging<sup>📌 </sup> - <a href="slides/debugging.html">slides</a> | <a href="topics/debugging.md">md</a>
+Debugging<sup>📌 </sup> - <a href="slides/debugging.html">slides</a> | <a href="topics/debugging.md">md</a> -->
 </td>
 
 </tr>
@@ -144,7 +145,7 @@ Working with images, video, and color.
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-images-resolutions.png">
 Images and video <sup>📌 </sup>
-<!-- - <a href="slides/images-resolutions.html">slides</a> | <a href="topics/images-resolutions.md">md</a> -->
+- <a href="slides/images-resolutions.html">slides</a> | <a href="topics/images-resolutions.md">md</a>
 </td>
 
 <td width="50%">
@@ -171,7 +172,7 @@ Documenting digital works - <a href="slides/documentation.html">slides</a> | <a 
 <a href="topics/displays.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-displays.png">
-Displays and monitors📌 - <a href="slides/displays.html">slides</a> | <a href="topics/displays.md">md</a>
+Displays and monitors - <a href="slides/displays.html">slides</a> | <a href="topics/displays.md">md</a>
 </td>
 
 </tr>

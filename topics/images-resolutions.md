@@ -22,7 +22,6 @@ Presentation comments ...
 
 1. [Introduction](#introduction)
 1. [Image formats](#image-formats) `5 min`
-1. [How to make a screenshot](#how-to-make-a-screenshot) `5 min`
 1. [Discussion](#discussion) `5 min`
 1. [Keep practicing](#keep-practicing)
 1. [References](#references)
@@ -114,17 +113,19 @@ Codec |
 
 ### Common Image Formats
 
-Extension | Name | Description
---- | --- | ---
-JPG |
-PNG |
-GIF | Graphic Image Format |
-SVG | Scalable Vector Graphic |
-EPS | Encapsulated PostScript |
-PDF | Portable Document Format |
-PSD | Photoshop Document |
+Extension | Name | Release | Compression | Description
+--- | --- | --- | --- | ---
+[JPG](https://en.wikipedia.org/wiki/JPEG) | Joint Photographic Experts Group | 1992 | lossy | Good for photography and images with lots of colors or gradients
+[PNG](https://en.wikipedia.org/wiki/PNG) | Portable Network Graphics | 1996 | lossless | High-quality (24-bit RGB or 32-bit RGBA colors) with a true alpha channel
+[GIF](https://en.wikipedia.org/wiki/GIF) | Graphic Image Format | 1987 | lossy | (8 bits per pixel) up to 256 different colors
+[SVG](https://en.wikipedia.org/wiki/SVG) | Scalable Vector Graphics | 2001 | lossless | A vector graphics format stored in XML text files. Small file sizes so great for the web.
+[EPS](https://en.wikipedia.org/wiki/Encapsulated_PostScript) | Encapsulated PostScript | 1987 | lossless | Text and bitmaps in a single file. 
+[PDF](https://en.wikipedia.org/wiki/PDF) | Portable Document Format | 1993 | lossless* | Text and bitmaps in a single file. Based originally on PostScript, but now a widely used standard. 
+[PSD](https://en.wikipedia.org/wiki/Adobe_Photoshop#File_format) | Photoshop Document | 1990 | lossless | Photoshop's default format. Very large, so images must be exported at lower resolutions for the web.
 
-
+<small>
+*Can save as lossy or lossless depending on settings
+</small>
 
 
 
@@ -138,38 +139,7 @@ Pay attention to the pixel dimensions
 
 
 
-
-
-
-
----
-
-
-## How to make a screenshot
-
-You may already know the basic command for capturing a screenshot, but these can level-up your ability to capture stills on a computer:
-
-Screenshot type | [Mac](https://support.apple.com/en-us/HT201361) | [Windows](https://www.cnet.com/how-to/7-ways-you-can-take-screenshots-in-windows-10) [[1](https://www.howtogeek.com/226280/how-to-take-screenshots-in-windows-10/)]
---- | --- | ---
-Capture entire screen | Shift + Cmd + 3 | Windows + PrtScn key
-Drag to select a portion of screen | Shift + Cmd + 4 | Windows + Shift + S
-Capture a single window | Shift + Cmd + 4 + Space bar | Alt + PrtScn
-Cancel screenshot | Esc (Escape) | Esc (Escape)
-
-
-
----
-
-
-Some recommendations for capturing videos:
-
-Name | Cost | Platform | Comments
---- | --- | --- | ---
-Quicktime | Free | Mac | Choose File > New Screen Recording
-[Screenflow](http://www.telestream.net/screenflow/overview.htm) | $129 | Mac | Amazing tool and editor. Can capture computer audio too.
-? | ? | Windows
-
-
+<!-- 
 
 
 ---
@@ -178,4 +148,4 @@ Quicktime | Free | Mac | Choose File > New Screen Recording
 
 ---
 
-## References
+## References -->
