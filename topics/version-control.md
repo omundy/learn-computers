@@ -42,9 +42,11 @@ Perform the task(s) when you see this 👉  emoji
 
 Students who complete the following will be able to:
 
-- Explain version control and its common uses
-- Perform basic tasks with git and github desktop
-
+- Summarize version control and the problems it solves
+- List the essential components of Git like repository, branch, and commit
+- Describe how to view the history of a Git repo using diff and log 
+- Install, configure, and perform a basic Git workflow with Github Desktop
+- Create a new repository, add files, stage, commit, and push and pull files to the remote repo on the command line
 
 </details>
 

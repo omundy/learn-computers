@@ -83,24 +83,6 @@ An [Internet Protocol (IP) address](https://en.wikipedia.org/wiki/IP_address) is
 24.224.66.226
 ```
 
----
-
-IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255.
-
-```
-1.1.1.1        => Cloudflare DNS server
-8.8.8.8        => Google DNS server
-192.168.1.1    => Default address to configure your home internet router
-255.255.255.0  => Subnet mask used by TCP/IP to know if a host is local or remote.
-```
-
-Surprisingly, IPv4's 2<sup>32</sup> addresses were not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup>!
-
-```
-IPv4 => 4,294,967,296
-IPv6 => 340,282,366,920,938,000,000,000,000,000,000,000,000
-```
-<p class="slides-small">(<a href="https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers">How to say this ^ number</a>)</p>
 
 
 
@@ -138,7 +120,6 @@ The following network commands are essential for basic web development. Run them
 1. ping
 1. traceroute
 1. curl
-1. ssh
 
 
 ---
@@ -238,6 +219,8 @@ By default, traceroute uses [UDP](https://en.wikipedia.org/wiki/User_Datagram_Pr
 ```bash
 traceroute -I google.com
 ```
+
+If you have issues on the command line use this website https://tools.keycdn.com/traceroute
 
 
 
@@ -427,6 +410,27 @@ ipconfig getifaddr en0
 ifconfig en0
 ```
 
+
+
+
+---
+
+IP Version 4 (IPv4) defines a dot-decimal number with four sections, each between 0-255.
+
+```
+1.1.1.1        => Cloudflare DNS server
+8.8.8.8        => Google DNS server
+192.168.1.1    => Default address to configure your home internet router
+255.255.255.0  => Subnet mask used by TCP/IP to know if a host is local or remote.
+```
+
+Surprisingly, IPv4's 2<sup>32</sup> addresses were not enough for a constantly growing Internet and a new IPv6 standard was released in 1998 to increase the number to 2<sup>128</sup>!
+
+```
+IPv4 => 4,294,967,296
+IPv6 => 340,282,366,920,938,000,000,000,000,000,000,000,000
+```
+<p class="slides-small">(<a href="https://whatis.techtarget.com/feature/IPv6-addresses-how-many-is-that-in-numbers">How to say this ^ number</a>)</p>
 
 
 
