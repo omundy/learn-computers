@@ -26,7 +26,7 @@ Essential knowledge for working with computers.
 <a href="topics/command-line.md">
 <img class="img-fluid" src="assets/img/banner/banner-command-line.png">
 </a>
-The Command line - <a href="slides/command-line.html">slides</a> | <a href="topics/command-line.md">md</a>
+The Command line - <a href="https://omundy.github.io/learn-computing/slides/command-line.html">slides</a> | <a href="topics/command-line.md">md</a>
 </td>
 
 
@@ -34,7 +34,7 @@ The Command line - <a href="slides/command-line.html">slides</a> | <a href="topi
 <a href="topics/files-folders.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-files-folders.png">
-The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="topics/files-folders.md">md</a>
+The Filesystem - <a href="https://omundy.github.io/learn-computing/slides/files-folders.html">slides</a> | <a href="topics/files-folders.md">md</a>
 <!-- Users, files, folders -->
 </td>
 
@@ -49,7 +49,7 @@ The Filesystem - <a href="slides/files-folders.html">slides</a> | <a href="topic
 <a href="topics/keyboard-shortcuts.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-keyboard-shortcuts.png">
-Keyboard shortcuts, Workflows - <a href="slides/keyboard-shortcuts.html">slides</a> | <a href="topics/keyboard-shortcuts.md">md</a>
+Keyboard shortcuts, Workflows - <a href="https://omundy.github.io/learn-computing/slides/keyboard-shortcuts.html">slides</a> | <a href="topics/keyboard-shortcuts.md">md</a>
 </td>
 
 
@@ -74,7 +74,7 @@ Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presen
 <a href="topics/files-naming-conventions.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-files-naming-conventions.png">
-Files and naming conventions - <a href="slides/files-naming-conventions.html">slides</a> | <a href="topics/files-naming-conventions.md">md</a>
+Files and naming conventions - <a href="https://omundy.github.io/learn-computing/slides/files-naming-conventions.html">slides</a> | <a href="topics/files-naming-conventions.md">md</a>
 </td>
 
 
@@ -99,14 +99,14 @@ Understanding networks and setting up a development environment.
 <a href="topics/web-development.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-web-development.png">
-Web Development Environment - <a href="slides/web-development.html">slides</a> | <a href="topics/web-development.md">md</a>
+Web Development Environment - <a href="https://omundy.github.io/learn-computing/slides/web-development.html">slides</a> | <a href="topics/web-development.md">md</a>
 </td>
 
 <td width="50%">
 <a href="topics/networks.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-networks.png">
-Networks - <a href="slides/networks.html">slides</a> | <a href="topics/networks.md">md</a>
+Networks - <a href="https://omundy.github.io/learn-computing/slides/networks.html">slides</a> | <a href="topics/networks.md">md</a>
 </td>
 
 </tr>
@@ -119,14 +119,14 @@ Networks - <a href="slides/networks.html">slides</a> | <a href="topics/networks.
 <a href="topics/web-servers.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-web-servers.png">
-Web servers - <a href="slides/web-servers.html">slides</a> | <a href="topics/web-servers.md">md</a>
+Web servers - <a href="https://omundy.github.io/learn-computing/slides/web-servers.html">slides</a> | <a href="topics/web-servers.md">md</a>
 </td>
 
 <td width="50%">
 <!-- <a href="topics/debugging.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-debugging.png">
-Debugging<sup>📌 </sup> - <a href="slides/debugging.html">slides</a> | <a href="topics/debugging.md">md</a> -->
+Debugging<sup>📌 </sup> - <a href="https://omundy.github.io/learn-computing/slides/debugging.html">slides</a> | <a href="topics/debugging.md">md</a> -->
 </td>
 
 </tr>
@@ -145,13 +145,13 @@ Working with images, video, and color.
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-images-resolutions.png">
 Images and video <sup>📌 </sup>
-- <a href="slides/images-resolutions.html">slides</a> | <a href="topics/images-resolutions.md">md</a>
+- <a href="https://omundy.github.io/learn-computing/slides/images-resolutions.html">slides</a> | <a href="topics/images-resolutions.md">md</a>
 </td>
 
 <td width="50%">
 <img class="img-fluid" src="assets/img/banner/banner-color.png">
 Color <sup>📌 </sup>
-<!-- - <a href="slides/color.html">slides</a> | <a href="topics/color.md">md</a> -->
+<!-- - <a href="https://omundy.github.io/learn-computing/slides/color.html">slides</a> | <a href="topics/color.md">md</a> -->
 </td>
 
 </tr>
@@ -165,14 +165,14 @@ Color <sup>📌 </sup>
 <a href="topics/documentation.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-documentation.png">
-Documenting digital works - <a href="slides/documentation.html">slides</a> | <a href="topics/documentation.md">md</a>
+Documenting digital works - <a href="https://omundy.github.io/learn-computing/slides/documentation.html">slides</a> | <a href="topics/documentation.md">md</a>
 </td>
 
 <td width="50%">
 <a href="topics/displays.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-displays.png">
-Displays and monitors - <a href="slides/displays.html">slides</a> | <a href="topics/displays.md">md</a>
+Displays and monitors - <a href="https://omundy.github.io/learn-computing/slides/displays.html">slides</a> | <a href="topics/displays.md">md</a>
 </td>
 
 </tr>
@@ -197,14 +197,14 @@ Working with data and APIs.
 <a href="topics/data-basics.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-data-basics.png">
-Data Basics - <a href="slides/data-basics.html">slides</a> | <a href="topics/data-basics.md">md</a>
+Data Basics - <a href="https://omundy.github.io/learn-computing/slides/data-basics.html">slides</a> | <a href="topics/data-basics.md">md</a>
 </td>
 
 <td width="50%">
 <a href="topics/data-types.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-data-types.png">
-Data types - <a href="slides/data-types.html">slides</a> | <a href="topics/data-types.md">md</a>
+Data types - <a href="https://omundy.github.io/learn-computing/slides/data-types.html">slides</a> | <a href="topics/data-types.md">md</a>
 </td>
 
 </tr>
@@ -216,14 +216,14 @@ Data types - <a href="slides/data-types.html">slides</a> | <a href="topics/data-
 <a href="topics/data-cleaning.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-data-cleaning.png">
-Data cleaning - <a href="slides/data-cleaning.html">slides</a> | <a href="topics/data-cleaning.md">md</a>
+Data cleaning - <a href="https://omundy.github.io/learn-computing/slides/data-cleaning.html">slides</a> | <a href="topics/data-cleaning.md">md</a>
 </td>
 
 <td width="50%">
 <a href="topics/data-apis.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-data-apis.png">
-How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="topics/data-apis.md">md</a>
+How to use APIs - <a href="https://omundy.github.io/learn-computing/slides/data-apis.html">slides</a> | <a href="topics/data-apis.md">md</a>
 </td>
 
 </tr>
@@ -244,7 +244,7 @@ How to use APIs - <a href="slides/data-apis.html">slides</a> | <a href="topics/d
 <a href="topics/computational-thinking.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-computational-thinking.png">
-Computational thinking<sup>📌 </sup> - <a href="slides/computational-thinking.html">slides</a> | <a href="topics/computational-thinking.md">md</a>
+Computational thinking<sup>📌 </sup> - <a href="https://omundy.github.io/learn-computing/slides/computational-thinking.html">slides</a> | <a href="topics/computational-thinking.md">md</a>
 
 </td>
 
