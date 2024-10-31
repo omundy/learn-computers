@@ -57,7 +57,7 @@ Keyboard shortcuts, Workflows - <a href="https://omundy.github.io/learn-computin
 <a href="topics/version-control.md">
 </a>
 <img class="img-fluid" src="assets/img/banner/banner-version-control.png">
-Git Version Control</a><sup>📌</sup> - <a href="https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.p">slides</a>
+Git Version Control</a><sup></sup> - <a href="https://docs.google.com/presentation/d/1BGQIFr778Bjner4v5-syj9F4pTtccG9t3Nr_HEPff64/edit#slide=id.p">slides</a>
 </td>
 
 
