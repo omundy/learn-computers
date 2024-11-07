@@ -74,7 +74,7 @@ Complete the following to prepare for this module
 
 👉 Install these tools now to use them later in this presentation
 
-1. [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) browser extension
+1. [JSON Formatter](https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) browser extension
 1. (optional) [Postman](https://www.postman.com/) (account required)
 
 
@@ -158,7 +158,7 @@ This National Weather Service (NWS) API endpoint returns JSON data about its sta
 
 <div class="caption slides-small">
 
-If you installed <a href="https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US" target="_blank">JSON Viewer</a> then it will display formatted data like above.
+If you installed <a href="https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa" target="_blank">JSON Formatter</a> then it will display formatted data like above.
 
 </div>
 
