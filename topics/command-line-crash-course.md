@@ -51,7 +51,7 @@ The command line allows you to control your computer via a text interface. Depen
 
 ## Installation
 
-- Mac - The Terminal application is already installed
+- Mac - The [Terminal](https://www.youtube.com/watch?v=zw7Nd67_aFw) application is already installed
 - Windows - Install [Git Bash](https://gitforwindows.org/) or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 - Linux - [LXTerminal](https://www.raspberrypi.org/documentation/usage/terminal/) is already installed
 
