@@ -15,8 +15,9 @@ Presentation comments ...
 -->
 
 
----
 
+<!-- 
+---
 
 ### Contents
 
@@ -50,8 +51,7 @@ Students who complete the following will be able to:
 
 </details>
 
-
-
+ -->
 
 
 
@@ -61,26 +61,25 @@ Students who complete the following will be able to:
 
 
 ---
-
 
 ## About version control
 
-Coming soon...
+See this presentation [Build a Website with Git and Github](https://docs.google.com/presentation/d/1BGQIFr778Bjner4v5-syj9F4pTtccG9t3Nr_HEPff64/edit#slide=id.p)
+
+
+
+
+
+
 
 <!--
 ---
-
 
 ### 👉  Installation
 
 - Mac - The Terminal application is already installed
 - Windows - Install [Git Bash](https://gitforwindows.org/) or use [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
 - Linux - [LXTerminal](https://www.raspberrypi.org/documentation/usage/terminal/) is already installed
-
--->
-
-
-
 
 
 
@@ -122,4 +121,4 @@ Ready to test your skills? See if you can
 
 ## References
 
--
+- -->
